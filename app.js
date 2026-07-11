@@ -12,13 +12,23 @@ tabs.forEach(tab => tab.addEventListener('click', () => {
 }));
 const form = document.querySelector('#apply-form');
 const status = document.querySelector('#form-status');
+const receipt = document.querySelector('#receipt');
+const receiptText = document.querySelector('#receipt-text');
+const errorFor = key => form?.querySelector(`[data-error="${key}"]`);
+const clearErrors = () => form?.querySelectorAll('.field-error').forEach(item => { item.textContent=''; });
+const showStored = () => { const saved=JSON.parse(localStorage.getItem('line-demo-request')||'null'); if(!saved||!receipt)return; form.hidden=true; receipt.hidden=false; receiptText.textContent=`Номер ${saved.id}. ${saved.name}, мы сохранили контакт ${saved.phone} в демо-контуре. Реальная отправка появится после подключения CRM.`; };
 form?.addEventListener('submit', event => {
-  event.preventDefault();
-  const name = new FormData(form).get('name');
-  status.textContent = `Спасибо, ${name}. Следующий шаг готов — подключите CRM перед запуском.`;
-  status.classList.add('ok');
-  form.reset();
+  event.preventDefault(); clearErrors();
+  const data = new FormData(form); const name=String(data.get('name')||'').trim(); const phone=String(data.get('phone')||'').trim(); const consent=form.querySelector('input[type=checkbox]').checked; let valid=true;
+  if(name.length<2){errorFor('name').textContent='Введите имя минимум из 2 символов';valid=false;}
+  if(!/^\+?7[\d ()-]{10,}$/.test(phone)){errorFor('phone').textContent='Введите телефон в формате +7 999 123 45 67';valid=false;}
+  if(!consent){errorFor('consent').textContent='Нужно согласие, чтобы продолжить';valid=false;}
+  if(!valid){status.textContent='Проверьте поля — заявку пока нельзя отправить.';status.classList.add('error');return;}
+  const saved={id:`ЛН-${Date.now().toString().slice(-6)}`,name,phone,createdAt:new Date().toISOString()}; localStorage.setItem('line-demo-request',JSON.stringify(saved)); status.textContent='Заявка сохраняется…';
+  setTimeout(()=>{form.hidden=true;receipt.hidden=false;receiptText.textContent=`Номер ${saved.id}. ${name}, мы сохранили контакт ${phone} в демо-контуре. Реальная отправка появится после подключения CRM.`;},350);
 });
+document.querySelector('#new-request')?.addEventListener('click',()=>{localStorage.removeItem('line-demo-request');form.reset();clearErrors();form.hidden=false;receipt.hidden=true;status.textContent='Демо-отправка: заявка сохранится в этом браузере и получит номер.';status.classList.remove('ok','error');});
+showStored();
 const searchToggle=document.querySelector('#search-toggle'); const searchPanel=document.querySelector('#search-panel'); const searchInput=searchPanel?.querySelector('input');
 const setSearch=open=>{searchPanel.hidden=!open;searchToggle.setAttribute('aria-expanded',String(open));if(open)searchInput.focus()};
 searchToggle?.addEventListener('click',()=>setSearch(searchPanel.hidden)); document.querySelector('#search-close')?.addEventListener('click',()=>setSearch(false));
@@ -28,3 +38,5 @@ const menuToggle=document.querySelector('#menu-toggle'); const nav=document.quer
 menuToggle?.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');menuToggle.setAttribute('aria-expanded',String(open));});
 document.querySelectorAll('[data-audience]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-audience]').forEach(item=>item.classList.remove('audience-active'));button.classList.add('audience-active');const business=button.dataset.audience==='business';document.querySelector('#hero-title').innerHTML=business?'Деньги,<br><strong>которые работают.</strong>':'Деньги,<br><strong>которые успевают.</strong>';document.querySelector('#hero-lead').textContent=business?'Счёт, платежи и контроль команды в одном понятном рабочем пространстве.':'Оплачивайте привычное, получайте больше и видите всё важное в одном приложении.';document.querySelector('#hero-action').firstChild.textContent=business?'Открыть счёт ':'Оформить карту ';document.querySelector('#hero-action').href=business?'#how':'#apply';}));
 document.querySelectorAll('input[name="phone"]').forEach(input=>input.addEventListener('input',event=>{event.target.value=event.target.value.replace(/[^\d+()\- ]/g,'').slice(0,18)}));
+document.querySelectorAll('#main-nav a').forEach(link=>link.addEventListener('click',()=>{nav?.classList.remove('is-open');menuToggle?.setAttribute('aria-expanded','false');}));
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!searchPanel.hidden)setSearch(false);});
