@@ -41,3 +41,8 @@ document.querySelectorAll('[data-audience]').forEach(button=>button.addEventList
 document.querySelectorAll('input[name="phone"]').forEach(input=>input.addEventListener('input',event=>{event.target.value=event.target.value.replace(/[^\d+()\- ]/g,'').slice(0,18)}));
 document.querySelectorAll('#main-nav a').forEach(link=>link.addEventListener('click',()=>{nav?.classList.remove('is-open');menuToggle?.setAttribute('aria-expanded','false');}));
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!searchPanel.hidden)setSearch(false);});
+const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+document.querySelectorAll('main > section:not(.hero)').forEach(section=>section.dataset.reveal='');
+if(!reducedMotion&&'IntersectionObserver' in window){const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');revealObserver.unobserve(entry.target);}}),{threshold:.12});document.querySelectorAll('[data-reveal]').forEach(section=>revealObserver.observe(section));}else{document.querySelectorAll('[data-reveal]').forEach(section=>section.classList.add('is-visible'));}
+const heroVisual=document.querySelector('#hero-visual');
+if(heroVisual&&!reducedMotion){heroVisual.addEventListener('pointermove',event=>{const rect=heroVisual.getBoundingClientRect();const x=(event.clientX-rect.left)/rect.width-.5;const y=(event.clientY-rect.top)/rect.height-.5;heroVisual.style.setProperty('--tilt-x',`${y*-5}deg`);heroVisual.style.setProperty('--tilt-y',`${x*7}deg`);});heroVisual.addEventListener('pointerleave',()=>{heroVisual.style.setProperty('--tilt-x','0deg');heroVisual.style.setProperty('--tilt-y','0deg');});}

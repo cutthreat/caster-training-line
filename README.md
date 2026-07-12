@@ -17,3 +17,5 @@ Use [Premium Web Build Playbook](PREMIUM_WEB_BUILD_PLAYBOOK.md) for the build br
 The current Mobbin pattern research for the Line onboarding flow is documented in [MOBBIN_REFERENCE_RESEARCH_LINE.md](MOBBIN_REFERENCE_RESEARCH_LINE.md).
 
 The consolidated Caster operating method is documented in [CASTER_METHOD_SITE_AND_INTERFACE.md](CASTER_METHOD_SITE_AND_INTERFACE.md).
+
+The current build handoff is documented in [LINE_IMPLEMENTATION_BRIEF.md](LINE_IMPLEMENTATION_BRIEF.md).

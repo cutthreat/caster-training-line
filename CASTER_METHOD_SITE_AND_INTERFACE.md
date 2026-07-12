@@ -214,6 +214,20 @@ Mobile не равен сжатому desktop.
 
 Не исправляем глобальным CSS один локальный дефект, если можно починить компонентным правилом. Не подключаем тяжёлую библиотеку ради эффекта, который решается native CSS/canvas.
 
+## 9.1 Video/sitecraft pass
+
+Для сайтов с cinematic-качеством добавляем отдельный pass из видео-workflow:
+
+1. выбрать reference roles, а не один «похожий сайт»;
+2. собрать visual thesis и shot/interaction list до кода;
+3. реализовать hero visual engine первым;
+4. дать каждой секции один controlled motion beat;
+5. сделать targeted polish по одной секции за итерацию;
+6. проверить mobile, reduced motion, fallback и performance;
+7. только после browser proof публиковать внешний URL.
+
+Generated media не является готовым production asset без `asset_id`, owner/licensing, dimensions, weight, crop, fallback и viewport contract. В fintech-поверхностях motion и atmosphere всегда вторичны по отношению к offer, conditions, trust и CTA consequence.
+
 ## 10. Caster pass
 
 Cастер проверяет:
