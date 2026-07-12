@@ -228,6 +228,8 @@ Mobile не равен сжатому desktop.
 6. проверить mobile, reduced motion, fallback и performance;
 7. только после browser proof публиковать внешний URL.
 
+Для динамического hero motion разбирается по [Motion Intelligence Method](MOTION_INTELLIGENCE_METHOD.md): `trigger → start state → moving layers → timing/easing → end state → user meaning`. В proof packet фиксируем не только итоговый кадр, но и K0/K1/K2/K3/K4, чтобы доказать continuity, narrative и fallback.
+
 Generated media не является готовым production asset без `asset_id`, owner/licensing, dimensions, weight, crop, fallback и viewport contract. В fintech-поверхностях motion и atmosphere всегда вторичны по отношению к offer, conditions, trust и CTA consequence.
 
 ## 10. Caster pass
