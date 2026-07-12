@@ -35,6 +35,8 @@ proof_route: browser, screenshots, destination receipt, owner decision
 
 ## 2. Source truth и reference research
 
+Для видео, screen-recording и tutorial действует отдельный time-aligned метод: [VIDEO_INTELLIGENCE_METHOD.md](VIDEO_INTELLIGENCE_METHOD.md). Transcript-only summary не считается достаточным evidence.
+
 ### 2.1 Иерархия источников
 
 Приоритет источников:
