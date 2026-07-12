@@ -34,6 +34,14 @@
 
 Если хотя бы один pillar не имеет proof, статус — `polish_incomplete`, а не production pass.
 
+## 2.1 Mobbin reference lane
+
+Для common product flows подключать Mobbin MCP до реализации: искать не «красивый экран», а конкретный flow/screen family — login, onboarding, paywall, settings, empty/error. В research report фиксировать query, source links/IDs, найденные ограничения и transferable patterns.
+
+Если Mobbin раскрывает только названия или категорию без индивидуальных URL/ID, статус — `pattern_research_ready`, не `screen_exact_research_complete`. Не выдавать название приложения за доказательство его конкретного UI.
+
+Caster переводит pattern в composition/interaction contract. Anton проверяет trust, sensitive input, consent, fallback, CTA consequence и back path.
+
 ## 3. Polish loop
 
 После первого reveal не переписывать всё сразу. Делать короткие, наблюдаемые проходы:

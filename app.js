@@ -16,18 +16,19 @@ const receipt = document.querySelector('#receipt');
 const receiptText = document.querySelector('#receipt-text');
 const errorFor = key => form?.querySelector(`[data-error="${key}"]`);
 const clearErrors = () => form?.querySelectorAll('.field-error').forEach(item => { item.textContent=''; });
+const setStep = step => { form?.querySelectorAll('[data-form-step]').forEach(item => { item.hidden=item.dataset.formStep!==String(step); item.classList.toggle('current-step',item.dataset.formStep===String(step)); }); document.querySelectorAll('.form-progress span').forEach((item,index)=>item.classList.toggle('current',index<step)); };
+const validateContact = () => { clearErrors(); const name=String(new FormData(form).get('name')||'').trim(); const phone=String(new FormData(form).get('phone')||'').trim(); const consent=form.querySelector('input[type=checkbox]').checked; let valid=true; if(name.length<2){errorFor('name').textContent='Введите имя минимум из 2 символов';valid=false;} if(!/^\+?7[\d ()-]{10,}$/.test(phone)){errorFor('phone').textContent='Введите телефон в формате +7 999 123 45 67';valid=false;} if(!consent){errorFor('consent').textContent='Нужно согласие, чтобы продолжить';valid=false;} if(!valid){status.textContent='Проверьте поля — на следующий шаг пока нельзя перейти.';status.classList.add('error');} return valid; };
+document.querySelector('#next-step')?.addEventListener('click',()=>{if(validateContact()){status.textContent='Шаг 1 сохранён. Проверьте формат заявки.';status.classList.remove('error');setStep(2);}});
+document.querySelector('#back-step')?.addEventListener('click',()=>{setStep(1);status.textContent='Проверьте контактные данные перед продолжением.';});
 const showStored = () => { const saved=JSON.parse(localStorage.getItem('line-demo-request')||'null'); if(!saved||!receipt)return; form.hidden=true; receipt.hidden=false; receiptText.textContent=`Номер ${saved.id}. ${saved.name}, мы сохранили контакт ${saved.phone} в демо-контуре. Реальная отправка появится после подключения CRM.`; };
 form?.addEventListener('submit', event => {
-  event.preventDefault(); clearErrors();
+  event.preventDefault();
+  if(!validateContact()) return;
   const data = new FormData(form); const name=String(data.get('name')||'').trim(); const phone=String(data.get('phone')||'').trim(); const consent=form.querySelector('input[type=checkbox]').checked; let valid=true;
-  if(name.length<2){errorFor('name').textContent='Введите имя минимум из 2 символов';valid=false;}
-  if(!/^\+?7[\d ()-]{10,}$/.test(phone)){errorFor('phone').textContent='Введите телефон в формате +7 999 123 45 67';valid=false;}
-  if(!consent){errorFor('consent').textContent='Нужно согласие, чтобы продолжить';valid=false;}
-  if(!valid){status.textContent='Проверьте поля — заявку пока нельзя отправить.';status.classList.add('error');return;}
-  const saved={id:`ЛН-${Date.now().toString().slice(-6)}`,name,phone,createdAt:new Date().toISOString()}; localStorage.setItem('line-demo-request',JSON.stringify(saved)); status.textContent='Заявка сохраняется…';
+  const saved={id:`ЛН-${Date.now().toString().slice(-6)}`,name,phone,audience:data.get('audience')||'personal',createdAt:new Date().toISOString()}; localStorage.setItem('line-demo-request',JSON.stringify(saved)); status.textContent='Заявка сохраняется…';
   setTimeout(()=>{form.hidden=true;receipt.hidden=false;receiptText.textContent=`Номер ${saved.id}. ${name}, мы сохранили контакт ${phone} в демо-контуре. Реальная отправка появится после подключения CRM.`;},350);
 });
-document.querySelector('#new-request')?.addEventListener('click',()=>{localStorage.removeItem('line-demo-request');form.reset();clearErrors();form.hidden=false;receipt.hidden=true;status.textContent='Демо-отправка: заявка сохранится в этом браузере и получит номер.';status.classList.remove('ok','error');});
+document.querySelector('#new-request')?.addEventListener('click',()=>{localStorage.removeItem('line-demo-request');form.reset();clearErrors();setStep(1);form.hidden=false;receipt.hidden=true;status.textContent='Демо-отправка: заявка сохранится в этом браузере и получит номер.';status.classList.remove('ok','error');});
 showStored();
 const searchToggle=document.querySelector('#search-toggle'); const searchPanel=document.querySelector('#search-panel'); const searchInput=searchPanel?.querySelector('input');
 const setSearch=open=>{searchPanel.hidden=!open;searchToggle.setAttribute('aria-expanded',String(open));if(open)searchInput.focus()};
