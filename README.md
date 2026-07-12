@@ -19,3 +19,5 @@ The current Mobbin pattern research for the Line onboarding flow is documented i
 The consolidated Caster operating method is documented in [CASTER_METHOD_SITE_AND_INTERFACE.md](CASTER_METHOD_SITE_AND_INTERFACE.md).
 
 The current build handoff is documented in [LINE_IMPLEMENTATION_BRIEF.md](LINE_IMPLEMENTATION_BRIEF.md).
+
+The new cinematic project is available in [NOCTA-ISLE](NOCTA-ISLE/).
