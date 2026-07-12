@@ -15,3 +15,5 @@ This is a front-end prototype. The application form shows a local success state 
 Use [Premium Web Build Playbook](PREMIUM_WEB_BUILD_PLAYBOOK.md) for the build brief, visual-polish loop and pre-release quality gate.
 
 The current Mobbin pattern research for the Line onboarding flow is documented in [MOBBIN_REFERENCE_RESEARCH_LINE.md](MOBBIN_REFERENCE_RESEARCH_LINE.md).
+
+The consolidated Caster operating method is documented in [CASTER_METHOD_SITE_AND_INTERFACE.md](CASTER_METHOD_SITE_AND_INTERFACE.md).
