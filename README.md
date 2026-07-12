@@ -22,4 +22,6 @@ The current build handoff is documented in [LINE_IMPLEMENTATION_BRIEF.md](LINE_I
 
 The new cinematic project is available in [NOCTA-ISLE](NOCTA-ISLE/).
 
+The new photo-led reference project is available in [AURELIA-ISLE](AURELIA-ISLE/).
+
 The standard time-aligned video learning process is documented in [VIDEO_INTELLIGENCE_METHOD.md](VIDEO_INTELLIGENCE_METHOD.md) with the working [timecode ledger template](VIDEO_TIMECODE_LEDGER_TEMPLATE.md).
