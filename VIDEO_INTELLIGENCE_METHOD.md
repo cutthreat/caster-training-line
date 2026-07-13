@@ -166,6 +166,24 @@ acceptance_criteria:
 
 `accepted_pattern` не может быть «сделать как у автора». Он должен быть формулируемым правилом: например, «один motion beat на section, который объясняет переход».
 
+### 7.1 Creative production extraction
+
+Если видео показывает создание рекламного ролика, cinematic сайта, generated assets или агентный creative workflow, извлекаем не только итоговый visual, но и production pipeline:
+
+```text
+input_pack:
+core_image:
+element_board:
+scene_or_section_plan:
+prompt_or_generation_table:
+tool_streams:
+human_taste_gate:
+assembly_boundary:
+output_proof:
+```
+
+Полезным считается не кадр сам по себе, а связка `input quality → generation stream → selected output → assembly decision → proof`. Чужие кадры, copy, бренд и rhythm не переносятся.
+
 ## 8. Reproduction ladder
 
 Опыт внедряется ступенчато:

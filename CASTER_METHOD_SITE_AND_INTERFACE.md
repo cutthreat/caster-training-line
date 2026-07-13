@@ -110,6 +110,24 @@ acceptance_checklist:
 
 «Сделай дорого», «как T‑Bank» или «как референс» — не brief. Это может быть только shorthand, который нужно развернуть в observable decisions.
 
+### 3.1 Creative production pack
+
+Для cinematic, video-led, image-led, 3D-feeling или рекламных страниц перед build добавляем production pack по [Creative Production Pipeline Method](CREATIVE_PRODUCTION_PIPELINE_METHOD.md):
+
+```text
+core_image:
+hero_object:
+element_board:
+reference_roles:
+scene_or_section_plan:
+prompt_table:
+asset_rights:
+negative_constraints:
+quality_mode:
+```
+
+Правило: если входы слабые, результат не спасается prompt-магией. Caster оценивает качество input pack до генерации и до кода.
+
 ## 4. Visual engine
 
 Каждый визуально насыщенный экран получает:
@@ -221,16 +239,17 @@ Mobile не равен сжатому desktop.
 Для сайтов с cinematic-качеством добавляем отдельный pass из видео-workflow:
 
 1. выбрать reference roles, а не один «похожий сайт»;
-2. собрать visual thesis и shot/interaction list до кода;
-3. реализовать hero visual engine первым;
-4. дать каждой секции один controlled motion beat;
-5. сделать targeted polish по одной секции за итерацию;
-6. проверить mobile, reduced motion, fallback и performance;
-7. только после browser proof публиковать внешний URL.
+2. собрать creative production pack: core image, element board, scene/section plan, rights, negative constraints;
+3. собрать visual thesis и shot/interaction list до кода;
+4. реализовать hero visual engine первым;
+5. дать каждой секции один controlled motion beat;
+6. сделать targeted polish по одной секции за итерацию;
+7. проверить mobile, reduced motion, fallback и performance;
+8. только после browser proof публиковать внешний URL.
 
 Для динамического hero motion разбирается по [Motion Intelligence Method](MOTION_INTELLIGENCE_METHOD.md): `trigger → start state → moving layers → timing/easing → end state → user meaning`. В proof packet фиксируем не только итоговый кадр, но и K0/K1/K2/K3/K4, чтобы доказать continuity, narrative и fallback.
 
-Generated media не является готовым production asset без `asset_id`, owner/licensing, dimensions, weight, crop, fallback и viewport contract. В fintech-поверхностях motion и atmosphere всегда вторичны по отношению к offer, conditions, trust и CTA consequence.
+Generated media не является готовым production asset без `asset_id`, owner/licensing, dimensions, weight, crop, fallback и viewport contract. В режиме `max_quality` финальный crop, sequence, timing и assembly проходят ручной Caster taste gate; автоматический workflow не заменяет финальное визуальное решение. В fintech-поверхностях motion и atmosphere всегда вторичны по отношению к offer, conditions, trust и CTA consequence.
 
 ## 9.2 Model/agent bake-off pass
 

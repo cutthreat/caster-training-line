@@ -29,3 +29,5 @@ The standard time-aligned video learning process is documented in [VIDEO_INTELLI
 Для динамических hero используется отдельный [Motion Intelligence Method](MOTION_INTELLIGENCE_METHOD.md) и [motion ledger](MOTION_TIMECODE_LEDGER_TEMPLATE.md).
 
 Для выбора модели, агента или стратегии под сложный сайт используется [Model Bake-off Method](MODEL_BAKEOFF_METHOD.md): одинаковый task packet, raw pass, scoring, steering cost и Caster/Anton verdict.
+
+Для cinematic/video-led сайтов и generated media используется [Creative Production Pipeline Method](CREATIVE_PRODUCTION_PIPELINE_METHOD.md): input pack, core image, element board, prompt table, taste gate и assembly proof.
