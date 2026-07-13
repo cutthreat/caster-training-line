@@ -1,48 +1,165 @@
-const tabs = [...document.querySelectorAll('.tab')];
-const panels = {
-  black: { kicker:'КАРТА ЛИНИЯ', title:'Больше пользы<br>с каждой покупкой', lead:'Настройте карту под себя: выбирайте категории, следите за расходами и получайте возврат рублями.', action:'Получить карту', stats:[['до 7%','возврат<br>в выбранных категориях'],['0 ₽','обслуживание<br>при простых условиях'],['1 день','доставка<br>до двери']] },
-  save: { kicker:'КОПИЛКА', title:'Накопления<br>без лишних правил', lead:'Отделяйте цель от повседневных расходов и наблюдайте за прогрессом в одном экране.', action:'Создать копилку', stats:[['до 12%','на остаток<br>по условиям продукта'],['24/7','свободный<br>доступ к деньгам'],['1 цель','ясный путь<br>до результата']] },
-  business: { kicker:'ЛИНИЯ ДЛЯ БИЗНЕСА', title:'Рабочие деньги<br>в одной системе', lead:'Счёт, платежи и команда собраны в понятном интерфейсе для ежедневных решений.', action:'Открыть счёт', stats:[['0 ₽','открытие<br>и обслуживание'],['1 день','подключение<br>к сервису'],['24/7','контроль<br>операций']] }
+const header = document.querySelector('[data-header]');
+const menuButton = document.querySelector('.menu-button');
+const mobileMenu = document.querySelector('#mobile-menu');
+const briefDialog = document.querySelector('#brief-dialog');
+const briefForm = briefDialog?.querySelector('.brief-panel');
+const briefFeedback = briefDialog?.querySelector('.brief-feedback');
+const copyBriefButton = briefDialog?.querySelector('[data-copy-brief]');
+let briefTrigger = null;
+
+const resetCopyState = () => {
+  if (copyBriefButton?.firstChild) copyBriefButton.firstChild.textContent = 'Скопировать бриф ';
+  if (briefFeedback) {
+    briefFeedback.textContent = '';
+    briefFeedback.classList.remove('success');
+  }
 };
-const renderPanel = key => { const data=panels[key]; document.querySelector('#panel-kicker').textContent=data.kicker; document.querySelector('#panel-title').innerHTML=data.title; document.querySelector('#panel-lead').textContent=data.lead; document.querySelector('#panel-action').firstChild.textContent=`${data.action} `; document.querySelector('#panel-stats').innerHTML=data.stats.map(item=>`<div><strong>${item[0]}</strong><span>${item[1]}</span></div>`).join(''); };
-tabs.forEach(tab => tab.addEventListener('click', () => {
-  tabs.forEach(item => item.classList.remove('active'));
-  tab.classList.add('active');
-  renderPanel(tab.dataset.panel);
-}));
-const form = document.querySelector('#apply-form');
-const status = document.querySelector('#form-status');
-const receipt = document.querySelector('#receipt');
-const receiptText = document.querySelector('#receipt-text');
-const errorFor = key => form?.querySelector(`[data-error="${key}"]`);
-const clearErrors = () => form?.querySelectorAll('.field-error').forEach(item => { item.textContent=''; });
-const setStep = step => { form?.querySelectorAll('[data-form-step]').forEach(item => { item.hidden=item.dataset.formStep!==String(step); item.classList.toggle('current-step',item.dataset.formStep===String(step)); }); document.querySelectorAll('.form-progress span').forEach((item,index)=>item.classList.toggle('current',index<step)); };
-const validateContact = () => { clearErrors(); const name=String(new FormData(form).get('name')||'').trim(); const phone=String(new FormData(form).get('phone')||'').trim(); const consent=form.querySelector('input[type=checkbox]').checked; let valid=true; if(name.length<2){errorFor('name').textContent='Введите имя минимум из 2 символов';valid=false;} if(!/^\+?7[\d ()-]{10,}$/.test(phone)){errorFor('phone').textContent='Введите телефон в формате +7 999 123 45 67';valid=false;} if(!consent){errorFor('consent').textContent='Нужно согласие, чтобы продолжить';valid=false;} if(!valid){status.textContent='Проверьте поля — на следующий шаг пока нельзя перейти.';status.classList.add('error');} return valid; };
-document.querySelector('#next-step')?.addEventListener('click',()=>{if(validateContact()){status.textContent='Шаг 1 сохранён. Проверьте формат заявки.';status.classList.remove('error');setStep(2);}});
-document.querySelector('#back-step')?.addEventListener('click',()=>{setStep(1);status.textContent='Проверьте контактные данные перед продолжением.';});
-const showStored = () => { const saved=JSON.parse(localStorage.getItem('line-demo-request')||'null'); if(!saved||!receipt)return; form.hidden=true; receipt.hidden=false; receiptText.textContent=`Номер ${saved.id}. ${saved.name}, мы сохранили контакт ${saved.phone} в демо-контуре. Реальная отправка появится после подключения CRM.`; };
-form?.addEventListener('submit', event => {
-  event.preventDefault();
-  if(!validateContact()) return;
-  const data = new FormData(form); const name=String(data.get('name')||'').trim(); const phone=String(data.get('phone')||'').trim(); const consent=form.querySelector('input[type=checkbox]').checked; let valid=true;
-  const saved={id:`ЛН-${Date.now().toString().slice(-6)}`,name,phone,audience:data.get('audience')||'personal',createdAt:new Date().toISOString()}; localStorage.setItem('line-demo-request',JSON.stringify(saved)); status.textContent='Заявка сохраняется…';
-  setTimeout(()=>{form.hidden=true;receipt.hidden=false;receiptText.textContent=`Номер ${saved.id}. ${name}, мы сохранили контакт ${phone} в демо-контуре. Реальная отправка появится после подключения CRM.`;},350);
+
+const setHeader = () => header?.classList.toggle('scrolled', window.scrollY > 20);
+setHeader();
+window.addEventListener('scroll', setHeader, { passive: true });
+
+const closeMenu = () => {
+  if (!menuButton || !mobileMenu) return;
+  menuButton.setAttribute('aria-expanded', 'false');
+  menuButton.setAttribute('aria-label', 'Открыть меню');
+  mobileMenu.classList.remove('open');
+  mobileMenu.hidden = true;
+  document.body.classList.remove('menu-open');
+};
+
+menuButton?.addEventListener('click', () => {
+  const open = menuButton.getAttribute('aria-expanded') === 'true';
+  if (open) return closeMenu();
+  menuButton.setAttribute('aria-expanded', 'true');
+  menuButton.setAttribute('aria-label', 'Закрыть меню');
+  mobileMenu.hidden = false;
+  mobileMenu.classList.add('open');
+  document.body.classList.add('menu-open');
 });
-document.querySelector('#new-request')?.addEventListener('click',()=>{localStorage.removeItem('line-demo-request');form.reset();clearErrors();setStep(1);form.hidden=false;receipt.hidden=true;status.textContent='Демо-отправка: заявка сохранится в этом браузере и получит номер.';status.classList.remove('ok','error');});
-showStored();
-const searchToggle=document.querySelector('#search-toggle'); const searchPanel=document.querySelector('#search-panel'); const searchInput=searchPanel?.querySelector('input');
-const setSearch=open=>{searchPanel.hidden=!open;searchToggle.setAttribute('aria-expanded',String(open));if(open)searchInput.focus()};
-searchToggle?.addEventListener('click',()=>setSearch(searchPanel.hidden)); document.querySelector('#search-close')?.addEventListener('click',()=>setSearch(false));
-const searchResult=document.querySelector('#search-result');
-document.querySelector('#search-form')?.addEventListener('submit',event=>{event.preventDefault();const q=new FormData(event.currentTarget).get('search');searchResult.textContent=q?`Показали бы результаты для «${q}» — в прототипе поиск ограничен этим экраном.`:'Введите запрос';});
-const menuToggle=document.querySelector('#menu-toggle'); const nav=document.querySelector('#main-nav');
-menuToggle?.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');menuToggle.setAttribute('aria-expanded',String(open));});
-document.querySelectorAll('[data-audience]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-audience]').forEach(item=>item.classList.remove('audience-active'));button.classList.add('audience-active');const business=button.dataset.audience==='business';document.querySelector('#hero-title').innerHTML=business?'Деньги,<br><strong>которые работают.</strong>':'Деньги,<br><strong>которые успевают.</strong>';document.querySelector('#hero-lead').textContent=business?'Счёт, платежи и контроль команды в одном понятном рабочем пространстве.':'Оплачивайте привычное, получайте больше и видите всё важное в одном приложении.';document.querySelector('#hero-action').firstChild.textContent=business?'Открыть счёт ':'Оформить карту ';document.querySelector('#hero-action').href=business?'#how':'#apply';}));
-document.querySelectorAll('input[name="phone"]').forEach(input=>input.addEventListener('input',event=>{event.target.value=event.target.value.replace(/[^\d+()\- ]/g,'').slice(0,18)}));
-document.querySelectorAll('#main-nav a').forEach(link=>link.addEventListener('click',()=>{nav?.classList.remove('is-open');menuToggle?.setAttribute('aria-expanded','false');}));
-document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!searchPanel.hidden)setSearch(false);});
-const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-document.querySelectorAll('main > section:not(.hero)').forEach(section=>section.dataset.reveal='');
-if(!reducedMotion&&'IntersectionObserver' in window){const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');revealObserver.unobserve(entry.target);}}),{threshold:.12});document.querySelectorAll('[data-reveal]').forEach(section=>revealObserver.observe(section));}else{document.querySelectorAll('[data-reveal]').forEach(section=>section.classList.add('is-visible'));}
-const heroVisual=document.querySelector('#hero-visual');
-if(heroVisual&&!reducedMotion){heroVisual.addEventListener('pointermove',event=>{const rect=heroVisual.getBoundingClientRect();const x=(event.clientX-rect.left)/rect.width-.5;const y=(event.clientY-rect.top)/rect.height-.5;heroVisual.style.setProperty('--tilt-x',`${y*-5}deg`);heroVisual.style.setProperty('--tilt-y',`${x*7}deg`);});heroVisual.addEventListener('pointerleave',()=>{heroVisual.style.setProperty('--tilt-x','0deg');heroVisual.style.setProperty('--tilt-y','0deg');});}
+
+mobileMenu?.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
+
+const closeBrief = () => {
+  if (!briefDialog?.open) return;
+  briefDialog.close();
+  briefTrigger?.focus();
+};
+
+document.querySelectorAll('[data-open-brief]').forEach((button) => {
+  button.addEventListener('click', () => {
+    briefTrigger = button;
+    resetCopyState();
+    briefDialog?.showModal();
+    briefDialog?.querySelector('[name="task"]')?.focus();
+  });
+});
+
+briefDialog?.querySelectorAll('[data-close-brief]').forEach((button) => button.addEventListener('click', closeBrief));
+briefDialog?.addEventListener('click', (event) => {
+  if (event.target === briefDialog) closeBrief();
+});
+briefForm?.addEventListener('submit', (event) => event.preventDefault());
+
+briefForm?.querySelectorAll('textarea, input').forEach((field) => {
+  field.addEventListener('input', () => {
+    field.removeAttribute('aria-invalid');
+    resetCopyState();
+  });
+});
+
+const copyText = async (text) => {
+  if (navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch {
+      // File previews may block the modern Clipboard API; use a local fallback.
+    }
+  }
+  const helper = document.createElement('textarea');
+  helper.value = text;
+  helper.setAttribute('readonly', '');
+  helper.style.position = 'fixed';
+  helper.style.opacity = '0';
+  document.body.appendChild(helper);
+  helper.select();
+  const copied = document.execCommand('copy');
+  helper.remove();
+  return copied;
+};
+
+copyBriefButton?.addEventListener('click', async () => {
+  const taskField = briefForm?.elements.namedItem('task');
+  const outcomeField = briefForm?.elements.namedItem('outcome');
+  const contextField = briefForm?.elements.namedItem('context');
+  const task = taskField?.value.trim() || '';
+  const outcome = outcomeField?.value.trim() || '';
+  const context = contextField?.value.trim() || '';
+  const invalidField = task.length < 10 ? taskField : outcome.length < 10 ? outcomeField : null;
+
+  if (invalidField) {
+    invalidField.setAttribute('aria-invalid', 'true');
+    invalidField.focus();
+    if (briefFeedback) briefFeedback.textContent = 'Добавьте чуть больше конкретики: минимум 10 символов в первых двух полях.';
+    return;
+  }
+
+  const brief = [
+    'ПИЛОТ С CASTER',
+    '',
+    `Задача: ${task}`,
+    `Что должно измениться для клиента: ${outcome}`,
+    `Ссылка или контекст: ${context || 'не указано'}`,
+    '',
+    'Ожидаемый формат: одна задача → рабочий интерфейс → проверка Caster и Антона → доказательства и известные ограничения.'
+  ].join('\n');
+
+  const copied = await copyText(brief);
+  if (briefFeedback) {
+    briefFeedback.textContent = copied ? 'Бриф скопирован. Его можно вставить в письмо или рабочий чат.' : 'Не удалось скопировать автоматически. Выделите текст в полях и скопируйте вручную.';
+    briefFeedback.classList.toggle('success', copied);
+  }
+  if (copied) {
+    const label = copyBriefButton.firstChild;
+    if (label) label.textContent = 'Скопировано ';
+  }
+});
+
+document.querySelectorAll('.process-list li').forEach((item) => {
+  const button = item.querySelector('button');
+  button?.addEventListener('click', () => {
+    const wasActive = item.classList.contains('active');
+    document.querySelectorAll('.process-list li').forEach((row) => {
+      row.classList.remove('active');
+      row.querySelector('button')?.setAttribute('aria-expanded', 'false');
+      const icon = row.querySelector('button i');
+      if (icon) icon.textContent = '+';
+    });
+    if (!wasActive) {
+      item.classList.add('active');
+      button.setAttribute('aria-expanded', 'true');
+      const icon = button.querySelector('i');
+      if (icon) icon.textContent = '−';
+    }
+  });
+});
+
+const targets = document.querySelectorAll('.reveal, [data-reveal]');
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px' });
+  targets.forEach((target) => observer.observe(target));
+} else {
+  targets.forEach((target) => target.classList.add('visible'));
+}
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 980) closeMenu();
+});
