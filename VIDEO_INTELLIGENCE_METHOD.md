@@ -222,6 +222,24 @@ not_transferable_claims:
 
 Для Caster такие видео переводятся в [Model Bake-off Method](MODEL_BAKEOFF_METHOD.md): `same task → raw output → scoring → steering cost → verified adoption`.
 
+## 8.2 Reference-database extraction
+
+Если видео показывает Mobbin, UI databases, design-system references или MCP reference connectors, извлекаем не “какие экраны понравились”, а reference workflow:
+
+```text
+reference_source:
+access_status:
+exact_screen_refs_available:
+search_prompt:
+observed_patterns:
+missing_screens:
+standout_components:
+clean_room_boundary:
+proof_required:
+```
+
+Для Caster такие видео переводятся в [Mobbin MCP Reference Method](MOBBIN_MCP_REFERENCE_METHOD.md): `generic detector → reference search → clean-room extraction → missing screens → standout components → proof`.
+
 ## 9. Quality scoring
 
 Каждый learning packet получает оценки `0–3`:

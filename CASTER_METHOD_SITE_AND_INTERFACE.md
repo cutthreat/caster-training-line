@@ -60,10 +60,19 @@ Mobbin используем для task-specific research: `login`, `onboarding`
 - `implementation_contract`: как принцип будет адаптирован;
 - `proof_required`: чем проверим результат.
 
+Для интерфейсных задач применяем [Mobbin MCP Reference Method](MOBBIN_MCP_REFERENCE_METHOD.md):
+
+1. `generic AI detector` — фиксируем, почему текущий экран выглядит шаблонно;
+2. `reference-first redesign` — ищем 3–5 shipped UI references до редизайна;
+3. `missing-screens pass` — ищем экраны/states, которые обычно забывают;
+4. `standout-components pass` — добавляем сильные компоненты только после структуры и states.
+
 Статусы:
 
 - `screen_exact_research_complete` — есть точные source links/IDs;
 - `pattern_research_ready` — есть category/evidence и переносимые patterns, но exact card proof неполный;
+- `connector_ready` — Mobbin MCP/connector доступен в текущем execution surface;
+- `connector_available_elsewhere` — доступ подтверждён в другом thread/surface;
 - `mobbin_tool_unavailable` — connector не виден в runtime;
 - `pending_owner_auth` — нужен OAuth/доступ владельца.
 
