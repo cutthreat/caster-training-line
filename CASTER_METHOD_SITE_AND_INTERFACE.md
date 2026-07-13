@@ -232,6 +232,34 @@ Mobile не равен сжатому desktop.
 
 Generated media не является готовым production asset без `asset_id`, owner/licensing, dimensions, weight, crop, fallback и viewport contract. В fintech-поверхностях motion и atmosphere всегда вторичны по отношению к offer, conditions, trust и CTA consequence.
 
+## 9.2 Model/agent bake-off pass
+
+Если задача сложная, публичная или визуально рискованная, до основной сборки можно запустить controlled bake-off по [Model Bake-off Method](MODEL_BAKEOFF_METHOD.md). Это не конкурс красивых картинок, а способ выбрать рабочую связку под конкретный результат.
+
+Минимальный протокол:
+
+1. один source-bound task packet;
+2. одинаковые constraints и assets;
+3. один `raw_once` pass без правок;
+4. side-by-side оценка;
+5. `steering_cost`;
+6. один controlled steering pass, если raw result перспективен;
+7. Caster/Anton verdict;
+8. promotion только для проверенного pattern.
+
+Оцениваем отдельно:
+
+- visual taste;
+- product fit;
+- implementation quality;
+- interaction states;
+- motion judgment;
+- mobile re-authoring;
+- truthfulness;
+- proofability.
+
+Модель, агент или стратегия не считаются лучшими только из-за эффектного первого экрана. Лучший выбор — тот, кто быстрее приходит к source-bound, проверяемому пользовательскому результату с низкой стоимостью steering.
+
 ## 10. Caster pass
 
 Cастер проверяет:

@@ -180,6 +180,30 @@ acceptance_criteria:
 
 Нельзя переходить из `observe` сразу в `accept`.
 
+## 8.1 Model/agent comparison extraction
+
+Если видео сравнивает модели, агентов, генераторы или workflow, итогом должен быть не рейтинг из ролика, а воспроизводимый comparison protocol.
+
+Фиксируем:
+
+```text
+compared_systems:
+task_type:
+same_prompt_or_not:
+same_constraints_or_not:
+revision_policy:
+visible_outputs:
+author_verdict:
+evidence_for_verdict:
+missing_controls:
+transferable_protocol:
+not_transferable_claims:
+```
+
+Переносимый урок возможен только если понятно, что сравнивалось на одинаковом задании и какие criteria использовались. Claims о превосходстве модели не становятся нашим source truth без собственного bake-off.
+
+Для Caster такие видео переводятся в [Model Bake-off Method](MODEL_BAKEOFF_METHOD.md): `same task → raw output → scoring → steering cost → verified adoption`.
+
 ## 9. Quality scoring
 
 Каждый learning packet получает оценки `0–3`:

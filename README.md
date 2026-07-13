@@ -27,3 +27,5 @@ The new photo-led reference project is available in [AURELIA-ISLE](AURELIA-ISLE/
 The standard time-aligned video learning process is documented in [VIDEO_INTELLIGENCE_METHOD.md](VIDEO_INTELLIGENCE_METHOD.md) with the working [timecode ledger template](VIDEO_TIMECODE_LEDGER_TEMPLATE.md).
 
 Для динамических hero используется отдельный [Motion Intelligence Method](MOTION_INTELLIGENCE_METHOD.md) и [motion ledger](MOTION_TIMECODE_LEDGER_TEMPLATE.md).
+
+Для выбора модели, агента или стратегии под сложный сайт используется [Model Bake-off Method](MODEL_BAKEOFF_METHOD.md): одинаковый task packet, raw pass, scoring, steering cost и Caster/Anton verdict.

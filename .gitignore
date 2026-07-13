@@ -6,3 +6,7 @@ desktop-proof.png
 NOCTA-ISLE/reference-video.mp4
 NOCTA-ISLE/reference-frames/
 AURELIA-ISLE/motion-reference/
+video-intel/**/media/
+video-intel/**/frames/
+video-intel/**/transcripts/*.vtt
+video-intel/**/sources/metadata.json
