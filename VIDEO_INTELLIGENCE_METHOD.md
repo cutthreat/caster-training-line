@@ -261,6 +261,25 @@ not_transferable_claims:
 
 Для Caster такие источники переводятся в [Text Prompting and Funnel Method](TEXT_PROMPTING_AND_FUNNEL_METHOD.md): `source pack → VOC/objections → УТП matrix → fact strengthening → funnel scenario → copy blocks → trust gate`.
 
+## 8.4 Assistant-operations extraction
+
+Если видео показывает личного AI-ассистента, Codex workbench, проектную память, task/calendar automation, call-note extraction, Notion/Calendar flow или MCP connectors, извлекаем не “какие сервисы подключили”, а operations contour:
+
+```text
+agent_rules:
+inbox_rule:
+source_types:
+task_normalization:
+memory_boundary:
+connector_boundary:
+approval_required_for:
+daily_or_recurring_rhythm:
+proof_or_receipt:
+failure_modes:
+```
+
+Для Caster такие источники переводятся в [Assistant Operations Contour Method](ASSISTANT_OPERATIONS_CONTOUR_METHOD.md): `rules → inbox → source intake → normalized tasks → approval gates → rhythm → closeout`.
+
 ## 9. Quality scoring
 
 Каждый learning packet получает оценки `0–3`:

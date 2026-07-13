@@ -410,6 +410,21 @@ next_try:
 
 Устойчивый урок попадает в canon/playbook, а не остаётся только в чате.
 
+## 15.1 Assistant operations contour
+
+Для задач, где Caster начинает работать как проектный AI-ассистент, применяем [Assistant Operations Contour Method](ASSISTANT_OPERATIONS_CONTOUR_METHOD.md).
+
+Минимальный контур:
+
+1. `agent rules` — роль, scope, inbox, memory, approval, proof;
+2. `inbox first` — все вводные сначала фиксируются как source-linked intake;
+3. `task normalization` — owner, deadline, done, proof, next step;
+4. `voice/meeting intake` — transcript превращается в decisions/tasks/follow-ups;
+5. `connector boundary` — read/analyze/draft отдельно от write/send/publish;
+6. `daily rhythm` — короткий список stale items, blockers и next actions.
+
+Default: внешняя отправка, публикация, календарные изменения, CRM-запись и сообщения от имени пользователя требуют явного approval и destination receipt.
+
 ## 16. Final expert checklist
 
 Перед финальным ответом:
