@@ -1,28 +1,227 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#ffdd2d">
-  <title>Линия — деньги без лишних движений</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fa">
+  <meta name="description" content="Caster — экспертный AI-агент для создания сайтов и интерфейсов. Caster отвечает за визуальное решение, Антон — за доверие, продуктовую логику и готовность к клиенту.">
+  <title>Caster — агент, который доводит интерфейс до результата</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar"><a class="logo" href="#top"><span>Л</span> ЛИНИЯ</a><nav id="main-nav"><a href="#products">Продукты</a><a href="#benefits">Выгоды</a><a href="#how">Как работает</a></nav><div class="top-actions"><button class="icon-button" id="search-toggle" aria-label="Поиск" aria-expanded="false">⌕</button><a class="login" href="#apply">Моя заявка</a></div><button class="menu-button" id="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button></header>
-  <div class="search-panel" id="search-panel" hidden><form id="search-form"><input name="search" aria-label="Поиск по сайту" placeholder="Найти продукт или условие"><button class="search-submit" type="submit">Найти ↗</button></form><p class="search-result" id="search-result" role="status"></p><button class="search-close" id="search-close" aria-label="Закрыть поиск">×</button></div>
-  <main id="top">
-    <section class="hero" data-reveal="hero"><div class="hero-content"><div class="audience"><button class="audience-active" data-audience="personal">Для себя</button><button data-audience="business">Для бизнеса</button></div><p class="kicker">КАРТА ЛИНИЯ / 01</p><h1 id="hero-title">Деньги,<br><strong>которые успевают.</strong></h1><p class="lead" id="hero-lead">Оплачивайте привычное, получайте больше и видите всё важное в одном приложении.</p><div class="hero-actions"><a class="button dark" href="#apply" id="hero-action">Оформить карту <span>↗</span></a><a class="quiet-link" href="#products">Смотреть условия <span>↓</span></a></div><p class="microcopy">Без визита в офис · решение за несколько минут</p></div><div class="hero-visual" id="hero-visual" aria-label="Жёлтая банковская карта Линия" role="img"><div class="grain"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="card-face"><span class="card-mark">Л</span><span class="card-name">ЛИНИЯ</span><span class="card-number">•••• 2048</span><span class="card-chip"></span><span class="card-pay">contactless</span></div><div class="visual-note">Одна карта<br>для всего</div></div></section>
+  <a class="skip-link" href="#main">К содержанию</a>
 
-    <section class="quick-nav" id="products" data-reveal><div class="quick-intro"><span class="section-number">01</span><h2>Выберите<br>свой сценарий</h2></div><div class="product-tabs"><button class="tab active" data-panel="black"><span class="tab-icon">◒</span><b>Карта Линия</b><small>На каждый день</small><i>↗</i></button><button class="tab" data-panel="save"><span class="tab-icon">◌</span><b>Копилка</b><small>Накопить без усилий</small><i>↗</i></button><button class="tab" data-panel="business"><span class="tab-icon">◈</span><b>Для бизнеса</b><small>Счёт и команда</small><i>↗</i></button></div></section>
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Caster — на главную">
+      <span class="brand-symbol" aria-hidden="true"><i></i><i></i></span>
+      <span>CASTER</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Основная навигация">
+      <a href="#model">Модель</a>
+      <a href="#roles">Эксперты</a>
+      <a href="#process">Процесс</a>
+      <a href="#benefits">Выгода</a>
+    </nav>
+    <a class="header-cta" href="#start">Проверить на задаче <span>↗</span></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню">
+      <span></span><span></span>
+    </button>
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Мобильная навигация">
+        <a href="#model">Модель</a>
+        <a href="#roles">Эксперты</a>
+        <a href="#process">Процесс</a>
+        <a href="#benefits">Выгода</a>
+      </nav>
+      <a class="button primary" href="#start">Проверить на задаче <span>↗</span></a>
+    </div>
+  </header>
 
-    <section class="product-panel" id="benefits"><div class="panel-copy"><p class="kicker" id="panel-kicker">КАРТА ЛИНИЯ</p><h2 id="panel-title">Больше пользы<br>с каждой покупкой</h2><p class="panel-lead" id="panel-lead">Настройте карту под себя: выбирайте категории, следите за расходами и получайте возврат рублями.</p><a class="button yellow" href="#apply" id="panel-action">Получить карту <span>↗</span></a></div><div class="stats" id="panel-stats"><div><strong>до 7%</strong><span>возврат<br>в выбранных категориях</span></div><div><strong>0 ₽</strong><span>обслуживание<br>при простых условиях</span></div><div><strong>1 день</strong><span>доставка<br>до двери</span></div></div></section>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">Агентная модель для сильных сайтов</p>
+        <h1 class="reveal">Сайт, который<br><span>не приходится<br>объяснять.</span></h1>
+        <p class="hero-lead reveal">Caster ведёт работу как ответственный арт-директор: понимает задачу, принимает решения и собирает цельный интерфейс. Антон проверяет, вызывает ли решение доверие и понятно ли, что делать дальше.</p>
+        <div class="hero-actions reveal">
+          <a class="button primary" href="#start">Проверить на задаче <span>↗</span></a>
+          <a class="button ghost" href="#model">Как устроена модель <span>↓</span></a>
+        </div>
+        <div class="hero-proof reveal" aria-label="Что входит в работу">
+          <span>Контекст</span><i></i><span>Решение</span><i></i><span>Реализация</span><i></i><span>Проверка</span>
+        </div>
+      </div>
 
-    <section class="feature-story"><div class="feature-image"><div class="phone"><div class="phone-top">09:41 <span>●●●</span></div><p>Расходы<br><b>за июнь</b></p><strong>48 620 ₽</strong><div class="chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="phone-row"><span>Продукты</span><b>12 480 ₽</b></div><div class="phone-row"><span>Путешествия</span><b>8 300 ₽</b></div><div class="phone-row"><span>Дом</span><b>6 200 ₽</b></div></div></div><div class="feature-copy"><span class="section-number">02</span><h2>Понимайте<br>свои деньги</h2><p>Приложение собирает расходы в понятную картину — без таблиц и ручного разбора. Вы всегда знаете, что происходит.</p><ul><li><b>Категории</b><span>расходы раскладываются сами</span></li><li><b>Лимиты</b><span>уведомим до того, как станет поздно</span></li><li><b>Цели</b><span>отложить проще, когда видно прогресс</span></li></ul></div></section>
+      <div class="work-sheet reveal" aria-label="Пример совместного разбора Caster и Антона">
+        <div class="sheet-meta"><span>Рабочий разбор</span><span>Версия для проверки</span></div>
+        <h2>Что должно измениться<br>после этой страницы?</h2>
+        <div class="sheet-row"><span>Задача</span><p>Клиент должен понять ценность модели и захотеть проверить её на одной реальной задаче.</p></div>
+        <div class="sheet-row"><span>Решение</span><p>Не продавать «силу AI». Показать ответственность, ход работы и две независимые проверки.</p></div>
+        <div class="review-note caster-note"><b>Caster</b><p>Композиция ведёт к одному действию. Текст и интерфейс держат общий ритм на каждом экране.</p></div>
+        <div class="review-note anton-note"><b>Антон</b><p>Обещание ограничено пилотом. Следующий шаг понятен ещё до нажатия.</p></div>
+        <div class="sheet-status"><i></i><span>Решение готово к проверке</span></div>
+      </div>
 
-    <section class="steps" id="how"><div class="steps-head"><p class="kicker">КАК ЭТО РАБОТАЕТ</p><h2>Три шага<br>до карты</h2></div><div class="step-list"><div class="step"><span>01</span><div><h3>Заполните заявку</h3><p>Нужны имя и телефон. Без длинных анкет.</p></div><b>→</b></div><div class="step"><span>02</span><div><h3>Выберите дизайн</h3><p>Настройте внешний вид и категории выгоды.</p></div><b>→</b></div><div class="step"><span>03</span><div><h3>Получите карту</h3><p>Курьер привезёт её в удобное место и время.</p></div><b>✓</b></div></div></section>
+      <a class="scroll-cue" href="#model" aria-label="Перейти к следующему разделу"><span></span>Листайте</a>
+    </section>
 
-    <section class="apply" id="apply"><div class="apply-copy"><p class="kicker">НАЧАТЬ ПРОЩЕ</p><h2>Карта уже<br><strong>на подходе.</strong></h2><p>Оставьте контакт — покажем доступные варианты и точные условия до подтверждения заявки.</p></div><div class="apply-area"><div class="form-progress" aria-label="Прогресс заявки"><span class="current">01 Контакт</span><span>02 Формат</span></div><form id="apply-form" novalidate><div class="form-step current-step" data-form-step="1"><label>Имя<input required name="name" autocomplete="name" placeholder="Как вас зовут"><small class="field-error" data-error="name"></small></label><label>Телефон<input required name="phone" autocomplete="tel" placeholder="+7 (___) ___-__-__"><small class="field-error" data-error="phone"></small></label><label class="consent"><input required type="checkbox"> <span>Соглашаюсь на обработку данных и получение условий заявки</span></label><small class="field-error" data-error="consent"></small><button class="button dark" id="next-step" type="button">Продолжить <span>→</span></button></div><div class="form-step" data-form-step="2" hidden><p class="kicker">ШАГ 2 / 2</p><fieldset class="choice-group"><legend>Что вам нужно?</legend><label><input type="radio" name="audience" value="personal" checked><span><b>Для себя</b><small>Карта и повседневные расходы</small></span></label><label><input type="radio" name="audience" value="business"><span><b>Для бизнеса</b><small>Счёт и управление командой</small></span></label></fieldset><div class="trust-notice"><b>Ваши данные в безопасности</b><span>Покажем условия до подтверждения. В демо-режиме данные остаются в этом браузере.</span></div><div class="step-actions"><button class="back-link" id="back-step" type="button">← Назад</button><button class="button dark" type="submit">Отправить заявку <span>↗</span></button></div></div><p class="form-status" id="form-status" role="status">Демо-отправка: заявка сохранится в этом браузере и получит номер.</p></form><div class="receipt" id="receipt" hidden><p class="kicker">ЗАЯВКА ПРИНЯТА В ДЕМО-КОНТУРЕ</p><h3>Готово.</h3><p id="receipt-text"></p><button class="quiet-link" id="new-request" type="button">Создать ещё одну <span>↗</span></button></div></div></section>
+    <section class="statement section-shell" id="model" data-reveal>
+      <div class="section-label"><span>01</span> Новая модель работы</div>
+      <div class="statement-body">
+        <p class="kicker">Генератор отвечает на запрос.</p>
+        <h2>Caster отвечает <em>за решение.</em></h2>
+        <p class="statement-copy">Вы ставите бизнес-задачу, а не управляете десятком промптов. Агент сам проходит путь от контекста до работающего интерфейса, фиксирует решения и показывает доказательства качества.</p>
+      </div>
+      <div class="old-new" aria-label="Сравнение обычной и агентной модели">
+        <div class="old-way">
+          <span>Генератор</span>
+          <p>Промпт → вариант → ручные правки → новый промпт → потерянный контекст</p>
+        </div>
+        <div class="new-way">
+          <span>Модель Caster</span>
+          <p>Цель → исследование → решение → реализация → экспертная проверка → проверяемый результат</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="roles" id="roles" data-reveal>
+      <div class="section-shell roles-heading">
+        <div class="section-label light"><span>02</span> Экспертная пара</div>
+        <h2>Один отвечает за форму.<br>Второй — за последствия.</h2>
+        <p>Так решение не остаётся просто красивым и не становится безлико «правильным».</p>
+      </div>
+      <div class="roles-stage section-shell">
+        <article class="role role-caster">
+          <div class="role-top"><span>01</span><i>CASTER</i></div>
+          <div class="role-icon caster-icon" aria-hidden="true"><i></i><i></i></div>
+          <h3>Форма и ритм.</h3>
+          <p>Композиция, типографика, визуальная иерархия, сценарий страницы, адаптив и качество реализации.</p>
+          <ul>
+            <li>Формирует сильную визуальную идею</li>
+            <li>Отсекает шаблонные решения</li>
+            <li>Проверяет результат в реальном интерфейсе</li>
+          </ul>
+        </article>
+        <div class="role-connector" aria-hidden="true"><span>+</span><i></i><b>единая система решений</b></div>
+        <article class="role role-anton">
+          <div class="role-top"><span>02</span><i>АНТОН</i></div>
+          <div class="role-icon anton-icon" aria-hidden="true">А</div>
+          <h3>Логика и доверие.</h3>
+          <p>Пользовательская логика, доверие, ясность оффера, последствия CTA и готовность продукта к реальному клиенту.</p>
+          <ul>
+            <li>Смотрит глазами требовательного клиента</li>
+            <li>Находит слабые места в обещаниях и пути</li>
+            <li>Не пропускает «красиво, но не работает»</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="process section-shell" id="process" data-reveal>
+      <div class="process-heading">
+        <div class="section-label"><span>03</span> Как работает агент</div>
+        <h2>Не конвейер.<br>Одна связная работа.</h2>
+        <p>Без передачи контекста между случайными исполнителями и без бесконечного контроля каждого шага.</p>
+      </div>
+      <ol class="process-list">
+        <li class="active" data-step="01">
+          <button type="button" aria-expanded="true">
+            <span>01</span><h3>Понимает цель</h3><i>−</i>
+          </button>
+          <div class="step-detail"><p>Caster связывает бизнес-задачу, аудиторию, продуктовые ограничения и критерии готовности в единый рабочий бриф.</p><small>Результат: ясная задача и границы решения</small></div>
+        </li>
+        <li data-step="02">
+          <button type="button" aria-expanded="false">
+            <span>02</span><h3>Исследует контекст</h3><i>+</i>
+          </button>
+          <div class="step-detail"><p>Изучает продукт, локальные материалы и релевантные паттерны. Отделяет факты от гипотез и не копирует чужие решения.</p><small>Результат: обоснованное направление</small></div>
+        </li>
+        <li data-step="03">
+          <button type="button" aria-expanded="false">
+            <span>03</span><h3>Проектирует и собирает</h3><i>+</i>
+          </button>
+          <div class="step-detail"><p>Создаёт композицию, тексты, состояния и адаптив как единую систему — сразу с учётом реальной реализации.</p><small>Результат: интерфейс, который можно открыть и проверить</small></div>
+        </li>
+        <li data-step="04">
+          <button type="button" aria-expanded="false">
+            <span>04</span><h3>Проходит два контроля</h3><i>+</i>
+          </button>
+          <div class="step-detail"><p>Caster проводит визуальный разбор. Антон проверяет доверие, логику, CTA и клиентскую готовность.</p><small>Результат: сильное решение без слепых зон</small></div>
+        </li>
+        <li data-step="05">
+          <button type="button" aria-expanded="false">
+            <span>05</span><h3>Доказывает готовность</h3><i>+</i>
+          </button>
+          <div class="step-detail"><p>Проверяет компьютер, планшет, телефон, состояния и поведение. Честно фиксирует, что готово, а где остаются ограничения.</p><small>Результат: проверяемый итог и следующий шаг</small></div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="benefits" id="benefits" data-reveal>
+      <div class="section-shell benefits-heading">
+        <div class="section-label"><span>04</span> В чём выгода</div>
+        <h2>Меньше переделок.<br><em>Меньше управления.</em></h2>
+      </div>
+      <div class="benefit-list section-shell">
+        <article><span>01</span><h3>Контекст не теряется</h3><p>Один агент удерживает цель, решения и ограничения на всём пути — от первой идеи до финальной проверки.</p></article>
+        <article><span>02</span><h3>Меньше управления</h3><p>Не нужно быть арт-директором, копирайтером и тестировщиком одновременно. Вы управляете результатом, а не микрозадачами.</p></article>
+        <article><span>03</span><h3>Быстрее к сильной версии</h3><p>Caster сразу отбрасывает слабые визуальные и продуктовые ходы, поэтому итерации становятся короче и точнее.</p></article>
+        <article><span>04</span><h3>Качество можно проверить</h3><p>Каждое важное решение проходит визуальный, продуктовый и технический контроль. «Мне кажется» заменяется критериями.</p></article>
+      </div>
+    </section>
+
+    <section class="pilot section-shell" id="pilot" data-reveal>
+      <div class="section-label"><span>05</span> Что входит в пилот</div>
+      <div class="pilot-heading">
+        <h2>Не презентация.<br>Законченный проход.</h2>
+        <p>Берём одну страницу или сценарий и доводим его до состояния, в котором решение можно обсуждать по фактам.</p>
+      </div>
+      <ol class="pilot-output">
+        <li><span>01</span><div><h3>Короткий рабочий бриф</h3><p>Цель, аудитория, ограничения и критерии готовности — без многостраничной анкеты.</p></div></li>
+        <li><span>02</span><div><h3>Работающий интерфейс</h3><p>Страница или сценарий с реальными текстами, адаптивом и нужными состояниями.</p></div></li>
+        <li><span>03</span><div><h3>Вердикты Caster и Антона</h3><p>Что принято, что исправлено и почему решение выдерживает визуальную и продуктовую проверку.</p></div></li>
+        <li><span>04</span><div><h3>Доказательства и границы</h3><p>Контрольные снимки, проверенные маршруты и честный список того, что осталось за пределами пилота.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="start" id="start" data-reveal>
+      <div class="start-inner section-shell">
+        <p class="eyebrow">Начните с одной реальной задачи</p>
+        <h2>Проверьте модель<br>на своей задаче.</h2>
+        <p>Опишите одну страницу, интерфейс или продуктовый сценарий. Получится короткий бриф, который можно сразу передать в работу.</p>
+        <div class="start-actions">
+          <button class="button primary light-button" type="button" data-open-brief>Собрать бриф <span>↗</span></button>
+          <a class="button dark-ghost" href="#process">Ещё раз о процессе <span>↑</span></a>
+        </div>
+        <p class="start-note">Три коротких поля · данные остаются в браузере · результат копируется в буфер обмена</p>
+      </div>
+    </section>
   </main>
-  <footer><a class="logo" href="#top"><span>Л</span> ЛИНИЯ</a><p>Финансовый интерфейс нового поколения</p><div><a href="#products">Продукты</a><a href="#apply">Помощь</a><a href="#top">Наверх ↑</a></div></footer>
+
+  <dialog class="brief-dialog" id="brief-dialog" aria-labelledby="brief-title">
+    <form class="brief-panel" method="dialog" novalidate>
+      <div class="brief-head">
+        <div><p>Стартовый бриф</p><h2 id="brief-title">Сформулируйте задачу</h2></div>
+        <button class="dialog-close" type="button" data-close-brief aria-label="Закрыть окно">×</button>
+      </div>
+      <p class="brief-intro">Нужен не идеальный документ, а ясная отправная точка. Ничего не отправляется с этой страницы.</p>
+      <label>Что нужно сделать?<textarea name="task" rows="3" minlength="10" required placeholder="Например: лендинг нового сервиса для руководителей отделов продаж"></textarea></label>
+      <label>Что должно измениться для клиента?<textarea name="outcome" rows="3" minlength="10" required placeholder="Например: понять ценность за минуту и запросить демонстрацию"></textarea></label>
+      <label>Ссылка или важный контекст <span>необязательно</span><input name="context" type="text" placeholder="Сайт, документ или одно важное ограничение"></label>
+      <p class="brief-feedback" role="status" aria-live="polite"></p>
+      <div class="brief-actions">
+        <button class="button primary" type="button" data-copy-brief>Скопировать бриф <span>↗</span></button>
+        <button class="brief-cancel" type="button" data-close-brief>Отмена</button>
+      </div>
+    </form>
+  </dialog>
+
+  <footer class="site-footer">
+    <a class="brand" href="#top"><span class="brand-symbol" aria-hidden="true"><i></i><i></i></span><span>CASTER</span></a>
+    <p>Экспертный агент для сильных цифровых продуктов.</p>
+    <a href="#top">Наверх ↑</a>
+  </footer>
+
   <script src="app.js"></script>
 </body>
 </html>
