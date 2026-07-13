@@ -15,6 +15,7 @@
 source truth
 → audience and situation
 → VOC / objections / proof inventory
+→ authorial DNA / anti-stamp rules
 → value proposition candidates
 → fact-strengthening pass
 → page/funnel scenario
@@ -103,6 +104,31 @@ copy_use:
 ```
 
 AI не должен “улучшать” VOC до потери смысла. Сначала сохраняем формулировки клиента, потом адаптируем.
+
+## 4.1 Authorial Text DNA pass
+
+Если нужен живой авторский голос, тексты проходят [Authorial Text DNA Method](AUTHORIAL_TEXT_DNA_METHOD.md):
+
+```text
+anti-stamp stop-list
+→ authorial DNA corpus
+→ fact source pack
+→ bound drafting agent
+→ anti-stamp lint
+→ style-fit score
+→ fact guard
+```
+
+Что это добавляет:
+
+- явный список запрещённых AI-штампов, пустых усилителей и generic CTA;
+- карту авторского ритма, лексики, proof style, objection style и CTA style;
+- clean-room boundary для публичных референсов;
+- разделение `style_sources` и `fact_sources`;
+- self-check агента: claims, источники, нарушения запретов, риски;
+- статус `production_copy_ready` только после `style_fit_pass` и `fact_guard_pass`.
+
+Правило: авторский тон не имеет права усиливать недоказанный claim. Если факт не закрыт proof, текст остаётся `source_bound_draft`.
 
 ## 5. Funnel scenario map
 

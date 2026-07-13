@@ -280,6 +280,27 @@ failure_modes:
 
 Для Caster такие источники переводятся в [Assistant Operations Contour Method](ASSISTANT_OPERATIONS_CONTOUR_METHOD.md): `rules → inbox → source intake → normalized tasks → approval gates → rhythm → closeout`.
 
+## 8.5 Authorial-style copy extraction
+
+Если видео показывает NotebookLM, Gemini Gems, style clone, writing agent, “digital copy”, anti-AI-cliche workflow или базу знаний для текстов, извлекаем не готовый промпт, а управляемый контур авторского письма:
+
+```text
+anti_stamp_stop_list:
+style_corpus:
+source_ownership:
+fact_source_pack:
+knowledge_base_boundary:
+agent_instruction:
+self_check:
+hallucination_risk:
+originality_risk:
+publication_gate:
+```
+
+Для Caster такие источники переводятся в [Authorial Text DNA Method](AUTHORIAL_TEXT_DNA_METHOD.md): `stop-list → style DNA → fact pack → bound agent → anti-stamp lint → style-fit score → fact guard → Anton gate`.
+
+Важно: claims автора о “закрытой архитектуре” или “невозможности фантазировать” не принимаются как proof. Они становятся гипотезой, пока наш fact guard и source refs не подтвердят результат.
+
 ## 9. Quality scoring
 
 Каждый learning packet получает оценки `0–3`:

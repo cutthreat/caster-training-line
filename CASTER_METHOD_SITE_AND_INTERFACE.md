@@ -154,6 +154,8 @@ Copy должна помогать решению, а не объяснять в
 
 Для текстов, УТП, descriptions, фактов и воронок используем [Text Prompting and Funnel Method](TEXT_PROMPTING_AND_FUNNEL_METHOD.md). Текстовый слой строится до финального UI copy, а не дописывается после дизайна.
 
+Если нужен авторский, “не машинный” текст, добавляется [Authorial Text DNA Method](AUTHORIAL_TEXT_DNA_METHOD.md): anti-stamp stop-list, authorial DNA corpus, fact source pack, bound drafting agent, style-fit score и fact guard. Внешние тексты, видео и сайты можно использовать только как `inspiration_only`, если нет прав на прямое использование.
+
 Проверяем:
 
 - product name и promise видны сразу;
@@ -170,8 +172,9 @@ Copy должна помогать решению, а не объяснять в
 2. `УТП matrix` — несколько углов ценности, а не один slogan;
 3. `fact-strengthening pass` — claim, source, scope, condition, safe version;
 4. `VOC pass` — язык клиента, objections, triggers;
-5. `funnel scenario map` — user state, question, needed fact, CTA, next state;
-6. `Anton trust gate` — claims, CTA consequence, receipt, recovery.
+5. `authorial DNA pass` — анти-штамп, авторский ритм, clean-room boundary;
+6. `funnel scenario map` — user state, question, needed fact, CTA, next state;
+7. `Anton trust gate` — claims, CTA consequence, receipt, recovery.
 
 ## 6. UX flow и states
 
