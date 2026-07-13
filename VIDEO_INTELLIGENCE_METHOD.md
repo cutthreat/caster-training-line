@@ -240,6 +240,27 @@ proof_required:
 
 Для Caster такие видео переводятся в [Mobbin MCP Reference Method](MOBBIN_MCP_REFERENCE_METHOD.md): `generic detector → reference search → clean-room extraction → missing screens → standout components → proof`.
 
+## 8.3 Copy/prompt/funnel extraction
+
+Если видео или разбор посвящён copywriting prompts, УТП, landing copy, sales funnel, email sequence, VOC, JTBD или ICP, извлекаем не готовый текст, а text-production workflow:
+
+```text
+source_type:
+copy_job:
+audience:
+buyer_stage:
+prompt_structure:
+input_data_required:
+fact_sources:
+value_prop_formula:
+funnel_stage:
+CTA_consequence:
+proof_or_validation:
+not_transferable_claims:
+```
+
+Для Caster такие источники переводятся в [Text Prompting and Funnel Method](TEXT_PROMPTING_AND_FUNNEL_METHOD.md): `source pack → VOC/objections → УТП matrix → fact strengthening → funnel scenario → copy blocks → trust gate`.
+
 ## 9. Quality scoring
 
 Каждый learning packet получает оценки `0–3`:

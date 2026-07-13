@@ -152,6 +152,8 @@ quality_mode:
 
 Copy должна помогать решению, а не объяснять внутреннюю методологию.
 
+Для текстов, УТП, descriptions, фактов и воронок используем [Text Prompting and Funnel Method](TEXT_PROMPTING_AND_FUNNEL_METHOD.md). Текстовый слой строится до финального UI copy, а не дописывается после дизайна.
+
 Проверяем:
 
 - product name и promise видны сразу;
@@ -161,6 +163,15 @@ Copy должна помогать решению, а не объяснять в
 - нет `source-bound`, `verifier`, `training`, `AI-generated` и другой внутренней лексики в UI;
 - claims имеют source/legal/owner proof;
 - можно удалить 30% текста без потери смысла.
+
+Перед публикацией copy проходит:
+
+1. `copy source pack` — audience, current alternative, proof inventory, forbidden claims;
+2. `УТП matrix` — несколько углов ценности, а не один slogan;
+3. `fact-strengthening pass` — claim, source, scope, condition, safe version;
+4. `VOC pass` — язык клиента, objections, triggers;
+5. `funnel scenario map` — user state, question, needed fact, CTA, next state;
+6. `Anton trust gate` — claims, CTA consequence, receipt, recovery.
 
 ## 6. UX flow и states
 
