@@ -3,225 +3,155 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f8fa">
-  <meta name="description" content="Caster — экспертный AI-агент для создания сайтов и интерфейсов. Caster отвечает за визуальное решение, Антон — за доверие, продуктовую логику и готовность к клиенту.">
-  <title>Caster — агент, который доводит интерфейс до результата</title>
+  <meta name="theme-color" content="#10120f">
+  <meta name="description" content="VibeUs — коллективный интеллект тех, кто строит с AI. Берите готовые решения, улучшайте их и делитесь своими.">
+  <title>VibeUs — AI может всё. Не делайте всё сами.</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">К содержанию</a>
 
   <header class="site-header" data-header>
-    <a class="brand" href="#top" aria-label="Caster — на главную">
-      <span class="brand-symbol" aria-hidden="true"><i></i><i></i></span>
-      <span>CASTER</span>
+    <a class="brand" href="#top" aria-label="VibeUs — на главную">
+      <span class="brand-mark" aria-hidden="true"><i></i><b>_</b></span>
+      <span>VIBEUS</span>
     </a>
     <nav class="desktop-nav" aria-label="Основная навигация">
-      <a href="#model">Модель</a>
-      <a href="#roles">Эксперты</a>
-      <a href="#process">Процесс</a>
-      <a href="#benefits">Выгода</a>
+      <a href="#why">Зачем</a>
+      <a href="#how">Как работает</a>
+      <a href="#explore">Посмотреть</a>
+      <a href="https://vibeus.app/auth">Войти</a>
     </nav>
-    <a class="header-cta" href="#start">Проверить на задаче <span>↗</span></a>
+    <a class="header-cta" href="#join">Создать профиль <span aria-hidden="true">↗</span></a>
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню">
       <span></span><span></span>
     </button>
     <div class="mobile-menu" id="mobile-menu" hidden>
       <nav aria-label="Мобильная навигация">
-        <a href="#model">Модель</a>
-        <a href="#roles">Эксперты</a>
-        <a href="#process">Процесс</a>
-        <a href="#benefits">Выгода</a>
+        <a href="#why">Зачем</a>
+        <a href="#how">Как работает</a>
+        <a href="#explore">Посмотреть VibeUs</a>
+        <a href="https://vibeus.app/auth">Войти</a>
       </nav>
-      <a class="button primary" href="#start">Проверить на задаче <span>↗</span></a>
+      <a class="button button-primary" href="#join">Создать профиль <span aria-hidden="true">↗</span></a>
     </div>
   </header>
 
   <main id="main">
     <section class="hero" id="top">
+      <div class="hero-grid" aria-hidden="true"></div>
       <div class="hero-copy">
-        <p class="eyebrow reveal">Агентная модель для сильных сайтов</p>
-        <h1 class="reveal">Сайт, который<br><span>не приходится<br>объяснять.</span></h1>
-        <p class="hero-lead reveal">Caster ведёт работу как ответственный арт-директор: понимает задачу, принимает решения и собирает цельный интерфейс. Антон проверяет, вызывает ли решение доверие и понятно ли, что делать дальше.</p>
+        <p class="eyebrow reveal">Коллективный интеллект тех, кто строит с AI</p>
+        <h1 class="reveal">AI может всё.<br><em>Не делайте<br>всё сами.</em></h1>
+        <p class="hero-lead reveal">Берите готовые решения, улучшайте их и делитесь своими. VibeUs объединяет мозги тех, кто строит новое, — чтобы прогресс накапливался у всех.</p>
         <div class="hero-actions reveal">
-          <a class="button primary" href="#start">Проверить на задаче <span>↗</span></a>
-          <a class="button ghost" href="#model">Как устроена модель <span>↓</span></a>
+          <a class="button button-primary" href="#explore">Взять готовое <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#join">Добавить своё <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="hero-proof reveal" aria-label="Что входит в работу">
-          <span>Контекст</span><i></i><span>Решение</span><i></i><span>Реализация</span><i></i><span>Проверка</span>
+        <p class="hero-route reveal">Взять · Применить · Улучшить · Поделиться</p>
+      </div>
+
+      <div class="signal-stage reveal" aria-label="Путь проекта в VibeUs">
+        <div class="signal-axis"></div>
+        <div class="signal-core">
+          <small>you@vibeus</small>
+          <strong>знание</strong>
+          <span>становится общим</span>
+        </div>
+        <article class="signal-note note-project"><span>01 / взять</span><b>Решение</b><small>готовая точка старта</small></article>
+        <article class="signal-note note-discuss"><span>02 / улучшить</span><b>Версия</b><small>новый опыт + контекст</small></article>
+        <article class="signal-note note-profile"><span>03 / вернуть</span><b>Знание</b><small>польза для следующих</small></article>
+        <span class="signal-dot dot-a"></span><span class="signal-dot dot-b"></span>
+      </div>
+      <a class="scroll-cue" href="#why"><i></i>Листайте</a>
+    </section>
+
+    <section class="why section-shell" id="why" data-reveal>
+      <div class="section-index">01 / Зачем</div>
+      <div class="why-heading">
+        <p>Инструмент уже может почти всё.<br>Но каждый всё ещё пыхтит один.</p>
+        <h2>Хватит собирать<br>будущее<br><em>на коленке.</em></h2>
+      </div>
+      <div class="why-outcomes">
+        <article><span>01</span><h3>Используйте мозги друг друга</h3><p>Начинайте с готового решения, а не с пустого промпта и очередной попытки изобрести всё самому.</p></article>
+        <article><span>02</span><h3>Улучшайте, а не повторяйте</h3><p>Добавляйте свой контекст, находите новую границу и двигайте рабочий подход дальше.</p></article>
+        <article><span>03</span><h3>Делайте прогресс общим</h3><p>Возвращайте опыт сообществу — следующий человек начнёт там, где вы закончили.</p></article>
+      </div>
+    </section>
+
+    <section class="mechanism" id="how" data-reveal>
+      <div class="section-shell mechanism-head">
+        <div class="section-index light">02 / Как работает</div>
+        <h2>Взял. Улучшил.<br><em>Вернул сообществу.</em></h2>
+        <p>VibeUs превращает отдельные проекты, разборы и инструменты в общую базу практического опыта.</p>
+      </div>
+      <div class="section-shell mechanism-body">
+        <div class="mechanism-nav" role="tablist" aria-label="Возможности VibeUs">
+          <button class="active" type="button" role="tab" aria-selected="true" aria-controls="feature-panel" data-feature="publish"><span>01</span><b>Берите</b><small>Готовая точка старта</small></button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="feature-panel" data-feature="discuss"><span>02</span><b>Улучшайте</b><small>Ваш опыт и контекст</small></button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="feature-panel" data-feature="grow"><span>03</span><b>Делитесь</b><small>Польза для следующих</small></button>
+        </div>
+        <div class="feature-panel" id="feature-panel" role="tabpanel" tabindex="0">
+          <div class="panel-meta"><span data-feature-kicker>Готовая точка старта</span><span data-feature-count>01—03</span></div>
+          <div class="panel-canvas">
+            <div class="code-line"><span>reuse</span>(<b data-feature-code>solution</b>)</div>
+            <div class="code-line muted">context: <b data-feature-context>goal / stack / limits</b></div>
+            <div class="project-sheet"><i></i><strong data-feature-sheet>START_HERE</strong><span data-feature-status>готово к адаптации</span></div>
+          </div>
+          <h3 data-feature-title>Не пустой экран.<br>Рабочая точка старта.</h3>
+          <p data-feature-copy>Возьмите решение, которое уже довели до результата, и адаптируйте его под свою задачу.</p>
         </div>
       </div>
-
-      <div class="work-sheet reveal" aria-label="Пример совместного разбора Caster и Антона">
-        <div class="sheet-meta"><span>Рабочий разбор</span><span>Версия для проверки</span></div>
-        <h2>Что должно измениться<br>после этой страницы?</h2>
-        <div class="sheet-row"><span>Задача</span><p>Клиент должен понять ценность модели и захотеть проверить её на одной реальной задаче.</p></div>
-        <div class="sheet-row"><span>Решение</span><p>Не продавать «силу AI». Показать ответственность, ход работы и две независимые проверки.</p></div>
-        <div class="review-note caster-note"><b>Caster</b><p>Композиция ведёт к одному действию. Текст и интерфейс держат общий ритм на каждом экране.</p></div>
-        <div class="review-note anton-note"><b>Антон</b><p>Обещание ограничено пилотом. Следующий шаг понятен ещё до нажатия.</p></div>
-        <div class="sheet-status"><i></i><span>Решение готово к проверке</span></div>
-      </div>
-
-      <a class="scroll-cue" href="#model" aria-label="Перейти к следующему разделу"><span></span>Листайте</a>
     </section>
 
-    <section class="statement section-shell" id="model" data-reveal>
-      <div class="section-label"><span>01</span> Новая модель работы</div>
-      <div class="statement-body">
-        <p class="kicker">Генератор отвечает на запрос.</p>
-        <h2>Caster отвечает <em>за решение.</em></h2>
-        <p class="statement-copy">Вы ставите бизнес-задачу, а не управляете десятком промптов. Агент сам проходит путь от контекста до работающего интерфейса, фиксирует решения и показывает доказательства качества.</p>
+    <section class="explore section-shell" id="explore" data-reveal>
+      <div class="section-index">03 / Публично</div>
+      <div class="explore-heading">
+        <h2>Не начинайте<br>с пустого экрана.</h2>
+        <p>Три открытых маршрута к тому, что уже создано и обсуждается практиками.</p>
       </div>
-      <div class="old-new" aria-label="Сравнение обычной и агентной модели">
-        <div class="old-way">
-          <span>Генератор</span>
-          <p>Промпт → вариант → ручные правки → новый промпт → потерянный контекст</p>
+      <div class="route-list">
+        <a href="https://vibeus.app/projects"><span>01</span><div><small>Готовые работы</small><h3>Проекты и решения</h3></div><p>Продукты, эксперименты и рабочие реализации участников.</p><i>↗</i></a>
+        <a href="https://vibeus.app/discussions"><span>02</span><div><small>Контекст и опыт</small><h3>Разборы проблем</h3></div><p>Вопросы, попытки, ограничения и найденные подходы.</p><i>↗</i></a>
+        <a href="https://vibeus.app/tools"><span>03</span><div><small>Рабочая база</small><h3>AI-инструменты</h3></div><p>Каталог инструментов, которыми пользуются практики.</p><i>↗</i></a>
+      </div>
+    </section>
+
+    <section class="join" id="join" data-reveal>
+      <div class="join-grid" aria-hidden="true"></div>
+      <div class="section-shell join-inner">
+        <div class="join-copy">
+          <p class="eyebrow">Общий интеллект начинается с одного вклада</p>
+          <h2>Собирайте вместе.<br><em>Меняйте больше.</em></h2>
+          <p>Создайте профиль, берите готовое и возвращайте свои улучшения. Так отдельная находка становится общей силой.</p>
+          <div class="join-steps" aria-label="Этапы регистрации"><span class="active"><i>01</i>Email</span><span><i>02</i>Подтверждение</span><span><i>03</i>Профиль</span></div>
         </div>
-        <div class="new-way">
-          <span>Модель Caster</span>
-          <p>Цель → исследование → решение → реализация → экспертная проверка → проверяемый результат</p>
+        <div class="join-action">
+          <p>Создание аккаунта</p>
+          <h3>Начните с email<br>или Google.</h3>
+          <dl><div><dt>Email</dt><dd>Имя, почта и пароль — на стороне VibeUs</dd></div><div><dt>Google</dt><dd>Продолжение через аккаунт Google</dd></div></dl>
+          <a class="button button-primary" href="https://vibeus.app/auth?mode=register">Открыть регистрацию <span aria-hidden="true">↗</span></a>
+          <small>Продолжая, вы принимаете <a href="https://vibeus.app/terms">условия</a> и <a href="https://vibeus.app/privacy">политику конфиденциальности</a>.</small>
+          <a class="login-link" href="https://vibeus.app/auth">Уже есть аккаунт? Войти <span>→</span></a>
         </div>
       </div>
     </section>
 
-    <section class="roles" id="roles" data-reveal>
-      <div class="section-shell roles-heading">
-        <div class="section-label light"><span>02</span> Экспертная пара</div>
-        <h2>Один отвечает за форму.<br>Второй — за последствия.</h2>
-        <p>Так решение не остаётся просто красивым и не становится безлико «правильным».</p>
-      </div>
-      <div class="roles-stage section-shell">
-        <article class="role role-caster">
-          <div class="role-top"><span>01</span><i>CASTER</i></div>
-          <div class="role-icon caster-icon" aria-hidden="true"><i></i><i></i></div>
-          <h3>Форма и ритм.</h3>
-          <p>Композиция, типографика, визуальная иерархия, сценарий страницы, адаптив и качество реализации.</p>
-          <ul>
-            <li>Формирует сильную визуальную идею</li>
-            <li>Отсекает шаблонные решения</li>
-            <li>Проверяет результат в реальном интерфейсе</li>
-          </ul>
-        </article>
-        <div class="role-connector" aria-hidden="true"><span>+</span><i></i><b>единая система решений</b></div>
-        <article class="role role-anton">
-          <div class="role-top"><span>02</span><i>АНТОН</i></div>
-          <div class="role-icon anton-icon" aria-hidden="true">А</div>
-          <h3>Логика и доверие.</h3>
-          <p>Пользовательская логика, доверие, ясность оффера, последствия CTA и готовность продукта к реальному клиенту.</p>
-          <ul>
-            <li>Смотрит глазами требовательного клиента</li>
-            <li>Находит слабые места в обещаниях и пути</li>
-            <li>Не пропускает «красиво, но не работает»</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section class="process section-shell" id="process" data-reveal>
-      <div class="process-heading">
-        <div class="section-label"><span>03</span> Как работает агент</div>
-        <h2>Не конвейер.<br>Одна связная работа.</h2>
-        <p>Без передачи контекста между случайными исполнителями и без бесконечного контроля каждого шага.</p>
-      </div>
-      <ol class="process-list">
-        <li class="active" data-step="01">
-          <button type="button" aria-expanded="true">
-            <span>01</span><h3>Понимает цель</h3><i>−</i>
-          </button>
-          <div class="step-detail"><p>Caster связывает бизнес-задачу, аудиторию, продуктовые ограничения и критерии готовности в единый рабочий бриф.</p><small>Результат: ясная задача и границы решения</small></div>
-        </li>
-        <li data-step="02">
-          <button type="button" aria-expanded="false">
-            <span>02</span><h3>Исследует контекст</h3><i>+</i>
-          </button>
-          <div class="step-detail"><p>Изучает продукт, локальные материалы и релевантные паттерны. Отделяет факты от гипотез и не копирует чужие решения.</p><small>Результат: обоснованное направление</small></div>
-        </li>
-        <li data-step="03">
-          <button type="button" aria-expanded="false">
-            <span>03</span><h3>Проектирует и собирает</h3><i>+</i>
-          </button>
-          <div class="step-detail"><p>Создаёт композицию, тексты, состояния и адаптив как единую систему — сразу с учётом реальной реализации.</p><small>Результат: интерфейс, который можно открыть и проверить</small></div>
-        </li>
-        <li data-step="04">
-          <button type="button" aria-expanded="false">
-            <span>04</span><h3>Проходит два контроля</h3><i>+</i>
-          </button>
-          <div class="step-detail"><p>Caster проводит визуальный разбор. Антон проверяет доверие, логику, CTA и клиентскую готовность.</p><small>Результат: сильное решение без слепых зон</small></div>
-        </li>
-        <li data-step="05">
-          <button type="button" aria-expanded="false">
-            <span>05</span><h3>Доказывает готовность</h3><i>+</i>
-          </button>
-          <div class="step-detail"><p>Проверяет компьютер, планшет, телефон, состояния и поведение. Честно фиксирует, что готово, а где остаются ограничения.</p><small>Результат: проверяемый итог и следующий шаг</small></div>
-        </li>
-      </ol>
-    </section>
-
-    <section class="benefits" id="benefits" data-reveal>
-      <div class="section-shell benefits-heading">
-        <div class="section-label"><span>04</span> В чём выгода</div>
-        <h2>Меньше переделок.<br><em>Меньше управления.</em></h2>
-      </div>
-      <div class="benefit-list section-shell">
-        <article><span>01</span><h3>Контекст не теряется</h3><p>Один агент удерживает цель, решения и ограничения на всём пути — от первой идеи до финальной проверки.</p></article>
-        <article><span>02</span><h3>Меньше управления</h3><p>Не нужно быть арт-директором, копирайтером и тестировщиком одновременно. Вы управляете результатом, а не микрозадачами.</p></article>
-        <article><span>03</span><h3>Быстрее к сильной версии</h3><p>Caster сразу отбрасывает слабые визуальные и продуктовые ходы, поэтому итерации становятся короче и точнее.</p></article>
-        <article><span>04</span><h3>Качество можно проверить</h3><p>Каждое важное решение проходит визуальный, продуктовый и технический контроль. «Мне кажется» заменяется критериями.</p></article>
-      </div>
-    </section>
-
-    <section class="pilot section-shell" id="pilot" data-reveal>
-      <div class="section-label"><span>05</span> Что входит в пилот</div>
-      <div class="pilot-heading">
-        <h2>Не презентация.<br>Законченный проход.</h2>
-        <p>Берём одну страницу или сценарий и доводим его до состояния, в котором решение можно обсуждать по фактам.</p>
-      </div>
-      <ol class="pilot-output">
-        <li><span>01</span><div><h3>Короткий рабочий бриф</h3><p>Цель, аудитория, ограничения и критерии готовности — без многостраничной анкеты.</p></div></li>
-        <li><span>02</span><div><h3>Работающий интерфейс</h3><p>Страница или сценарий с реальными текстами, адаптивом и нужными состояниями.</p></div></li>
-        <li><span>03</span><div><h3>Вердикты Caster и Антона</h3><p>Что принято, что исправлено и почему решение выдерживает визуальную и продуктовую проверку.</p></div></li>
-        <li><span>04</span><div><h3>Доказательства и границы</h3><p>Контрольные снимки, проверенные маршруты и честный список того, что осталось за пределами пилота.</p></div></li>
-      </ol>
-    </section>
-
-    <section class="start" id="start" data-reveal>
-      <div class="start-inner section-shell">
-        <p class="eyebrow">Начните с одной реальной задачи</p>
-        <h2>Проверьте модель<br>на своей задаче.</h2>
-        <p>Опишите одну страницу, интерфейс или продуктовый сценарий. Получится короткий бриф, который можно сразу передать в работу.</p>
-        <div class="start-actions">
-          <button class="button primary light-button" type="button" data-open-brief>Собрать бриф <span>↗</span></button>
-          <a class="button dark-ghost" href="#process">Ещё раз о процессе <span>↑</span></a>
-        </div>
-        <p class="start-note">Три коротких поля · данные остаются в браузере · результат копируется в буфер обмена</p>
+    <section class="faq section-shell" id="faq" data-reveal>
+      <div><div class="section-index">04 / Коротко</div><h2>Перед<br>стартом</h2></div>
+      <div class="faq-list">
+        <article><button type="button" aria-expanded="false"><span>Кому подходит VibeUs?</span><i>+</i></button><div><p>Тем, кто строит с AI и хочет опираться на опыт сообщества, а не каждый раз собирать решение в одиночку.</p></div></article>
+        <article><button type="button" aria-expanded="false"><span>Что можно найти и опубликовать?</span><i>+</i></button><div><p>Проекты, рабочие решения, вопросы, эксперименты и разборы — с достаточным контекстом, чтобы опыт можно было применить.</p></div></article>
+        <article><button type="button" aria-expanded="false"><span>Что происходит после регистрации?</span><i>+</i></button><div><p>Вы подтверждаете email, настраиваете имя, username, описание и интересы, затем выбираете авторов и формируете свою ленту.</p></div></article>
       </div>
     </section>
   </main>
 
-  <dialog class="brief-dialog" id="brief-dialog" aria-labelledby="brief-title">
-    <form class="brief-panel" method="dialog" novalidate>
-      <div class="brief-head">
-        <div><p>Стартовый бриф</p><h2 id="brief-title">Сформулируйте задачу</h2></div>
-        <button class="dialog-close" type="button" data-close-brief aria-label="Закрыть окно">×</button>
-      </div>
-      <p class="brief-intro">Нужен не идеальный документ, а ясная отправная точка. Ничего не отправляется с этой страницы.</p>
-      <label>Что нужно сделать?<textarea name="task" rows="3" minlength="10" required placeholder="Например: лендинг нового сервиса для руководителей отделов продаж"></textarea></label>
-      <label>Что должно измениться для клиента?<textarea name="outcome" rows="3" minlength="10" required placeholder="Например: понять ценность за минуту и запросить демонстрацию"></textarea></label>
-      <label>Ссылка или важный контекст <span>необязательно</span><input name="context" type="text" placeholder="Сайт, документ или одно важное ограничение"></label>
-      <p class="brief-feedback" role="status" aria-live="polite"></p>
-      <div class="brief-actions">
-        <button class="button primary" type="button" data-copy-brief>Скопировать бриф <span>↗</span></button>
-        <button class="brief-cancel" type="button" data-close-brief>Отмена</button>
-      </div>
-    </form>
-  </dialog>
-
   <footer class="site-footer">
-    <a class="brand" href="#top"><span class="brand-symbol" aria-hidden="true"><i></i><i></i></span><span>CASTER</span></a>
-    <p>Экспертный агент для сильных цифровых продуктов.</p>
-    <a href="#top">Наверх ↑</a>
+    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"><i></i><b>_</b></span><span>VIBEUS</span></a>
+    <p>Место, где отдельные решения становятся общим прогрессом.</p>
+    <nav aria-label="Ссылки в подвале"><a href="https://vibeus.app/terms">Условия</a><a href="https://vibeus.app/privacy">Конфиденциальность</a><a href="#top">Наверх ↑</a></nav>
   </footer>
-
   <script src="app.js"></script>
 </body>
 </html>
