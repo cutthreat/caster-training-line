@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VibeUs собирает рабочие AI-решения людей, чтобы каждый начинал дальше, а не заново.">
+  <meta name="color-scheme" content="light dark">
+  <title>VibeUs Taste - начинайте с найденного</title>
+  <link rel="preload" href="assets/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/hero-handoff.webp" as="image" type="image/webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">К содержанию</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="https://vibeus.app/" aria-label="VibeUs, на главную">VIBEUS</a>
+    <nav class="desktop-nav" aria-label="Основная навигация">
+      <a href="#why">Зачем</a>
+      <a href="#method">Как работает</a>
+      <a href="#routes">Найти решение</a>
+    </nav>
+    <a class="header-login" href="https://vibeus.app/auth">Войти</a>
+    <button class="menu-toggle" type="button" aria-controls="mobile-nav" aria-expanded="false">Меню</button>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Мобильная навигация" hidden>
+      <a href="#why">Зачем</a>
+      <a href="#method">Как работает</a>
+      <a href="#routes">Найти решение</a>
+      <a href="https://vibeus.app/auth">Войти</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Общий интеллект</p>
+        <h1 id="hero-title">У вас уже есть<br><em>следующий шаг.</em></h1>
+        <p class="hero-lead">VibeUs собирает рабочие AI-решения людей, чтобы каждый начинал дальше, а не заново.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#routes">Смотреть решения</a>
+          <a class="button button-secondary" href="https://vibeus.app/auth?mode=register">Присоединиться</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="assets/hero-handoff.webp" width="1408" height="1760" alt="Люди передают друг другу готовый модуль решения" fetchpriority="high">
+      </figure>
+    </section>
+
+    <section class="belief reveal" id="why" aria-labelledby="belief-title">
+      <h2 id="belief-title">AI уже умеет почти всё.</h2>
+      <p>Но сильный результат всё ещё требует времени, контекста и множества попыток. Это не должно повторяться для каждого человека.</p>
+    </section>
+
+    <section class="collective reveal" aria-labelledby="collective-title">
+      <div class="collective-image collective-image-wide">
+        <img src="assets/collective-work.webp" width="1536" height="1024" alt="Команда собирает общее решение из разных частей" loading="lazy" decoding="async">
+      </div>
+      <div class="collective-copy">
+        <h2 id="collective-title">Результат одного становится материалом для всех.</h2>
+        <p>Берите найденное, проверяйте в своём контексте и возвращайте улучшенную версию.</p>
+      </div>
+      <div class="collective-image collective-image-detail">
+        <img src="assets/solution-fit.webp" width="1536" height="1024" alt="Два человека соединяют части работающего решения" loading="lazy" decoding="async">
+      </div>
+    </section>
+
+    <section class="finder reveal" aria-labelledby="finder-title">
+      <div class="finder-heading">
+        <h2 id="finder-title">С чего вы хотите начать?</h2>
+        <p>Выберите текущую задачу. VibeUs покажет самый короткий вход.</p>
+      </div>
+      <div class="finder-layout">
+        <div class="finder-options" role="group" aria-label="Выбор точки входа">
+          <button type="button" data-route="projects">С готового проекта</button>
+          <button type="button" data-route="discussions">С чужого опыта</button>
+          <button type="button" data-route="tools">С нового инструмента</button>
+        </div>
+        <div class="route-result" data-route-result aria-live="polite" data-state="empty">
+          <div class="result-empty">
+            <strong>Выберите точку входа</strong>
+            <p>Здесь появится подходящий раздел и понятное следующее действие.</p>
+          </div>
+          <div class="result-loading" aria-hidden="true" hidden>
+            <span></span><span></span><span></span>
+          </div>
+          <div class="result-success" hidden>
+            <strong data-result-title></strong>
+            <p data-result-copy></p>
+            <a class="result-link" data-result-link href="https://vibeus.app/projects">Открыть раздел</a>
+          </div>
+          <div class="result-error" hidden>
+            <strong>Маршрут не загрузился</strong>
+            <p>Откройте все проекты и продолжите поиск там.</p>
+            <a href="https://vibeus.app/projects">Все проекты</a>
+          </div>
+        </div>
+      </div>
+      <noscript><p class="noscript-note">Для интерактивного выбора нужен JavaScript. Все разделы доступны ниже.</p></noscript>
+    </section>
+
+    <section class="method reveal" id="method" aria-labelledby="method-title">
+      <h2 id="method-title">Один цикл. Всё сообщество становится сильнее.</h2>
+      <div class="method-flow">
+        <article><h3>Нашёл</h3><p>Взял рабочую основу вместо пустого окна.</p></article>
+        <article><h3>Проверил</h3><p>Адаптировал решение под реальную задачу.</p></article>
+        <article><h3>Вернул</h3><p>Добавил контекст, чтобы следующий пошёл дальше.</p></article>
+      </div>
+    </section>
+
+    <section class="routes reveal" id="routes" aria-labelledby="routes-title">
+      <div class="routes-copy">
+        <h2 id="routes-title">Не ищите ответ в одиночку.</h2>
+        <p>Три входа в общий опыт. Каждый ведёт к реальному разделу VibeUs.</p>
+      </div>
+      <div class="routes-stage">
+        <div class="route-preview" aria-hidden="true">
+          <img src="assets/collective-work.webp" width="1536" height="1024" alt="" data-preview-image>
+        </div>
+        <div class="route-list">
+          <a href="https://vibeus.app/projects" data-preview="assets/collective-work.webp"><strong>Проекты и решения</strong><span>Рабочие реализации участников</span></a>
+          <a href="https://vibeus.app/discussions" data-preview="assets/solution-fit.webp"><strong>Разборы проблем</strong><span>Попытки, ограничения и найденный путь</span></a>
+          <a href="https://vibeus.app/ai-tools" data-preview="assets/hero-handoff.webp"><strong>AI-инструменты</strong><span>Новые возможности для следующего шага</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing reveal" aria-labelledby="closing-title">
+      <div class="closing-copy">
+        <h2 id="closing-title">Хватит собирать будущее по одному.</h2>
+        <p>Возьмите готовое решение. Улучшите его. Оставьте следующему человеку более сильную точку старта.</p>
+        <a class="button button-primary" href="https://vibeus.app/auth?mode=register">Присоединиться</a>
+      </div>
+      <img src="assets/solution-fit.webp" width="1536" height="1024" alt="Финальные части решения соединяются в одно целое" loading="lazy" decoding="async">
+    </section>
+  </main>
+
+  <footer>
+    <a class="wordmark" href="https://vibeus.app/">VIBEUS</a>
+    <p>Используйте мозги друг друга.</p>
+    <div><a href="https://vibeus.app/projects">Проекты</a><a href="https://vibeus.app/discussions">Обсуждения</a><a href="https://vibeus.app/ai-tools">Инструменты</a></div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
