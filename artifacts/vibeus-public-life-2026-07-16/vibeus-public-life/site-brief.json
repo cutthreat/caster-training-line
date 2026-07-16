@@ -1,0 +1,91 @@
+{
+  "schema": "sitecraft_brief_to_proof.v1",
+  "slug": "vibeus-public-life",
+  "title": "VibeUs Public Life Landing",
+  "created_at": "2026-07-16",
+  "stage": "validated",
+  "product_truth": "VibeUs is a live social platform where AI-assisted creators publish projects, discuss work, receive reactions, save useful projects and build an author profile.",
+  "audience": "People who already use AI to make apps, tools, content and experiments but lack a public environment for feedback, discovery and reputation.",
+  "primary_task": "Move a maker from private completion to public project publication on VibeUs.",
+  "page_kind": "product landing",
+  "primary_action": {
+    "label": "Войти и опубликовать",
+    "consequence": "Opens the real VibeUs authentication and registration route.",
+    "destination": "https://vibeus.app/auth"
+  },
+  "evidence": {
+    "confirmed": [
+      "VibeUs has public feed, catalog, project pages, comments, support, saves and author profiles.",
+      "The public catalog currently exposes real project cards and author attribution.",
+      "Authentication supports sign in and registration."
+    ],
+    "assumptions": [
+      "Publishing is the highest-value first action for a maker arriving from this landing.",
+      "The strongest pain is not making with AI but gaining useful human continuation after making."
+    ],
+    "unknowns": [
+      "No approved customer quotes or conversion metrics were supplied.",
+      "No formal brand book or analytics target was supplied."
+    ]
+  },
+  "references": [
+    {"url":"https://vibeus.app/","role":"product truth and navigation","observed":"Live feed, navigation, reactions, people and project cards.","inference":"The product is a social environment rather than a portfolio directory only.","rights_note":"Product screenshot used as owner-context evidence only."},
+    {"url":"https://vibeus.app/catalog","role":"catalog proof and real project names","observed":"Public catalog with project cards, authors and categories.","inference":"Real project discovery can substantiate the landing claim.","rights_note":"Product screenshot used as owner-context evidence only."},
+    {"url":"https://vibeus.app/works/launch-content-kit-df8941b5","role":"project detail, discussion and author proof","observed":"Project description, stack, author, reaction and discussion surfaces.","inference":"A project gains a persistent public context after publication.","rights_note":"Product screenshot used as owner-context evidence only."},
+    {"url":"https://github.com/cutthreat/caster-training-line/tree/main/site-pattern-library","role":"layout foundations and proof cadence","observed":"Validated local pattern contracts for composition and evidence.","inference":"Foundation rules can guide structure without donating a visual shell.","rights_note":"Owned internal method, used as abstract pattern knowledge."}
+  ],
+  "constraints": [
+    "Greenfield composition with no reuse of previous VibeUs landing shells.",
+    "Static GitHub Pages compatible HTML, CSS and JavaScript.",
+    "No invented metrics, testimonials or product UI.",
+    "Self-hosted Cyrillic-capable font, responsive layout and reduced motion.",
+    "No visible em dash or en dash."
+  ],
+  "hypothesis": {
+    "visitor_change": "From I made something privately to my project can gain a public life and work for my reputation.",
+    "visual_law": "A private artifact progressively attracts people, reactions and links until it becomes a public object.",
+    "dramaturgy": "Private result, missing continuation, public lifecycle, real evidence, human network, publication CTA.",
+    "identity_deltas": [
+      "Project lifecycle is the primary narrative instead of a feature grid.",
+      "One horizontal sequence is used only to explain irreversible progression.",
+      "Original editorial hero photography replaces generic AI imagery.",
+      "Real VibeUs screens and project names form the proof layer.",
+      "Warm vermilion and raw editorial typography avoid familiar AI neon conventions."
+    ]
+  },
+  "composition": {
+    "chapters": ["Hero proposition","Post-build problem","Public lifecycle","Live project evidence","Human network","Publication decision"],
+    "responsive_transform": "The desktop horizontal lifecycle becomes a vertical chapter sequence below 900 px and under reduced-motion preference.",
+    "proof_cadence": "Claim, mechanism, live screenshot and real project, community consequence, action."
+  },
+  "patterns": {
+    "accepted": ["hero-message-stack","proof-relay-handoff","catalog-card-decision","case-study-proof","navigation"],
+    "rejected": ["generic centered SaaS hero","three equal feature cards","fake metric ribbon","testimonials without sources","decorative glassmorphism"],
+    "foundation_gate": ["responsive-content-shell","semantic-spacing-rhythm","alignment-anchor-system","section-mass-composition","typographic-measure-hierarchy","responsive-reflow-transform","media-crop-aspect-control"]
+  },
+  "proof_plan": [
+    "Static contract checks and real destination validation.",
+    "Desktop screenshots at 1440 px across the full page.",
+    "Mobile screenshots at 390 px and overflow check at 320 px.",
+    "Console and failed network request capture.",
+    "Menu, anchor, reduced-motion and horizontal journey behavior.",
+    "All three hero query modes render with the same readable proposition and working actions.",
+    "Caster visual acceptance and Anton product trust acceptance.",
+    "GitHub Pages build and external HTTP 200."
+  ],
+  "proof_artifacts": [
+    "../QA-REPORT.md",
+    "../CASTER-VERDICT.md",
+    "../ANTON-VERDICT.md",
+    "../RESIDUAL-LEDGER.md",
+    "../proof/desktop-contact-sheet.jpg",
+    "../proof/mobile-contact-sheet.jpg",
+    "../proof/responsive-fresh-sheet.jpg"
+  ],
+  "verdicts": {
+    "visual_distinctiveness": "pass",
+    "landing_effectiveness": "pass",
+    "production_readiness": "pass"
+  },
+  "residual_limits": ["No conversion analytics or user-test evidence is available before publication."]
+}
