@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VibeUs — место, где готовые AI-решения переходят от человека к человеку и становятся сильнее.">
+  <meta name="theme-color" content="#f2f0e8">
+  <title>VibeUs Relay — продолжайте с готового</title>
+  <link rel="preload" href="assets/Manrope-800.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">К содержанию</a>
+
+  <header class="site-header">
+    <a class="brand" href="https://vibeus.app/" aria-label="VibeUs, главная">VIBEUS<span aria-hidden="true">↗</span></a>
+    <nav class="desktop-nav" aria-label="Основная навигация">
+      <a href="#proof">Что уже есть</a>
+      <a href="#relay">Как передаём</a>
+      <a href="https://vibeus.app/discussions">Обсуждения</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" aria-label="Включить тёмную тему" title="Сменить тему">◐</button>
+      <a class="login" href="https://vibeus.app/auth">Войти</a>
+      <button class="menu-toggle" type="button" aria-controls="mobile-nav" aria-expanded="false">Меню</button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Мобильная навигация" hidden>
+      <a href="#proof">Что уже есть</a>
+      <a href="#relay">Как передаём</a>
+      <a href="https://vibeus.app/discussions">Обсуждения</a>
+      <a href="https://vibeus.app/auth">Войти</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="kicker"><span>01</span> Коллективный рывок</p>
+        <h1 id="hero-title">Не делайте<br>всё сами.<br><em>Продолжайте.</em></h1>
+        <p class="hero-lead">AI может почти всё. Но хороший результат всё ещё стоит десятков попыток. VibeUs превращает чужой пройденный путь в вашу точку старта.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="https://vibeus.app/catalog">Взять готовое <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#relay">Как это работает <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+
+      <div class="relay-board" aria-label="Цепочка передачи готовых решений">
+        <div class="board-label">LIVE / PUBLIC CATALOG</div>
+        <a class="board-item board-item-a" href="https://vibeus.app/works/ai-code-review-checklist-929d9281">
+          <span class="item-index">#03</span>
+          <span class="item-tag">DEV TOOLS</span>
+          <strong>AI Code Review<br>Checklist</strong>
+          <span class="item-author">Борис Левин</span>
+        </a>
+        <div class="handoff handoff-a" aria-hidden="true"><i></i><span>ВЗЯЛ</span></div>
+        <a class="board-item board-item-b" href="https://vibeus.app/works/launch-content-kit-df8941b5">
+          <span class="item-index">#02</span>
+          <span class="item-tag">CONTENT</span>
+          <strong>Launch<br>Content Kit</strong>
+          <span class="item-author">Мира Соколова</span>
+        </a>
+        <div class="handoff handoff-b" aria-hidden="true"><i></i><span>УЛУЧШИЛ</span></div>
+        <a class="board-item board-item-c" href="https://vibeus.app/works/prompt-sprint-planner-7cb8f67c">
+          <span class="item-index">#04</span>
+          <span class="item-tag">PRODUCTIVITY</span>
+          <strong>Prompt Sprint<br>Planner</strong>
+          <span class="item-author">Ада Морозова</span>
+        </a>
+        <span class="board-stamp" aria-hidden="true">PASS IT ON</span>
+      </div>
+    </section>
+
+    <section class="manifesto" aria-label="Главный принцип">
+      <p>Хватит собирать будущее<br>по одному в своих комнатах.</p>
+      <p class="manifesto-accent">Мозги уже<br>соединены.</p>
+    </section>
+
+    <section class="proof" id="proof" aria-labelledby="proof-title">
+      <div class="section-intro">
+        <p class="kicker"><span>02</span> Не обещания. Уже в каталоге</p>
+        <h2 id="proof-title">Выберите, с чьего результата продолжить.</h2>
+      </div>
+      <div class="proof-switcher">
+        <div class="proof-tabs" role="tablist" aria-label="Публичные проекты VibeUs">
+          <button type="button" role="tab" aria-selected="true" aria-controls="proof-panel" id="tab-code" data-proof="code">01 / Проверить код</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="proof-panel" id="tab-content" data-proof="content" tabindex="-1">02 / Запустить контент</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="proof-panel" id="tab-prompt" data-proof="prompt" tabindex="-1">03 / Проверить идею</button>
+        </div>
+        <article class="proof-panel" id="proof-panel" role="tabpanel" aria-labelledby="tab-code" tabindex="0">
+          <div class="proof-meta"><span data-proof-category>Инструменты разработчика</span><span data-proof-rank>#03</span></div>
+          <h3 data-proof-title>AI Code Review Checklist</h3>
+          <p data-proof-description>Практичный чеклист для проверки AI-assisted pull request перед слиянием.</p>
+          <div class="proof-foot">
+            <span data-proof-author>Борис Левин · @demo_boris</span>
+            <a data-proof-link href="https://vibeus.app/works/ai-code-review-checklist-929d9281">Открыть проект <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="relay" id="relay" aria-labelledby="relay-title">
+      <div class="relay-heading">
+        <p class="kicker"><span>03</span> Эффект передачи</p>
+        <h2 id="relay-title">Один допилил.<br>Ты начал дальше.</h2>
+      </div>
+      <ol class="relay-steps">
+        <li>
+          <span class="step-number">A</span>
+          <div><h3>Покажи результат</h3><p>Не идею о будущем, а то, что уже можно открыть, разобрать и проверить.</p></div>
+        </li>
+        <li>
+          <span class="step-number">B</span>
+          <div><h3>Передай контекст</h3><p>Что сработало, где сломалось и почему решение устроено именно так.</p></div>
+        </li>
+        <li>
+          <span class="step-number">C</span>
+          <div><h3>Верни сильнее</h3><p>Возьми найденное в свой проект и опубликуй следующий рабочий уровень.</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="routes" aria-labelledby="routes-title">
+      <h2 id="routes-title">Три входа.<br>Один принцип.</h2>
+      <div class="route-links">
+        <a href="https://vibeus.app/catalog"><span>Каталог</span><strong>Готовые проекты</strong><i aria-hidden="true">↗</i></a>
+        <a href="https://vibeus.app/discussions"><span>Обсуждения</span><strong>Решения и ошибки</strong><i aria-hidden="true">↗</i></a>
+        <a href="https://vibeus.app/ai-tools"><span>AI сервисы</span><strong>Чем делать дальше</strong><i aria-hidden="true">↗</i></a>
+      </div>
+    </section>
+
+    <section class="final-cta" aria-labelledby="final-title">
+      <div>
+        <p class="kicker"><span>04</span> Твоя очередь</p>
+        <h2 id="final-title">Не начинай<br>с нуля.</h2>
+      </div>
+      <div class="final-action">
+        <p>Возьми чужую сильную версию. Сделай свою. Передай дальше.</p>
+        <a class="button button-acid" href="https://vibeus.app/auth?mode=register">Присоединиться к VibeUs <span aria-hidden="true">↗</span></a>
+        <small>Регистрация откроется на vibeus.app</small>
+      </div>
+      <span class="final-mark" aria-hidden="true">V/U</span>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="https://vibeus.app/">VIBEUS</a>
+    <p>Интеллект движется, когда им делятся.</p>
+    <nav aria-label="Правовая информация"><a href="https://vibeus.app/terms">Terms</a><a href="https://vibeus.app/privacy">Privacy</a><a href="https://vibeus.app/support">Support</a></nav>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
