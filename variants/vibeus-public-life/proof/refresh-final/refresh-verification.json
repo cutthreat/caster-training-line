@@ -1,0 +1,506 @@
+{
+  "schema": "vibeus_public_life_refresh_verifier.v1",
+  "generatedAt": "2026-07-17T15:28:16.017Z",
+  "base": "http://127.0.0.1:8788/variants/vibeus-public-life/",
+  "checks": [
+    {
+      "name": "active-code-has-semantic-fragments",
+      "pass": true,
+      "detail": {
+        "bodyClass": "hero-code",
+        "overflow": 0,
+        "h1": "Не начинайте\nс пустого чата.",
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 1000,
+          "top": 0,
+          "right": 1440,
+          "bottom": 1000,
+          "left": 0
+        },
+        "proof": {
+          "x": 755.7550048828125,
+          "y": 138.60690307617188,
+          "width": 626.9638671875,
+          "height": 584.275390625,
+          "top": 138.60690307617188,
+          "right": 1382.7188720703125,
+          "bottom": 722.8822937011719,
+          "left": 755.7550048828125
+        },
+        "primary": {
+          "x": 69.109375,
+          "y": 490.6875,
+          "width": 257.953125,
+          "height": 50,
+          "top": 490.6875,
+          "right": 327.0625,
+          "bottom": 540.6875,
+          "left": 69.109375
+        },
+        "secondary": {
+          "x": 353.0625,
+          "y": 495.1875,
+          "width": 145.609375,
+          "height": 41,
+          "top": 495.1875,
+          "right": 498.671875,
+          "bottom": 536.1875,
+          "left": 353.0625
+        },
+        "proofOverPrimary": false,
+        "proofOverSecondary": false,
+        "fragments": 7,
+        "activeElement": "BODY",
+        "consoleErrors": []
+      }
+    },
+    {
+      "name": "active-code-clean",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "tablet-proof-does-not-cover-actions",
+      "pass": true,
+      "detail": {
+        "bodyClass": "hero-code",
+        "overflow": 0,
+        "h1": "Не начинайте\nс пустого чата.",
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 922.84375,
+          "top": 0,
+          "right": 820,
+          "bottom": 922.84375,
+          "left": 0
+        },
+        "proof": {
+          "x": 230.6245880126953,
+          "y": 499.9982604980469,
+          "width": 511.0946044921875,
+          "height": 443.3160095214844,
+          "top": 499.9982604980469,
+          "right": 741.7191925048828,
+          "bottom": 943.3142700195312,
+          "left": 230.6245880126953
+        },
+        "primary": {
+          "x": 39.359375,
+          "y": 384.53125,
+          "width": 257.953125,
+          "height": 50,
+          "top": 384.53125,
+          "right": 297.3125,
+          "bottom": 434.53125,
+          "left": 39.359375
+        },
+        "secondary": {
+          "x": 323.3125,
+          "y": 389.03125,
+          "width": 145.609375,
+          "height": 41,
+          "top": 389.03125,
+          "right": 468.921875,
+          "bottom": 430.03125,
+          "left": 323.3125
+        },
+        "proofOverPrimary": false,
+        "proofOverSecondary": false,
+        "fragments": 0,
+        "activeElement": "BODY",
+        "consoleErrors": []
+      }
+    },
+    {
+      "name": "tablet-zero-overflow",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "code-text-spacing-zero-overflow",
+      "pass": true,
+      "detail": {
+        "bodyClass": "hero-code",
+        "overflow": 0,
+        "h1": "Не начинайте\nс пустого чата.",
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 1012,
+          "top": 0,
+          "right": 320,
+          "bottom": 1012,
+          "left": 0
+        },
+        "proof": {
+          "x": 39.8162841796875,
+          "y": 779.7047119140625,
+          "width": 264.367431640625,
+          "height": 329.590576171875,
+          "top": 779.7047119140625,
+          "right": 304.1837158203125,
+          "bottom": 1109.2952880859375,
+          "left": 39.8162841796875
+        },
+        "primary": {
+          "x": 20,
+          "y": 559.5,
+          "width": 280,
+          "height": 50,
+          "top": 559.5,
+          "right": 300,
+          "bottom": 609.5,
+          "left": 20
+        },
+        "secondary": {
+          "x": 20,
+          "y": 617.5,
+          "width": 167.796875,
+          "height": 41.5,
+          "top": 617.5,
+          "right": 187.796875,
+          "bottom": 659,
+          "left": 20
+        },
+        "proofOverPrimary": false,
+        "proofOverSecondary": false,
+        "fragments": 0,
+        "activeElement": "BODY",
+        "consoleErrors": []
+      }
+    },
+    {
+      "name": "code-text-spacing-actions-clear",
+      "pass": true,
+      "detail": {
+        "bodyClass": "hero-code",
+        "overflow": 0,
+        "h1": "Не начинайте\nс пустого чата.",
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 1012,
+          "top": 0,
+          "right": 320,
+          "bottom": 1012,
+          "left": 0
+        },
+        "proof": {
+          "x": 39.8162841796875,
+          "y": 779.7047119140625,
+          "width": 264.367431640625,
+          "height": 329.590576171875,
+          "top": 779.7047119140625,
+          "right": 304.1837158203125,
+          "bottom": 1109.2952880859375,
+          "left": 39.8162841796875
+        },
+        "primary": {
+          "x": 20,
+          "y": 559.5,
+          "width": 280,
+          "height": 50,
+          "top": 559.5,
+          "right": 300,
+          "bottom": 609.5,
+          "left": 20
+        },
+        "secondary": {
+          "x": 20,
+          "y": 617.5,
+          "width": 167.796875,
+          "height": 41.5,
+          "top": 617.5,
+          "right": 187.796875,
+          "bottom": 659,
+          "left": 20
+        },
+        "proofOverPrimary": false,
+        "proofOverSecondary": false,
+        "fragments": 0,
+        "activeElement": "BODY",
+        "consoleErrors": []
+      }
+    },
+    {
+      "name": "quantum-text-spacing-zero-overflow",
+      "pass": true,
+      "detail": {
+        "bodyClass": "hero-quantum",
+        "overflow": 0,
+        "h1": "Покажите решение.\nОткройте продолжения.",
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 1091.5,
+          "top": 0,
+          "right": 320,
+          "bottom": 1091.5,
+          "left": 0
+        },
+        "proof": {
+          "x": 39.8162841796875,
+          "y": 859.2047119140625,
+          "width": 264.367431640625,
+          "height": 329.590576171875,
+          "top": 859.2047119140625,
+          "right": 304.1837158203125,
+          "bottom": 1188.7952880859375,
+          "left": 39.8162841796875
+        },
+        "primary": {
+          "x": 20,
+          "y": 639,
+          "width": 280,
+          "height": 50,
+          "top": 639,
+          "right": 300,
+          "bottom": 689,
+          "left": 20
+        },
+        "secondary": {
+          "x": 20,
+          "y": 697,
+          "width": 167.796875,
+          "height": 41.5,
+          "top": 697,
+          "right": 187.796875,
+          "bottom": 738.5,
+          "left": 20
+        },
+        "proofOverPrimary": false,
+        "proofOverSecondary": false,
+        "fragments": 0,
+        "activeElement": "BODY",
+        "consoleErrors": []
+      }
+    },
+    {
+      "name": "quantum-text-spacing-actions-clear",
+      "pass": true,
+      "detail": {
+        "bodyClass": "hero-quantum",
+        "overflow": 0,
+        "h1": "Покажите решение.\nОткройте продолжения.",
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 1091.5,
+          "top": 0,
+          "right": 320,
+          "bottom": 1091.5,
+          "left": 0
+        },
+        "proof": {
+          "x": 39.8162841796875,
+          "y": 859.2047119140625,
+          "width": 264.367431640625,
+          "height": 329.590576171875,
+          "top": 859.2047119140625,
+          "right": 304.1837158203125,
+          "bottom": 1188.7952880859375,
+          "left": 39.8162841796875
+        },
+        "primary": {
+          "x": 20,
+          "y": 639,
+          "width": 280,
+          "height": 50,
+          "top": 639,
+          "right": 300,
+          "bottom": 689,
+          "left": 20
+        },
+        "secondary": {
+          "x": 20,
+          "y": 697,
+          "width": 167.796875,
+          "height": 41.5,
+          "top": 697,
+          "right": 187.796875,
+          "bottom": 738.5,
+          "left": 20
+        },
+        "proofOverPrimary": false,
+        "proofOverSecondary": false,
+        "fragments": 0,
+        "activeElement": "BODY",
+        "consoleErrors": []
+      }
+    },
+    {
+      "name": "singularity-text-spacing-zero-overflow",
+      "pass": true,
+      "detail": {
+        "bodyClass": "hero-singularity",
+        "overflow": 0,
+        "h1": "Не дайте проекту\nисчезнуть после «готово».",
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 1091.5,
+          "top": 0,
+          "right": 320,
+          "bottom": 1091.5,
+          "left": 0
+        },
+        "proof": {
+          "x": 39.8162841796875,
+          "y": 859.2047119140625,
+          "width": 264.367431640625,
+          "height": 329.590576171875,
+          "top": 859.2047119140625,
+          "right": 304.1837158203125,
+          "bottom": 1188.7952880859375,
+          "left": 39.8162841796875
+        },
+        "primary": {
+          "x": 20,
+          "y": 639,
+          "width": 280,
+          "height": 50,
+          "top": 639,
+          "right": 300,
+          "bottom": 689,
+          "left": 20
+        },
+        "secondary": {
+          "x": 20,
+          "y": 697,
+          "width": 167.796875,
+          "height": 41.5,
+          "top": 697,
+          "right": 187.796875,
+          "bottom": 738.5,
+          "left": 20
+        },
+        "proofOverPrimary": false,
+        "proofOverSecondary": false,
+        "fragments": 0,
+        "activeElement": "BODY",
+        "consoleErrors": []
+      }
+    },
+    {
+      "name": "singularity-text-spacing-actions-clear",
+      "pass": true,
+      "detail": {
+        "bodyClass": "hero-singularity",
+        "overflow": 0,
+        "h1": "Не дайте проекту\nисчезнуть после «готово».",
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 1091.5,
+          "top": 0,
+          "right": 320,
+          "bottom": 1091.5,
+          "left": 0
+        },
+        "proof": {
+          "x": 39.8162841796875,
+          "y": 859.2047119140625,
+          "width": 264.367431640625,
+          "height": 329.590576171875,
+          "top": 859.2047119140625,
+          "right": 304.1837158203125,
+          "bottom": 1188.7952880859375,
+          "left": 39.8162841796875
+        },
+        "primary": {
+          "x": 20,
+          "y": 639,
+          "width": 280,
+          "height": 50,
+          "top": 639,
+          "right": 300,
+          "bottom": 689,
+          "left": 20
+        },
+        "secondary": {
+          "x": 20,
+          "y": 697,
+          "width": 167.796875,
+          "height": 41.5,
+          "top": 697,
+          "right": 187.796875,
+          "bottom": 738.5,
+          "left": 20
+        },
+        "proofOverPrimary": false,
+        "proofOverSecondary": false,
+        "fragments": 0,
+        "activeElement": "BODY",
+        "consoleErrors": []
+      }
+    },
+    {
+      "name": "forced-colors-zero-overflow",
+      "pass": true,
+      "detail": {
+        "bodyClass": "hero-code",
+        "overflow": 0,
+        "h1": "Не начинайте\nс пустого чата.",
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 776.046875,
+          "top": 0,
+          "right": 390,
+          "bottom": 776.046875,
+          "left": 0
+        },
+        "proof": {
+          "x": 53.84162902832031,
+          "y": 544.2215576171875,
+          "width": 320.3167724609375,
+          "height": 329.853759765625,
+          "top": 544.2215576171875,
+          "right": 374.1584014892578,
+          "bottom": 874.0753173828125,
+          "left": 53.84162902832031
+        },
+        "primary": {
+          "x": 20,
+          "y": 350.375,
+          "width": 350,
+          "height": 50,
+          "top": 350.375,
+          "right": 370,
+          "bottom": 400.375,
+          "left": 20
+        },
+        "secondary": {
+          "x": 20,
+          "y": 408.375,
+          "width": 133.484375,
+          "height": 39,
+          "top": 408.375,
+          "right": 153.484375,
+          "bottom": 447.375,
+          "left": 20
+        },
+        "proofOverPrimary": false,
+        "proofOverSecondary": false,
+        "fragments": 0,
+        "activeElement": "BODY",
+        "consoleErrors": []
+      }
+    }
+  ],
+  "failures": [],
+  "passed": 11,
+  "failed": 0
+}
