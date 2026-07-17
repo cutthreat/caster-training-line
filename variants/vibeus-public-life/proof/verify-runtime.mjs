@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const base = process.argv[2] || 'http://127.0.0.1:8777/variants/vibeus-public-life/';
+const outputMode = process.argv[3] || 'final';
 const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', args: ['--no-first-run', '--disable-extensions'] });
 const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, reducedMotion: 'no-preference' });
 const page = await context.newPage();
@@ -35,7 +36,8 @@ const checks = [
   { name: 'clean-console', pass: !consoleErrors.length && !pageErrors.length && !failedRequests.length }
 ];
 const report = { schema: 'vibeus_public_life_runtime_verifier.v1', generatedAt: new Date().toISOString(), base, heroMotion, journey, consoleErrors, pageErrors, failedRequests, checks, passed: checks.filter(x => x.pass).length, failed: checks.filter(x => !x.pass).length };
-await fs.writeFile(path.join(here, 'final', 'motion-runtime.json'), JSON.stringify(report, null, 2));
+await fs.mkdir(path.join(here, outputMode), { recursive: true });
+await fs.writeFile(path.join(here, outputMode, 'motion-runtime.json'), JSON.stringify(report, null, 2));
 console.log(JSON.stringify(report, null, 2));
 await Promise.race([browser.close(), new Promise(resolve => setTimeout(resolve, 3000))]);
 process.exit(report.failed ? 1 : 0);

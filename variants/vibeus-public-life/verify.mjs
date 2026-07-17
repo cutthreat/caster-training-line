@@ -9,10 +9,12 @@ const check = (name, pass, detail = '') => checks.push({ name, pass: Boolean(pas
 check('one-semantic-h1', (html.match(/<h1\b/g) || []).length === 1);
 check('catalog-is-primary', /button-primary[^>]+href="https:\/\/vibeus\.app\/catalog"/.test(html));
 check('auth-is-secondary', /text-link[^>]+href="https:\/\/vibeus\.app\/auth"/.test(html));
-check('honest-registration-receipt', html.includes('Каталог открыт без регистрации'));
+check('honest-registration-receipt', html.includes('Смотреть можно без регистрации'));
 check('availability-boundary', html.includes('Посмотреть, перейти, скопировать или запустить можно только то'));
 check('all-hero-variants', ['code:', 'quantum:', 'singularity:'].every(token => js.includes(token)));
-check('variant-specific-product-copy', ['Покажите, что получилось.', 'Запустите реакцию.', 'пропасть после «готово».'].every(token => js.includes(token)));
+check('variant-specific-product-copy', ['с пустого чата.', 'Откройте продолжения.', 'исчезнуть после «готово».'].every(token => js.includes(token)));
+check('real-product-proof-in-hero', /hero-proof[\s\S]+assets\/vibeus-project\.png/.test(html));
+check('variant-semantic-routes', ['ЧУЖОЙ ОПЫТ', 'ОБСУДИТЬ · РАЗВИТЬ', 'ПУБЛИЧНЫЙ СЛЕД'].every(token => js.includes(token)));
 check('reduced-motion-path', css.includes('@media(prefers-reduced-motion:reduce)') && js.includes("prefers-reduced-motion: reduce"));
 check('escape-and-focus-return', js.includes("event.key === 'Escape'") && js.includes('menuButton.focus()'));
 check('no-hidden-overflow-on-body', !/body\s*\{[^}]*overflow-x\s*:\s*hidden/i.test(css));

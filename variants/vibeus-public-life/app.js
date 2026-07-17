@@ -12,25 +12,31 @@
 
   const variants = {
     code: {
-      kicker: 'Публичное место для AI-проектов',
-      lineOne: 'Сделали с AI?',
-      lineTwo: 'Покажите, что получилось.',
-      lead: 'VibeUs собирает задачу, описание, изображения, стек и ссылку проекта в одной публичной карточке — чтобы её можно было понять, открыть и обсудить.',
-      note: 'Код становится не концом работы, а понятной публичной записью.'
+      kicker: 'Публичная база AI-проектов',
+      lineOne: 'Не начинайте',
+      lineTwo: 'с пустого чата.',
+      lead: 'Смотрите, какие задачи уже решают другие, разбирайте результат и контекст, показывайте своё — чтобы следующая идея начиналась не с нуля.',
+      note: 'Реальный экран VibeUs: проект, его задача, материалы и обсуждение.',
+      routeOne: 'ЧУЖОЙ ОПЫТ',
+      routeTwo: 'СВОЙ СЛЕДУЮЩИЙ ШАГ'
     },
     quantum: {
       kicker: 'Одна работа — много продолжений',
-      lineOne: 'Покажите проект.',
-      lineTwo: 'Запустите реакцию.',
-      lead: 'Соберите результат и его контекст в одной публичной карточке. Точный вопрос даёт другим людям основу для предметного ответа — без обещания, что ответ обязательно появится.',
-      note: 'Одна публичная работа может открыть несколько следующих направлений.'
+      lineOne: 'Покажите решение.',
+      lineTwo: 'Откройте продолжения.',
+      lead: 'Один публичный проект может стать примером, поводом для разговора или отправной точкой для новой идеи. VibeUs сохраняет рядом сам результат и контекст.',
+      note: 'Один результат не обещает реакцию, но создаёт несколько честных точек продолжения.',
+      routeOne: 'ПОНЯТЬ',
+      routeTwo: 'ОБСУДИТЬ · РАЗВИТЬ'
     },
     singularity: {
       kicker: 'Не дайте готовому исчезнуть',
-      lineOne: 'Проект не должен',
-      lineTwo: 'пропасть после «готово».',
-      lead: 'Когда результат остаётся в чате, вкладке или архиве, его трудно найти и понять. VibeUs даёт проекту публичный адрес вместе с задачей, материалами и ссылкой.',
-      note: 'Публичная карточка удерживает контекст рядом с самой работой.'
+      lineOne: 'Не дайте проекту',
+      lineTwo: 'исчезнуть после «готово».',
+      lead: 'Чат закроется, вкладка потеряется, ссылка останется без объяснения. VibeUs удерживает проект, его задачу и материалы в одной публичной точке.',
+      note: 'Публичная карточка удерживает контекст, который обычно исчезает первым.',
+      routeOne: 'ЧАТ · ВКЛАДКА · СКРИН',
+      routeTwo: 'ПУБЛИЧНЫЙ СЛЕД'
     }
   };
 
@@ -43,6 +49,8 @@
   $('[data-hero-line-two]').textContent = copy.lineTwo;
   $('[data-hero-lead]').textContent = copy.lead;
   $('[data-hero-note]').textContent = copy.note;
+  $('[data-route-one]').textContent = copy.routeOne;
+  $('[data-route-two]').textContent = copy.routeTwo;
 
   const setHeader = () => header.classList.toggle('is-scrolled', scrollY > 36);
   setHeader();
@@ -96,12 +104,20 @@
 
   const seedForeground = () => {
     if (!foreground || reduced.matches || active !== 'code') return;
-    const fragments = ['01 / PUBLIC', 'RESULT →', '{ context }', 'AI + PEOPLE', 'vibeus.app', 'STACK[]', 'LINK ↗'];
-    foreground.replaceChildren(...fragments.map((fragment, index) => {
+    const fragments = [
+      { text: '01 / PUBLIC', left: 58, top: 12 },
+      { text: 'NOT ZERO →', left: 23.5, top: 52 },
+      { text: '{ context }', left: 84, top: 34 },
+      { text: 'AI + PEOPLE', left: 71, top: 45 },
+      { text: 'vibeus.app', left: 84, top: 56 },
+      { text: 'STACK[]', left: 58, top: 67 },
+      { text: 'NEXT ↗', left: 71, top: 78 }
+    ];
+    foreground.replaceChildren(...fragments.map(fragment => {
       const span = document.createElement('span');
-      span.textContent = fragment;
-      span.style.left = `${58 + (index % 3) * 13}%`;
-      span.style.top = `${12 + index * 11}%`;
+      span.textContent = fragment.text;
+      span.style.left = `${fragment.left}%`;
+      span.style.top = `${fragment.top}%`;
       return span;
     }));
   };

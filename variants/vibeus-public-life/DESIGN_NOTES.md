@@ -2,15 +2,24 @@
 
 ## Decision sentence
 
-When a person has finished an AI-assisted project and decides whether it deserves to leave the private workspace, VibeUs helps package its context into a public record, inspect comparable work first, and choose whether to contribute without pretending that publication guarantees attention or reputation.
+When a person is about to start or has just finished an AI-assisted project, VibeUs lets them inspect how other people frame public work, understand one real project before registration, and preserve their own result with context instead of starting and disappearing alone.
 
 ## Hero roles
 
-- `code`: crossing the boundary from private build output to public record;
-- `quantum`: a project becomes legible to several possible people and responses;
+- `code`: a new project starts from visible shared context instead of an empty chat;
+- `quantum`: one public result creates several possible continuations without promising a response;
 - `singularity`: finished work no longer disappears into the gravity of private archives.
 
-The phenomena are metaphors. The project passport is the proof-bearing object.
+The phenomena are metaphors. A cropped real VibeUs project screen is the proof-bearing object in every variant.
+
+## Attention contract
+
+```text
+top-left category and pain -> strong outcome headline -> real VibeUs screen
+-> low-commitment catalog action -> publication boundary -> next semantic block
+```
+
+Desktop puts the offer in the first upper-left reading zone and uses the live product screen as a counterweight. Mobile keeps the message and action first, then reveals enough of the real project screen to make the next scroll feel earned. The foreground code may cross the visual boundary, but it is pointer-transparent and may not obscure actionable copy or focus.
 
 ## Research-to-interface trace
 
@@ -18,10 +27,11 @@ The phenomena are metaphors. The project passport is the proof-bearing object.
 |---|---|---|---|
 | Public project pages expose context but not guaranteed payloads | What can I actually inspect? | Project passport plus explicit availability boundary | reference/inspectable record only |
 | Cold visitors should not register before seeing product value | Can I look first? | Catalog becomes primary Hero and final CTA | destination receipt only |
-| Abstract cosmic objects do not prove the product | What is the object on the page? | Real product screenshot and field inventory appear before community rhetoric | local visual/product evidence |
+| Abstract cosmic objects do not prove the product | What is the object on the page? | A real product screenshot appears inside every Hero before community rhetoric | local visual/product evidence |
+| Cold visitors often face an empty-chat starting point | Why should I open this now? | Default Hero frames visible shared context as a better start than isolated invention | positioning hypothesis; participant test pending |
 | Feedback is not guaranteed | Why add context and a question? | Publishing path says it gives people a basis to respond, not that they will | testable hypothesis |
 | Inventory and demo records may change | What exists now? | No fixed counts or named project list | route-level availability only |
 
 ## Non-copy boundary
 
-Transfer relationships, not surfaces: editorial proof hierarchy, semantic singleton for kinetic type, public-before-registration path, and question-bound sections. Do not reuse third-party palettes, page silhouettes, animation signatures, copy, assets or layouts.
+Transfer relationships, not surfaces: upper-left offer priority, proof-bearing visual route, semantic singleton for kinetic type, public-before-registration path, and question-bound sections. Do not reuse third-party palettes, page silhouettes, animation signatures, copy, assets or layouts.
