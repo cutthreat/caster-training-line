@@ -15,5 +15,8 @@
     {"path":"assets/onest-800.ttf","role":"display type"}
   ],
   "proof": "proof/refresh-final/runtime.json",
+  "project_defense": "PROJECT_DEFENSE.md",
+  "fullpage_proof": "proof/project-defense/vibeus-public-life-fullpage.png",
+  "fullpage_capture_receipt": "proof/project-defense/capture-receipt.json",
   "claim_ceiling": "published static landing, local/browser geometry and semantic destination proof; no participant or business-effect claim"
 }

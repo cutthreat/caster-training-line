@@ -1,0 +1,55 @@
+{
+  "schema": "vibeus_project_defense_capture.v1",
+  "generatedAt": "2026-07-17T17:42:32.810Z",
+  "url": "https://cutthreat.github.io/caster-training-line/variants/vibeus-public-life/",
+  "title": "VibeUs — покажите, что получилось с AI",
+  "status": 200,
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "document": {
+    "width": 1440,
+    "height": 9267
+  },
+  "horizontalOverflow": 0,
+  "reducedMotion": true,
+  "fonts": "loaded",
+  "images": {
+    "total": 4,
+    "loaded": 4
+  },
+  "sections": [
+    {
+      "id": "top",
+      "heading": "Не начинайтес пустого чата."
+    },
+    {
+      "id": "about",
+      "heading": "AI даёт возможности.Чужой опыт экономит старт."
+    },
+    {
+      "id": "record",
+      "heading": "Не обещание.Карточку проекта."
+    },
+    {
+      "id": "path",
+      "heading": "Четыре понятныхшага после сборки"
+    },
+    {
+      "id": "projects",
+      "heading": "Не ещё одна лента.Общий разгон для идей."
+    },
+    {
+      "id": "people",
+      "heading": "AI дал каждому инструменты.Мозги друг друга дают продолжение."
+    },
+    {
+      "id": "final-cta",
+      "heading": "Сначала посмотрите.Потом добавьте своё."
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": []
+}
