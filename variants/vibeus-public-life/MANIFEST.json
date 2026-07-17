@@ -1,0 +1,19 @@
+{
+  "schema": "cinematic_sitecraft_manifest.v1",
+  "project": "vibeus-public-life-refresh",
+  "entry": "index.html",
+  "hero_variants": ["code", "quantum", "singularity"],
+  "media_kernel": "CSS/canvas phenomenon plus an existing VibeUs public project screenshot",
+  "primary_action": "https://vibeus.app/catalog",
+  "contribution_action": "https://vibeus.app/auth",
+  "implementation": ["index.html", "styles.css", "app.js"],
+  "assets": [
+    {"path":"assets/vibeus-project.png","role":"public project record example"},
+    {"path":"assets/vibeus-catalog.png","role":"public catalog surface"},
+    {"path":"assets/onest-400.ttf","role":"body type"},
+    {"path":"assets/onest-600.ttf","role":"emphasis type"},
+    {"path":"assets/onest-800.ttf","role":"display type"}
+  ],
+  "proof": "proof/final/runtime.json",
+  "claim_ceiling": "published static landing, local/browser geometry and semantic destination proof; no participant or business-effect claim"
+}

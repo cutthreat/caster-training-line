@@ -1,0 +1,43 @@
+{
+  "schema": "vibeus_public_life_runtime_verifier.v1",
+  "generatedAt": "2026-07-17T12:05:17.912Z",
+  "base": "http://127.0.0.1:8777/variants/vibeus-public-life/",
+  "heroMotion": {
+    "bodyClass": "hero-code",
+    "canvas": {
+      "width": 1440,
+      "height": 1000
+    },
+    "fragments": 7,
+    "reduced": false
+  },
+  "journey": {
+    "transform": "matrix(1, 0, 0, 1, -1482.36, 0)",
+    "progressWidth": "190.312px",
+    "current": "03",
+    "overflow": 0
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "checks": [
+    {
+      "name": "code-engine-running",
+      "pass": true
+    },
+    {
+      "name": "journey-transforms",
+      "pass": true
+    },
+    {
+      "name": "no-horizontal-overflow",
+      "pass": true
+    },
+    {
+      "name": "clean-console",
+      "pass": true
+    }
+  ],
+  "passed": 4,
+  "failed": 0
+}
