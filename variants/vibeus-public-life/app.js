@@ -7,6 +7,7 @@
   const track = $('[data-track]');
   const progress = $('[data-progress]');
   const currentStep = $('[data-step-current]');
+  const journeySteps = [...document.querySelectorAll('.journey-track .step')];
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   const narrow = window.matchMedia('(max-width: 900px)');
 
@@ -75,19 +76,26 @@
     if (event.key === 'Escape' && menuOpen) setMenu(false, true);
   });
 
+  let activeJourneyStep = -1;
   const updateJourney = () => {
     if (!journey || !track || reduced.matches || narrow.matches) return;
     const rect = journey.getBoundingClientRect();
     const scrollable = Math.max(1, journey.offsetHeight - innerHeight);
     const ratio = Math.min(1, Math.max(0, -rect.top / scrollable));
-    track.style.transform = `translate3d(${-ratio * 300}%,0,0)`;
-    progress.style.width = `${ratio * 100}%`;
-    currentStep.textContent = String(Math.min(4, Math.floor(ratio * 4) + 1)).padStart(2, '0');
+    const stepIndex = Math.min(journeySteps.length - 1, Math.floor(ratio * journeySteps.length));
+    if (stepIndex === activeJourneyStep) return;
+    activeJourneyStep = stepIndex;
+    track.style.transform = `translate3d(${-stepIndex * 100}%,0,0)`;
+    progress.style.width = `${((stepIndex + 1) / journeySteps.length) * 100}%`;
+    currentStep.textContent = String(stepIndex + 1).padStart(2, '0');
+    journeySteps.forEach((step, index) => step.classList.toggle('is-active', index === stepIndex));
   };
   const resetJourney = () => {
     if (reduced.matches || narrow.matches) {
+      activeJourneyStep = -1;
       track.style.transform = '';
       progress.style.width = '';
+      journeySteps.forEach(step => step.classList.remove('is-active'));
     } else updateJourney();
   };
   addEventListener('scroll', updateJourney, { passive: true });

@@ -1,0 +1,484 @@
+{
+  "schema": "human_qa_perception_packet.v1",
+  "source": "screenshot_pixels_only_no_dom",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "limitations": [
+    "OCR may omit or misread text",
+    "non-text imagery is represented only by coarse brightness, contrast, and detail density",
+    "attention_rank is a physical-salience heuristic, not eye-tracking data"
+  ],
+  "visible_text_by_pixel_salience": [
+    {
+      "attention_rank": 1,
+      "text": "Не начинайте",
+      "confidence": 96,
+      "position": {
+        "x": 0.051,
+        "y": 0.223,
+        "width": 0.309,
+        "height": 0.057
+      },
+      "relative_size": 0.057,
+      "pixel_salience": 62.93
+    },
+    {
+      "attention_rank": 2,
+      "text": "с пустого чата.",
+      "confidence": 92,
+      "position": {
+        "x": 0.049,
+        "y": 0.307,
+        "width": 0.335,
+        "height": 0.059
+      },
+      "relative_size": 0.059,
+      "pixel_salience": 62.13
+    },
+    {
+      "attention_rank": 3,
+      "text": "= он С",
+      "confidence": 58,
+      "position": {
+        "x": 0.713,
+        "y": 0.017,
+        "width": 0.239,
+        "height": 0.038
+      },
+      "relative_size": 0.038,
+      "pixel_salience": 36.52
+    },
+    {
+      "attention_rank": 4,
+      "text": "VibeUs",
+      "confidence": 91,
+      "position": {
+        "x": 0.048,
+        "y": 0.027,
+        "width": 0.041,
+        "height": 0.016
+      },
+      "relative_size": 0.016,
+      "pixel_salience": 18.34
+    },
+    {
+      "attention_rank": 5,
+      "text": "Смотрите, какие задачи уже решают другие, разбирайте результат и",
+      "confidence": 93,
+      "position": {
+        "x": 0.048,
+        "y": 0.387,
+        "width": 0.388,
+        "height": 0.017
+      },
+      "relative_size": 0.017,
+      "pixel_salience": 17.51
+    },
+    {
+      "attention_rank": 6,
+      "text": "контекст, показывайте своё — чтобы следующая идея начиналась не с",
+      "confidence": 94,
+      "position": {
+        "x": 0.048,
+        "y": 0.413,
+        "width": 0.394,
+        "height": 0.017
+      },
+      "relative_size": 0.017,
+      "pixel_salience": 17.43
+    },
+    {
+      "attention_rank": 7,
+      "text": "Проекты",
+      "confidence": 94,
+      "position": {
+        "x": 0.767,
+        "y": 0.031,
+        "width": 0.035,
+        "height": 0.012
+      },
+      "relative_size": 0.012,
+      "pixel_salience": 13.94
+    },
+    {
+      "attention_rank": 8,
+      "text": "нуля.",
+      "confidence": 91,
+      "position": {
+        "x": 0.049,
+        "y": 0.443,
+        "width": 0.027,
+        "height": 0.013
+      },
+      "relative_size": 0.013,
+      "pixel_salience": 13
+    },
+    {
+      "attention_rank": 9,
+      "text": "задача - результат - стек - обсуждение!",
+      "confidence": 79,
+      "position": {
+        "x": 0.786,
+        "y": 0.684,
+        "width": 0.152,
+        "height": 0.015
+      },
+      "relative_size": 0.015,
+      "pixel_salience": 12.91
+    },
+    {
+      "attention_rank": 10,
+      "text": "Показать свой проект >",
+      "confidence": 88,
+      "position": {
+        "x": 0.209,
+        "y": 0.51,
+        "width": 0.101,
+        "height": 0.012
+      },
+      "relative_size": 0.012,
+      "pixel_salience": 11.54
+    },
+    {
+      "attention_rank": 11,
+      "text": "Посмотреть проекты.",
+      "confidence": 83,
+      "position": {
+        "x": 0.063,
+        "y": 0.511,
+        "width": 0.088,
+        "height": 0.012
+      },
+      "relative_size": 0.012,
+      "pixel_salience": 11.25
+    },
+    {
+      "attention_rank": 12,
+      "text": "Что это",
+      "confidence": 90,
+      "position": {
+        "x": 0.713,
+        "y": 0.031,
+        "width": 0.031,
+        "height": 0.009
+      },
+      "relative_size": 0.009,
+      "pixel_salience": 10.25
+    },
+    {
+      "attention_rank": 13,
+      "text": "Как показать",
+      "confidence": 89,
+      "position": {
+        "x": 0.826,
+        "y": 0.031,
+        "width": 0.053,
+        "height": 0.009
+      },
+      "relative_size": 0.009,
+      "pixel_salience": 10.2
+    },
+    {
+      "attention_rank": 14,
+      "text": "® Смотреть можно 563 регистрации. Аккаунт нужен только для публикации.",
+      "confidence": 84,
+      "position": {
+        "x": 0.048,
+        "y": 0.566,
+        "width": 0.282,
+        "height": 0.011
+      },
+      "relative_size": 0.011,
+      "pixel_salience": 10.16
+    },
+    {
+      "attention_rank": 15,
+      "text": "® Смотреть мажно без рагистрации. Ажкаунт нужен только для публикации.",
+      "confidence": 63,
+      "position": {
+        "x": 0.048,
+        "y": 0.566,
+        "width": 0.284,
+        "height": 0.011
+      },
+      "relative_size": 0.011,
+      "pixel_salience": 9.06
+    },
+    {
+      "attention_rank": 16,
+      "text": "ПУБЛИЧНАЯ БАЗА А!-ПРОЕКТОВ",
+      "confidence": 90,
+      "position": {
+        "x": 0.081,
+        "y": 0.183,
+        "width": 0.153,
+        "height": 0.008
+      },
+      "relative_size": 0.008,
+      "pixel_salience": 8.69
+    },
+    {
+      "attention_rank": 17,
+      "text": "— — ПУБЛИЧНАЯ БАЗА AI-NIPOEKTOB",
+      "confidence": 75,
+      "position": {
+        "x": 0.048,
+        "y": 0.183,
+        "width": 0.185,
+        "height": 0.008
+      },
+      "relative_size": 0.008,
+      "pixel_salience": 8.04
+    },
+    {
+      "attention_rank": 18,
+      "text": "зации. Аккаунт нужен только для п",
+      "confidence": 81,
+      "position": {
+        "x": 0.168,
+        "y": 0.568,
+        "width": 0.123,
+        "height": 0.008
+      },
+      "relative_size": 0.008,
+      "pixel_salience": 7.27
+    },
+    {
+      "attention_rank": 19,
+      "text": "Реальный экран ViboL: проена, ro задана,",
+      "confidence": 66,
+      "position": {
+        "x": 0.776,
+        "y": 0.937,
+        "width": 0.146,
+        "height": 0.01
+      },
+      "relative_size": 0.01,
+      "pixel_salience": 7.23
+    },
+    {
+      "attention_rank": 20,
+      "text": "Vibeus",
+      "confidence": 79,
+      "position": {
+        "x": 0.567,
+        "y": 0.212,
+        "width": 0.023,
+        "height": 0.007
+      },
+      "relative_size": 0.007,
+      "pixel_salience": 7.12
+    },
+    {
+      "attention_rank": 21,
+      "text": "мапериалы м обсуждение.",
+      "confidence": 59,
+      "position": {
+        "x": 0.776,
+        "y": 0.953,
+        "width": 0.087,
+        "height": 0.01
+      },
+      "relative_size": 0.01,
+      "pixel_salience": 6.9
+    },
+    {
+      "attention_rank": 22,
+      "text": "материалы и обсуждение.",
+      "confidence": 76,
+      "position": {
+        "x": 0.776,
+        "y": 0.953,
+        "width": 0.085,
+        "height": 0.009
+      },
+      "relative_size": 0.009,
+      "pixel_salience": 6.83
+    },
+    {
+      "attention_rank": 23,
+      "text": "можно без рег",
+      "confidence": 63,
+      "position": {
+        "x": 0.091,
+        "y": 0.568,
+        "width": 0.059,
+        "height": 0.008
+      },
+      "relative_size": 0.008,
+      "pixel_salience": 6.58
+    },
+    {
+      "attention_rank": 24,
+      "text": "чужой опыт",
+      "confidence": 88,
+      "position": {
+        "x": 0.688,
+        "y": 0.72,
+        "width": 0.046,
+        "height": 0.007
+      },
+      "relative_size": 0.007,
+      "pixel_salience": 6.22
+    },
+    {
+      "attention_rank": 25,
+      "text": "Launch Content Kit",
+      "confidence": 58,
+      "position": {
+        "x": 0.695,
+        "y": 0.282,
+        "width": 0.058,
+        "height": 0.007
+      },
+      "relative_size": 0.007,
+      "pixel_salience": 6.18
+    },
+    {
+      "attention_rank": 26,
+      "text": "метериалы и обсуждение.",
+      "confidence": 57,
+      "position": {
+        "x": 0.776,
+        "y": 0.953,
+        "width": 0.086,
+        "height": 0.009
+      },
+      "relative_size": 0.009,
+      "pixel_salience": 6.14
+    },
+    {
+      "attention_rank": 27,
+      "text": "кации.",
+      "confidence": 80,
+      "position": {
+        "x": 0.31,
+        "y": 0.568,
+        "width": 0.02,
+        "height": 0.006
+      },
+      "relative_size": 0.006,
+      "pixel_salience": 5.42
+    },
+    {
+      "attention_rank": 28,
+      "text": "con ©",
+      "confidence": 56,
+      "position": {
+        "x": 0.883,
+        "y": 0.721,
+        "width": 0.025,
+        "height": 0.006
+      },
+      "relative_size": 0.006,
+      "pixel_salience": 4.47
+    }
+  ],
+  "coarse_visual_zones": [
+    {
+      "zone": "1:1",
+      "position": "top-left",
+      "brightness": 28,
+      "contrast": 55,
+      "detail_density": 0.167
+    },
+    {
+      "zone": "1:2",
+      "position": "top-center-left",
+      "brightness": 17,
+      "contrast": 44,
+      "detail_density": 0.083
+    },
+    {
+      "zone": "1:3",
+      "position": "top-center-right",
+      "brightness": 125,
+      "contrast": 115,
+      "detail_density": 0.077
+    },
+    {
+      "zone": "1:4",
+      "position": "top-right",
+      "brightness": 121,
+      "contrast": 116,
+      "detail_density": 0.076
+    },
+    {
+      "zone": "2:1",
+      "position": "middle-left",
+      "brightness": 25,
+      "contrast": 43,
+      "detail_density": 0.137
+    },
+    {
+      "zone": "2:2",
+      "position": "middle-center-left",
+      "brightness": 11,
+      "contrast": 20,
+      "detail_density": 0.069
+    },
+    {
+      "zone": "2:3",
+      "position": "middle-center-right",
+      "brightness": 199,
+      "contrast": 81,
+      "detail_density": 0.113
+    },
+    {
+      "zone": "2:4",
+      "position": "middle-right",
+      "brightness": 171,
+      "contrast": 90,
+      "detail_density": 0.145
+    },
+    {
+      "zone": "3:1",
+      "position": "bottom-left",
+      "brightness": 3,
+      "contrast": 1,
+      "detail_density": 0
+    },
+    {
+      "zone": "3:2",
+      "position": "bottom-center-left",
+      "brightness": 3,
+      "contrast": 1,
+      "detail_density": 0
+    },
+    {
+      "zone": "3:3",
+      "position": "bottom-center-right",
+      "brightness": 29,
+      "contrast": 68,
+      "detail_density": 0.033
+    },
+    {
+      "zone": "3:4",
+      "position": "bottom-right",
+      "brightness": 35,
+      "contrast": 73,
+      "detail_density": 0.063
+    }
+  ],
+  "prominent_visual_regions": [
+    {
+      "bounds": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 0.6666666666666666
+      },
+      "physical_description": "large bright high-contrast detailed region detected directly from pixels",
+      "embedded_text": [
+        "= он С",
+        "Проекты",
+        "Что это",
+        "Как показать",
+        "Vibeus",
+        "Launch Content Kit"
+      ]
+    }
+  ]
+}

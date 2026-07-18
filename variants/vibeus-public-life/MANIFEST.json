@@ -1,10 +1,11 @@
 {
   "schema": "cinematic_sitecraft_manifest.v1",
-  "project": "vibeus-public-life-refresh",
+  "project": "vibeus-public-life-finish",
   "entry": "index.html",
   "hero_variants": ["code", "quantum", "singularity"],
   "media_kernel": "CSS/canvas phenomenon routed through a cropped real VibeUs public project screen",
-  "primary_action": "https://vibeus.app/catalog",
+  "primary_action": "#projects",
+  "primary_destination": "https://vibeus.app/catalog",
   "contribution_action": "https://vibeus.app/auth",
   "implementation": ["index.html", "styles.css", "app.js"],
   "assets": [
@@ -14,9 +15,9 @@
     {"path":"assets/onest-600.ttf","role":"emphasis type"},
     {"path":"assets/onest-800.ttf","role":"display type"}
   ],
-  "proof": "proof/refresh-final/runtime.json",
+  "proof": "proof/finish-proof/finish-verification.json",
   "project_defense": "PROJECT_DEFENSE.md",
   "fullpage_proof": "proof/project-defense/vibeus-public-life-fullpage.png",
   "fullpage_capture_receipt": "proof/project-defense/capture-receipt.json",
-  "claim_ceiling": "published static landing, local/browser geometry and semantic destination proof; no participant or business-effect claim"
+  "claim_ceiling": "local/browser geometry, semantic destination proof and blind Human-QA proxy; no participant, eye-tracking or business-effect claim"
 }

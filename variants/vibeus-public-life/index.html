@@ -21,9 +21,8 @@
     </button>
     <nav class="site-nav" id="site-nav" aria-label="Основная навигация" data-nav>
       <a href="#about">Что это</a>
-      <a href="#record">Карточка проекта</a>
+      <a href="#projects">Проекты</a>
       <a href="#path">Как показать</a>
-      <a href="https://vibeus.app/catalog">Смотреть проекты</a>
       <a class="nav-cta" href="https://vibeus.app/auth">Войти</a>
     </nav>
   </header>
@@ -48,7 +47,7 @@
         <h1 id="hero-title"><span data-hero-line-one>Не начинайте</span><em data-hero-line-two>с пустого чата.</em></h1>
         <p class="hero-lead" data-hero-lead>Смотрите, какие задачи уже решают другие, разбирайте результат и контекст, показывайте своё — чтобы следующая идея начиналась не с нуля.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="https://vibeus.app/catalog">Посмотреть, что уже сделали <span aria-hidden="true">↗</span></a>
+          <a class="button button-primary" href="#projects">Посмотреть проекты <span aria-hidden="true">↓</span></a>
           <a class="text-link" href="https://vibeus.app/auth">Показать свой проект <span aria-hidden="true">→</span></a>
         </div>
         <p class="hero-receipt"><i aria-hidden="true"></i>Смотреть можно без регистрации. Аккаунт нужен только для публикации.</p>
@@ -81,6 +80,23 @@
       <div class="relay-line" aria-hidden="true"><span>СДЕЛАЛИ</span><i></i><span>ОФОРМИЛИ</span><i></i><span>ПОКАЗАЛИ</span></div>
     </section>
 
+    <section class="reasons section-pad" id="projects" aria-labelledby="reasons-title">
+      <div class="section-label"><span>02</span><p>Сначала — живые проекты</p></div>
+      <div class="reasons-head">
+        <h2 id="reasons-title">Не верьте обещанию.<br><em>Откройте результат.</em></h2>
+        <p>Посмотрите задачу, материалы и рабочую ссылку. Уже после этого решайте, полезен ли вам подход автора и стоит ли разбирать его дальше.</p>
+      </div>
+      <figure class="catalog-window catalog-window-early">
+        <img src="assets/vibeus-catalog.png" alt="Каталог публичных проектов VibeUs" loading="eager">
+        <figcaption>Архивный снимок интерфейса · состав и счётчики не являются текущими</figcaption>
+      </figure>
+      <div class="reason-list">
+        <a href="https://vibeus.app/catalog"><span>01</span><strong>Смотреть</strong><p>Открыть каталог и выбрать проект по задаче, а не по обещанию.</p><i>Каталог ↗</i></a>
+        <a href="https://vibeus.app/catalog"><span>02</span><strong>Разбирать</strong><p>Понять контекст, результат и материалы конкретной работы.</p><i>Найти проект ↗</i></a>
+        <a href="https://vibeus.app/auth"><span>03</span><strong>Показывать</strong><p>Собрать собственный результат рядом с одной публичной ссылкой.</p><i>Добавить свой ↗</i></a>
+      </div>
+    </section>
+
     <section class="record" id="record" aria-labelledby="record-title">
       <div class="record-visual">
         <div class="record-index" aria-hidden="true">PUBLIC / 01</div>
@@ -90,7 +106,7 @@
         </figure>
       </div>
       <div class="record-copy section-pad">
-        <p class="section-index">02 / Что человек увидит</p>
+        <p class="section-index">03 / Что человек увидит</p>
         <h2 id="record-title">Не обещание.<br>Карточку проекта.</h2>
         <p class="record-intro">Чтобы ссылку было не просто куда отправить, а зачем открыть.</p>
         <dl class="record-fields">
@@ -107,7 +123,7 @@
     <section class="journey" id="path" aria-labelledby="journey-title" data-journey>
       <div class="journey-sticky">
         <div class="journey-head">
-          <p>Как дать работе публичную жизнь</p>
+          <p>04 / Как дать работе публичную жизнь</p>
           <h2 id="journey-title">Четыре понятных<br>шага после сборки</h2>
           <div class="journey-progress" aria-hidden="true"><i data-progress></i></div>
           <p class="journey-status" aria-live="polite"><span data-step-current>01</span> / 04</p>
@@ -143,36 +159,17 @@
       </div>
     </section>
 
-    <section class="reasons section-pad" id="projects" aria-labelledby="reasons-title">
-      <div class="section-label"><span>03</span><p>Зачем открывать VibeUs</p></div>
-      <div class="reasons-head">
-        <h2 id="reasons-title">Не ещё одна лента.<br><em>Общий разгон для идей.</em></h2>
-        <p>Смотреть, какие задачи уже берут на себя другие. Показывать собственный результат. Обсуждать не магию инструмента, а то, что с его помощью получилось.</p>
-      </div>
-      <div class="reason-list">
-        <a href="https://vibeus.app/catalog"><span>01</span><strong>Смотреть</strong><p>Быстро понять, какие AI-проекты уже показывают публично.</p><i>Каталог ↗</i></a>
-        <a href="https://vibeus.app/auth"><span>02</span><strong>Показывать</strong><p>Собрать задачу, результат и материалы рядом с одной ссылкой.</p><i>Добавить проект ↗</i></a>
-        <a href="https://vibeus.app/catalog"><span>03</span><strong>Обсуждать</strong><p>Открывать работу с контекстом и отвечать на конкретный вопрос автора.</p><i>Найти проект ↗</i></a>
-      </div>
-      <figure class="catalog-window">
-        <img src="assets/vibeus-catalog.png" alt="Каталог публичных проектов VibeUs" loading="lazy">
-        <figcaption>Архивный снимок интерфейса · состав и счётчики не являются текущими</figcaption>
-      </figure>
-    </section>
-
     <section class="collective" id="people" aria-labelledby="collective-title">
       <div class="collective-copy section-pad">
-        <p class="section-index">04 / Общий интеллект</p>
+        <p class="section-index">05 / Общий интеллект</p>
         <h2 id="collective-title">AI дал каждому инструменты.<br><span>Мозги друг друга дают продолжение.</span></h2>
-        <p>VibeUs нужен, чтобы результаты не оставались изолированными. Их можно увидеть, понять, обсудить — и использовать как отправную точку для следующей идеи, не выдавая чужую работу за свою.</p>
+        <p>Не копировать чужую работу, а увидеть ход мысли, взять полезный принцип и сделать собственный следующий шаг — со ссылкой на источник.</p>
       </div>
-      <div class="collective-field" aria-hidden="true">
-        <div class="signal signal-main">ПРОЕКТ</div>
-        <div class="signal signal-a">КОНТЕКСТ</div>
-        <div class="signal signal-b">ВОПРОС</div>
-        <div class="signal signal-c">ОТВЕТ</div>
-        <div class="signal signal-d">СЛЕДУЮЩИЙ ШАГ</div>
-        <svg viewBox="0 0 800 700" preserveAspectRatio="none"><path d="M400 350 C290 210 170 170 95 115M400 350 C535 180 660 165 735 90M400 350 C575 420 675 520 735 610M400 350 C245 455 145 545 65 625"/></svg>
+      <div class="reuse-chain" aria-label="Как чужой проект помогает сделать собственный следующий шаг">
+        <div><span>01</span><strong>Открыли проект</strong><p>Увидели задачу и реальный результат.</p></div>
+        <div><span>02</span><strong>Поняли принцип</strong><p>Разобрали, почему решение сработало.</p></div>
+        <div><span>03</span><strong>Сделали своё</strong><p>Применили идею в другом контексте.</p></div>
+        <div><span>04</span><strong>Вернули опыт</strong><p>Показали результат и указали источник.</p></div>
       </div>
     </section>
 

@@ -1,0 +1,166 @@
+{
+  "schema": "vibeus_public_life_finish_verifier.v1",
+  "generatedAt": "2026-07-18T06:40:10.049Z",
+  "base": "http://127.0.0.1:8791/variants/vibeus-public-life/",
+  "passed": 12,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "proof-before-mechanism",
+      "pass": true,
+      "detail": [
+        {
+          "id": "projects",
+          "top": 1685
+        },
+        {
+          "id": "record",
+          "top": 3418
+        },
+        {
+          "id": "path",
+          "top": 4533
+        },
+        {
+          "id": "people",
+          "top": 7133
+        }
+      ]
+    },
+    {
+      "name": "hero-primary-targets-on-page-proof",
+      "pass": true,
+      "detail": "#projects"
+    },
+    {
+      "name": "hero-action-arrives-at-proof",
+      "pass": true,
+      "detail": {
+        "hash": "#projects",
+        "sectionTop": 71.5,
+        "catalogTop": 584,
+        "heading": "Не верьте обещанию.\nОткройте результат."
+      }
+    },
+    {
+      "name": "journey-bounded-length",
+      "pass": true,
+      "detail": {
+        "height": 2600,
+        "viewport": 1000,
+        "ratio": 2.6,
+        "top": 4533
+      }
+    },
+    {
+      "name": "journey-four-stable-keyframes",
+      "pass": true,
+      "detail": [
+        {
+          "target": 1,
+          "current": 1,
+          "label": "Что вы сделали и для кого",
+          "fullyVisible": true,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "target": 2,
+          "current": 2,
+          "label": "Не макет обещания. Саму работу.",
+          "fullyVisible": true,
+          "transform": "matrix(1, 0, 0, 1, -898.219, 0)"
+        },
+        {
+          "target": 3,
+          "current": 3,
+          "label": "Не «ну как?». Что проверить дальше?",
+          "fullyVisible": true,
+          "transform": "matrix(1, 0, 0, 1, -1796.44, 0)"
+        },
+        {
+          "target": 4,
+          "current": 4,
+          "label": "Один публичный адрес. Весь нужный контекст.",
+          "fullyVisible": true,
+          "transform": "matrix(1, 0, 0, 1, -2694.66, 0)"
+        }
+      ]
+    },
+    {
+      "name": "journey-reverse-recovers",
+      "pass": true,
+      "detail": "02"
+    },
+    {
+      "name": "desktop-zero-overflow",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "mobile-final-decision-co-visible",
+      "pass": true,
+      "detail": {
+        "heading": {
+          "x": 20,
+          "y": 256.953125,
+          "width": 350,
+          "height": 176.625,
+          "top": 256.953125,
+          "right": 370,
+          "bottom": 433.578125,
+          "left": 20
+        },
+        "explanation": {
+          "x": 20,
+          "y": 461.578125,
+          "width": 350,
+          "height": 65.0625,
+          "top": 461.578125,
+          "right": 370,
+          "bottom": 526.640625,
+          "left": 20
+        },
+        "action": {
+          "x": 20,
+          "y": 552.640625,
+          "width": 350,
+          "height": 50,
+          "top": 552.640625,
+          "right": 370,
+          "bottom": 602.640625,
+          "left": 20
+        },
+        "allVisible": true
+      }
+    },
+    {
+      "name": "mobile-zero-overflow",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "reduced-motion-preserves-four-steps",
+      "pass": true,
+      "detail": {
+        "height": 2908,
+        "sticky": "relative",
+        "transform": "none",
+        "steps": 4
+      }
+    },
+    {
+      "name": "quantum-runtime-available",
+      "pass": true,
+      "detail": {
+        "bodyClass": "hero-quantum",
+        "h1": "Покажите решение.\nОткройте продолжения.",
+        "overflow": 0
+      }
+    },
+    {
+      "name": "runtime-clean",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}
