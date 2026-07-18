@@ -1,0 +1,53 @@
+{
+  "schema": "human_qa_session.v1",
+  "generated_at": "2026-07-18T06:32:28.849Z",
+  "start_url": "http://127.0.0.1:8791/variants/vibeus-public-life/",
+  "profile": "task-driven",
+  "persona_card": "C:\\Users\\alexe\\OneDrive\\Документы\\Caster Training\\human-qa-runs\\quality-calibration-20260717\\vibeus-target-persona.json",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "max_steps": 2,
+  "exposure_ms": 900,
+  "models": {
+    "retina": "gpt-5.6-terra",
+    "consumer": "gpt-5.3-codex-spark"
+  },
+  "blindness": {
+    "code_shared_with_consumer": false,
+    "dom_shared_with_consumer": false,
+    "design_intent_shared_with_consumer": false
+  },
+  "stop_reason": "max_steps",
+  "steps": [
+    {
+      "index": 1,
+      "url": "http://127.0.0.1:8791/variants/vibeus-public-life/",
+      "screenshot": "variants\\vibeus-public-life\\proof\\human-qa-finish-desktop\\step-01\\viewport.png",
+      "event": "variants\\vibeus-public-life\\proof\\human-qa-finish-desktop\\step-01\\event.json",
+      "receipt": "variants\\vibeus-public-life\\proof\\human-qa-finish-desktop\\step-01\\carrier-receipt.json",
+      "action": "click",
+      "target": "Посмотреть проекты.",
+      "dispatched": true,
+      "navigation_changed": true,
+      "scroll_changed": true,
+      "carrier_mismatch": null,
+      "safety_stop": null
+    },
+    {
+      "index": 2,
+      "url": "http://127.0.0.1:8791/variants/vibeus-public-life/#projects",
+      "screenshot": "variants\\vibeus-public-life\\proof\\human-qa-finish-desktop\\step-02\\viewport.png",
+      "event": "variants\\vibeus-public-life\\proof\\human-qa-finish-desktop\\step-02\\event.json",
+      "receipt": "variants\\vibeus-public-life\\proof\\human-qa-finish-desktop\\step-02\\carrier-receipt.json",
+      "action": "scroll",
+      "target": "",
+      "dispatched": true,
+      "navigation_changed": false,
+      "scroll_changed": true,
+      "carrier_mismatch": null,
+      "safety_stop": null
+    }
+  ]
+}

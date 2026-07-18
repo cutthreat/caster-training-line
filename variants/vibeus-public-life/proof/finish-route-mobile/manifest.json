@@ -1,0 +1,206 @@
+{
+  "schema": "full_site_visual_capture.v1",
+  "captured_at": "2026-07-18T06:03:33.923Z",
+  "url": "http://127.0.0.1:8791/variants/vibeus-public-life/",
+  "requested_url": "http://127.0.0.1:8791/variants/vibeus-public-life/",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "page_height": 8732,
+  "title": "VibeUs — покажите, что получилось с AI",
+  "structure": [
+    {
+      "index": 0,
+      "tag": "SECTION",
+      "id": "top",
+      "class": "hero",
+      "heading": "Не начинайте с пустого чата.",
+      "top": 0,
+      "height": 776
+    },
+    {
+      "index": 1,
+      "tag": "SECTION",
+      "id": "about",
+      "class": "orientation section-pad",
+      "heading": "AI даёт возможности. Чужой опыт экономит старт.",
+      "top": 776,
+      "height": 690
+    },
+    {
+      "index": 2,
+      "tag": "SECTION",
+      "id": "projects",
+      "class": "reasons section-pad",
+      "heading": "Не верьте обещанию. Откройте результат.",
+      "top": 1466,
+      "height": 1619
+    },
+    {
+      "index": 3,
+      "tag": "SECTION",
+      "id": "record",
+      "class": "record",
+      "heading": "Не обещание. Карточку проекта.",
+      "top": 3085,
+      "height": 1559
+    },
+    {
+      "index": 4,
+      "tag": "SECTION",
+      "id": "path",
+      "class": "journey",
+      "heading": "Четыре понятных шага после сборки",
+      "top": 4644,
+      "height": 2454
+    },
+    {
+      "index": 5,
+      "tag": "SECTION",
+      "id": "people",
+      "class": "collective",
+      "heading": "AI дал каждому инструменты. Мозги друг друга дают продолжение.",
+      "top": 7098,
+      "height": 879
+    },
+    {
+      "index": 6,
+      "tag": "SECTION",
+      "id": null,
+      "class": "final-cta",
+      "heading": "Сначала посмотрите. Потом добавьте своё.",
+      "top": 7977,
+      "height": 564
+    },
+    {
+      "index": 7,
+      "tag": "FOOTER",
+      "id": null,
+      "class": "site-footer",
+      "heading": null,
+      "top": 8541,
+      "height": 191
+    }
+  ],
+  "views": [
+    {
+      "index": 1,
+      "requested_y": 0,
+      "actual_y": 0,
+      "file": "view-01-y0.png",
+      "visible_headings": [
+        "Не начинайте с пустого чата."
+      ]
+    },
+    {
+      "index": 2,
+      "requested_y": 692,
+      "actual_y": 692,
+      "file": "view-02-y692.png",
+      "visible_headings": [
+        "AI даёт возможности. Чужой опыт экономит старт."
+      ]
+    },
+    {
+      "index": 3,
+      "requested_y": 1384,
+      "actual_y": 1384,
+      "file": "view-03-y1384.png",
+      "visible_headings": [
+        "Не верьте обещанию. Откройте результат."
+      ]
+    },
+    {
+      "index": 4,
+      "requested_y": 2076,
+      "actual_y": 2076,
+      "file": "view-04-y2076.png",
+      "visible_headings": []
+    },
+    {
+      "index": 5,
+      "requested_y": 2768,
+      "actual_y": 2768,
+      "file": "view-05-y2768.png",
+      "visible_headings": []
+    },
+    {
+      "index": 6,
+      "requested_y": 3460,
+      "actual_y": 3460,
+      "file": "view-06-y3460.png",
+      "visible_headings": [
+        "Не обещание. Карточку проекта."
+      ]
+    },
+    {
+      "index": 7,
+      "requested_y": 4152,
+      "actual_y": 4152,
+      "file": "view-07-y4152.png",
+      "visible_headings": [
+        "Четыре понятных шага после сборки",
+        "Что вы сделали и для кого"
+      ]
+    },
+    {
+      "index": 8,
+      "requested_y": 4844,
+      "actual_y": 4844,
+      "file": "view-08-y4844.png",
+      "visible_headings": [
+        "Что вы сделали и для кого",
+        "Не макет обещания. Саму работу."
+      ]
+    },
+    {
+      "index": 9,
+      "requested_y": 5536,
+      "actual_y": 5536,
+      "file": "view-09-y5536.png",
+      "visible_headings": [
+        "Не макет обещания. Саму работу.",
+        "Не «ну как?». Что проверить дальше?"
+      ]
+    },
+    {
+      "index": 10,
+      "requested_y": 6228,
+      "actual_y": 6228,
+      "file": "view-10-y6228.png",
+      "visible_headings": [
+        "Один публичный адрес. Весь нужный контекст."
+      ]
+    },
+    {
+      "index": 11,
+      "requested_y": 6920,
+      "actual_y": 6920,
+      "file": "view-11-y6920.png",
+      "visible_headings": [
+        "AI дал каждому инструменты. Мозги друг друга дают продолжение."
+      ]
+    },
+    {
+      "index": 12,
+      "requested_y": 7612,
+      "actual_y": 7612,
+      "file": "view-12-y7612.png",
+      "visible_headings": [
+        "Сначала посмотрите. Потом добавьте своё."
+      ]
+    },
+    {
+      "index": 13,
+      "requested_y": 7888,
+      "actual_y": 7888,
+      "file": "view-13-y7888.png",
+      "visible_headings": [
+        "Сначала посмотрите. Потом добавьте своё."
+      ]
+    }
+  ],
+  "console_issues": [],
+  "failed_requests": []
+}

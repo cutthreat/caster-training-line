@@ -7,7 +7,7 @@ const checks = [];
 const check = (name, pass, detail = '') => checks.push({ name, pass: Boolean(pass), detail });
 
 check('one-semantic-h1', (html.match(/<h1\b/g) || []).length === 1);
-check('catalog-is-primary', /button-primary[^>]+href="https:\/\/vibeus\.app\/catalog"/.test(html));
+check('catalog-proof-is-primary', /button-primary[^>]+href="#projects"/.test(html) && /id="projects"[\s\S]+href="https:\/\/vibeus\.app\/catalog"/.test(html));
 check('auth-is-secondary', /text-link[^>]+href="https:\/\/vibeus\.app\/auth"/.test(html));
 check('honest-registration-receipt', html.includes('Смотреть можно без регистрации'));
 check('availability-boundary', html.includes('Посмотреть, перейти, скопировать или запустить можно только то'));

@@ -1,0 +1,23 @@
+{
+  "schema": "human_qa_session_step.v1",
+  "initial_url": "http://127.0.0.1:8791/variants/vibeus-public-life/#projects",
+  "final_url": "http://127.0.0.1:8791/variants/vibeus-public-life/#projects",
+  "initial_scroll_y": 1613,
+  "final_scroll_y": 2413,
+  "action": {
+    "kind": "scroll",
+    "target_visible_text": "",
+    "target_description": "прокрутка вниз по ленте для просмотра примеров проектов",
+    "target_x": 0,
+    "target_y": 0,
+    "reason": "Сейчас видно только верхний фрагмент с описанием и часть превью; естественно докрутить экран и найти реальные проекты.",
+    "confidence": 81
+  },
+  "selected_target": null,
+  "dispatched": true,
+  "navigation_changed": false,
+  "scroll_changed": true,
+  "waited": false,
+  "carrier_mismatch": null,
+  "safety_stop": null
+}

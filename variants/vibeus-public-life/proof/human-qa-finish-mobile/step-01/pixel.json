@@ -1,0 +1,321 @@
+{
+  "schema": "human_qa_perception_packet.v1",
+  "source": "screenshot_pixels_only_no_dom",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "limitations": [
+    "OCR may omit or misread text",
+    "non-text imagery is represented only by coarse brightness, contrast, and detail density",
+    "attention_rank is a physical-salience heuristic, not eye-tracking data"
+  ],
+  "visible_text_by_pixel_salience": [
+    {
+      "attention_rank": 1,
+      "text": "Не начинайте",
+      "confidence": 92,
+      "position": {
+        "x": 0.059,
+        "y": 0.152,
+        "width": 0.744,
+        "height": 0.045
+      },
+      "relative_size": 0.045,
+      "pixel_salience": 49.88
+    },
+    {
+      "attention_rank": 2,
+      "text": "с пустого чата.",
+      "confidence": 91,
+      "position": {
+        "x": 0.054,
+        "y": 0.219,
+        "width": 0.805,
+        "height": 0.045
+      },
+      "relative_size": 0.045,
+      "pixel_salience": 48.56
+    },
+    {
+      "attention_rank": 3,
+      "text": "VibeUs",
+      "confidence": 86,
+      "position": {
+        "x": 0.051,
+        "y": 0.027,
+        "width": 0.151,
+        "height": 0.019
+      },
+      "relative_size": 0.019,
+      "pixel_salience": 21.19
+    },
+    {
+      "attention_rank": 4,
+      "text": "разбирайте результат и контекст, показывайте:",
+      "confidence": 84,
+      "position": {
+        "x": 0.051,
+        "y": 0.314,
+        "width": 0.815,
+        "height": 0.018
+      },
+      "relative_size": 0.0178,
+      "pixel_salience": 17.93
+    },
+    {
+      "attention_rank": 5,
+      "text": "Смотрите, какие задачи уже решают другие,",
+      "confidence": 93,
+      "position": {
+        "x": 0.051,
+        "y": 0.29,
+        "width": 0.777,
+        "height": 0.017
+      },
+      "relative_size": 0.0166,
+      "pixel_salience": 17.65
+    },
+    {
+      "attention_rank": 6,
+      "text": "своё — чтобы следующая идея начиналась не с",
+      "confidence": 91,
+      "position": {
+        "x": 0.051,
+        "y": 0.341,
+        "width": 0.821,
+        "height": 0.017
+      },
+      "relative_size": 0.0166,
+      "pixel_salience": 17.18
+    },
+    {
+      "attention_rank": 7,
+      "text": "нуля.",
+      "confidence": 83,
+      "position": {
+        "x": 0.051,
+        "y": 0.37,
+        "width": 0.087,
+        "height": 0.014
+      },
+      "relative_size": 0.0142,
+      "pixel_salience": 14
+    },
+    {
+      "attention_rank": 8,
+      "text": "Посмотреть проекты.",
+      "confidence": 85,
+      "position": {
+        "x": 0.105,
+        "y": 0.438,
+        "width": 0.326,
+        "height": 0.014
+      },
+      "relative_size": 0.0142,
+      "pixel_salience": 13.81
+    },
+    {
+      "attention_rank": 9,
+      "text": "Показать свой проект >",
+      "confidence": 90,
+      "position": {
+        "x": 0.051,
+        "y": 0.5,
+        "width": 0.341,
+        "height": 0.013
+      },
+      "relative_size": 0.013,
+      "pixel_salience": 12.71
+    },
+    {
+      "attention_rank": 10,
+      "text": "® Смотреть можно 663 регистрации. Аккаунт нужен только для",
+      "confidence": 86,
+      "position": {
+        "x": 0.051,
+        "y": 0.551,
+        "width": 0.874,
+        "height": 0.013
+      },
+      "relative_size": 0.013,
+      "pixel_salience": 12.23
+    },
+    {
+      "attention_rank": 11,
+      "text": "® Смотреть можно без регистрации. Акклунт нужен только для",
+      "confidence": 78,
+      "position": {
+        "x": 0.051,
+        "y": 0.551,
+        "width": 0.874,
+        "height": 0.013
+      },
+      "relative_size": 0.013,
+      "pixel_salience": 11.73
+    },
+    {
+      "attention_rank": 12,
+      "text": "Смотреть можно без регистрации. Аккаунт нужен только для",
+      "confidence": 93,
+      "position": {
+        "x": 0.092,
+        "y": 0.551,
+        "width": 0.833,
+        "height": 0.012
+      },
+      "relative_size": 0.0118,
+      "pixel_salience": 11.51
+    },
+    {
+      "attention_rank": 13,
+      "text": "публикации.",
+      "confidence": 90,
+      "position": {
+        "x": 0.095,
+        "y": 0.57,
+        "width": 0.156,
+        "height": 0.012
+      },
+      "relative_size": 0.0118,
+      "pixel_salience": 11.26
+    },
+    {
+      "attention_rank": 14,
+      "text": "публимации.",
+      "confidence": 64,
+      "position": {
+        "x": 0.092,
+        "y": 0.57,
+        "width": 0.159,
+        "height": 0.013
+      },
+      "relative_size": 0.013,
+      "pixel_salience": 10.78
+    },
+    {
+      "attention_rank": 15,
+      "text": "ПУБЛИЧНАЯ БАЗА А!-ПРОЕКТОВ",
+      "confidence": 89,
+      "position": {
+        "x": 0.172,
+        "y": 0.115,
+        "width": 0.564,
+        "height": 0.009
+      },
+      "relative_size": 0.0095,
+      "pixel_salience": 10.47
+    },
+    {
+      "attention_rank": 16,
+      "text": "— — ПУБЛИЧНАЯ БАЗА AI-NIPOEKTOB",
+      "confidence": 77,
+      "position": {
+        "x": 0.051,
+        "y": 0.115,
+        "width": 0.685,
+        "height": 0.009
+      },
+      "relative_size": 0.0095,
+      "pixel_salience": 9.84
+    }
+  ],
+  "coarse_visual_zones": [
+    {
+      "zone": "1:1",
+      "position": "top-left",
+      "brightness": 32,
+      "contrast": 54,
+      "detail_density": 0.199
+    },
+    {
+      "zone": "1:2",
+      "position": "top-center-left",
+      "brightness": 37,
+      "contrast": 57,
+      "detail_density": 0.254
+    },
+    {
+      "zone": "1:3",
+      "position": "top-center-right",
+      "brightness": 38,
+      "contrast": 57,
+      "detail_density": 0.246
+    },
+    {
+      "zone": "1:4",
+      "position": "top-right",
+      "brightness": 13,
+      "contrast": 32,
+      "detail_density": 0.057
+    },
+    {
+      "zone": "2:1",
+      "position": "middle-left",
+      "brightness": 36,
+      "contrast": 55,
+      "detail_density": 0.152
+    },
+    {
+      "zone": "2:2",
+      "position": "middle-center-left",
+      "brightness": 46,
+      "contrast": 61,
+      "detail_density": 0.168
+    },
+    {
+      "zone": "2:3",
+      "position": "middle-center-right",
+      "brightness": 43,
+      "contrast": 57,
+      "detail_density": 0.139
+    },
+    {
+      "zone": "2:4",
+      "position": "middle-right",
+      "brightness": 33,
+      "contrast": 52,
+      "detail_density": 0.101
+    },
+    {
+      "zone": "3:1",
+      "position": "bottom-left",
+      "brightness": 108,
+      "contrast": 99,
+      "detail_density": 0.058
+    },
+    {
+      "zone": "3:2",
+      "position": "bottom-center-left",
+      "brightness": 172,
+      "contrast": 45,
+      "detail_density": 0.069
+    },
+    {
+      "zone": "3:3",
+      "position": "bottom-center-right",
+      "brightness": 163,
+      "contrast": 57,
+      "detail_density": 0.133
+    },
+    {
+      "zone": "3:4",
+      "position": "bottom-right",
+      "brightness": 150,
+      "contrast": 73,
+      "detail_density": 0.104
+    }
+  ],
+  "prominent_visual_regions": [
+    {
+      "bounds": {
+        "x": 0.5,
+        "y": 0.6666666666666666,
+        "width": 0.5,
+        "height": 0.3333333333333333
+      },
+      "physical_description": "large bright high-contrast detailed region detected directly from pixels",
+      "embedded_text": []
+    }
+  ]
+}
