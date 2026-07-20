@@ -1,8 +1,8 @@
 {
   "schema": "vibeus_public_life_destination_receipts.v1",
   "source": "../../index.html",
-  "source_sha256": "FDCCC1277AE761213CEBECA6993E026BE407E2EF92E3177998732DADA8F2FAE7",
-  "captured_at": "2026-07-20T11:15:12.056Z",
+  "source_sha256": "BF00E82E966B7A1B1A6A4C94495FEE0DD81092B7132747B735EEC6DBD66CABDA",
+  "captured_at": "2026-07-20T11:54:37.205Z",
   "actions": [
     {
       "action_id": "act-catalog-hero",

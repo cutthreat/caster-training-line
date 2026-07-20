@@ -5,8 +5,8 @@
   "status": "pass",
   "reviewer": "Caster independent visual acceptance agent",
   "reviewed_at": "2026-07-20",
-  "scope": "Full source-bound visual system, decision spine, responsive composition, attention, Human-QA and falsification control.",
-  "bound_manifest_sha256": "0F95054925573DAE59B4FCBC5EDBECF1E94C045844A6D18BE730EB45B859F98E",
+  "scope": "Full source-bound visual system, decision spine, responsive composition, attention, Human-QA and bounded re-review after the data-URI favicon runtime repair.",
+  "bound_manifest_sha256": "07BE54500A2099D57AD3186BFE844B3A5CFC10790D4F095D72866FFC42F94331",
   "evidence_receipt_ids": [
     "rcpt-chk-claim-clm-category",
     "rcpt-chk-claim-clm-public-record",
@@ -34,7 +34,8 @@
     "Five chapters add orientation, mechanism, product proof, public routes and an earned handoff without empty repetition.",
     "Desktop, mobile and exact 320 preserve a project-specific visual system, readable hierarchy and zero horizontal overflow.",
     "No-JS and failed-script paths fail closed; blind Human-QA v4 understood the public-before-auth route without friction.",
-    "The visually credible auth-first control is rejected by decision gates, so visual polish cannot hide the wrong product route."
+    "The visually credible auth-first control is rejected by decision gates, so visual polish cannot hide the wrong product route.",
+    "The favicon repair changes no visible composition, copy, action or screenshot hash and removes the unnecessary missing-resource request."
   ],
   "conditions": [],
   "residuals": [
