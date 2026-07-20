@@ -9,9 +9,13 @@ const outputDir = path.dirname(fileURLToPath(import.meta.url));
 const variantPath = 'variants/vibeus-public-life';
 const baseUrl = process.env.VIBEUS_LIVE_URL || 'https://cutthreat.github.io/caster-training-line/variants/vibeus-public-life/';
 const commit = process.env.VIBEUS_DEPLOY_SHA;
+const workflowRuns = (process.env.VIBEUS_PAGES_RUNS || '').split(',').map(value => Number(value.trim())).filter(Number.isInteger);
 
 if (!commit || !/^[0-9a-f]{40}$/i.test(commit)) {
   throw new Error('VIBEUS_DEPLOY_SHA must be the 40-character deployed commit SHA');
+}
+if (workflowRuns.length < 2) {
+  throw new Error('VIBEUS_PAGES_RUNS must contain the comma-separated deployment workflow IDs');
 }
 
 fs.mkdirSync(outputDir, { recursive: true });
@@ -244,7 +248,7 @@ const receipt = {
   captured_at: new Date().toISOString(),
   public_url: baseUrl,
   deployed_commit: commit,
-  pages_workflow_runs: [29738974631, 29738973849],
+  pages_workflow_runs: workflowRuns,
   source_identity: sourceIdentity,
   viewports: viewportResults,
   destinations: routeResults,

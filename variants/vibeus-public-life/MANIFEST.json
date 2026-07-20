@@ -1,7 +1,7 @@
 {
   "schema": "vibeus_public_life_manifest.v3",
   "project": "vibeus-public-life-conscious-v3",
-  "status": "validated_pre_publish",
+  "status": "published_verified",
   "route_card_id": "sitecraft_decision_spine_v3_route",
   "entry": "index.html",
   "title": "VibeUs — дайте AI-проекту публичную жизнь",
@@ -45,13 +45,18 @@
     "caster": "pass",
     "anton": "pass",
     "production": "pass",
-    "sitecraft_gate": "validated"
+    "sitecraft_gate": "validated",
+    "post_deploy": "10/10 source identity; 5/5 viewports; 7/7 destinations"
   },
   "project_defense": "PROJECT_DEFENSE.md",
   "fullpage_proof": "proof/project-defense/vibeus-public-life-fullpage.png",
   "publication": {
     "url": "https://cutthreat.github.io/caster-training-line/variants/vibeus-public-life/",
-    "status": "pending_post_deploy_proof"
+    "status": "verified",
+    "source_deployment_commit": "b5b53a29860687b97016d74e75d18301e8b0fb4c",
+    "verified_at": "2026-07-20T12:17:21.279Z",
+    "workflow_runs": [29741447291, 29741446326],
+    "receipt": "proof/post-deploy/post-deploy-receipt.json"
   },
   "evidence_ceiling": "owned runtime plus blind qualitative proxies; no participant, eye-tracking, conversion, post-auth or cross-browser claim"
 }

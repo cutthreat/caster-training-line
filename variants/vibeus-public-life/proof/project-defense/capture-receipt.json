@@ -4,7 +4,9 @@
   "source_manifest_sha256": "07BE54500A2099D57AD3186BFE844B3A5CFC10790D4F095D72866FFC42F94331",
   "captured_at": "2026-07-20",
   "route": "index.html",
-  "public_url_status": "pending_post_deploy_proof",
+  "public_url_status": "verified",
+  "public_url": "https://cutthreat.github.io/caster-training-line/variants/vibeus-public-life/",
+  "post_deploy_receipt": "../post-deploy/post-deploy-receipt.json",
   "viewport": {
     "width": 1440,
     "height": 1000
