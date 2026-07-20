@@ -20,5 +20,5 @@
 - [x] Визуально правдоподобный auth‑first контроль блокируется decision/trust/destination gates.
 - [x] Caster, Anton и Production связаны с одним System Manifest SHA и дали `pass`.
 - [x] `validate_site_packet.py --stage validated` проходит.
-- [ ] После деплоя подтверждены внешний URL, source identity, desktop/mobile/320 и 7/7 маршрутов.
+- [x] После деплоя подтверждены внешний URL, source identity `10/10`, desktop/mobile/320, no-JS/script-failure `5/5` и маршруты `7/7`.
 - [ ] Для конкретных `onest-*.ttf` сохранены официальный provenance и локальная OFL‑копия.

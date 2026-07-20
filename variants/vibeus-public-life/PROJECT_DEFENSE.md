@@ -85,6 +85,18 @@ VibeUs — социальная платформа для вайбкодеров
 - независимые Caster, Anton и Production verdict’ы — `pass`;
 - финальный пакет — `PASS validated gate`.
 
+## Публикация
+
+Проверена публичная версия: <https://cutthreat.github.io/caster-training-line/variants/vibeus-public-life/>.
+
+- source identity: `10/10` файлов байт-в-байт совпадают с опубликованным source build `b5b53a29860687b97016d74e75d18301e8b0fb4c`;
+- desktop 1440, mobile 390 и exact 320: HTTP 200, шрифты загружены, изображения исправны, горизонтальный overflow `0`;
+- current, no-JS и failed-script состояния: `5/5`;
+- неожиданные console/page/network failures: `0`;
+- живые destinations и возврат: `7/7`;
+- Pages workflow runs: `29741447291`, `29741446326`;
+- полный receipt и live-снимки: `proof/post-deploy/`.
+
 ## Граница доказательства
 
 Не доказаны рост конверсии, поведение реальной выборки пользователей, eye‑tracking, post‑auth публикация, cross‑browser/real‑device готовность и происхождение конкретных локальных файлов Onest. Состав публичного VibeUs изменчив и требует refresh/expiry перед следующим релизом.
