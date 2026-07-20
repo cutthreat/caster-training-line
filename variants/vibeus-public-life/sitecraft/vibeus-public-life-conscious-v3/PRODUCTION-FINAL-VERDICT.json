@@ -1,0 +1,47 @@
+{
+  "schema": "sitecraft_reviewer_verdict.v1",
+  "role": "production",
+  "stage": "system_build",
+  "status": "pass",
+  "reviewer": "Independent production and evidence acceptance agent",
+  "reviewed_at": "2026-07-20",
+  "scope": "Source bindings, verifier output, runtime states, destination recovery, falsification, proof receipts and pre-publish readiness.",
+  "bound_manifest_sha256": "0F95054925573DAE59B4FCBC5EDBECF1E94C045844A6D18BE730EB45B859F98E",
+  "evidence_receipt_ids": [
+    "rcpt-chk-claim-clm-category",
+    "rcpt-chk-claim-clm-public-record",
+    "rcpt-chk-claim-clm-public-catalog",
+    "rcpt-chk-claim-clm-adjacent-routes",
+    "rcpt-chk-dest-act-catalog-hero",
+    "rcpt-chk-dest-act-auth-hero",
+    "rcpt-chk-dest-act-open-record",
+    "rcpt-chk-dest-act-catalog-proof",
+    "rcpt-chk-dest-act-discussions",
+    "rcpt-chk-dest-act-tools",
+    "rcpt-chk-dest-act-auth-final",
+    "rcpt-chk-desktop-route",
+    "rcpt-chk-mobile-route",
+    "rcpt-chk-exact-320",
+    "rcpt-chk-content-stress",
+    "rcpt-chk-accessibility",
+    "rcpt-chk-reduced-motion",
+    "rcpt-chk-runtime",
+    "rcpt-chk-volatile-catalog",
+    "rcpt-chk-falsification-auth-first"
+  ],
+  "findings": [
+    "System manifest, source snapshot, control and screenshot bindings have zero drift.",
+    "Static verifier passes 28 of 28 checks including fail-closed bootstrap and visible-copy jargon exclusion.",
+    "All 22 runtime cases pass without overflow, console, page or unexpected request failures.",
+    "All seven destinations pass HTTP, expected landmark and recovery checks.",
+    "Final Human-QA and plausible-control events are hash-bound and the system_build gate passes."
+  ],
+  "conditions": [],
+  "residuals": [
+    "This is pre-publish acceptance; the public GitHub Pages URL still needs post-deploy proof.",
+    "Cross-browser and real-device readiness are not claimed.",
+    "Volatile public content must be refreshed after expiry.",
+    "Specific Onest binaries do not yet have a separate provenance and local license receipt.",
+    "Brand and product-screenshot publication authority remains with the VibeUs owner."
+  ]
+}

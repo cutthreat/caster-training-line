@@ -1,0 +1,1757 @@
+{
+  "schema": "vibeus_public_life_system_capture.v1",
+  "captured_at": "2026-07-20T11:14:24.218Z",
+  "source_artifacts": [
+    {
+      "path": "../../index.html",
+      "sha256": "FDCCC1277AE761213CEBECA6993E026BE407E2EF92E3177998732DADA8F2FAE7"
+    },
+    {
+      "path": "../../styles.css",
+      "sha256": "C01D040B62F2F86D5D32C523481827DA246FD6B812920BCEDCFB889A907CC518"
+    },
+    {
+      "path": "../../app.js",
+      "sha256": "523F057FE1618FFBC899A371A1FC976783E22F6257FED8BFB68497436B8E411B"
+    }
+  ],
+  "cases": [
+    {
+      "id": "hero-desktop",
+      "route": "index.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/hero-desktop.png",
+      "screenshot_sha256": "73A019E396A27906DE987D88C39EBA689C7738BAE56F6BF183D69E041B1914B4",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "scroll_height": 6029,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": 753.359375,
+          "bottom": 812.546875,
+          "left": 57.59375,
+          "right": 293.59375
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "proof-desktop",
+      "route": "index.html#proof",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/proof-desktop.png",
+      "screenshot_sha256": "DFB4A6CB9DF22C3D0D4A2E77CF89738FCEB80E7C6D762AF84CBE36B1ADB2E0B5",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "scroll_height": 6029,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": -2057.640625,
+          "bottom": -1998.453125,
+          "left": 57.59375,
+          "right": 293.59375
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "record-desktop",
+      "route": "index.html#record",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/record-desktop.png",
+      "screenshot_sha256": "F1BDBF201E2F62D14C2C856542660594C5F957A0474D82EB486422AC493F6EF6",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "scroll_height": 6029,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": -246.640625,
+          "bottom": -187.453125,
+          "left": 57.59375,
+          "right": 293.59375
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "routes-desktop",
+      "route": "index.html#routes",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/routes-desktop.png",
+      "screenshot_sha256": "11CD3164989E4D1CBCC57C59A9341436F603F670F2CC64E6D32170B477543A7F",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "scroll_height": 6029,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": -3095.640625,
+          "bottom": -3036.453125,
+          "left": 57.59375,
+          "right": 293.59375
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "join-desktop",
+      "route": "index.html#join",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/join-desktop.png",
+      "screenshot_sha256": "83DF07DD0CC420D977A00BFCA56D86F25BF25019468D2A3303D1F4757EE7355F",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "scroll_height": 6029,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": -4268.640625,
+          "bottom": -4209.453125,
+          "left": 57.59375,
+          "right": 293.59375
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "hero-mobile",
+      "route": "index.html",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/hero-mobile.png",
+      "screenshot_sha256": "F33CC084AF40509007F467F0E7D2347435A47E9D35FAA30B64A8784FE5B9047C",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "scroll_height": 7261,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": 447.578125,
+          "bottom": 506.765625,
+          "left": 18,
+          "right": 372
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "routes-mobile",
+      "route": "index.html#routes",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/routes-mobile.png",
+      "screenshot_sha256": "6DA65BFA1EE07636CB1365CAE8FE1F128AF0718A2A3B9D9F3FE9E22A5ED12B4F",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "scroll_height": 7261,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": -4469.421875,
+          "bottom": -4410.234375,
+          "left": 18,
+          "right": 372
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "desktop-full",
+      "route": "index.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "no-preference",
+      "forced_colors": "none",
+      "screenshot": "system-proof/desktop-full.png",
+      "screenshot_sha256": "B0968F5D07353B27019B245D035FB30C2D9DDD3F69C723898A371A9F2C9B41A6",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "scroll_height": 6029,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": 753.359375,
+          "bottom": 812.546875,
+          "left": 57.59375,
+          "right": 293.59375
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": false,
+        "fragment_animation": "align-fragment",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "desktop-reduced-full",
+      "route": "index.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/desktop-reduced-full.png",
+      "screenshot_sha256": "B0968F5D07353B27019B245D035FB30C2D9DDD3F69C723898A371A9F2C9B41A6",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "scroll_height": 6029,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": 753.359375,
+          "bottom": 812.546875,
+          "left": 57.59375,
+          "right": 293.59375
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "mobile-full",
+      "route": "index.html",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/mobile-full.png",
+      "screenshot_sha256": "3C63293CE4B53F08767E011AE3787196261FB912573D9D61656E57E284B7D6AB",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "scroll_height": 7261,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": 447.578125,
+          "bottom": 506.765625,
+          "left": 18,
+          "right": 372
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "narrow-320-full",
+      "route": "index.html",
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/narrow-320-full.png",
+      "screenshot_sha256": "2065DFBDE5DCF316BE7E4E832E1F292672B6262147F7D7CAD25B43484ABF3286",
+      "geometry": {
+        "scroll_width": 320,
+        "client_width": 320,
+        "body_scroll_width": 320,
+        "scroll_height": 7254,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": 473.125,
+          "bottom": 531.125,
+          "left": 18,
+          "right": 302
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "catalog-expired",
+      "route": "index.html?catalog_state=expired#proof",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/catalog-expired.png",
+      "screenshot_sha256": "68099A5BD84460F4E06E4FF7905C02E606183B46950C62B98264C427A054497C",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "scroll_height": 6007,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": -2057.640625,
+          "bottom": -1998.453125,
+          "left": 57.59375,
+          "right": 293.59375
+        },
+        "catalog_state": "expired",
+        "catalog_image_visible": false,
+        "degraded_visible": true,
+        "degraded_message": "Снимок каталога устарел. Откройте текущую версию на VibeUs.",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "expired",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "catalog-loading",
+      "route": "index.html?catalog_state=loading#proof",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/catalog-loading.png",
+      "screenshot_sha256": "7D63D007ECA6F93C1325E97117A753F6461122BF21D94224771A59A47C71737D",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "scroll_height": 7046,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": -3173.421875,
+          "bottom": -3114.234375,
+          "left": 18,
+          "right": 372
+        },
+        "catalog_state": "loading",
+        "catalog_image_visible": false,
+        "degraded_visible": true,
+        "degraded_message": "Проверяем актуальность снимка. Текущий каталог можно открыть напрямую.",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "loading",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "catalog-empty",
+      "route": "index.html?catalog_state=empty#proof",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/catalog-empty.png",
+      "screenshot_sha256": "311F887EAEF807C34186391FFB943CEB2DA13908BC014B69CFD6345937865B97",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "scroll_height": 7030,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": -3173.421875,
+          "bottom": -3114.234375,
+          "left": 18,
+          "right": 372
+        },
+        "catalog_state": "empty",
+        "catalog_image_visible": false,
+        "degraded_visible": true,
+        "degraded_message": "В подтверждённом снимке нет публичных записей. Проверьте текущий каталог на VibeUs.",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "empty",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "catalog-error",
+      "route": "index.html?catalog_state=error#proof",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/catalog-error.png",
+      "screenshot_sha256": "2CDF9A6049D902C233C205E273F559521FA6F38757529290DD76690259D1CDCB",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "scroll_height": 7046,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": -3173.421875,
+          "bottom": -3114.234375,
+          "left": 18,
+          "right": 372
+        },
+        "catalog_state": "error",
+        "catalog_image_visible": false,
+        "degraded_visible": true,
+        "degraded_message": "Не удалось подтвердить актуальность снимка. Откройте текущий каталог напрямую.",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "error",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "catalog-unavailable",
+      "route": "index.html?catalog_state=unavailable#proof",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/catalog-unavailable.png",
+      "screenshot_sha256": "AEEBEAB04FDB6273BC11F66D8DD918D2BB18DF7A1F57E3008F590382F39C4B77",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "scroll_height": 7046,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": -3173.421875,
+          "bottom": -3114.234375,
+          "left": 18,
+          "right": 372
+        },
+        "catalog_state": "unavailable",
+        "catalog_image_visible": false,
+        "degraded_visible": true,
+        "degraded_message": "Источник временно недоступен. Попробуйте открыть текущий каталог на VibeUs.",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "unavailable",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "catalog-no-js",
+      "route": "index.html#proof",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/catalog-no-js.png",
+      "screenshot_sha256": "F86F3B99E699CC02FBB80C43854E43AEFD2E42B67D52ABC52DEC1C8F0DDF8CAE",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "scroll_height": 7052,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": -3173.421875,
+          "bottom": -3114.234375,
+          "left": 18,
+          "right": 372
+        },
+        "catalog_state": "loading",
+        "catalog_image_visible": false,
+        "degraded_visible": true,
+        "degraded_message": "Снимок не подтверждён на этой странице. Откройте текущий каталог напрямую.",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": null
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "catalog-script-failure",
+      "route": "index.html#proof",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/catalog-script-failure.png",
+      "screenshot_sha256": "F86F3B99E699CC02FBB80C43854E43AEFD2E42B67D52ABC52DEC1C8F0DDF8CAE",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "scroll_height": 7052,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": -3173.421875,
+          "bottom": -3114.234375,
+          "left": 18,
+          "right": 372
+        },
+        "catalog_state": "loading",
+        "catalog_image_visible": false,
+        "degraded_visible": true,
+        "degraded_message": "Снимок не подтверждён на этой странице. Откройте текущий каталог напрямую.",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": null
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [
+        "Failed to load resource: net::ERR_FAILED"
+      ],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": [
+        {
+          "url": "file:///C:/Users/alexe/OneDrive/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Caster%20Training-vibeus-conscious-20260720/variants/vibeus-public-life/app.js",
+          "error": "net::ERR_FAILED"
+        }
+      ]
+    },
+    {
+      "id": "media-off",
+      "route": "index.html",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/media-off.png",
+      "screenshot_sha256": "F614B340E7961CD92B71E574B0BD52BE946D675D10A8586EDEB4A3FD3284E3C8",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "scroll_height": 7261,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": 447.578125,
+          "bottom": 506.765625,
+          "left": 18,
+          "right": 372
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "text-spacing",
+      "route": "index.html",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/text-spacing.png",
+      "screenshot_sha256": "41031885A59D599A92432FA7E608A949E2D6CC1B10D6C4696E240CD9E53E1A05",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "scroll_height": 7661,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": 456.078125,
+          "bottom": 516.078125,
+          "left": 18,
+          "right": 372
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "content-stress",
+      "route": "index.html",
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "none",
+      "screenshot": "system-proof/content-stress.png",
+      "screenshot_sha256": "6663271239CEC0B32FBEE541197B507FF5D80E0593D20C8CFFA9DCC33546EB81",
+      "geometry": {
+        "scroll_width": 320,
+        "client_width": 320,
+        "body_scroll_width": 320,
+        "scroll_height": 7503,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": 594.625,
+          "bottom": 652.625,
+          "left": 18,
+          "right": 302
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": false,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    },
+    {
+      "id": "forced-colors",
+      "route": "index.html#routes",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "reduced_motion": "reduce",
+      "forced_colors": "active",
+      "screenshot": "system-proof/forced-colors.png",
+      "screenshot_sha256": "45C929D48A939AF2D5ACE1BB79D7FED179FF66E361C47E1BADDCE340DA0D794E",
+      "geometry": {
+        "scroll_width": 1280,
+        "client_width": 1280,
+        "body_scroll_width": 1280,
+        "scroll_height": 5750,
+        "fonts_status": "loaded",
+        "sections": [
+          "top",
+          "record",
+          "proof",
+          "routes",
+          "join"
+        ],
+        "primary_action": {
+          "top": -3007.578125,
+          "bottom": -2948.390625,
+          "left": 51.1875,
+          "right": 287.1875
+        },
+        "catalog_state": "current",
+        "catalog_image_visible": true,
+        "degraded_visible": false,
+        "degraded_message": "",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "forced_colors_matches": true,
+        "material_fonts": [
+          {
+            "selector": ".action-condition",
+            "px": 14
+          },
+          {
+            "selector": ".evidence-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".demo-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".route-boundary",
+            "px": 14
+          },
+          {
+            "selector": ".availability-note",
+            "px": 14
+          }
+        ],
+        "route_links": [
+          "https://vibeus.app/works/launch-content-kit-df8941b5",
+          "https://vibeus.app/discussions",
+          "https://vibeus.app/ai-tools"
+        ],
+        "proof_state": {
+          "catalogState": "current",
+          "receiptCurrent": true,
+          "claimId": "clm-public-catalog",
+          "expectedCatalogLandmark": "Каталог проектов"
+        }
+      },
+      "overflow": false,
+      "console_errors": [],
+      "expected_console_errors": [],
+      "page_errors": [],
+      "request_failures": [],
+      "expected_request_failures": []
+    }
+  ],
+  "interaction_receipts": [
+    {
+      "active_route": "discussions",
+      "discussions_panel_visible": true,
+      "focused_href": "https://vibeus.app/discussions"
+    }
+  ],
+  "action_receipts": [
+    {
+      "action_id": "act-catalog-hero",
+      "expected_url": "https://vibeus.app/catalog",
+      "final_url": "https://vibeus.app/catalog",
+      "expected_landmark": "Каталог проектов",
+      "landmark_matched": true,
+      "semantic_error": false,
+      "title": "Каталог проектов - Vibeus",
+      "screenshot": "system-proof/catalog-action-destination.png",
+      "screenshot_sha256": "E8167A856A6C3337D96EAA1B86E6D5DB4437B84A7364991BAA0900AD5503D68D"
+    }
+  ],
+  "validation": {
+    "status": "pass",
+    "failures": []
+  }
+}

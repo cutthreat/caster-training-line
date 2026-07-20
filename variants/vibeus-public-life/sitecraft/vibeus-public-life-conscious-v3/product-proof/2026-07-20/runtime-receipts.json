@@ -1,0 +1,95 @@
+{
+  "captured_at": "2026-07-20T08:42:47.205Z",
+  "routes": [
+    {
+      "id": "home",
+      "requested_url": "https://vibeus.app/",
+      "final_url": "https://vibeus.app/",
+      "http_status": 200,
+      "title": "Vibeus - социальная платформа для вайбкодеров",
+      "landmark_matched": true,
+      "semantic_error": false,
+      "body_excerpt": "Vibeus Создавай, Рассказывай. Покоряй мир. Vibeus - социальная платформа для вайбкодеров. Публикуйте проекты и рабочие находки, обсуждайте опыт и находите авторов. Смотреть проекты Обсуждения Показывай свои работы Проекты, промпты и скрипты — в одном профиле. Получай обратную связь Обсуждай решения с другими авторами. Заявляй о проекте Находи первых пользователей по всему миру. Создать аккаунт Присоединяйтесь к нашему творческому сообществу Я согласен с Условиями использования и Политикой конфиденциальности Зарегистрироваться Уже есть аккаунт? Войти ИЛИ Продолжить с Google © 2026 Vibeus",
+      "screenshot": "product-proof/2026-07-20/home.png",
+      "screenshot_sha256": "29282ED9437BDE90CC4FDD36DD6B0B6FA5E77876CCFBDF2A9ADFC670B9158B7B",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "catalog",
+      "requested_url": "https://vibeus.app/catalog",
+      "final_url": "https://vibeus.app/catalog",
+      "http_status": 200,
+      "title": "Каталог проектов - Vibeus",
+      "landmark_matched": true,
+      "semantic_error": false,
+      "body_excerpt": "Vibeus ⌘ K Войти Лента Проекты Обсуждения Рейтинг AI сервисы Войти Опубликованные проекты Каталог проектов Проекты, которые авторы открыли для просмотра, пробного запуска и обсуждения. 4 проекта 4 автора По интересу Фильтры Заметные проекты Работы с сильным интересом, сохранениями и обсуждениями #1 ВЕБ-ПРИЛОЖЕНИЯ И САЙТЫ 1 1 Тест Тестовый текст краткого описания Pavel Kozichev @pavel_kozichev · 29 дней назад Посмотреть #2 КОНТЕНТ И МАРКЕТИНГ 2 1 Launch Content Kit Контент-набор для подготовки страницы проекта к первому публичному показу. Мира Соколова @demo_mira · 1 месяц назад Посмотреть #3 ИНСТРУМЕНТЫ РАЗРАБОТЧИКА 1 1 AI Code Review Checklist Практичный чеклист для проверки AI-assisted pull request перед слиянием. Борис Левин @demo_boris · 1 месяц назад Посмотреть Все проекты 4 проектов в текущей подборке ВЕБ-ПРИЛОЖЕНИЯ И САЙТЫ 1 1 Тест Тестовый текст краткого описания Pavel Kozichev @",
+      "screenshot": "product-proof/2026-07-20/catalog.png",
+      "screenshot_sha256": "7383176491A93E9B54B52150F8AB51C30011ECD095EE2805663817DD48EDD141",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "record",
+      "requested_url": "https://vibeus.app/works/launch-content-kit-df8941b5",
+      "final_url": "https://vibeus.app/works/launch-content-kit-df8941b5",
+      "http_status": 200,
+      "title": "Launch Content Kit - работа на Vibeus",
+      "landmark_matched": true,
+      "semantic_error": false,
+      "body_excerpt": "Vibeus ⌘ K Войти Лента Проекты Обсуждения Рейтинг AI сервисы Войти К КАТАЛОГУ Launch Content Kit Контент-набор для подготовки страницы проекта к первому публичному показу. Бизнес и операции Контент и маркетинг О проекте Набор блоков для презентации проекта: короткое описание, сценарии использования, галерея материалов, вопросы для обратной связи и план следующих улучшений. ОСНОВА ПРОЕКТА & СТЕК Content Launch Templates Обсуждение (0) Отправить Поддержать автора 2 1 Мира Соколова @demo_mira ПРОЕКТЫ 1 РЕЙТИНГ 85 Информация Добавлен 1 месяц назад Просмотры 25 Terms Privacy Support",
+      "screenshot": "product-proof/2026-07-20/record.png",
+      "screenshot_sha256": "B57CFDF6C23F077D4F43532586E441EEA8EFAFDDBE9F4FB524418E84328E6D8F",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "discussions",
+      "requested_url": "https://vibeus.app/discussions",
+      "final_url": "https://vibeus.app/discussions",
+      "http_status": 200,
+      "title": "Обсуждения - Vibeus",
+      "landmark_matched": true,
+      "semantic_error": false,
+      "body_excerpt": "Vibeus ⌘ K Войти Лента Проекты Обсуждения Рейтинг AI сервисы Войти Вопросы и опыт Обсуждения Задавайте вопросы, делитесь опытом и находите решения вместе с сообществом. Популярные Новые ∞ За всё время Мира Соколова @demo_mira · 1 месяц назад Что нужно подготовить перед публичным запуском? Какие материалы вы готовите к первому публичному показу проекта: описание, скриншоты, демо, changelog или историю создания? запуск контент 1 3 Борис Левин @demo_boris · 1 месяц назад Что обязательно проверять в AI-generated коде? Интересно сравнить подходы к ревью AI-generated кода: что вы проверяете вручную, а что уже доверяете автоматике? код ревью Ада Морозова @demo_ada · 1 месяц назад Как вы проверяете идею перед сборкой? Обсудим, как быстро проверять идею перед разработкой: какой минимальный сценарий вы собираете первым и что считаете достаточным сигналом? идеи прототип Популярные темы Разработка 3",
+      "screenshot": "product-proof/2026-07-20/discussions.png",
+      "screenshot_sha256": "026F23E7650E429DDD0033B50B98C7332C1FBC54FDC45635D389E02864DD737D",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "ai-tools",
+      "requested_url": "https://vibeus.app/ai-tools",
+      "final_url": "https://vibeus.app/ai-tools",
+      "http_status": 200,
+      "title": "AI-инструменты - Vibeus",
+      "landmark_matched": true,
+      "semantic_error": false,
+      "body_excerpt": "Vibeus ⌘ K Войти Лента Проекты Обсуждения Рейтинг AI сервисы Войти Новый раздел Каталог AI сервисов Курируемая коллекция лучших нейросетей, сервисов и библиотек для работы, программирования и дизайна. Найдите идеальный AI инструмент для вашей задачи. По популярности Фильтры Все инструменты 29 сервисов # ИНСТРУМЕНТ ОПИСАНИЕ ДЕЙСТВИЯ 1 ChatGPT Текст и Редактура Универсальный AI-ассистент для текстов, анализа, кода, изображений и повседневной работы. 2 Claude Текст и Редактура AI-ассистент Anthropic для письма, анализа документов, кода, исследований и командной работы. 3 Google Gemini Текст и Редактура AI-сервис Google для чата, генерации, анализа данных, работы с файлами и продуктами Google. 4 Microsoft Copilot Продуктивность AI-помощник Microsoft для поиска, офисных задач, генерации текста и работы в экосистеме Microsoft. 5 Perplexity Продуктивность AI-поиск и исследовательский ассистент,",
+      "screenshot": "product-proof/2026-07-20/ai-tools.png",
+      "screenshot_sha256": "467849CCE44315717FA5CE4A9A1E38897607541042F42E62AEDE19D4C3950E92",
+      "viewport": {
+        "width": 1440,
+        "height": 960
+      },
+      "console_errors": [],
+      "request_failures": []
+    }
+  ]
+}

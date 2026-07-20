@@ -1,0 +1,103 @@
+{
+  "schema": "sitecraft_system_source_snapshot.v1",
+  "captured_at": "2026-07-20T11:14:24.218Z",
+  "artifacts": [
+    {
+      "path": "index.html",
+      "sha256": "FDCCC1277AE761213CEBECA6993E026BE407E2EF92E3177998732DADA8F2FAE7"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "C01D040B62F2F86D5D32C523481827DA246FD6B812920BCEDCFB889A907CC518"
+    },
+    {
+      "path": "app.js",
+      "sha256": "523F057FE1618FFBC899A371A1FC976783E22F6257FED8BFB68497436B8E411B"
+    },
+    {
+      "path": "verify.mjs",
+      "sha256": "AFF94952684C7D1F84DF5A5DC6D45210D7130DEA5969FD21483786B7D8B3B6D2"
+    },
+    {
+      "path": "SOURCE_AND_RIGHTS.md",
+      "sha256": "70C5AA0A7D8E856EDF7EC081048E4D36A596AADC6003E44E6929A937FF806CAE"
+    },
+    {
+      "path": "assets/onest-400.ttf",
+      "sha256": "F181F9D93458D755061CB973912DD9CDC1FDAE504917DB1EB8B5A75DB6C2F1E9"
+    },
+    {
+      "path": "assets/onest-600.ttf",
+      "sha256": "29D1ADBEF368F0385D5B0663CF75768C1597FEF98F045ADFE53AE0407B5A8775"
+    },
+    {
+      "path": "assets/onest-800.ttf",
+      "sha256": "0E4232EDAB066A7AFD5B6B2D9C65FB924B3ED2BDB02CCB07667E242656C006E5"
+    },
+    {
+      "path": "assets/vibeus-record-2026-07-20.png",
+      "sha256": "B57CFDF6C23F077D4F43532586E441EEA8EFAFDDBE9F4FB524418E84328E6D8F"
+    },
+    {
+      "path": "assets/vibeus-catalog-2026-07-20.png",
+      "sha256": "7383176491A93E9B54B52150F8AB51C30011ECD095EE2805663817DD48EDD141"
+    },
+    {
+      "path": "assets/vibeus-discussions-2026-07-20.png",
+      "sha256": "026F23E7650E429DDD0033B50B98C7332C1FBC54FDC45635D389E02864DD737D"
+    },
+    {
+      "path": "assets/vibeus-ai-tools-2026-07-20.png",
+      "sha256": "467849CCE44315717FA5CE4A9A1E38897607541042F42E62AEDE19D4C3950E92"
+    }
+  ],
+  "observed_surfaces": [
+    {
+      "id": "hero-desktop",
+      "screenshot": "system-proof/hero-desktop.png",
+      "screenshot_sha256": "73A019E396A27906DE987D88C39EBA689C7738BAE56F6BF183D69E041B1914B4",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "id": "hero-mobile",
+      "screenshot": "system-proof/hero-mobile.png",
+      "screenshot_sha256": "F33CC084AF40509007F467F0E7D2347435A47E9D35FAA30B64A8784FE5B9047C",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "id": "desktop-full",
+      "screenshot": "system-proof/desktop-full.png",
+      "screenshot_sha256": "B0968F5D07353B27019B245D035FB30C2D9DDD3F69C723898A371A9F2C9B41A6",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "id": "mobile-full",
+      "screenshot": "system-proof/mobile-full.png",
+      "screenshot_sha256": "3C63293CE4B53F08767E011AE3787196261FB912573D9D61656E57E284B7D6AB",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "id": "narrow-320-full",
+      "screenshot": "system-proof/narrow-320-full.png",
+      "screenshot_sha256": "2065DFBDE5DCF316BE7E4E832E1F292672B6262147F7D7CAD25B43484ABF3286",
+      "viewport": {
+        "width": 320,
+        "height": 720
+      }
+    }
+  ],
+  "runtime_receipt_sha256": "8D02E1612620D624A3A3FC9F0E8DF386FE645B10F261C595F5C2C4A442B8144A",
+  "destination_receipt_sha256": "D650EE6CDB9678A94F73323BE765B4EA5B8FF3FD3F566252D43180D51DB0D5FE"
+}

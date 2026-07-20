@@ -1,60 +1,73 @@
-# VibeUs Public Life — implementation prompt
+# VibeUs Public Life — implementation contract
 
 ## Role
 
-Act as a senior creative frontend engineer, product designer and evidence-led landing-page author.
+Act as a senior product designer, art director and frontend engineer. Preserve evidence bindings and the decision route; do not rebuild the page from a generic landing template.
 
-## Objective
+## Product truth
 
-Refresh the published VibeUs Public Life landing and preserve three query-addressable Hero engines:
+VibeUs is a social platform for vibe coders with public project records, catalog, discussions and an AI‑services directory. Current public inventory is early and partly demo/test. Do not claim a mature community, ready solutions, guaranteed feedback, reuse, launchability or post‑auth publication without new owned proof.
 
-- default: code breaches the screen and resolves into a public project record;
-- `?hero=quantum`: one project becomes a field of possible human responses;
-- `?hero=singularity`: a finished project resists disappearing into a private archive.
+## First-screen contract
 
-All three must explain the same truthful product: VibeUs exposes public project records with context, imagery, stack and links. Public exploration precedes registration.
+The first viewport must communicate:
 
-## Visual thesis
+- category: social platform for vibe coders;
+- outcome: give an AI‑assisted project a public life/address;
+- reason to believe: a readable real VibeUs public record;
+- primary action: direct anonymous catalog;
+- condition: account only when the visitor chooses to continue.
 
-An editorial public-record system collides with cinematic computational phenomena: the spectacle attracts attention, while a real project passport carries the product meaning.
+Catalog must remain primary. Auth must not outrank public inspection.
 
-## Interaction thesis
+## Original visual thesis
 
-1. Hero canvas and particles create presence without becoming semantic content.
-2. Desktop journey translates vertical scroll into a finite four-stage horizontal sequence because direction carries process meaning.
-3. Project specimen uses restrained depth and crop movement; reduced motion removes all continuous movement and restores a linear page.
+Private fragments such as `README`, screenshot and URL align into one public record. Use the owned product surface as the proof-bearing object. The dark/paper/coral system, editorial masses and restrained alignment motion serve that thesis; do not add matrix rain, space phenomena, abstract 3D or generic glass cards.
 
-## Content sequence
+## Canonical chapter sequence
 
-1. Hero: category, product mechanism, public catalog action, contribution action, project-record proof.
-2. Orientation: VibeUs is the public layer after AI tools, not another generator.
-3. Artifact proof: what a visitor can inspect and the honest availability boundary.
-4. Publishing path: context, result, question, public link.
-5. User value: watch, show, discuss.
-6. Collective thesis and final low-pressure handoff.
+1. `top` — category, outcome, direct catalog and public-record proof.
+2. `record` — anatomy of one public address and demo boundary.
+3. `proof` — dated current catalog with fail‑closed states.
+4. `routes` — concrete project, discussions and AI‑services destinations.
+5. `join` — optional auth only after proof, with catalog recovery.
 
-## Inputs
-
-- `assets/vibeus-project.png`: existing product screenshot; used as an inspectable reference-record example.
-- `assets/vibeus-catalog.png`: existing public catalog screenshot.
-- `assets/onest-*.ttf`: existing local type assets.
-- `styles.css`, `app.js`, `index.html`: implementation owners.
-
-## Do not claim
-
-- reusable or runnable artifacts unless the destination exposes them;
-- guaranteed feedback, reputation, growth, leads or conversion;
-- current project counts or named records as permanent inventory;
-- participant comprehension or business impact;
-- awards, likes or reactions as proof of usefulness.
+Every chapter must add a new decision value. A repeated destination requires a newly earned reason.
 
 ## Responsive contract
 
-- desktop 1440: full-bleed poster Hero, project record on the right, finite horizontal journey;
-- tablet 820: reduced visual mass and readable two-column evidence;
-- mobile 390 and narrow 320: linear reading order, artifact after actions, vertical journey, no hidden essential content;
-- 200% text-spacing and long-copy geometry must not require horizontal page scrolling.
+- Desktop uses the authored 12‑column composition.
+- Mobile is re-authored: message → primary CTA → condition → proof; route previews become part of each vertical row.
+- Exact 320 must keep all material text at 14 px or above and have zero horizontal overflow.
+- Reduced motion removes decorative animation while preserving all content and actions.
+- Keyboard, forced colors, text spacing and missing media must keep the decision path usable.
 
-## Acceptance
+## Volatile proof contract
 
-See `ACCEPTANCE_CHECKLIST.md`. Build/source checks alone are insufficient; capture every Hero, lower sections, mobile menu, reduced motion and external destination receipts.
+- Initial HTML state is non-current.
+- Promote to `current` only after valid owner/verified/expiry receipt.
+- Required states: current, loading, empty, error, expired, unavailable, no‑JS and failed script.
+- Every non-current state hides the dated image and numeric success.
+- Always preserve a literal link to the live catalog.
+- User-facing copy must not expose internal `receipt`, claim or QA language.
+
+## Destination contract
+
+Verify every action by click:
+
+`local page → exact live URL → expected semantic landmark → recovery to local page`
+
+HTTP 200 without the landmark is not success.
+
+## Required acceptance
+
+Run the local static verifier, full runtime matrix, seven destinations, semantic and visual attention audits, blind Human‑QA, plausible auth‑first falsification, Caster, Anton and Production. Bind all final verdicts to the same System Manifest SHA. Publish only after the `validated` gate passes, then run a separate post‑deploy proof on the exact public URL.
+
+## Do not claim
+
+- community scale beyond a dated owned snapshot;
+- reusable/runnable payloads or ready-made solutions;
+- guaranteed discussion, support, leads or reputation;
+- participant comprehension, heatmap, gaze or conversion lift;
+- post‑auth publication behavior;
+- cross‑browser or real-device readiness without those receipts.

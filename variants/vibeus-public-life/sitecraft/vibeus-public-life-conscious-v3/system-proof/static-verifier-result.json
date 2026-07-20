@@ -1,0 +1,147 @@
+{
+  "schema": "vibeus_public_life_static_verifier.v2",
+  "passed": 28,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "one-semantic-h1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "first-screen-contract",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "five-chapter-value-ladder",
+      "pass": true,
+      "detail": "659,3294,5146,6871,10449"
+    },
+    {
+      "name": "catalog-is-primary-action",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile-auth-after-record-proof",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog-before-auth-condition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "real-product-proof-in-hero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "fresh-dated-product-assets",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog-claim-owned-and-expiring",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "initial-html-fails-closed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dynamic-counts-bound-to-current-state",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "current-only-after-valid-receipt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "fail-closed-state-family",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "fail-closed-recovery-route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "evidence-boundaries",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no-false-scale-or-library-claim",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no-guaranteed-feedback-claim",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "direct-public-routes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "route-preview-keyboard-parity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no-horizontal-scroll-contract",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "reduced-motion-contract",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "forced-colors-contract",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "local-fonts-and-display-swap",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "skip-link-and-live-state",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no-legacy-spectacle-engine",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "timeless-boundary-near-auth",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no-proof-contour-jargon-in-visible-copy",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source-and-rights",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

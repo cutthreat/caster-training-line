@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="2860" viewBox="0 0 1440 2860" role="img" aria-labelledby="title desc">
+  <title id="title">VibeUs semantic sketch, desktop</title>
+  <desc id="desc">Grayscale click-through sketch with five decision chapters and real draft copy.</desc>
+  <style>
+    text{font-family:Arial,sans-serif;fill:#151515}.label{font-size:15px;font-weight:700;letter-spacing:1.4px}.h1{font-size:74px;font-weight:800}.h2{font-size:50px;font-weight:800}.body{font-size:22px}.small{font-size:16px}.micro{font-size:13px}.button{font-size:18px;font-weight:700;fill:#fff}.line{stroke:#292929;stroke-width:2}.muted{fill:#6c6c6c}.panel{fill:#efefef;stroke:#202020;stroke-width:2}.dark{fill:#191919}.white{fill:#fff}.chip{fill:#d7d7d7;stroke:#555}
+  </style>
+  <rect width="1440" height="2860" fill="#f7f7f4"/>
+  <rect x="0" y="0" width="1440" height="760" fill="#e5e5e2"/>
+  <text x="60" y="55" class="label">VIBEUS</text><text x="1120" y="55" class="small">Проекты   Обсуждения   AI-сервисы   Войти</text>
+  <text x="60" y="145" class="label">СОЦИАЛЬНАЯ ПЛАТФОРМА ДЛЯ ВАЙБКОДЕРОВ</text>
+  <text x="60" y="235" class="h1">Сделали с AI?</text><text x="60" y="320" class="h1">Дайте проекту</text><text x="60" y="405" class="h1">публичную жизнь.</text>
+  <text x="60" y="470" class="body">Покажите работу, соберите её контекст по одному адресу</text><text x="60" y="502" class="body">и откройте разговор. Или сначала посмотрите, что уже публикуют.</text>
+  <a xlink:href="https://vibeus.app/catalog"><rect x="60" y="540" width="215" height="58" class="dark"/><text x="88" y="577" class="button">Смотреть проекты ↗</text></a>
+  <a xlink:href="https://vibeus.app/auth"><text x="310" y="577" class="small">Показать свой →</text></a>
+  <text x="60" y="635" class="small">Каталог открывается без регистрации. Текущий состав меняется.</text>
+  <rect x="755" y="105" width="620" height="525" class="panel"/>
+  <text x="785" y="140" class="label">РЕАЛЬНАЯ ПУБЛИЧНАЯ ЗАПИСЬ / DEMO</text>
+  <rect x="785" y="170" width="560" height="320" fill="#fff" stroke="#777"/>
+  <text x="820" y="220" class="small">Launch Content Kit</text><text x="820" y="255" class="body">Контент-набор для первого</text><text x="820" y="285" class="body">публичного показа проекта.</text>
+  <rect x="820" y="325" width="490" height="110" fill="#d3d3d3"/><text x="840" y="380" class="small">ОПИСАНИЕ / СТЕК / ОБСУЖДЕНИЕ</text>
+  <text x="785" y="535" class="small">Публичная запись, не готовое решение.</text><text x="785" y="565" class="small">Переиспользуемый payload не показан.</text>
+  <line x1="720" y1="80" x2="720" y2="2780" class="line" stroke-dasharray="7 10"/>
+
+  <text x="60" y="850" class="label">ЧТО ДЕРЖИТ ОДИН ПУБЛИЧНЫЙ АДРЕС</text>
+  <text x="60" y="930" class="h2">Не только обложку.</text><text x="60" y="990" class="h2">Контекст вокруг работы.</text>
+  <text x="60" y="1055" class="body">Текущая demo-запись показывает ровно тот уровень,</text><text x="60" y="1087" class="body">который можно проверить публично.</text>
+  <rect x="790" y="820" width="560" height="390" class="panel"/>
+  <text x="820" y="865" class="label">ПУБЛИЧНАЯ ЗАПИСЬ</text>
+  <line x1="820" y1="900" x2="1320" y2="900" class="line"/><text x="820" y="935" class="small">Название и краткое описание</text>
+  <line x1="820" y1="965" x2="1320" y2="965" class="line"/><text x="820" y="1000" class="small">Описание идеи проекта</text>
+  <line x1="820" y1="1030" x2="1320" y2="1030" class="line"/><text x="820" y="1065" class="small">Теги и стек</text>
+  <line x1="820" y1="1095" x2="1320" y2="1095" class="line"/><text x="820" y="1130" class="small">Обсуждение и публичные действия</text>
+  <a xlink:href="https://vibeus.app/works/launch-content-kit-df8941b5"><text x="790" y="1255" class="small">Открыть пример записи ↗</text></a>
+  <text x="60" y="1225" class="small">Граница: на странице нет доказанного файла набора или reusable payload.</text>
+
+  <rect x="0" y="1340" width="1440" height="640" fill="#d8d8d5"/>
+  <text x="60" y="1420" class="label">СНАЧАЛА ПРОВЕРЬТЕ ПРОДУКТ</text>
+  <text x="60" y="1500" class="h2">Текущий каталог.</text><text x="60" y="1560" class="h2">Без мифа о масштабе.</text>
+  <text x="60" y="1625" class="body">Публичные записи открываются без аккаунта.</text><text x="60" y="1657" class="body">Состав ранний и меняется.</text><text x="60" y="1689" class="body">Он не обещает готовых решений.</text>
+  <rect x="620" y="1400" width="755" height="425" class="panel"/><text x="650" y="1440" class="label">LIVE / CATALOG / СНИМОК ДАТИРОВАН</text>
+  <rect x="650" y="1470" width="695" height="295" fill="#fff" stroke="#777"/><text x="680" y="1525" class="h2">Каталог проектов</text><rect x="680" y="1570" width="200" height="145" class="chip"/><rect x="900" y="1570" width="200" height="145" class="chip"/><rect x="1120" y="1570" width="200" height="145" class="chip"/>
+  <a xlink:href="https://vibeus.app/catalog"><rect x="60" y="1735" width="270" height="58" class="dark"/><text x="88" y="1772" class="button">Открыть текущий каталог ↗</text></a>
+
+  <text x="60" y="2080" class="label">ПОСЛЕ ПРОЕКТА / ТРИ ОТДЕЛЬНЫХ МАРШРУТА</text>
+  <text x="60" y="2160" class="h2">Показать. Обсудить.</text><text x="60" y="2220" class="h2">Найти инструмент.</text>
+  <line x1="60" y1="2290" x2="1375" y2="2290" class="line"/>
+  <text x="60" y="2340" class="label">ПРОЕКТЫ</text><text x="300" y="2340" class="body">Публичные записи и их контекст</text><a xlink:href="https://vibeus.app/catalog"><text x="1180" y="2340" class="small">Каталог ↗</text></a>
+  <line x1="60" y1="2380" x2="1375" y2="2380" class="line"/>
+  <text x="60" y="2430" class="label">ОБСУЖДЕНИЯ</text><text x="300" y="2430" class="body">Отдельные публичные вопросы и опыт</text><a xlink:href="https://vibeus.app/discussions"><text x="1180" y="2430" class="small">Обсуждения ↗</text></a>
+  <line x1="60" y1="2470" x2="1375" y2="2470" class="line"/>
+  <text x="60" y="2520" class="label">AI-СЕРВИСЫ</text><text x="300" y="2520" class="body">Каталог инструментов без обещания эффективности</text><a xlink:href="https://vibeus.app/ai-tools"><text x="1180" y="2520" class="small">Найти инструмент ↗</text></a>
+  <line x1="60" y1="2560" x2="1375" y2="2560" class="line"/>
+
+  <rect x="0" y="2640" width="1440" height="220" fill="#191919"/>
+  <text x="60" y="2710" class="label white">СНАЧАЛА ПОСМОТРИТЕ. ПОТОМ РЕШИТЕ, ЧТО ДОБАВИТЬ.</text>
+  <text x="60" y="2780" class="h2 white">Дайте проекту адрес.</text>
+  <a xlink:href="https://vibeus.app/auth"><rect x="1045" y="2720" width="280" height="62" fill="#fff"/><text x="1080" y="2760" class="small">Перейти к VibeUs ↗</text></a>
+</svg>

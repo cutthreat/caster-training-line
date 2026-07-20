@@ -1,0 +1,30 @@
+{
+  "schema": "sitecraft_human_qa_manifest.v1",
+  "stage": "plausible_semantic_control",
+  "mode": "plausibility",
+  "intent_disclosed": false,
+  "hidden_intent_sha256": "3122C14215DFD6DD84E72CBDC3A7B3149088A073A99CBD10E6D65D6F77A25F0C",
+  "source_artifact_sha256": "4A684F708182CAE58E449FC751090A9D740E5705576712165CBD9912E15FFA03",
+  "accepted_events": [
+    {
+      "path": "human-qa/plausible-control-desktop-v1/event.json",
+      "sha256": "AC7E25122A5F43E6F3CDF38940412EDF4CA4DB6B31D8F30DD64E7EC3A28555B4",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "human-qa/plausible-control-mobile-v1/event.json",
+      "sha256": "DD29091F5B65B2F3F9FC915BEB86F530C290202544BE2F6F58B09A6DCB979985",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ],
+  "alignment": {
+    "plausibility_confirmed": true
+  },
+  "status": "pass"
+}

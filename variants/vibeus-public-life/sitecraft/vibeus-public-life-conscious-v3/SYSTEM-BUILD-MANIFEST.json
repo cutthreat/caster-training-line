@@ -1,0 +1,77 @@
+{
+  "schema": "sitecraft_system_build_manifest.v1",
+  "status": "pass",
+  "golden_slice_manifest_sha256": "B86DDBF6C45D7CDA2132FAF810D52C4B8B1A4BEABF0CE21EF3D26A888068711B",
+  "source_artifacts": [
+    {
+      "path": "system-source/source-manifest.json",
+      "sha256": "2F3B0F33D3F355A4AD7A01777B1A8F814B944A58E80377F7630C9A2F9F8E4B52"
+    },
+    {
+      "path": "system-source/index.html",
+      "sha256": "FDCCC1277AE761213CEBECA6993E026BE407E2EF92E3177998732DADA8F2FAE7"
+    },
+    {
+      "path": "system-source/styles.css",
+      "sha256": "C01D040B62F2F86D5D32C523481827DA246FD6B812920BCEDCFB889A907CC518"
+    },
+    {
+      "path": "system-source/app.js",
+      "sha256": "523F057FE1618FFBC899A371A1FC976783E22F6257FED8BFB68497436B8E411B"
+    },
+    {
+      "path": "system-source/verify.mjs",
+      "sha256": "AFF94952684C7D1F84DF5A5DC6D45210D7130DEA5969FD21483786B7D8B3B6D2"
+    },
+    {
+      "path": "system-proof/runtime-receipt.json",
+      "sha256": "8D02E1612620D624A3A3FC9F0E8DF386FE645B10F261C595F5C2C4A442B8144A"
+    },
+    {
+      "path": "system-proof/destination-receipts.json",
+      "sha256": "D650EE6CDB9678A94F73323BE765B4EA5B8FF3FD3F566252D43180D51DB0D5FE"
+    },
+    {
+      "path": "system-proof/static-verifier-result.json",
+      "sha256": "AEE6A37E6CB5EF79FFA937F3DE986A0C73A8B6FBB9323F6F925CD5A0CBCC07F2"
+    },
+    {
+      "path": "HUMAN-QA-FINAL-MANIFEST.json",
+      "sha256": "77043BDA398B1A33DEE3633EB7F221B2598154BFF564AD375C119F5133A74F1D"
+    },
+    {
+      "path": "HUMAN-QA-PLAUSIBILITY-MANIFEST.json",
+      "sha256": "C973E017F7406330595F1F74654BCD764C793A01FA7BEADFF165563F992DABE3"
+    },
+    {
+      "path": "falsification/control-source-manifest.json",
+      "sha256": "4A684F708182CAE58E449FC751090A9D740E5705576712165CBD9912E15FFA03"
+    },
+    {
+      "path": "ATTENTION-AUDIT-FINAL.json",
+      "sha256": "62B68AFF8C01B3DBDF8B12EC8A94929B43F374798145B282C9341955C42DA583"
+    }
+  ],
+  "viewport_profiles": [
+    {
+      "id": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "receipt_case_id": "desktop-full"
+    },
+    {
+      "id": "mobile",
+      "width": 390,
+      "height": 844,
+      "receipt_case_id": "mobile-full"
+    },
+    {
+      "id": "exact-320",
+      "width": 320,
+      "height": 720,
+      "receipt_case_id": "narrow-320-full"
+    }
+  ],
+  "implementation_scope": "Five-chapter VibeUs landing: first-screen contract, public-record mechanism, current catalog proof with fail-closed states, three direct public routes and an earned auth handoff.",
+  "built_at": "2026-07-20T11:16:17.453Z"
+}

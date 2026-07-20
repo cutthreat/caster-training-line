@@ -2,39 +2,57 @@
 
 ## Decision sentence
 
-When a person is about to start or has just finished an AI-assisted project, VibeUs lets them inspect how other people frame public work, understand one real project before registration, and preserve their own result with context instead of starting and disappearing alone.
+Когда человек уже сделал или почти закончил проект с AI, VibeUs помогает увидеть формат публичной записи, проверить реальные открытые поверхности и дать своему проекту один публичный адрес; регистрация появляется только после доказанной публичной ценности.
 
-## Hero roles
+## Visual law
 
-- `code`: a new project starts from visible shared context instead of an empty chat;
-- `quantum`: one public result creates several possible continuations without promising a response;
-- `singularity`: finished work no longer disappears into the gravity of private archives.
+`loose private fragments → aligned public record → current catalog proof → literal public routes → earned auth`
 
-The phenomena are metaphors. A cropped real VibeUs project screen is the proof-bearing object in every variant.
+Разрозненные `README`, экран и URL выравниваются в одну запись. Этот переход, а не «AI‑космос», является фирменным образом лендинга. Продуктовые снимки несут смысл и доказательство; motion лишь делает сборку видимой.
 
-## Attention contract
+## Attention route
 
 ```text
-top-left category and pain -> strong outcome headline -> real VibeUs screen
--> low-commitment on-page project proof -> real catalog destination
--> project anatomy -> four-step publication mechanism -> honest reuse -> final action
+category + human outcome
+→ direct catalog action
+→ readable public record
+→ record anatomy
+→ dated current catalog
+→ three real destinations
+→ optional auth with catalog recovery
 ```
 
-Desktop puts the offer in the first upper-left reading zone and uses the live product screen as a counterweight. The primary Hero action stays on the landing and moves directly to an inspectable catalog proof before the explanatory mechanism. Mobile keeps the message and action first, then reveals enough of the real project screen to make the next scroll feel earned. The foreground code may cross the visual boundary, but it is pointer-transparent and may not obscure actionable copy or focus.
+Hero держит крупное УТП в левом верхнем маршруте взгляда и сразу ставит реальный экран продукта справа. CTA и условие сгруппированы. На mobile доказательство идёт непосредственно после сообщения и действия, а не прячется под декоративной пустотой.
 
-The desktop publication path uses four discrete semantic keyframes across a bounded `260vh` scene. This preserves the horizontal cinematic device without leaving headings in long clipped transition states. Mobile and reduced-motion render all four steps vertically.
+## Composition system
 
-## Research-to-interface trace
+- 12‑колоночная desktop‑сетка и один смысловой mobile‑axis.
+- Внутригрупповые интервалы 14–38 px; межглавные переходы 60–144 px.
+- Крупная Onest 800 для решения, 400 для объяснения, 600 для операционных меток.
+- Черный — рабочий контекст; тёплая бумага — проверка и выбор; коралловый — результат, доказательство и действие.
+- Один доминант на текущий decision moment; соседние главы могут иметь собственный доминант, но не конкурируют одновременно.
+- Пять разных масс вместо повторяющейся сетки карточек.
 
-| Observation | User question | Interface decision | Claim ceiling |
-|---|---|---|---|
-| Public project pages expose context but not guaranteed payloads | What can I actually inspect? | Project passport plus explicit availability boundary | reference/inspectable record only |
-| Cold visitors should not register before seeing product value | Can I look first? | Hero first reveals the on-page catalog proof; the proof then links to the live catalog | destination receipt plus blind proxy trace |
-| Abstract cosmic objects do not prove the product | What is the object on the page? | A real product screenshot appears inside every Hero before community rhetoric | local visual/product evidence |
-| Cold visitors often face an empty-chat starting point | Why should I open this now? | Default Hero frames visible shared context as a better start than isolated invention | positioning hypothesis; participant test pending |
-| Feedback is not guaranteed | Why add context and a question? | Publishing path says it gives people a basis to respond, not that they will | testable hypothesis |
-| Inventory and demo records may change | What exists now? | No fixed counts or named project list | route-level availability only |
+## Responsive law
 
-## Non-copy boundary
+- Desktop: message/proof split, sticky локальные объекты только там, где это помогает сравнению.
+- Mobile: самостоятельная вертикальная композиция; CTA и условие выше продуктового proof, route preview встроен в каждую строку.
+- 320 px: тот же порядок решений, без скрывающего `overflow-x` и без уменьшения важного текста ниже 14 px.
+- Reduced motion: статичная полная страница; ни одна глава не зависит от анимации или hover.
 
-Transfer relationships, not surfaces: upper-left offer priority, proof-bearing visual route, semantic singleton for kinetic type, public-before-registration path, and question-bound sections. Do not reuse third-party palettes, page silhouettes, animation signatures, copy, assets or layouts.
+## Truth and state law
+
+- HTML начинает с `loading`, а не `current`.
+- Текущий снимок появляется только при действующем owner/expiry receipt.
+- Любое деградированное состояние скрывает числовой успех и изображение.
+- No‑JS и отказ `app.js` показывают статичное человеческое сообщение и прямой каталог.
+- Датированные `4 проекта / 4 автора` — состояние снимка, не обещание масштаба.
+- Post‑auth действия не описываются как доказанный путь.
+
+## Clean-room boundary
+
+Из изученных сайтов переносились только принципы: раннее доказательство, ясная иерархия, ритм масс, literal destination и осмысленный motion. Не переносились донорская сетка, section shell, палитра, изображения, копирайтинг, типографический рисунок или signature interaction.
+
+## Selection residual
+
+Текущий `CONCEPT-ROUTES.md` был зафиксирован до стилизации, но его матрица содержит меньше критериев, чем полный concept‑selection runbook. Поэтому этот проект не повышает сокращённую матрицу до универсального стандарта; следующий greenfield‑trial должен prospectively проверить все критерии proof legibility, action handoff, accessibility/reduced motion, runtime feasibility и implementation cost.

@@ -1,0 +1,38 @@
+{
+  "schema": "sitecraft_reviewer_verdict.v1",
+  "role": "caster",
+  "stage": "golden_slice",
+  "status": "pass",
+  "reviewer": "caster-artist-designer",
+  "reviewed_at": "2026-07-20T09:41:00Z",
+  "scope": "Composition, attention route, product proof, responsive authorship, degraded evidence state and catalog action for the golden slice.",
+  "bound_manifest_sha256": "B86DDBF6C45D7CDA2132FAF810D52C4B8B1A4BEABF0CE21EF3D26A888068711B",
+  "evidence_receipt_ids": [
+    "GS-MANIFEST",
+    "GS-SOURCE",
+    "GS-CAPTURE-RECEIPT",
+    "ATTENTION-VISUAL",
+    "HERO-DESKTOP",
+    "HERO-MOBILE",
+    "HERO-320",
+    "PROOF-DESKTOP",
+    "PROOF-MOBILE",
+    "PROOF-320",
+    "PROOF-EXPIRED",
+    "CATALOG-ACTION",
+    "PRODUCT-RUNTIME"
+  ],
+  "findings": [
+    "The message-proof-action sequence communicates category, public-life outcome and a low-risk catalog route within the first viewport.",
+    "The public-record composition is product-specific and turns loose files into an inspectable owned URL without fictional spectacle.",
+    "Mobile is independently authored, preserves public-before-auth order and remains intact at 390px and 320px.",
+    "Expired proof fails closed, while reduced motion preserves meaning and all eight runtime cases remain overflow-free."
+  ],
+  "conditions": [],
+  "residuals": [
+    "Evidence remains expert-proxy only and does not claim participant research, eye tracking or conversion lift.",
+    "Record anatomy, adjacent routes, final auth handoff, accessibility, performance, content stress and final state coverage remain for system build.",
+    "System build must keep authentication after product proof on mobile, keep material conditions at 14px or larger and preserve date, demo boundary and fail-closed screenshot behavior.",
+    "Later chapters must not repeat the Hero or collapse into generic feature cards; final acceptance still requires fresh blind Human-QA and full Caster, Anton and production review."
+  ]
+}

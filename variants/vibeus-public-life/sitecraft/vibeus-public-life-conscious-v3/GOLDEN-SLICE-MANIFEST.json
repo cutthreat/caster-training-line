@@ -1,0 +1,106 @@
+{
+  "schema": "sitecraft_golden_slice_manifest.v1",
+  "status": "pass",
+  "hero_chapter_id": "ch-orient",
+  "proof_chapter_id": "ch-proof",
+  "action_id": "act-catalog-hero",
+  "degraded_claim_id": "clm-public-catalog",
+  "degraded_state": "expired",
+  "source_artifacts": [
+    {
+      "path": "golden-slice.html",
+      "sha256": "0D70EC9E6B677160D8B8CEE35CC1CB28B31D37A92F8BF48057F092BE67D34D36"
+    },
+    {
+      "path": "golden-proof/capture-receipt.json",
+      "sha256": "9C6EB471FE48D62EB912BD338D565F9FF0110EA2E3F38C447F03CEFF6CB5C7FF"
+    },
+    {
+      "path": "product-proof/2026-07-20/runtime-receipts.json",
+      "sha256": "42E6B4C4EA3C2626D734B3A029E6FE7EDFB028BB1B3961AA153C6555FE2A5E40"
+    },
+    {
+      "path": "product-proof/2026-07-20/record.png",
+      "sha256": "B57CFDF6C23F077D4F43532586E441EEA8EFAFDDBE9F4FB524418E84328E6D8F"
+    },
+    {
+      "path": "product-proof/2026-07-20/catalog.png",
+      "sha256": "7383176491A93E9B54B52150F8AB51C30011ECD095EE2805663817DD48EDD141"
+    }
+  ],
+  "captures": [
+    {
+      "path": "golden-proof/hero-desktop.png",
+      "sha256": "65F50E02610C979C8BE181F3B919E7EEB8996E8DECB5299947C9F9619195B977",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "golden-slice.html"
+    },
+    {
+      "path": "golden-proof/hero-reduced-motion-desktop.png",
+      "sha256": "65F50E02610C979C8BE181F3B919E7EEB8996E8DECB5299947C9F9619195B977",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "golden-slice.html"
+    },
+    {
+      "path": "golden-proof/hero-mobile.png",
+      "sha256": "144B2205E34BD52F1C8946D8C51A1C61AC8ADBDF2D3D4735926B833D0177485E",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "route": "golden-slice.html"
+    },
+    {
+      "path": "golden-proof/hero-320.png",
+      "sha256": "05165ECA7F3EEDF1D5A38FA7C469A554D7A38A381DC8BFCF4EBCFE3B4A0B6F80",
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "route": "golden-slice.html"
+    },
+    {
+      "path": "golden-proof/proof-desktop.png",
+      "sha256": "ECA5E725401EF84D45B6C65C8F4FFE37AEAE0CB1D839193747602D54A4781820",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "golden-slice.html#proof"
+    },
+    {
+      "path": "golden-proof/proof-mobile.png",
+      "sha256": "3D9344A9EEFEC7942971C14E227F675A4815B072FB8E3860ECCB1A1A6448277C",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "route": "golden-slice.html#proof"
+    },
+    {
+      "path": "golden-proof/proof-320.png",
+      "sha256": "2BA51D7F10C4EAA6EEB2A32E376374F991E6C3BF72699B299CA75FF3CEFC4DB1",
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "route": "golden-slice.html#proof"
+    },
+    {
+      "path": "golden-proof/proof-expired-desktop.png",
+      "sha256": "3CA0D5F2069038AE24BBF295ED289F2ED8C278805C1F286B2918C1E698DC1302",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "golden-slice.html?catalog_state=expired#proof"
+    }
+  ],
+  "implementation_scope": "Responsive Hero orientation plus owned catalog proof, direct public catalog action and expired catalog-capture state. Record anatomy, adjacent route ledger and final auth handoff remain outside the slice."
+}

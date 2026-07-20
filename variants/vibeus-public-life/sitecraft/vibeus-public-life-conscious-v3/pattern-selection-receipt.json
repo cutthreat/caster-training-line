@@ -1,0 +1,152 @@
+{
+  "schema": "site_pattern_selection_result.v1",
+  "brief_id": "vibeus-public-life-conscious-v3",
+  "status": "pass_with_custom_composition_required",
+  "primary_job": "The maker understands how VibeUs can give that work a public record and a route to related discussions and tools, while a cold visitor can inspect current public content first.",
+  "foundation_patterns": [
+    "responsive-content-shell",
+    "semantic-spacing-rhythm",
+    "alignment-anchor-system",
+    "section-mass-composition",
+    "typographic-measure-hierarchy",
+    "responsive-reflow-transform",
+    "media-crop-aspect-control"
+  ],
+  "foundation_proof_obligations": [
+    "keyboard-and-visible-focus",
+    "forced-colors",
+    "text-spacing-1.5-0.12em-0.16em-2em",
+    "320-css-px-reflow-proxy",
+    "actual-overflow-not-masked",
+    "reduced-motion",
+    "conformance-not-claimed"
+  ],
+  "selected_patterns": [
+    "hero-message-stack",
+    "final-cta-handoff",
+    "navigation-orientation",
+    "proof-relay-handoff"
+  ],
+  "selection_fingerprint": "hero-message-stack+final-cta-handoff+navigation-orientation+proof-relay-handoff",
+  "coverage": {
+    "hero-message-stack": [
+      "bind-visual-to-product-proof",
+      "orient-first-screen",
+      "state-specific-value"
+    ],
+    "final-cta-handoff": [
+      "consequential-next-step",
+      "cross-process-boundary"
+    ],
+    "navigation-orientation": [
+      "orient-across-destinations",
+      "support-multiple-top-level-routes"
+    ],
+    "proof-relay-handoff": [
+      "claim-to-source-continuity"
+    ]
+  },
+  "proof_obligations": {
+    "hero-message-stack": [
+      "source-intent-continuity",
+      "three-second-orientation-proxy",
+      "three-concept-mass-route-comparison",
+      "next-block-hint",
+      "desktop-mobile-reading-order",
+      "missing-stale-proof-recovery",
+      "claim-ceiling",
+      "long-copy-and-text-spacing-reflow",
+      "proof-object-attention-route",
+      "variant-shared-invariant-and-semantic-delta",
+      "snapshot-current-or-archived-freshness"
+    ],
+    "final-cta-handoff": [
+      "specific-action-label",
+      "visible-boundary",
+      "rendered-destination-receipt"
+    ],
+    "navigation-orientation": [
+      "desktop-mobile-route-parity",
+      "semantic-route-receipts",
+      "keyboard-bypass",
+      "mobile-open-closed-state",
+      "escape-focus-return",
+      "native-no-script-disclosure",
+      "long-label-and-exact-320-reflow",
+      "forced-colors-and-text-spacing",
+      "participant-comprehension-claim-ceiling"
+    ],
+    "proof-relay-handoff": [
+      "package-id-and-exact-artifact-manifest",
+      "source-implementation-runtime-adversarial-receipts",
+      "receiver-side-integrity-verification",
+      "owner-consumer-rights-and-review-date",
+      "transferable-versus-project-specific-boundary",
+      "stale-hash-and-missing-artifact-stop",
+      "missing-owner-unknown-rights-expired-review-stop",
+      "claim-ceiling-survives-handoff",
+      "long-machine-data-and-320-reflow"
+    ]
+  },
+  "rejected_requested_patterns": [
+    {
+      "pattern_id": "product-demo-evidence",
+      "covers": [
+        "show-transformation"
+      ],
+      "missing_evidence": [
+        "demo-state-contract",
+        "observable-input-output",
+        "representative-scenario"
+      ],
+      "blocked_by": [
+        "static-artifact-sufficient"
+      ],
+      "proof_obligations": [
+        "source-input-and-engine-lineage",
+        "no-result-before-trigger",
+        "actual-returned-status-and-output",
+        "unchanged-constraints-and-claim-ceiling",
+        "invalid-precondition-refusal",
+        "required-source-failure-suppresses-output",
+        "reset-and-repeated-activation",
+        "no-artificial-delay-or-autoplay-theatre",
+        "long-copy-and-320-reflow",
+        "forced-colors-text-spacing-reduced-motion",
+        "no-script-fallback"
+      ]
+    }
+  ],
+  "critical_gaps": [],
+  "noncritical_gaps": [],
+  "custom_composition_requirements": [
+    {
+      "need": "show-transformation",
+      "reason": "no_eligible_pattern",
+      "candidate_patterns": [
+        "product-demo-evidence"
+      ]
+    }
+  ],
+  "identity_deltas": [
+    "Replace code rain and cosmic phenomena with a project-specific transformation from loose work fragments into one readable public address.",
+    "Use an editorial evidence rail instead of the previous alternating campaign sections and four-step sticky carousel.",
+    "Represent project, discussion and tool routes as one source-linked continuum whose motion follows destination meaning rather than decorative spectacle.",
+    "Author mobile as an evidence-first vertical sequence with the real record immediately after the primary action."
+  ],
+  "visual_law": "A private fragment becomes a stable public address: every chapter may add only one inspectable layer of context, and every connecting line must terminate in a real VibeUs surface or action.",
+  "source_refs": [
+    "semantic-sketch.html",
+    "https://vibeus.app/catalog",
+    "https://vibeus.app/works/launch-content-kit-df8941b5",
+    "https://vibeus.app/discussions",
+    "https://vibeus.app/ai-tools"
+  ],
+  "input_receipt": {
+    "brief_payload_sha256": "4667612B3109C9E26F579BEF43F5CE5E36DA459C7F68A918870A1BAE60A1E41D",
+    "registry_payload_sha256": "4CE425DBED5EBBB055A050A598097D5A7ACFB2033057570D41E6A4B8E7D805BD",
+    "contracts_payload_sha256": "704EDB364F173AF431A46771E5DF3AA415535FF12E95F85EAAE168AAC7EFC5E0",
+    "selector_source_sha256": "B4149DA9CE1AA67C970DB205B3CE4FCA28B1E25B7A87C69F85A3B437417B6843"
+  },
+  "claim_ceiling": "Pattern-fit routing only; composition, implementation, effectiveness and production readiness remain unproven."
+}

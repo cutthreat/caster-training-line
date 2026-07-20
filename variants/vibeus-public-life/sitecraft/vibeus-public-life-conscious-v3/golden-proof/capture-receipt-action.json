@@ -1,0 +1,21 @@
+{
+  "source": "golden-slice.html",
+  "source_sha256": "0D70EC9E6B677160D8B8CEE35CC1CB28B31D37A92F8BF48057F092BE67D34D36",
+  "captured_at": "2026-07-20T09:37:28.133Z",
+  "cases": [],
+  "action_receipts": [
+    {
+      "action_id": "act-catalog-hero",
+      "visible_text": "Смотреть проекты",
+      "expected_url": "https://vibeus.app/catalog",
+      "final_url": "https://vibeus.app/catalog",
+      "expected_landmark": "Каталог проектов",
+      "landmark_matched": true,
+      "semantic_error": false,
+      "title": "Каталог проектов - Vibeus",
+      "body_excerpt": "Vibeus ⌘ K Войти Vibeus обновляется. Просмотр доступен, действия временно недоступны. Лента Проекты Обсуждения Рейтинг AI сервисы Войти RU Опубликованные проекты Каталог проектов Проекты, которые авторы открыли для просмотра, пробного запуска и обсуждения. 4 проекта 4 автора По интересу Фильтры Заметные проекты Работы с сильным интересом, сохранениями и обсуждениями #1 ВЕБ-ПРИЛОЖЕНИЯ И САЙТЫ 1 1 Тест Тестовый текст краткого описания Pavel Kozichev @pavel_kozichev · 30 дней назад Посмотреть #2 КОНТЕНТ И МАРКЕТИНГ 2 1 Launch Content Kit Контент-набор для подготовки страницы проекта к первому публичному показу. Мира Соколова @demo_mira · 3 июня 2026 г. Посмотреть #3 ИНСТРУМЕНТЫ РАЗРАБОТЧИКА 1 1 AI Code Review Checklist Практичный чеклист для проверки AI-assisted pull request перед слиянием. Борис Левин @demo_boris · 3 июня 2026 г. Посмотреть Все проекты 4 проектов в текущей подборке ВЕБ-ПРИ",
+      "screenshot": "golden-proof/action-catalog-destination.png",
+      "screenshot_sha256": "3507998EE6AF80B1670D30820EAB2E66396148C6E5703143E33C7537648220BE"
+    }
+  ]
+}
