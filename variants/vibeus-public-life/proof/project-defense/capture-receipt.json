@@ -1,55 +1,33 @@
 {
-  "schema": "vibeus_project_defense_capture.v1",
-  "generatedAt": "2026-07-17T17:42:32.810Z",
-  "url": "https://cutthreat.github.io/caster-training-line/variants/vibeus-public-life/",
-  "title": "VibeUs — покажите, что получилось с AI",
-  "status": 200,
+  "schema": "vibeus_project_defense_capture.v2",
+  "source": "sitecraft/vibeus-public-life-conscious-v3/system-proof/runtime-receipt.json#desktop-full",
+  "source_manifest_sha256": "0F95054925573DAE59B4FCBC5EDBECF1E94C045844A6D18BE730EB45B859F98E",
+  "captured_at": "2026-07-20",
+  "route": "index.html",
+  "public_url_status": "pending_post_deploy_proof",
   "viewport": {
     "width": 1440,
     "height": 1000
   },
   "document": {
     "width": 1440,
-    "height": 9267
+    "height": 6029,
+    "horizontal_overflow_px": 0
   },
-  "horizontalOverflow": 0,
-  "reducedMotion": true,
   "fonts": "loaded",
-  "images": {
-    "total": 4,
-    "loaded": 4
-  },
-  "sections": [
-    {
-      "id": "top",
-      "heading": "Не начинайтес пустого чата."
-    },
-    {
-      "id": "about",
-      "heading": "AI даёт возможности.Чужой опыт экономит старт."
-    },
-    {
-      "id": "record",
-      "heading": "Не обещание.Карточку проекта."
-    },
-    {
-      "id": "path",
-      "heading": "Четыре понятныхшага после сборки"
-    },
-    {
-      "id": "projects",
-      "heading": "Не ещё одна лента.Общий разгон для идей."
-    },
-    {
-      "id": "people",
-      "heading": "AI дал каждому инструменты.Мозги друг друга дают продолжение."
-    },
-    {
-      "id": "final-cta",
-      "heading": "Сначала посмотрите.Потом добавьте своё."
-    }
+  "screenshot": "vibeus-public-life-fullpage.png",
+  "screenshot_sha256": "B0968F5D07353B27019B245D035FB30C2D9DDD3F69C723898A371A9F2C9B41A6",
+  "chapters": [
+    {"id": "top", "heading": "Сделали с AI? Дайте проекту публичную жизнь."},
+    {"id": "record", "heading": "Один адрес. Достаточно контекста."},
+    {"id": "proof", "heading": "Не макет. Сам продукт."},
+    {"id": "routes", "heading": "Не лента ради ленты. Три понятных маршрута."},
+    {"id": "join", "heading": "Проект уже существует. Дайте ему публичный адрес."}
   ],
-  "consoleErrors": [],
-  "pageErrors": [],
-  "failedRequests": []
+  "runtime": {
+    "catalog_state": "current",
+    "console_errors": [],
+    "page_errors": [],
+    "unexpected_request_failures": []
+  }
 }

@@ -1,16 +1,24 @@
 # Acceptance checklist
 
-- One semantic H1; visual clones and canvas content are `aria-hidden`.
-- First viewport answers: what VibeUs is, what can be inspected, and what happens after each CTA.
-- Catalog is the primary cold-visitor action; registration is contribution, not proof access.
-- Default, quantum and singularity Heroes are materially distinct but share the same product truth.
-- Every Hero contains a cropped real VibeUs project screen labelled as proof; no reusable/runnable claim.
-- No named project inventory or count is presented as stable current truth.
-- Desktop horizontal journey has visible progress and a finite endpoint; mobile/reduced-motion becomes vertical.
-- Header, menu, skip link, focus visibility and Escape recovery work.
-- 1440, 820, 390 and exact 320 have zero document overflow without clipping masks.
-- Exact 320 survives normative text-spacing stress without proof/action overlap; long Russian words wrap instead of expanding the page.
-- Reduced-motion mode has no continuous canvas loop, particle animation or sticky horizontal translation.
-- No console errors, page errors or failed local asset requests.
-- `/catalog` and `/auth` destinations render expected semantic landmarks.
-- Updated Caster visual pass and Anton product/trust pass completed against the final proof set before publication.
+- [x] Один семантический H1; категория, аудитория, результат и основное действие читаются на первом экране.
+- [x] Каталог — главный cold‑visitor CTA; вход визуально и семантически вторичен.
+- [x] Hero использует настоящий датированный экран VibeUs, а не атмосферный рендер вместо продукта.
+- [x] Пять глав совпадают с Decision Spine: ориентация → механизм → доказательство → маршруты → earned handoff.
+- [x] Каждый повторный destination получает новую причину действовать; пустых CTA‑экранов нет.
+- [x] Текущие `4/4` ограничены датированным снимком и не выданы за размер сообщества.
+- [x] Initial HTML fail‑closed; `current` включается только после действующего receipt.
+- [x] Loading, empty, error, expired, unavailable, no‑JS и failed‑script скрывают снимок/цифры и сохраняют recovery‑ссылку.
+- [x] В пользовательском тексте нет внутренних `receipt`, `claim_id`, `stale_success` и QA‑аннотаций.
+- [x] Все 7 действий подтверждены живым URL, ожидаемым landmark и возвратом.
+- [x] 1440, 390 и exact 320 не имеют горизонтального overflow.
+- [x] Content stress и нормативный text spacing не обрезают смысловые условия или действия.
+- [x] Pointer и keyboard меняют route preview одинаково; skip link и visible focus присутствуют.
+- [x] Reduced motion сохраняет все главы и отключает декоративное движение.
+- [x] Forced colors, media-off и отсутствие изображений не уничтожают основной путь.
+- [x] Runtime: 22/22, ноль console errors, page errors и неожиданных failed requests.
+- [x] Blind Human‑QA desktop/mobile/final handoff понимает public‑before‑auth и выбирает каталог.
+- [x] Визуально правдоподобный auth‑first контроль блокируется decision/trust/destination gates.
+- [x] Caster, Anton и Production связаны с одним System Manifest SHA и дали `pass`.
+- [x] `validate_site_packet.py --stage validated` проходит.
+- [ ] После деплоя подтверждены внешний URL, source identity, desktop/mobile/320 и 7/7 маршрутов.
+- [ ] Для конкретных `onest-*.ttf` сохранены официальный provenance и локальная OFL‑копия.

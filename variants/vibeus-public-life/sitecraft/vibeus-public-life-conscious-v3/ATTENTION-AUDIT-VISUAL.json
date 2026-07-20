@@ -1,0 +1,205 @@
+{
+  "schema": "attention_architecture_audit.v1",
+  "run_id": "vibeus-public-life-conscious-v3-visual-concept-20260720",
+  "surface": {
+    "name": "VibeUs conscious golden slice",
+    "stage": "visual_concept",
+    "width": 1440,
+    "height": 1000
+  },
+  "evidence": {
+    "level": "expert_proxy",
+    "method": "Artifact-bound review of the rendered HTML, 1440/390/320 captures, geometry, overflow, fonts, console and request-failure receipt.",
+    "source": "golden-slice.html",
+    "limitations": [
+      "Expert proxy and deterministic runtime evidence are not eye tracking or participant research.",
+      "Blind target-user alignment was proven on the semantic sketch; the finished system still requires a fresh Human-QA pass."
+    ]
+  },
+  "intent": {
+    "user_goal": "Understand whether VibeUs offers a public place for an AI-assisted project and inspect examples before registering.",
+    "business_goal": "Send a qualified cold visitor to the public project catalog before asking for authentication.",
+    "decision_moment": "The visitor decides whether the promise is concrete enough to inspect the live catalog.",
+    "intended_route": [
+      "category signal",
+      "public-life outcome",
+      "owned public-record proof",
+      "direct catalog action"
+    ],
+    "desired_action": "Open the current public catalog without registration."
+  },
+  "predicted_route": [
+    {
+      "id": "category",
+      "label": "Социальная платформа для вайбкодеров",
+      "x": 0.18,
+      "y": 0.25,
+      "semantic_job": "Name the product category and audience before the promise.",
+      "channels": [
+        "position",
+        "grouping",
+        "contrast"
+      ],
+      "amplitude": "emphasis",
+      "relevance": "high",
+      "attention_receipt": "Upper-left placement and coral rule precede the display message without competing with it."
+    },
+    {
+      "id": "outcome",
+      "label": "Дайте проекту публичную жизнь",
+      "x": 0.26,
+      "y": 0.47,
+      "semantic_job": "State the concrete visitor change in the dominant reading mass.",
+      "channels": [
+        "size",
+        "color",
+        "position",
+        "type"
+      ],
+      "amplitude": "dominant_interruption",
+      "relevance": "high",
+      "attention_receipt": "Largest type, strongest coral field and primary upper-left axis dominate both desktop and mobile captures."
+    },
+    {
+      "id": "proof",
+      "label": "Fresh VibeUs public record",
+      "x": 0.74,
+      "y": 0.47,
+      "semantic_job": "Turn the promise into an inspectable owned product object.",
+      "channels": [
+        "image",
+        "detail",
+        "depth",
+        "direction"
+      ],
+      "amplitude": "dominant_interruption",
+      "relevance": "high",
+      "attention_receipt": "Readable product screenshot, literal route bar, capture date and connector line form one bounded proof object."
+    },
+    {
+      "id": "action",
+      "label": "Смотреть проекты",
+      "x": 0.12,
+      "y": 0.78,
+      "semantic_job": "Offer the public-before-auth destination after category, outcome and proof.",
+      "channels": [
+        "color",
+        "contrast",
+        "isolation",
+        "shape"
+      ],
+      "amplitude": "emphasis",
+      "relevance": "high",
+      "attention_receipt": "Filled coral rectangle with black action text is isolated beneath the lead and remains fully visible at 1440, 390 and 320 widths."
+    }
+  ],
+  "zones": [
+    {
+      "kind": "dominant",
+      "label": "Outcome message",
+      "x": 0.04,
+      "y": 0.27,
+      "width": 0.43,
+      "height": 0.37,
+      "role": "Concentrates the promise in the first upper-left reading axis."
+    },
+    {
+      "kind": "support",
+      "label": "Owned record proof",
+      "x": 0.5,
+      "y": 0.21,
+      "width": 0.47,
+      "height": 0.67,
+      "role": "Makes the promise inspectable without becoming fictional spectacle."
+    },
+    {
+      "kind": "support",
+      "label": "Primary catalog action",
+      "x": 0.04,
+      "y": 0.75,
+      "width": 0.17,
+      "height": 0.06,
+      "role": "Converts understanding into a low-commitment public route."
+    },
+    {
+      "kind": "quiet",
+      "label": "Catalog-before-auth condition",
+      "x": 0.04,
+      "y": 0.83,
+      "width": 0.42,
+      "height": 0.04,
+      "role": "Reduces registration risk adjacent to the action."
+    }
+  ],
+  "spatial_grammar": {
+    "axes_grid": {
+      "status": "pass",
+      "note": "Desktop uses a 12-column split; mobile collapses to one authored axis without DOM-order inversion."
+    },
+    "alignment": {
+      "status": "pass",
+      "note": "Category, headline, lead, actions and condition share one left anchor; proof metadata and screenshot share a separate bounded frame."
+    },
+    "spacing": {
+      "status": "pass",
+      "note": "Local 18–30px grouping distinguishes related copy; the 38px mobile proof gap marks the message-to-evidence transition."
+    },
+    "grouping": {
+      "status": "pass",
+      "note": "Action consequence is adjacent to the CTA; capture date, URL, screenshot and evidence labels remain one proof object."
+    },
+    "typography": {
+      "status": "pass",
+      "note": "Onest display establishes one dominant message; body and operational text remain at readable sizes including 320px."
+    },
+    "affordance": {
+      "status": "pass",
+      "note": "Primary and secondary actions are visually distinct, literal and destination-bound."
+    },
+    "fold": {
+      "status": "pass",
+      "note": "Desktop shows the full contract; 390 and 320 show category, outcome, CTA, risk condition and the beginning of the labelled proof object."
+    },
+    "density_rhythm": {
+      "status": "pass",
+      "note": "Dense product proof follows a concise message field; the second chapter reverses to a calm editorial explanation and large catalog object."
+    },
+    "whitespace": {
+      "status": "pass",
+      "note": "Open space separates message and proof axes and never leaves a screen without value, action or inspectable evidence."
+    },
+    "responsive": {
+      "status": "pass",
+      "note": "1440, 390 and exact 320 captures have loaded fonts, zero document overflow and complete primary action visibility."
+    }
+  },
+  "accent_budget": {
+    "simultaneous_high_amplitude": 2,
+    "competing_targets": [],
+    "channel_stacking": [
+      "Outcome: size + coral color + upper-left position",
+      "Proof: image detail + depth + literal route",
+      "CTA: filled color + contrast + isolation"
+    ],
+    "business_hijack": false
+  },
+  "findings": [
+    {
+      "code": "AAA-GOLDEN-01",
+      "severity": "note",
+      "evidence": "The first viewport binds the dominant promise to a fresh owned record and exposes the direct public action at every required width.",
+      "user_impact": "A cold visitor can understand, verify and act without first interpreting abstract spectacle.",
+      "fix": "Preserve this message-proof-action contract during system build.",
+      "acceptance": "Final captures retain readable product proof, direct catalog route and no competing primary CTA."
+    },
+    {
+      "code": "AAA-GOLDEN-02",
+      "severity": "note",
+      "evidence": "The expired fixture suppresses the catalog screenshot and shows a literal live-route recovery instead of stale success.",
+      "user_impact": "The visitor is not misled when volatile proof is no longer current.",
+      "fix": "Reuse the same degraded-state contract in the final proof chapter.",
+      "acceptance": "Expired and error fixtures expose no stale screenshot, count or success wording."
+    }
+  ],
+  "status": "pass"
+}

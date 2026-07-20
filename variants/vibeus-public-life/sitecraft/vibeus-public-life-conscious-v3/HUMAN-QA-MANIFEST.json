@@ -1,0 +1,26 @@
+{
+  "schema": "sitecraft_human_qa_manifest.v1",
+  "stage": "semantic_sketch",
+  "mode": "alignment",
+  "intent_disclosed": false,
+  "hidden_intent_sha256": "3122C14215DFD6DD84E72CBDC3A7B3149088A073A99CBD10E6D65D6F77A25F0C",
+  "source_artifact_sha256": "C1889393E9D0F15E495E9368CA4AAF5936C3135BBCB60A7FDD33260AC75D314B",
+  "accepted_events": [
+    {
+      "path": "human-qa/sketch-desktop-v3/event.json",
+      "sha256": "5DBE90FF94AC7C08A3EB6583A094D3AAB79F56A33A587B2C153BE560A3245F13",
+      "viewport": { "width": 1440, "height": 900 }
+    },
+    {
+      "path": "human-qa/sketch-mobile-v5/event.json",
+      "sha256": "608423280E718DE9DE691C3AD709ABEC94AF165AF6E310D176F0786680928D44",
+      "viewport": { "width": 390, "height": 844 }
+    }
+  ],
+  "alignment": {
+    "value_understood": true,
+    "action_understood": true,
+    "route_matches": true
+  },
+  "status": "pass"
+}

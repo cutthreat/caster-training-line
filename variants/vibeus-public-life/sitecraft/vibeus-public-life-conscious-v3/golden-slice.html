@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090907">
+  <title>VibeUs — conscious golden slice</title>
+  <style>
+    @font-face{font-family:Onest;src:url('../../assets/onest-400.ttf') format('truetype');font-weight:400;font-display:swap}
+    @font-face{font-family:Onest;src:url('../../assets/onest-600.ttf') format('truetype');font-weight:600;font-display:swap}
+    @font-face{font-family:Onest;src:url('../../assets/onest-800.ttf') format('truetype');font-weight:800;font-display:swap}
+    :root{--ink:#0b0b09;--night:#090907;--paper:#eeeae2;--white:#fbfaf7;--coral:#ff593f;--line:rgba(255,255,255,.2)}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--night);color:var(--white);font-family:Onest,Arial,sans-serif;overflow-x:visible}
+    a{color:inherit}
+    .skip{position:fixed;z-index:20;left:16px;top:-80px;background:var(--white);color:var(--ink);padding:12px 16px}.skip:focus{top:16px}
+    .hero{position:relative;isolation:isolate;min-height:100svh;padding:112px 4vw 42px;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:24px;align-items:center;overflow:hidden}
+    .hero::before{content:"";position:absolute;inset:0;z-index:-2;background:radial-gradient(circle at 82% 42%,rgba(255,89,63,.17),transparent 30%),linear-gradient(125deg,#090907 0 60%,#12100d)}
+    .hero::after{content:"";position:absolute;inset:0;z-index:-1;opacity:.13;background-image:linear-gradient(rgba(255,255,255,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.07) 1px,transparent 1px);background-size:64px 64px;mask-image:linear-gradient(90deg,transparent 0,#000 60%,#000)}
+    .header{position:absolute;z-index:5;top:0;left:0;right:0;height:80px;padding:0 4vw;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.12)}
+    .brand{text-decoration:none;font-weight:800;font-size:18px;letter-spacing:-.04em}.brand span{color:var(--coral)}
+    .nav{display:flex;align-items:center;gap:28px;font-size:13px}.nav a{text-underline-offset:5px}.nav .login{border:1px solid rgba(255,255,255,.5);border-radius:999px;padding:10px 16px;text-decoration:none}
+    .copy{grid-column:1/span 6;align-self:center;position:relative;z-index:2;padding:40px 0 24px}
+    .kicker{display:flex;align-items:center;gap:10px;margin:0 0 24px;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#d9d5cd}.kicker::before{content:"";width:34px;height:3px;background:var(--coral)}
+    h1{margin:0;max-width:760px;font-size:clamp(68px,7vw,112px);line-height:.89;letter-spacing:-.075em;font-weight:800;text-wrap:balance}
+    h1 em{display:block;color:var(--coral);font-style:normal}
+    .lead{max-width:610px;margin:30px 0 0;font-size:20px;line-height:1.45;color:#d7d2ca}
+    .actions{display:flex;align-items:center;gap:24px;margin-top:30px;flex-wrap:wrap}
+    .button{display:inline-flex;align-items:center;justify-content:space-between;gap:34px;min-width:234px;padding:17px 18px;background:var(--coral);color:var(--ink);font-weight:800;text-decoration:none;border:2px solid var(--coral)}
+    .secondary{font-weight:600;text-underline-offset:7px}.mobile-secondary{display:none}
+    .condition{margin:18px 0 0;font-size:14px;color:#aaa59d}.condition strong{color:var(--white)}
+    .record{grid-column:7/span 6;position:relative;align-self:center;min-width:0;margin-top:26px}
+    .trace{position:absolute;z-index:-1;left:-58px;top:8%;width:110%;height:84%;border-top:1px solid var(--coral);border-right:1px solid var(--coral);transform:skewY(-4deg);opacity:.75}
+    .fragment{position:absolute;z-index:3;padding:9px 12px;border:1px solid rgba(255,255,255,.34);background:rgba(9,9,7,.82);font:600 10px/1 Onest,Arial;letter-spacing:.11em;color:#d6d0c8;backdrop-filter:blur(8px)}
+    .fragment.one{left:-68px;top:18%}.fragment.two{right:12px;top:-42px}.fragment.three{left:-34px;bottom:8%;border-color:var(--coral);color:var(--coral)}
+    .record-shell{background:#191816;border:1px solid rgba(255,255,255,.35);box-shadow:0 34px 100px rgba(0,0,0,.46);transform:rotate(.7deg);transform-origin:50% 50%}
+    .record-meta{min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:10px 16px;border-bottom:1px solid rgba(255,255,255,.18);font-size:14px;letter-spacing:.08em;text-transform:uppercase}.record-meta b{color:var(--coral)}
+    .url{display:flex;align-items:center;gap:8px;min-width:0;height:44px;padding:0 16px;background:var(--white);color:#5d5a55;border-bottom:1px solid #ccc6bb;font-size:13px}.url i{width:8px;height:8px;flex:0 0 auto;border-radius:50%;background:#35a657}.url span{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+    .record-window{height:min(49vw,530px);max-height:530px;min-height:410px;overflow:hidden;background:#f3f3f3}
+    .record-window img{display:block;width:100%;height:100%;object-fit:cover;object-position:31% top}
+    .record-caption{display:grid;grid-template-columns:1fr auto;gap:16px;padding:14px 16px;color:#aaa59d;font-size:13px;line-height:1.35}.record-caption strong{color:var(--white);font-weight:600;text-align:right}
+    .fold-index{position:absolute;right:4vw;bottom:24px;display:flex;align-items:center;gap:10px;color:#b7b1a8;font-size:12px;letter-spacing:.08em}.fold-index b{color:var(--coral)}
+    .proof{min-height:920px;background:var(--paper);color:var(--ink);padding:112px 4vw 96px;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:start}
+    .proof-copy{grid-column:1/span 4;position:sticky;top:56px}.eyebrow{margin:0 0 26px;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:#6f6a62}.eyebrow b{color:var(--coral)}
+    .proof h2{margin:0;font-size:clamp(48px,5.1vw,76px);line-height:.94;letter-spacing:-.065em}.proof h2 em{font-style:normal;color:var(--coral)}
+    .proof-copy>p:not(.eyebrow){margin:28px 0 0;max-width:410px;font-size:18px;line-height:1.5;color:#514d47}
+    .proof-list{list-style:none;margin:40px 0 32px;padding:0;border-top:1px solid #bcb5aa}.proof-list li{display:grid;grid-template-columns:30px 1fr;gap:8px;padding:16px 0;border-bottom:1px solid #bcb5aa;font-size:14px}.proof-list b{color:var(--coral)}
+    .dark-button{display:inline-flex;gap:32px;align-items:center;background:var(--ink);color:var(--white);padding:16px 18px;text-decoration:none;font-weight:600}
+    .catalog-proof{grid-column:6/span 7;min-width:0;margin-top:36px}
+    .catalog-frame{position:relative;border:1px solid #8e887e;background:#fff;box-shadow:18px 18px 0 var(--coral)}
+    .catalog-label{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:13px 15px;border-bottom:1px solid #bcb5aa;font-size:13px;text-transform:uppercase;letter-spacing:.08em}.catalog-label b{color:#766f66;text-align:right}
+    .catalog-window{height:590px;overflow:hidden}.catalog-window img{display:block;width:100%;height:100%;object-fit:cover;object-position:54% top}.catalog-state{display:none;height:100%;padding:48px;align-items:center;justify-content:center;flex-direction:column;gap:24px;text-align:center;background:#d8d4cd;font-size:22px;font-weight:600;line-height:1.3}.catalog-state a{display:inline-flex;padding:14px 18px;background:var(--ink);color:var(--white);font-size:14px;text-decoration:none}body[data-catalog-state="expired"] .catalog-window img{display:none}body[data-catalog-state="expired"] .catalog-state{display:flex}
+    .boundary{margin:32px 0 0;padding-left:22px;border-left:3px solid var(--coral);font-size:14px;line-height:1.55;color:#5f5a53}.boundary strong{display:block;color:var(--ink);margin-bottom:5px}
+    @media(max-width:900px){
+      .hero{display:block;min-height:0;padding:96px 20px 48px}.header{height:64px;padding:0 20px}.nav a:not(.login){display:none}.copy{padding:20px 0 0}.kicker{margin-bottom:18px;font-size:10px}h1{font-size:clamp(49px,14.5vw,70px);line-height:.9;max-width:560px}.lead{font-size:16px;margin-top:24px;max-width:500px}.actions{margin-top:24px;gap:16px}.button{min-width:0;width:100%;max-width:354px}.desktop-secondary{display:none}.mobile-secondary{display:inline-block;margin-top:22px;font-size:14px}.condition{max-width:350px;line-height:1.45}.record{margin:38px 0 0}.record-shell{transform:none}.fragment{display:none}.record-window{height:560px;min-height:0}.record-window img{object-position:30% top}.record-caption{grid-template-columns:1fr}.record-caption strong{text-align:left}.fold-index{display:none}.proof{display:block;min-height:0;padding:86px 20px 72px}.proof-copy{position:static}.proof h2{font-size:52px}.proof-copy>p:not(.eyebrow){font-size:16px}.catalog-proof{margin-top:52px}.catalog-window{height:520px}.catalog-frame{box-shadow:10px 10px 0 var(--coral)}}
+    @media(max-width:430px){
+      .hero{padding-left:18px;padding-right:18px}.header{padding:0 18px}.brand{font-size:16px}.nav .login{padding:8px 13px}.kicker{margin-top:0}h1{font-size:52px}.lead{font-size:15px;line-height:1.42}.actions{align-items:flex-start;flex-direction:column}.record{margin-top:30px}.record-meta{height:42px;padding:0 11px}.record-meta span:last-child{display:none}.url{padding:0 11px}.record-window{height:410px}.record-caption{padding:12px 11px}.proof h2{font-size:48px}.catalog-window{height:390px}}
+    @media(max-width:340px){h1{font-size:45px}.lead{font-size:14px}.button{padding:15px 14px}.record-window{height:350px}.proof h2{font-size:42px}}
+    @media(prefers-reduced-motion:no-preference){.fragment{animation:align 5s ease-in-out infinite alternate}.fragment.two{animation-delay:-1.5s}.fragment.three{animation-delay:-3s}@keyframes align{to{transform:translate3d(8px,4px,0)}}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media(forced-colors:active){.button,.dark-button{border:2px solid ButtonText}.trace{border-color:CanvasText}.catalog-frame{box-shadow:none}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">К содержанию</a>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <header class="header">
+        <a class="brand" href="#">Vibe<span>Us</span></a>
+        <nav class="nav" aria-label="Основная навигация">
+          <a href="https://vibeus.app/catalog">Проекты</a>
+          <a href="https://vibeus.app/discussions">Обсуждения</a>
+          <a href="https://vibeus.app/ai-tools">AI-сервисы</a>
+          <a class="login" href="https://vibeus.app/auth">Войти</a>
+        </nav>
+      </header>
+      <div class="copy">
+        <p class="kicker">Социальная платформа для вайбкодеров</p>
+        <h1 id="hero-title">Сделали с AI? <em>Дайте проекту публичную жизнь.</em></h1>
+        <p class="lead">Покажите работу и её контекст по одному адресу. Или сначала посмотрите, что уже публикуют.</p>
+        <div class="actions">
+          <a class="button" href="https://vibeus.app/catalog">Смотреть проекты <span aria-hidden="true">↗</span></a>
+          <a class="secondary desktop-secondary" href="https://vibeus.app/auth">Показать свой →</a>
+        </div>
+        <p class="condition"><strong>Каталог открыт без регистрации.</strong> Аккаунт понадобится, когда решите показать своё.</p>
+      </div>
+      <div class="record" aria-label="Свежий снимок публичной записи VibeUs">
+        <div class="trace" aria-hidden="true"></div>
+        <span class="fragment one" aria-hidden="true">README.MD</span>
+        <span class="fragment two" aria-hidden="true">SCREEN_01.PNG</span>
+        <span class="fragment three" aria-hidden="true">PUBLIC URL ↗</span>
+        <div class="record-shell">
+          <div class="record-meta"><b>Публичная запись / demo</b><span>снято 20.07.2026</span></div>
+          <div class="url"><i></i><span>vibeus.app/works/launch-content-kit-df8941b5</span></div>
+          <div class="record-window"><img src="product-proof/2026-07-20/record.png" alt="Публичная запись Launch Content Kit на VibeUs"></div>
+          <div class="record-caption"><span>Реальный экран VibeUs</span><strong>описание · стек · обсуждение</strong></div>
+        </div>
+        <a class="secondary mobile-secondary" href="https://vibeus.app/auth">Показать свой →</a>
+      </div>
+      <div class="fold-index"><b>↓</b><span>Дальше — сам продукт</span></div>
+    </section>
+
+    <section class="proof" id="proof" aria-labelledby="proof-title">
+      <div class="proof-copy">
+        <p class="eyebrow"><b>02</b> / Проверка обещания</p>
+        <h2 id="proof-title">Не макет.<br><em>Сам продукт.</em></h2>
+        <p>До регистрации можно открыть каталог, увидеть публичные записи и перейти в конкретный проект.</p>
+        <ul class="proof-list">
+          <li><b>01</b><span>Название и краткое описание</span></li>
+          <li><b>02</b><span>Автор и контекст проекта</span></li>
+          <li><b>03</b><span>Прямая ссылка на публичную запись</span></li>
+        </ul>
+        <a class="dark-button" href="https://vibeus.app/catalog">Открыть текущий каталог <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="catalog-proof">
+        <div class="catalog-frame">
+          <div class="catalog-label"><strong>vibeus.app/catalog</strong><b data-state-label>live capture / 20.07.2026</b></div>
+          <div class="catalog-window"><img src="product-proof/2026-07-20/catalog.png" alt="Текущий публичный каталог проектов VibeUs"><div class="catalog-state" role="status"><span>Снимок каталога устарел.<br>Откройте текущую версию на VibeUs.</span><a href="https://vibeus.app/catalog">Открыть текущий каталог ↗</a></div></div>
+        </div>
+        <p class="boundary" data-boundary><strong>Честная граница доказательства</strong>Снимок показывает текущие публичные записи, а не масштаб сообщества и не библиотеку готовых решений. Состав каталога меняется.</p>
+      </div>
+    </section>
+  </main>
+  <script id="catalog-proof-receipt" type="application/json">{"claim_id":"clm-public-catalog","owner":"VibeUs product owner","verified":true,"verified_at":"2026-07-20T00:00:00Z","expires_at":"2026-07-21T23:59:59Z","landmark":"Каталог проектов"}</script>
+  <script>
+    const receipt = JSON.parse(document.querySelector('#catalog-proof-receipt').textContent);
+    const forcedState = new URLSearchParams(location.search).get('catalog_state');
+    const receiptIsCurrent = receipt.verified === true && Date.parse(receipt.verified_at) <= Date.now() && Date.now() <= Date.parse(receipt.expires_at);
+    const state = forcedState === 'expired' ? 'expired' : (receiptIsCurrent ? 'current' : 'expired');
+    document.body.dataset.catalogState = state;
+    if (state === 'expired') {
+      document.body.dataset.catalogState = 'expired';
+      document.querySelector('[data-state-label]').textContent = 'expired / open live route';
+      document.querySelector('[data-boundary]').innerHTML = '<strong>Снимок не выдан за актуальный</strong>Архивный успех скрыт. Прямая ссылка ведёт в текущий каталог VibeUs.';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+{
+  "schema": "site_pattern_selection_brief.v1",
+  "brief_id": "vibeus-public-life-conscious-v3",
+  "page_kind": "landing",
+  "primary_job": "The maker understands how VibeUs can give that work a public record and a route to related discussions and tools, while a cold visitor can inspect current public content first.",
+  "primary_task": "За первый экран понять, что VibeUs даёт AI-проекту публичный адрес и соседние маршруты, затем без регистрации открыть текущий каталог или конкретную публичную запись.",
+  "visual_law": "A private fragment becomes a stable public address: every chapter may add only one inspectable layer of context, and every connecting line must terminate in a real VibeUs surface or action.",
+  "composition_defined": true,
+  "identity_deltas": [
+    "Replace code rain and cosmic phenomena with a project-specific transformation from loose work fragments into one readable public address.",
+    "Use an editorial evidence rail instead of the previous alternating campaign sections and four-step sticky carousel.",
+    "Represent project, discussion and tool routes as one source-linked continuum whose motion follows destination meaning rather than decorative spectacle.",
+    "Author mobile as an evidence-first vertical sequence with the real record immediately after the primary action."
+  ],
+  "needs": [
+    {
+      "id": "orient-first-screen",
+      "critical": true,
+      "fallback": "block"
+    },
+    {
+      "id": "state-specific-value",
+      "critical": true,
+      "fallback": "custom"
+    },
+    {
+      "id": "bind-visual-to-product-proof",
+      "critical": true,
+      "fallback": "block"
+    },
+    {
+      "id": "claim-to-source-continuity",
+      "critical": true,
+      "fallback": "block"
+    },
+    {
+      "id": "show-transformation",
+      "critical": false,
+      "fallback": "custom"
+    },
+    {
+      "id": "orient-across-destinations",
+      "critical": true,
+      "fallback": "custom"
+    },
+    {
+      "id": "support-multiple-top-level-routes",
+      "critical": true,
+      "fallback": "custom"
+    },
+    {
+      "id": "consequential-next-step",
+      "critical": true,
+      "fallback": "block"
+    },
+    {
+      "id": "cross-process-boundary",
+      "critical": true,
+      "fallback": "block"
+    }
+  ],
+  "evidence_available": [
+    "confirmed-offer",
+    "truthful-mechanism",
+    "primary-action",
+    "proof-bearing-product-object",
+    "visual-semantic-role",
+    "inspectable-artifact",
+    "reuse-boundary",
+    "artifact-destination",
+    "owned-information-architecture",
+    "stable-route-map",
+    "truthful-current-route",
+    "primary-route",
+    "semantic-destination-receipts",
+    "earned-proof",
+    "commitment-boundary",
+    "semantic-destination-plan"
+  ],
+  "avoid_flags": [
+    "static-artifact-sufficient",
+    "primary-navigation"
+  ],
+  "source_refs": [
+    "semantic-sketch.html",
+    "https://vibeus.app/catalog",
+    "https://vibeus.app/works/launch-content-kit-df8941b5",
+    "https://vibeus.app/discussions",
+    "https://vibeus.app/ai-tools"
+  ],
+  "site_brief_projection_sha256": "4858FDDD8612913FCAEA55A105922770B2AC2AD6C239DBBF51C6D364AB214A06"
+}

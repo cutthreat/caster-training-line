@@ -1,0 +1,748 @@
+{
+  "schema": "human_qa_perception_packet.v1",
+  "source": "screenshot_pixels_only_no_dom",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "limitations": [
+    "OCR may omit or misread text",
+    "non-text imagery is represented only by coarse brightness, contrast, and detail density",
+    "attention_rank is a physical-salience heuristic, not eye-tracking data"
+  ],
+  "visible_text_by_pixel_salience": [
+    {
+      "attention_rank": 1,
+      "text": "Не лента ради ленты.",
+      "confidence": 96,
+      "position": {
+        "x": 0.044,
+        "y": 0.202,
+        "width": 0.584,
+        "height": 0.083
+      },
+      "relative_size": 0.0825,
+      "pixel_salience": 91.71
+    },
+    {
+      "attention_rank": 2,
+      "text": "Три понятных",
+      "confidence": 85,
+      "position": {
+        "x": 0.04,
+        "y": 0.285,
+        "width": 0.383,
+        "height": 0.082
+      },
+      "relative_size": 0.082,
+      "pixel_salience": 83.97
+    },
+    {
+      "attention_rank": 3,
+      "text": "маршрута.",
+      "confidence": 95,
+      "position": {
+        "x": 0.043,
+        "y": 0.385,
+        "width": 0.294,
+        "height": 0.07
+      },
+      "relative_size": 0.07,
+      "pixel_salience": 72.84
+    },
+    {
+      "attention_rank": 4,
+      "text": "та ради ле",
+      "confidence": 91,
+      "position": {
+        "x": 0.233,
+        "y": 0.218,
+        "width": 0.283,
+        "height": 0.067
+      },
+      "relative_size": 0.0665,
+      "pixel_salience": 71.76
+    },
+    {
+      "attention_rank": 5,
+      "text": "ради ленты.",
+      "confidence": 92,
+      "position": {
+        "x": 0.3,
+        "y": 0.218,
+        "width": 0.328,
+        "height": 0.066
+      },
+      "relative_size": 0.066,
+      "pixel_salience": 71.57
+    },
+    {
+      "attention_rank": 6,
+      "text": "Не лента",
+      "confidence": 95,
+      "position": {
+        "x": 0.044,
+        "y": 0.203,
+        "width": 0.24,
+        "height": 0.065
+      },
+      "relative_size": 0.0645,
+      "pixel_salience": 71.34
+    },
+    {
+      "attention_rank": 7,
+      "text": "Не лент:",
+      "confidence": 94,
+      "position": {
+        "x": 0.044,
+        "y": 0.202,
+        "width": 0.222,
+        "height": 0.065
+      },
+      "relative_size": 0.0648,
+      "pixel_salience": 71.28
+    },
+    {
+      "attention_rank": 8,
+      "text": "г лента ради ле",
+      "confidence": 69,
+      "position": {
+        "x": 0.044,
+        "y": 0.222,
+        "width": 0.467,
+        "height": 0.062
+      },
+      "relative_size": 0.062,
+      "pixel_salience": 59.5
+    },
+    {
+      "attention_rank": 9,
+      "text": "енты.",
+      "confidence": 76,
+      "position": {
+        "x": 0.483,
+        "y": 0.218,
+        "width": 0.144,
+        "height": 0.05
+      },
+      "relative_size": 0.0495,
+      "pixel_salience": 49.43
+    },
+    {
+      "attention_rank": 10,
+      "text": "| В Launch Content Kit",
+      "confidence": 79,
+      "position": {
+        "x": 0.507,
+        "y": 0.734,
+        "width": 0.194,
+        "height": 0.038
+      },
+      "relative_size": 0.0382,
+      "pixel_salience": 32.28
+    },
+    {
+      "attention_rank": 11,
+      "text": "o Конкретный проект",
+      "confidence": 94,
+      "position": {
+        "x": 0.053,
+        "y": 0.598,
+        "width": 0.214,
+        "height": 0.026
+      },
+      "relative_size": 0.0262,
+      "pixel_salience": 25.19
+    },
+    {
+      "attention_rank": 12,
+      "text": "Обсуждения",
+      "confidence": 95,
+      "position": {
+        "x": 0.087,
+        "y": 0.716,
+        "width": 0.108,
+        "height": 0.027
+      },
+      "relative_size": 0.027,
+      "pixel_salience": 24.89
+    },
+    {
+      "attention_rank": 13,
+      "text": "Конкретный проект",
+      "confidence": 96,
+      "position": {
+        "x": 0.101,
+        "y": 0.598,
+        "width": 0.167,
+        "height": 0.025
+      },
+      "relative_size": 0.0245,
+      "pixel_salience": 23.74
+    },
+    {
+      "attention_rank": 14,
+      "text": "o Обсуждения",
+      "confidence": 77,
+      "position": {
+        "x": 0.04,
+        "y": 0.717,
+        "width": 0.155,
+        "height": 0.026
+      },
+      "relative_size": 0.0265,
+      "pixel_salience": 22.28
+    },
+    {
+      "attention_rank": 15,
+      "text": "зект я",
+      "confidence": 74,
+      "position": {
+        "x": 0.233,
+        "y": 0.602,
+        "width": 0.152,
+        "height": 0.024
+      },
+      "relative_size": 0.0243,
+      "pixel_salience": 20.96
+    },
+    {
+      "attention_rank": 16,
+      "text": "оз А!-сервисы",
+      "confidence": 57,
+      "position": {
+        "x": 0.04,
+        "y": 0.837,
+        "width": 0.144,
+        "height": 0.025
+      },
+      "relative_size": 0.0255,
+      "pixel_salience": 18.25
+    },
+    {
+      "attention_rank": 17,
+      "text": "Каждый маршрут можно открыть прямо сейчас.",
+      "confidence": 96,
+      "position": {
+        "x": 0.666,
+        "y": 0.366,
+        "width": 0.271,
+        "height": 0.017
+      },
+      "relative_size": 0.017,
+      "pixel_salience": 17.89
+    },
+    {
+      "attention_rank": 18,
+      "text": "Никаких выдуманных функций за пределами",
+      "confidence": 96,
+      "position": {
+        "x": 0.666,
+        "y": 0.393,
+        "width": 0.253,
+        "height": 0.017
+      },
+      "relative_size": 0.017,
+      "pixel_salience": 17.73
+    },
+    {
+      "attention_rank": 19,
+      "text": "А|-сервисы",
+      "confidence": 59,
+      "position": {
+        "x": 0.087,
+        "y": 0.836,
+        "width": 0.097,
+        "height": 0.024
+      },
+      "relative_size": 0.024,
+      "pixel_salience": 17.39
+    },
+    {
+      "attention_rank": 20,
+      "text": "работающих публичных страниц.",
+      "confidence": 96,
+      "position": {
+        "x": 0.665,
+        "y": 0.418,
+        "width": 0.187,
+        "height": 0.017
+      },
+      "relative_size": 0.0165,
+      "pixel_salience": 17.06
+    },
+    {
+      "attention_rank": 21,
+      "text": "Никаких выдуман:",
+      "confidence": 90,
+      "position": {
+        "x": 0.666,
+        "y": 0.394,
+        "width": 0.101,
+        "height": 0.015
+      },
+      "relative_size": 0.0152,
+      "pixel_salience": 15.44
+    },
+    {
+      "attention_rank": 22,
+      "text": "работающих публ",
+      "confidence": 86,
+      "position": {
+        "x": 0.665,
+        "y": 0.418,
+        "width": 0.099,
+        "height": 0.015
+      },
+      "relative_size": 0.0155,
+      "pixel_salience": 15.24
+    },
+    {
+      "attention_rank": 23,
+      "text": "04 / КУДА ВЕДЁТ ПУБЛИЧНАЯ ЖИЗНЬ",
+      "confidence": 92,
+      "position": {
+        "x": 0.041,
+        "y": 0.131,
+        "width": 0.194,
+        "height": 0.013
+      },
+      "relative_size": 0.013,
+      "pixel_salience": 14.5
+    },
+    {
+      "attention_rank": 24,
+      "text": "‹ публичных страниц.",
+      "confidence": 76,
+      "position": {
+        "x": 0.733,
+        "y": 0.418,
+        "width": 0.118,
+        "height": 0.015
+      },
+      "relative_size": 0.0155,
+      "pixel_salience": 14.47
+    },
+    {
+      "attention_rank": 25,
+      "text": "Каждый маршрут",
+      "confidence": 72,
+      "position": {
+        "x": 0.666,
+        "y": 0.367,
+        "width": 0.097,
+        "height": 0.015
+      },
+      "relative_size": 0.0155,
+      "pixel_salience": 14.41
+    },
+    {
+      "attention_rank": 26,
+      "text": "Launch Content Kit",
+      "confidence": 96,
+      "position": {
+        "x": 0.574,
+        "y": 0.736,
+        "width": 0.126,
+        "height": 0.015
+      },
+      "relative_size": 0.0155,
+      "pixel_salience": 14.25
+    },
+    {
+      "attention_rank": 27,
+      "text": "04 / КУДА BERET ПУБЛИЧНАЯ ЖИЗНЬ",
+      "confidence": 87,
+      "position": {
+        "x": 0.04,
+        "y": 0.13,
+        "width": 0.194,
+        "height": 0.013
+      },
+      "relative_size": 0.013,
+      "pixel_salience": 14.14
+    },
+    {
+      "attention_rank": 28,
+      "text": "уманных функции за пределами",
+      "confidence": 65,
+      "position": {
+        "x": 0.733,
+        "y": 0.393,
+        "width": 0.185,
+        "height": 0.015
+      },
+      "relative_size": 0.0155,
+      "pixel_salience": 13.73
+    },
+    {
+      "attention_rank": 29,
+      "text": "рут можно OTKDb ть прямо сейчас.",
+      "confidence": 63,
+      "position": {
+        "x": 0.733,
+        "y": 0.367,
+        "width": 0.203,
+        "height": 0.015
+      },
+      "relative_size": 0.0155,
+      "pixel_salience": 13.7
+    },
+    {
+      "attention_rank": 30,
+      "text": "Посмотреть результат и его контекст",
+      "confidence": 95,
+      "position": {
+        "x": 0.101,
+        "y": 0.637,
+        "width": 0.175,
+        "height": 0.013
+      },
+      "relative_size": 0.0135,
+      "pixel_salience": 12.83
+    },
+    {
+      "attention_rank": 31,
+      "text": "Посмотреть результат и его контек",
+      "confidence": 93,
+      "position": {
+        "x": 0.1,
+        "y": 0.637,
+        "width": 0.166,
+        "height": 0.013
+      },
+      "relative_size": 0.0132,
+      "pixel_salience": 12.47
+    },
+    {
+      "attention_rank": 32,
+      "text": "Q Поиск по платформе...",
+      "confidence": 84,
+      "position": {
+        "x": 0.627,
+        "y": 0.588,
+        "width": 0.12,
+        "height": 0.013
+      },
+      "relative_size": 0.0135,
+      "pixel_salience": 12.37
+    },
+    {
+      "attention_rank": 33,
+      "text": "Увидеть текущие публичные разговоры",
+      "confidence": 96,
+      "position": {
+        "x": 0.087,
+        "y": 0.756,
+        "width": 0.185,
+        "height": 0.013
+      },
+      "relative_size": 0.0135,
+      "pixel_salience": 12.31
+    },
+    {
+      "attention_rank": 34,
+      "text": "Launch Content КК",
+      "confidence": 73,
+      "position": {
+        "x": 0.574,
+        "y": 0.736,
+        "width": 0.125,
+        "height": 0.015
+      },
+      "relative_size": 0.015,
+      "pixel_salience": 12.25
+    },
+    {
+      "attention_rank": 35,
+      "text": "d--b x 1",
+      "confidence": 62,
+      "position": {
+        "x": 0.752,
+        "y": 0.394,
+        "width": 0.042,
+        "height": 0.014
+      },
+      "relative_size": 0.014,
+      "pixel_salience": 12.19
+    },
+    {
+      "attention_rank": 36,
+      "text": "Контент-набор для подготовки страницы",
+      "confidence": 95,
+      "position": {
+        "x": 0.574,
+        "y": 0.785,
+        "width": 0.223,
+        "height": 0.013
+      },
+      "relative_size": 0.0135,
+      "pixel_salience": 12.11
+    },
+    {
+      "attention_rank": 37,
+      "text": "проекта к первому публичному показу.",
+      "confidence": 96,
+      "position": {
+        "x": 0.574,
+        "y": 0.809,
+        "width": 0.21,
+        "height": 0.013
+      },
+      "relative_size": 0.0135,
+      "pixel_salience": 12.05
+    },
+    {
+      "attention_rank": 38,
+      "text": "Открыть текущий каталог инструментов",
+      "confidence": 96,
+      "position": {
+        "x": 0.087,
+        "y": 0.875,
+        "width": 0.189,
+        "height": 0.013
+      },
+      "relative_size": 0.0135,
+      "pixel_salience": 11.73
+    },
+    {
+      "attention_rank": 39,
+      "text": "Поиск по платформе.",
+      "confidence": 95,
+      "position": {
+        "x": 0.647,
+        "y": 0.589,
+        "width": 0.094,
+        "height": 0.012
+      },
+      "relative_size": 0.012,
+      "pixel_salience": 11.61
+    },
+    {
+      "attention_rank": 40,
+      "text": "проекта к первому публичному NOK:",
+      "confidence": 95,
+      "position": {
+        "x": 0.574,
+        "y": 0.809,
+        "width": 0.193,
+        "height": 0.013
+      },
+      "relative_size": 0.013,
+      "pixel_salience": 11.55
+    },
+    {
+      "attention_rank": 41,
+      "text": "реде",
+      "confidence": 88,
+      "position": {
+        "x": 0.864,
+        "y": 0.397,
+        "width": 0.025,
+        "height": 0.011
+      },
+      "relative_size": 0.0115,
+      "pixel_salience": 11.51
+    },
+    {
+      "attention_rank": 42,
+      "text": "проекта к первому публичному MOK:",
+      "confidence": 90,
+      "position": {
+        "x": 0.574,
+        "y": 0.809,
+        "width": 0.193,
+        "height": 0.013
+      },
+      "relative_size": 0.0132,
+      "pixel_salience": 11.49
+    },
+    {
+      "attention_rank": 43,
+      "text": "voc",
+      "confidence": 66,
+      "position": {
+        "x": 0.088,
+        "y": 0.722,
+        "width": 0.033,
+        "height": 0.014
+      },
+      "relative_size": 0.014,
+      "pixel_salience": 11.05
+    },
+    {
+      "attention_rank": 44,
+      "text": "Контент-набор для подготовки CTP:",
+      "confidence": 83,
+      "position": {
+        "x": 0.574,
+        "y": 0.785,
+        "width": 0.193,
+        "height": 0.013
+      },
+      "relative_size": 0.0127,
+      "pixel_salience": 10.77
+    },
+    {
+      "attention_rank": 45,
+      "text": "ения",
+      "confidence": 56,
+      "position": {
+        "x": 0.156,
+        "y": 0.722,
+        "width": 0.039,
+        "height": 0.014
+      },
+      "relative_size": 0.014,
+      "pixel_salience": 10.43
+    },
+    {
+      "attention_rank": 46,
+      "text": "1y показу.",
+      "confidence": 88,
+      "position": {
+        "x": 0.733,
+        "y": 0.812,
+        "width": 0.051,
+        "height": 0.011
+      },
+      "relative_size": 0.0105,
+      "pixel_salience": 9
+    },
+    {
+      "attention_rank": 47,
+      "text": "‘у показу.",
+      "confidence": 87,
+      "position": {
+        "x": 0.733,
+        "y": 0.812,
+        "width": 0.051,
+        "height": 0.011
+      },
+      "relative_size": 0.0105,
+      "pixel_salience": 8.96
+    },
+    {
+      "attention_rank": 48,
+      "text": "Бизнес и операции",
+      "confidence": 96,
+      "position": {
+        "x": 0.581,
+        "y": 0.842,
+        "width": 0.073,
+        "height": 0.01
+      },
+      "relative_size": 0.01,
+      "pixel_salience": 8.81
+    }
+  ],
+  "coarse_visual_zones": [
+    {
+      "zone": "1:1",
+      "position": "top-left",
+      "brightness": 192,
+      "contrast": 46,
+      "detail_density": 0.142
+    },
+    {
+      "zone": "1:2",
+      "position": "top-center-left",
+      "brightness": 190,
+      "contrast": 51,
+      "detail_density": 0.145
+    },
+    {
+      "zone": "1:3",
+      "position": "top-center-right",
+      "brightness": 203,
+      "contrast": 35,
+      "detail_density": 0.062
+    },
+    {
+      "zone": "1:4",
+      "position": "top-right",
+      "brightness": 212,
+      "contrast": 0,
+      "detail_density": 0
+    },
+    {
+      "zone": "2:1",
+      "position": "middle-left",
+      "brightness": 184,
+      "contrast": 36,
+      "detail_density": 0.115
+    },
+    {
+      "zone": "2:2",
+      "position": "middle-center-left",
+      "brightness": 198,
+      "contrast": 30,
+      "detail_density": 0.048
+    },
+    {
+      "zone": "2:3",
+      "position": "middle-center-right",
+      "brightness": 221,
+      "contrast": 18,
+      "detail_density": 0.011
+    },
+    {
+      "zone": "2:4",
+      "position": "middle-right",
+      "brightness": 218,
+      "contrast": 21,
+      "detail_density": 0.025
+    },
+    {
+      "zone": "3:1",
+      "position": "bottom-left",
+      "brightness": 203,
+      "contrast": 24,
+      "detail_density": 0.073
+    },
+    {
+      "zone": "3:2",
+      "position": "bottom-center-left",
+      "brightness": 215,
+      "contrast": 16,
+      "detail_density": 0.014
+    },
+    {
+      "zone": "3:3",
+      "position": "bottom-center-right",
+      "brightness": 192,
+      "contrast": 62,
+      "detail_density": 0.167
+    },
+    {
+      "zone": "3:4",
+      "position": "bottom-right",
+      "brightness": 201,
+      "contrast": 59,
+      "detail_density": 0.104
+    }
+  ],
+  "prominent_visual_regions": [
+    {
+      "bounds": {
+        "x": 0.5,
+        "y": 0.6666666666666666,
+        "width": 0.5,
+        "height": 0.3333333333333333
+      },
+      "physical_description": "large bright high-contrast detailed region detected directly from pixels",
+      "embedded_text": [
+        "| В Launch Content Kit",
+        "Launch Content Kit",
+        "Launch Content КК",
+        "Контент-набор для подготовки страницы",
+        "проекта к первому публичному показу.",
+        "проекта к первому публичному NOK:",
+        "проекта к первому публичному MOK:",
+        "Контент-набор для подготовки CTP:",
+        "1y показу.",
+        "‘у показу."
+      ]
+    }
+  ]
+}

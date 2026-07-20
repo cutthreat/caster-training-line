@@ -1,0 +1,142 @@
+Reading additional input from stdin...
+2026-07-20T08:08:23.578500Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-07-20T08:08:23.940986Z  WARN codex_core_skills::loader: ignoring file:///C:/Users/alexe/.codex/skills/attention-architecture-audit/agents/openai.yaml: failed to read openai.yaml: invalid utf-8 sequence of 1 bytes from index 82
+2026-07-20T08:08:23.944503Z  WARN codex_core_skills::loader: ignoring file:///C:/Users/alexe/.codex/skills/design-history-visual-culture/agents/openai.yaml: failed to read openai.yaml: invalid utf-8 sequence of 1 bytes from index 29
+2026-07-20T08:08:23.949919Z  WARN codex_core_skills::loader: ignoring file:///C:/Users/alexe/.codex/skills/video-intelligence-contour/agents/openai.yaml: failed to read openai.yaml: invalid utf-8 sequence of 1 bytes from index 80
+OpenAI Codex v0.145.0-alpha.18
+--------
+workdir: C:\Users\alexe\OneDrive\Документы\Caster Training-vibeus-conscious-20260720\variants\vibeus-public-life\sitecraft\vibeus-public-life-conscious-v3
+model: gpt-5.6-terra
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: low
+reasoning summaries: none
+session id: 019f7e91-ab19-7b62-97d2-c2ad68d775b0
+--------
+user
+Look only at the attached interface screenshot. Act as a neutral retina, not as a user or reviewer. Do not explain the product, judge quality, choose an action, infer hidden content, or suggest changes. Return one-line JSON only:
+warning: Skill descriptions were shortened to fit the 2% skills context budget. Codex can still see every skill, but some descriptions are shorter. Disable unused skills or plugins to leave more room for the rest.
+codex
+{"headline":"Смотрю только на видимые элементы интерфейса и фиксирую их нейтрально.","dominant_visual":"Интерфейс лендинга с крупным текстовым блоком слева и демо-карточкой справа.","primary_action":"Смотреть проекты ↗","loading":false,"clipped":[],"density":"balanced"}
+exec
+"C:\\Program Files\\PowerShell\\7\\pwsh.exe" -Command "Get-Content -LiteralPath 'C:\\Users\\alexe\\.codex\\skills\\human-qa\\SKILL.md' -Raw" in C:\Users\alexe\OneDrive\Документы\Caster Training-vibeus-conscious-20260720\variants\vibeus-public-life\sitecraft\vibeus-public-life-conscious-v3
+ succeeded in 330ms:
+---
+name: human-qa
+description: Run a blind, frontend-only usability walk-through with GPT-5.3-Codex-Spark acting as the intended target user or a separate cold passerby. Use during landing-page architecture, grayscale sketch, visual concept, implementation, or runtime QA to learn what the person notices, understands, trusts, and does, then compare the closed trace with hidden design intent—without exposing code, DOM, briefs, intended copy, expected paths, analytics, or design rationale to the observer.
+---
+
+# Human QA
+
+## Purpose
+
+Simulate the intended target user without leaking the intended answer, not an expert review. Make Spark observe only rendered screenshots, choose one visible action at a time, and speak in ordinary-user language. Keep a generic cold visitor as a separate adversarial lane. Keep Caster, Anton, code checks, design intent, and final acceptance outside the observer context.
+
+## Required model route
+
+Use `gpt-5.3-codex-spark` as the attention, comprehension, and action-choice layer. Because the current Spark CLI omits direct image content, build two independent sensor packets before calling Spark:
+
+- `scripts/run_retina.py`: `gpt-5.6-terra` records only literal visible regions, objects, text, prominence, affordance appearance, clipping, and loading state;
+- `scripts/build_perception_packet.mjs`: local OCR and pixel geometry record text, coordinates, contrast, and density without DOM access.
+
+Give both packets to Spark with their limitations. Use a neutral persistent browser carrier to execute only the action Spark selected. Never give Spark browser credentials, session internals, code, DOM, accessibility tree, source files, briefs, intended conversion paths, or prior expert findings. Read [references/QUALITY_CONTRACT.md](references/QUALITY_CONTRACT.md) before calibration or substantive use.
+
+Run `scripts/ensure_ocr_runtime.ps1` once if the local OCR runtime is missing. It installs only `tesseract.js` and `sharp` under `~/.cache/human-qa-ocr`; language data is cached under `~/.cache/human-qa-ocr/tessdata-cache`. Do not vendor runtime packages or `*.traineddata` into the skill or project packet.
+
+This separation is mandatory:
+
+```text
+visible viewport -> retina packet + deterministic packet -> Spark observation + one action -> persistent carrier executes -> next viewport
+```
+
+Spark does not own live-browser access or the final UX verdict.
+
+## Before the run
+
+1. Define the public URL or review build and safe interaction boundary.
+2. Start with a clean session unless the task explicitly tests returning users.
+3. Build a blind target-user card using [references/TARGET_USER_PROTOCOL.md](references/TARGET_USER_PROTOCOL.md) and [references/PERSONA_CARD.schema.json](references/PERSONA_CARD.schema.json). Use a generic profile only for the separate cold-passerby run.
+4. Set a maximum of 8 actions for a landing page and 12 for a small product flow. For a task with a known safe destination, pass an explicit success URL landmark and stop as soon as it is reached. Bound every observer call with a timeout; a timed-out step is evidence about the carrier, not a user verdict.
+5. Stop before login, personal data, payment, destructive action, consent, message submission, or external publication.
+6. Prepare desktop and mobile passes separately. Do not show both layouts to the same observer history.
+7. Before visual design, run the same protocol on a rendered low-fidelity sketch using [references/SKETCH_GATE.md](references/SKETCH_GATE.md).
+
+When `$attention-architecture-audit` is installed, create its intended and predicted routes before Human-QA but do not expose either route to Spark. Close the Human-QA trace first, then compare `intended / predicted / observed`. Treat the attention overlay as `expert_proxy`, never as eye tracking.
+
+## Run protocol
+
+Read [references/ORCHESTRATION.md](references/ORCHESTRATION.md) before running a browser-carried walk-through.
+
+For every step:
+
+1. Capture only the viewport the visitor can currently see. Do not use a full-page screenshot for sequential behavior.
+2. Call `scripts/run_spark_observer.py` with the current screenshot, stage, profile, and sanitized history. Preserve the generated packet for audit when the run is substantive.
+3. Validate the result automatically with `scripts/validate_report.py`.
+   Numeric scores use one explicit 0–100 scale. If validation emits `possible_0_to_10_scale`, preserve the raw event, exclude its numeric scores from cross-run comparison, and neutrally rerun only when those scores affect the decision.
+4. Record the observation before executing the action.
+5. Execute exactly one chosen action:
+   - click the visible label Spark named;
+   - scroll one viewport;
+   - go back;
+   - stop.
+6. If the named target is not actually visible or unique, record `carrier_mismatch`; do not silently choose the intended CTA.
+7. Capture the resulting viewport and repeat until Spark stops or the action limit is reached.
+
+## Blindness rules
+
+- Show pixels, not implementation.
+- Do not explain the product before the first observation.
+- Do not quote the intended UTP, target audience, or section purpose outside what is visibly rendered.
+- Do not ask Spark whether the design is “good”. Ask what it sees, understands, feels, and does.
+- Do not let Spark generate redesign advice during the walk-through.
+- Do not repair spelling, infer hidden states, or complete clipped copy for it.
+- Do not reveal that a particular button is expected to win.
+- Do not merge separate observers into one fictional consensus.
+
+## Evidence and interpretation
+
+Preserve two layers:
+
+1. **Raw user trace:** screenshots, first-seen elements, comprehension guesses, chosen actions, hesitation, trust, confusion, and stop reason.
+2. **Expert synthesis:** repeated patterns, severity, likely cause, and proposed design response.
+
+Treat a single run as a qualitative probe, not population evidence. Use at least 3 independent cold passes before calling a repeated issue a pattern. Use desktop and mobile separately. Do not claim heatmaps, conversion impact, statistical validity, accessibility conformance, or “real user research”.
+
+After each blind target-user trace, compare it with a hidden [references/DESIGN_INTENT.schema.json](references/DESIGN_INTENT.schema.json) card. Perform this comparison outside Spark and preserve raw observation separately. The comparison tests whether attention, meaning, value, trust, and action aligned with the design hypothesis; it must never rewrite the trace.
+
+## Required output
+
+Return:
+
+- run identity, viewport, profile, URL, and action limit;
+- chronological raw trace with one screenshot per state;
+- first-screen recall in the observer's own words;
+- chosen path and carrier mismatches;
+- continue/leave moment and reason;
+- repeated findings across independent passes;
+- expert interpretation clearly separated from raw observations;
+- confidence and evidence ceiling;
+- Spark benchmark record with `selection_fit`, `correction_count`, `independent_verifier_passed`, `throughput_effect`, and `would_reuse_same_setup`.
+
+Use [references/HUMAN_QA_EVENT.schema.json](references/HUMAN_QA_EVENT.schema.json) for every Spark event.
+
+## Verification
+
+Validate the skill folder with `quick_validate.py`. Validate every event with `validate_report.py`. Independently confirm that:
+
+- the screenshot corresponds to the state being described;
+- the perception packet was produced from screenshot pixels rather than DOM or source text;
+- the selected target was visible;
+- no code or intended path entered the Spark prompt;
+- the carrier performed only the selected action;
+- the final report labels observation, inference, and recommendation separately.
+- any attention prediction was created before the blind trace and was not included in the persona card or Spark prompt;
+- route comparison preserves disagreement instead of rewriting Human-QA to match the design hypothesis.
+
+
+codex
+{"headline":"Сделали с AI? Дайте проекту публичную жизнь.","dominant_visual":"Крупный чёрный многострочный заголовок слева и контурная демо-карточка справа.","primary_action":"Смотреть проекты ↗","loading":false,"clipped":[],"density":"balanced"}
+tokens used
+20 984
+{"headline":"Сделали с AI? Дайте проекту публичную жизнь.","dominant_visual":"Крупный чёрный многострочный заголовок слева и контурная демо-карточка справа.","primary_action":"Смотреть проекты ↗","loading":false,"clipped":[],"density":"balanced"}

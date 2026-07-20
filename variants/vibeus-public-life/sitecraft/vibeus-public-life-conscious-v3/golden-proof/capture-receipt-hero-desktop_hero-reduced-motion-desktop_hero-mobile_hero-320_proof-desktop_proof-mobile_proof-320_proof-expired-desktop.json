@@ -1,0 +1,336 @@
+{
+  "source": "golden-slice.html",
+  "source_sha256": "0D70EC9E6B677160D8B8CEE35CC1CB28B31D37A92F8BF48057F092BE67D34D36",
+  "captured_at": "2026-07-20T09:37:57.863Z",
+  "cases": [
+    {
+      "id": "hero-desktop",
+      "route": "golden-slice.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "no-preference",
+      "screenshot": "golden-proof/hero-desktop.png",
+      "screenshot_sha256": "65F50E02610C979C8BE181F3B919E7EEB8996E8DECB5299947C9F9619195B977",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "h1": {
+          "top": 277.09375,
+          "bottom": 635.90625,
+          "left": 57.59375,
+          "right": 708
+        },
+        "primary_action": {
+          "top": 753.90625,
+          "bottom": 812.90625,
+          "left": 57.59375,
+          "right": 294.03125
+        },
+        "record": {
+          "top": 213.21875,
+          "bottom": 882.765625,
+          "left": 732,
+          "right": 1382.40625
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": false,
+        "fragment_animation": "align",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "hero-reduced-motion-desktop",
+      "route": "golden-slice.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "reduce",
+      "screenshot": "golden-proof/hero-reduced-motion-desktop.png",
+      "screenshot_sha256": "65F50E02610C979C8BE181F3B919E7EEB8996E8DECB5299947C9F9619195B977",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "h1": {
+          "top": 277.09375,
+          "bottom": 635.90625,
+          "left": 57.59375,
+          "right": 708
+        },
+        "primary_action": {
+          "top": 753.90625,
+          "bottom": 812.90625,
+          "left": 57.59375,
+          "right": 294.03125
+        },
+        "record": {
+          "top": 213.21875,
+          "bottom": 882.765625,
+          "left": 732,
+          "right": 1382.40625
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "hero-mobile",
+      "route": "golden-slice.html",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "screenshot": "golden-proof/hero-mobile.png",
+      "screenshot_sha256": "144B2205E34BD52F1C8946D8C51A1C61AC8ADBDF2D3D4735926B833D0177485E",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "h1": {
+          "top": 147,
+          "bottom": 334.1875,
+          "left": 18,
+          "right": 372
+        },
+        "primary_action": {
+          "top": 446.078125,
+          "bottom": 505.078125,
+          "left": 18,
+          "right": 372
+        },
+        "record": {
+          "top": 593.671875,
+          "bottom": 1213.765625,
+          "left": 18,
+          "right": 372
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "hero-320",
+      "route": "golden-slice.html",
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "reduced_motion": "reduce",
+      "screenshot": "golden-proof/hero-320.png",
+      "screenshot_sha256": "05165ECA7F3EEDF1D5A38FA7C469A554D7A38A381DC8BFCF4EBCFE3B4A0B6F80",
+      "geometry": {
+        "scroll_width": 320,
+        "client_width": 320,
+        "body_scroll_width": 320,
+        "h1": {
+          "top": 160,
+          "bottom": 362.5,
+          "left": 18,
+          "right": 302
+        },
+        "primary_action": {
+          "top": 470.125,
+          "bottom": 525.125,
+          "left": 18,
+          "right": 302
+        },
+        "record": {
+          "top": 634.015625,
+          "bottom": 1194.109375,
+          "left": 18,
+          "right": 302
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "proof-desktop",
+      "route": "golden-slice.html#proof",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "reduce",
+      "screenshot": "golden-proof/proof-desktop.png",
+      "screenshot_sha256": "ECA5E725401EF84D45B6C65C8F4FFE37AEAE0CB1D839193747602D54A4781820",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "h1": {
+          "top": -704.90625,
+          "bottom": -346.09375,
+          "left": 57.59375,
+          "right": 708
+        },
+        "primary_action": {
+          "top": -228.09375,
+          "bottom": -169.09375,
+          "left": 57.59375,
+          "right": 294.03125
+        },
+        "record": {
+          "top": -768.78125,
+          "bottom": -99.234375,
+          "left": 732,
+          "right": 1382.40625
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "proof-mobile",
+      "route": "golden-slice.html#proof",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "screenshot": "golden-proof/proof-mobile.png",
+      "screenshot_sha256": "3D9344A9EEFEC7942971C14E227F675A4815B072FB8E3860ECCB1A1A6448277C",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "h1": {
+          "top": -1115,
+          "bottom": -927.8125,
+          "left": 18,
+          "right": 372
+        },
+        "primary_action": {
+          "top": -815.921875,
+          "bottom": -756.921875,
+          "left": 18,
+          "right": 372
+        },
+        "record": {
+          "top": -668.328125,
+          "bottom": -48.234375,
+          "left": 18,
+          "right": 372
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "proof-320",
+      "route": "golden-slice.html#proof",
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "reduced_motion": "reduce",
+      "screenshot": "golden-proof/proof-320.png",
+      "screenshot_sha256": "2BA51D7F10C4EAA6EEB2A32E376374F991E6C3BF72699B299CA75FF3CEFC4DB1",
+      "geometry": {
+        "scroll_width": 320,
+        "client_width": 320,
+        "body_scroll_width": 320,
+        "h1": {
+          "top": -1082,
+          "bottom": -879.5,
+          "left": 18,
+          "right": 302
+        },
+        "primary_action": {
+          "top": -771.875,
+          "bottom": -716.875,
+          "left": 18,
+          "right": 302
+        },
+        "record": {
+          "top": -607.984375,
+          "bottom": -47.890625,
+          "left": 18,
+          "right": 302
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "proof-expired-desktop",
+      "route": "golden-slice.html?catalog_state=expired#proof",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "reduce",
+      "screenshot": "golden-proof/proof-expired-desktop.png",
+      "screenshot_sha256": "3CA0D5F2069038AE24BBF295ED289F2ED8C278805C1F286B2918C1E698DC1302",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "h1": {
+          "top": -682.90625,
+          "bottom": -324.09375,
+          "left": 57.59375,
+          "right": 708
+        },
+        "primary_action": {
+          "top": -206.09375,
+          "bottom": -147.09375,
+          "left": 57.59375,
+          "right": 294.03125
+        },
+        "record": {
+          "top": -746.78125,
+          "bottom": -77.234375,
+          "left": 732,
+          "right": 1382.40625
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "catalog_state": "expired"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    }
+  ],
+  "action_receipts": []
+}

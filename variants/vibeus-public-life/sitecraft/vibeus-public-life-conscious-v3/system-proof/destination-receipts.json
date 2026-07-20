@@ -1,0 +1,103 @@
+{
+  "schema": "vibeus_public_life_destination_receipts.v1",
+  "source": "../../index.html",
+  "source_sha256": "FDCCC1277AE761213CEBECA6993E026BE407E2EF92E3177998732DADA8F2FAE7",
+  "captured_at": "2026-07-20T11:15:12.056Z",
+  "actions": [
+    {
+      "action_id": "act-catalog-hero",
+      "expected_url": "https://vibeus.app/catalog",
+      "final_url": "https://vibeus.app/catalog",
+      "http_status": 200,
+      "expected_landmark_found": true,
+      "recovery_verified": true,
+      "semantic_error": false,
+      "title": "VibeUs — дайте AI-проекту публичную жизнь",
+      "body_excerpt": "Vibeus ⌘ K Войти Лента Проекты Обсуждения Рейтинг AI сервисы Войти RU Опубликованные проекты Каталог проектов Проекты, которые авторы открыли для просмотра, пробного запуска и обсуждения. 4 проекта 4 автора По интересу Фильтры Заметные проекты Работы с сильным интересом, сохранениями и обсуждениями #1 ВЕБ-ПРИЛОЖЕНИЯ И САЙТЫ 1 1 Тест Тестовый текст краткого описания Pavel Kozichev @pavel_kozichev · 30 дней назад Посмотреть #2 КОНТЕНТ И МАРКЕТИНГ 2 1 Launch Content Kit Контент-набор для подготовки страницы проекта к первому публичному показу. Мира Соколова @demo_mira · 3 июня 2026 г. Посмотреть #3 ИНСТРУМЕНТЫ РАЗРАБОТЧИКА 1 1 AI Code Review Checklist Практичный чеклист для проверки AI-assisted pull request перед слиянием. Борис Левин @demo_boris · 3 июня 2026 г. Посмотреть Все проекты 4 проектов в текущей подборке ВЕБ-ПРИЛОЖЕНИЯ И САЙТЫ 1 1 Тест Тестовый текст краткого описания Pavel Kozic",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "action_id": "act-auth-hero",
+      "expected_url": "https://vibeus.app/auth",
+      "final_url": "https://vibeus.app/auth",
+      "http_status": 200,
+      "expected_landmark_found": true,
+      "recovery_verified": true,
+      "semantic_error": false,
+      "title": "VibeUs — дайте AI-проекту публичную жизнь",
+      "body_excerpt": "RU Vibeus С возвращением Войдите, чтобы продолжить работу с Vibeus Войти Нет аккаунта? Зарегистрироваться ИЛИ Продолжить с Google Забыли пароль?",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "action_id": "act-open-record",
+      "expected_url": "https://vibeus.app/works/launch-content-kit-df8941b5",
+      "final_url": "https://vibeus.app/works/launch-content-kit-df8941b5",
+      "http_status": 200,
+      "expected_landmark_found": true,
+      "recovery_verified": true,
+      "semantic_error": false,
+      "title": "VibeUs — дайте AI-проекту публичную жизнь",
+      "body_excerpt": "Vibeus ⌘ K Войти Лента Проекты Обсуждения Рейтинг AI сервисы Войти RU К КАТАЛОГУ Launch Content Kit Контент-набор для подготовки страницы проекта к первому публичному показу. Бизнес и операции Контент и маркетинг О проекте Набор блоков для презентации проекта: короткое описание, сценарии использования, галерея материалов, вопросы для обратной связи и план следующих улучшений. ОСНОВА ПРОЕКТА & СТЕК Content Launch Templates Обсуждение (0) Отправить Поддержать автора 2 1 Мира Соколова @demo_mira ПРОЕКТЫ 1 РЕЙТИНГ 85 Информация Добавлен 3 июня 2026 г. Просмотры 26 Условия Конфиденциальность Поддержка",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "action_id": "act-catalog-proof",
+      "expected_url": "https://vibeus.app/catalog",
+      "final_url": "https://vibeus.app/catalog",
+      "http_status": 200,
+      "expected_landmark_found": true,
+      "recovery_verified": true,
+      "semantic_error": false,
+      "title": "VibeUs — дайте AI-проекту публичную жизнь",
+      "body_excerpt": "Vibeus ⌘ K Войти Лента Проекты Обсуждения Рейтинг AI сервисы Войти RU Опубликованные проекты Каталог проектов Проекты, которые авторы открыли для просмотра, пробного запуска и обсуждения. 4 проекта 4 автора По интересу Фильтры Заметные проекты Работы с сильным интересом, сохранениями и обсуждениями #1 ВЕБ-ПРИЛОЖЕНИЯ И САЙТЫ 1 1 Тест Тестовый текст краткого описания Pavel Kozichev @pavel_kozichev · 30 дней назад Посмотреть #2 КОНТЕНТ И МАРКЕТИНГ 2 1 Launch Content Kit Контент-набор для подготовки страницы проекта к первому публичному показу. Мира Соколова @demo_mira · 3 июня 2026 г. Посмотреть #3 ИНСТРУМЕНТЫ РАЗРАБОТЧИКА 1 1 AI Code Review Checklist Практичный чеклист для проверки AI-assisted pull request перед слиянием. Борис Левин @demo_boris · 3 июня 2026 г. Посмотреть Все проекты 4 проектов в текущей подборке ВЕБ-ПРИЛОЖЕНИЯ И САЙТЫ 1 1 Тест Тестовый текст краткого описания Pavel Kozic",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "action_id": "act-discussions",
+      "expected_url": "https://vibeus.app/discussions",
+      "final_url": "https://vibeus.app/discussions",
+      "http_status": 200,
+      "expected_landmark_found": true,
+      "recovery_verified": true,
+      "semantic_error": false,
+      "title": "VibeUs — дайте AI-проекту публичную жизнь",
+      "body_excerpt": "Vibeus ⌘ K Войти Лента Проекты Обсуждения Рейтинг AI сервисы Войти RU Вопросы и опыт Обсуждения Задавайте вопросы, делитесь опытом и находите решения вместе с сообществом. Популярные Новые ∞ За всё время Мира Соколова @demo_mira · 3 июня 2026 г. Что нужно подготовить перед публичным запуском? Какие материалы вы готовите к первому публичному показу проекта: описание, скриншоты, демо, changelog или историю создания? запуск контент 1 3 Борис Левин @demo_boris · 3 июня 2026 г. Что обязательно проверять в AI-generated коде? Интересно сравнить подходы к ревью AI-generated кода: что вы проверяете вручную, а что уже доверяете автоматике? код ревью Ада Морозова @demo_ada · 3 июня 2026 г. Как вы проверяете идею перед сборкой? Обсудим, как быстро проверять идею перед разработкой: какой минимальный сценарий вы собираете первым и что считаете достаточным сигналом? идеи прототип Популярные темы Разраб",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "action_id": "act-tools",
+      "expected_url": "https://vibeus.app/ai-tools",
+      "final_url": "https://vibeus.app/ai-tools",
+      "http_status": 200,
+      "expected_landmark_found": true,
+      "recovery_verified": true,
+      "semantic_error": false,
+      "title": "VibeUs — дайте AI-проекту публичную жизнь",
+      "body_excerpt": "Vibeus ⌘ K Войти Лента Проекты Обсуждения Рейтинг AI сервисы Войти RU Новый раздел Каталог AI сервисов Курируемая коллекция лучших нейросетей, сервисов и библиотек для работы, программирования и дизайна. Найдите идеальный AI инструмент для вашей задачи. По популярности Фильтры Все инструменты 29 сервисов # ИНСТРУМЕНТ ОПИСАНИЕ ДЕЙСТВИЯ 1 ChatGPT Текст и Редактура Универсальный AI-ассистент для текстов, анализа, кода, изображений и повседневной работы. 2 Claude Текст и Редактура AI-ассистент Anthropic для письма, анализа документов, кода, исследований и командной работы. 3 Google Gemini Текст и Редактура AI-сервис Google для чата, генерации, анализа данных, работы с файлами и продуктами Google. 4 Microsoft Copilot Продуктивность AI-помощник Microsoft для поиска, офисных задач, генерации текста и работы в экосистеме Microsoft. 5 Perplexity Продуктивность AI-поиск и исследовательский ассисте",
+      "console_errors": [],
+      "failed_requests": []
+    },
+    {
+      "action_id": "act-auth-final",
+      "expected_url": "https://vibeus.app/auth",
+      "final_url": "https://vibeus.app/auth",
+      "http_status": 200,
+      "expected_landmark_found": true,
+      "recovery_verified": true,
+      "semantic_error": false,
+      "title": "VibeUs — дайте AI-проекту публичную жизнь",
+      "body_excerpt": "RU Vibeus С возвращением Войдите, чтобы продолжить работу с Vibeus Войти Нет аккаунта? Зарегистрироваться ИЛИ Продолжить с Google Забыли пароль?",
+      "console_errors": [],
+      "failed_requests": []
+    }
+  ],
+  "validation": {
+    "status": "pass",
+    "failures": []
+  }
+}

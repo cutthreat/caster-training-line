@@ -1,0 +1,25 @@
+{
+  "schema": "vibeus_public_life_destination_receipts.v1",
+  "source": "../../index.html",
+  "source_sha256": "8C10F6A528AE5CD2C10F33796FE4FCC5B1192A58511C0545262545062F4EA024",
+  "captured_at": "2026-07-20T10:28:32.877Z",
+  "actions": [
+    {
+      "action_id": "act-tools",
+      "expected_url": "https://vibeus.app/ai-tools",
+      "final_url": "https://vibeus.app/ai-tools",
+      "http_status": 200,
+      "expected_landmark_found": true,
+      "recovery_verified": true,
+      "semantic_error": false,
+      "title": "VibeUs — дайте AI-проекту публичную жизнь",
+      "body_excerpt": "Vibeus ⌘ K Войти Лента Проекты Обсуждения Рейтинг AI сервисы Войти RU Новый раздел Каталог AI сервисов Курируемая коллекция лучших нейросетей, сервисов и библиотек для работы, программирования и дизайна. Найдите идеальный AI инструмент для вашей задачи. По популярности Фильтры Все инструменты 29 сервисов # ИНСТРУМЕНТ ОПИСАНИЕ ДЕЙСТВИЯ 1 ChatGPT Текст и Редактура Универсальный AI-ассистент для текстов, анализа, кода, изображений и повседневной работы. 2 Claude Текст и Редактура AI-ассистент Anthropic для письма, анализа документов, кода, исследований и командной работы. 3 Google Gemini Текст и Редактура AI-сервис Google для чата, генерации, анализа данных, работы с файлами и продуктами Google. 4 Microsoft Copilot Продуктивность AI-помощник Microsoft для поиска, офисных задач, генерации текста и работы в экосистеме Microsoft. 5 Perplexity Продуктивность AI-поиск и исследовательский ассисте",
+      "console_errors": [],
+      "failed_requests": []
+    }
+  ],
+  "validation": {
+    "status": "pass",
+    "failures": []
+  }
+}

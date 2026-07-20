@@ -1,0 +1,52 @@
+{
+  "schema": "sitecraft_plausible_semantic_capture.v1",
+  "source": "falsification/plausible-semantic.html",
+  "source_sha256": "CB5606A015B8FEA26959A515DFFD0F63FFE3CA946C5298EC96815B20D8076B79",
+  "captured_at": "2026-07-20T11:14:37.843Z",
+  "cases": [
+    {
+      "id": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "falsification/plausible-desktop.png",
+      "screenshot_sha256": "1CB170795C9327C2C34475FE54AD80E3DC3CC21F27962D7DD766E3C5532773F5",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "fonts_status": "loaded",
+        "h1": "Сделали с AI? Пора вступить в сообщество.",
+        "primary_action": "Войти и опубликовать ↗",
+        "primary_href": "https://vibeus.app/auth"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "falsification/plausible-mobile.png",
+      "screenshot_sha256": "2E99E7E71AC02DED3262754DC150F3389A7794DA1B5A53D497C06F775B7F1285",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "fonts_status": "loaded",
+        "h1": "Сделали с AI? Пора вступить в сообщество.",
+        "primary_action": "Войти и опубликовать ↗",
+        "primary_href": "https://vibeus.app/auth"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    }
+  ],
+  "validation": {
+    "status": "pass",
+    "failures": []
+  }
+}

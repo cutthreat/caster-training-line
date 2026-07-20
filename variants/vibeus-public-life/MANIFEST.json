@@ -1,23 +1,57 @@
 {
-  "schema": "cinematic_sitecraft_manifest.v1",
-  "project": "vibeus-public-life-finish",
+  "schema": "vibeus_public_life_manifest.v3",
+  "project": "vibeus-public-life-conscious-v3",
+  "status": "validated_pre_publish",
+  "route_card_id": "sitecraft_decision_spine_v3_route",
   "entry": "index.html",
-  "hero_variants": ["code", "quantum", "singularity"],
-  "media_kernel": "CSS/canvas phenomenon routed through a cropped real VibeUs public project screen",
-  "primary_action": "#projects",
-  "primary_destination": "https://vibeus.app/catalog",
-  "contribution_action": "https://vibeus.app/auth",
-  "implementation": ["index.html", "styles.css", "app.js"],
-  "assets": [
-    {"path":"assets/vibeus-project.png","role":"public project record example"},
-    {"path":"assets/vibeus-catalog.png","role":"public catalog surface"},
-    {"path":"assets/onest-400.ttf","role":"body type"},
-    {"path":"assets/onest-600.ttf","role":"emphasis type"},
-    {"path":"assets/onest-800.ttf","role":"display type"}
+  "title": "VibeUs — дайте AI-проекту публичную жизнь",
+  "category": "социальная платформа для вайбкодеров",
+  "visual_law": "loose private fragments align into one public record",
+  "decision_spine": ["top", "record", "proof", "routes", "join"],
+  "primary_action": {
+    "label": "Смотреть проекты",
+    "destination": "https://vibeus.app/catalog",
+    "auth_required": false
+  },
+  "contribution_action": {
+    "label": "Войти в VibeUs",
+    "destination": "https://vibeus.app/auth",
+    "promise_ceiling": "authentication boundary only; post-auth publication is not proven"
+  },
+  "public_routes": [
+    "https://vibeus.app/works/launch-content-kit-df8941b5",
+    "https://vibeus.app/discussions",
+    "https://vibeus.app/ai-tools"
   ],
-  "proof": "proof/finish-proof/finish-verification.json",
+  "implementation": ["index.html", "styles.css", "app.js", "verify.mjs"],
+  "assets": [
+    {"path": "assets/vibeus-record-2026-07-20.png", "role": "owned public-record proof"},
+    {"path": "assets/vibeus-catalog-2026-07-20.png", "role": "volatile catalog proof"},
+    {"path": "assets/vibeus-discussions-2026-07-20.png", "role": "public discussions route"},
+    {"path": "assets/vibeus-ai-tools-2026-07-20.png", "role": "public AI-services route"},
+    {"path": "assets/onest-400.ttf", "role": "body typography"},
+    {"path": "assets/onest-600.ttf", "role": "labels and emphasis"},
+    {"path": "assets/onest-800.ttf", "role": "display typography"}
+  ],
+  "sitecraft_packet": "sitecraft/vibeus-public-life-conscious-v3",
+  "system_manifest": {
+    "path": "sitecraft/vibeus-public-life-conscious-v3/SYSTEM-BUILD-MANIFEST.json",
+    "sha256": "0F95054925573DAE59B4FCBC5EDBECF1E94C045844A6D18BE730EB45B859F98E"
+  },
+  "validation": {
+    "static": "28/28",
+    "runtime": "22/22",
+    "destinations": "7/7",
+    "caster": "pass",
+    "anton": "pass",
+    "production": "pass",
+    "sitecraft_gate": "validated"
+  },
   "project_defense": "PROJECT_DEFENSE.md",
   "fullpage_proof": "proof/project-defense/vibeus-public-life-fullpage.png",
-  "fullpage_capture_receipt": "proof/project-defense/capture-receipt.json",
-  "claim_ceiling": "local/browser geometry, semantic destination proof and blind Human-QA proxy; no participant, eye-tracking or business-effect claim"
+  "publication": {
+    "url": "https://cutthreat.github.io/caster-training-line/variants/vibeus-public-life/",
+    "status": "pending_post_deploy_proof"
+  },
+  "evidence_ceiling": "owned runtime plus blind qualitative proxies; no participant, eye-tracking, conversion, post-auth or cross-browser claim"
 }

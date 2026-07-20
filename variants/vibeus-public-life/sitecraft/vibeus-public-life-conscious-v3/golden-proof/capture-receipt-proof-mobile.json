@@ -1,0 +1,49 @@
+{
+  "source": "golden-slice.html",
+  "source_sha256": "4F4B18C22DCAAA055B6ECE21DEF3AAD7C38B383B569CD39770A650523C5DAEBA",
+  "captured_at": "2026-07-20T09:31:05.519Z",
+  "cases": [
+    {
+      "id": "proof-mobile",
+      "route": "golden-slice.html#proof",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "screenshot": "golden-proof/proof-mobile.png",
+      "screenshot_sha256": "3D9344A9EEFEC7942971C14E227F675A4815B072FB8E3860ECCB1A1A6448277C",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "h1": {
+          "top": -1115,
+          "bottom": -927.8125,
+          "left": 18,
+          "right": 372
+        },
+        "primary_action": {
+          "top": -815.921875,
+          "bottom": -756.921875,
+          "left": 18,
+          "right": 372
+        },
+        "record": {
+          "top": -668.328125,
+          "bottom": -48.234375,
+          "left": 18,
+          "right": 372
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    }
+  ],
+  "action_receipts": []
+}

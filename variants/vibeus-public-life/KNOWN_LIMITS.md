@@ -1,8 +1,12 @@
 # Known limits
 
-- Public VibeUs records previously inspected at reference-record level; the landing does not claim reusable or runnable payloads.
-- The current anonymous catalog may load slowly or expose temporary/demo inventory; the landing therefore avoids fixed counts and named permanent listings.
-- No participant comprehension, gaze, preference, activation or conversion study exists for this refresh.
-- No screen-reader user test or formal accessibility conformance audit exists.
-- Existing local font licence provenance was not re-audited.
-- GitHub Pages publication proves static delivery, not VibeUs backend availability.
+- Каталог на 20.07.2026 содержит 4 записи и 4 автора, частично demo/test. Это не доказательство зрелого сообщества или библиотеки готовых решений.
+- Датированные продуктовые снимки, landmarks и публичные маршруты волатильны; текущий catalog receipt истекает `2026-07-21T23:59:59Z`, после чего доказательство нужно обновить или скрыть.
+- Действия и публикация после авторизации не проверены и не обещаются.
+- Human‑QA и attention audit — качественные expert proxy, а не реальные участники, heatmap, eye‑tracking или conversion proof.
+- Локальная проверка выполнена в одном браузерном контуре; cross‑browser и реальные устройства остаются post‑deploy работой.
+- Нет отдельного теста с пользователями assistive technology и формального заявления о WCAG‑соответствии.
+- Media‑off сохраняет смысл и действия, но визуально менее выразителен.
+- Официальное семейство Onest имеет OFL‑лицензию, однако происхождение конкретных локальных бинарников и локальная копия лицензии не связаны отдельным receipt.
+- Публикационная власть над брендом VibeUs и его продуктовыми снимками остаётся у владельца продукта.
+- Текущий локальный validated‑пакет не является доказательством внешней публикации; нужен отдельный post‑deploy receipt.

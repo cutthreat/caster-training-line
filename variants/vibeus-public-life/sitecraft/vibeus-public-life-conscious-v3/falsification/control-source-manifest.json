@@ -1,0 +1,59 @@
+{
+  "schema": "sitecraft_plausible_semantic_source.v1",
+  "control_id": "ctrl-auth-first-community",
+  "source_artifacts": [
+    {
+      "path": "falsification/plausible-semantic.html",
+      "sha256": "CB5606A015B8FEA26959A515DFFD0F63FFE3CA946C5298EC96815B20D8076B79"
+    },
+    {
+      "path": "system-source/styles.css",
+      "sha256": "C01D040B62F2F86D5D32C523481827DA246FD6B812920BCEDCFB889A907CC518"
+    },
+    {
+      "path": "system-source/app.js",
+      "sha256": "523F057FE1618FFBC899A371A1FC976783E22F6257FED8BFB68497436B8E411B"
+    },
+    {
+      "path": "system-source/assets/onest-400.ttf",
+      "sha256": "F181F9D93458D755061CB973912DD9CDC1FDAE504917DB1EB8B5A75DB6C2F1E9"
+    },
+    {
+      "path": "system-source/assets/onest-600.ttf",
+      "sha256": "29D1ADBEF368F0385D5B0663CF75768C1597FEF98F045ADFE53AE0407B5A8775"
+    },
+    {
+      "path": "system-source/assets/onest-800.ttf",
+      "sha256": "0E4232EDAB066A7AFD5B6B2D9C65FB924B3ED2BDB02CCB07667E242656C006E5"
+    },
+    {
+      "path": "system-source/assets/vibeus-record-2026-07-20.png",
+      "sha256": "B57CFDF6C23F077D4F43532586E441EEA8EFAFDDBE9F4FB524418E84328E6D8F"
+    },
+    {
+      "path": "falsification/capture-receipt.json",
+      "sha256": "3C231D8F27E8DA9FFD05D9720F796E9C9A79397A183B8D652CFFD3153E10C197"
+    }
+  ],
+  "observed_surfaces": [
+    {
+      "id": "desktop",
+      "screenshot": "falsification/plausible-desktop.png",
+      "screenshot_sha256": "1CB170795C9327C2C34475FE54AD80E3DC3CC21F27962D7DD766E3C5532773F5",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "id": "mobile",
+      "screenshot": "falsification/plausible-mobile.png",
+      "screenshot_sha256": "2E99E7E71AC02DED3262754DC150F3389A7794DA1B5A53D497C06F775B7F1285",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ],
+  "invariant": "Same visual system and product proof, but generic community promise plus an unearned auth-first primary route."
+}

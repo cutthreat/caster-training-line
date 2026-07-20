@@ -1,0 +1,49 @@
+{
+  "source": "golden-slice.html",
+  "source_sha256": "4F4B18C22DCAAA055B6ECE21DEF3AAD7C38B383B569CD39770A650523C5DAEBA",
+  "captured_at": "2026-07-20T09:31:50.256Z",
+  "cases": [
+    {
+      "id": "proof-320",
+      "route": "golden-slice.html#proof",
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "reduced_motion": "reduce",
+      "screenshot": "golden-proof/proof-320.png",
+      "screenshot_sha256": "2BA51D7F10C4EAA6EEB2A32E376374F991E6C3BF72699B299CA75FF3CEFC4DB1",
+      "geometry": {
+        "scroll_width": 320,
+        "client_width": 320,
+        "body_scroll_width": 320,
+        "h1": {
+          "top": -1082,
+          "bottom": -879.5,
+          "left": 18,
+          "right": 302
+        },
+        "primary_action": {
+          "top": -771.875,
+          "bottom": -716.875,
+          "left": 18,
+          "right": 302
+        },
+        "record": {
+          "top": -607.984375,
+          "bottom": -47.890625,
+          "left": 18,
+          "right": 302
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    }
+  ],
+  "action_receipts": []
+}

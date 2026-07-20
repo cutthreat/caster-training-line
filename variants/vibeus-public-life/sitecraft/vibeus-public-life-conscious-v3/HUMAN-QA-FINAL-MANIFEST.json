@@ -1,0 +1,40 @@
+{
+  "schema": "sitecraft_human_qa_manifest.v1",
+  "stage": "final_implementation",
+  "mode": "alignment",
+  "intent_disclosed": false,
+  "hidden_intent_sha256": "3122C14215DFD6DD84E72CBDC3A7B3149088A073A99CBD10E6D65D6F77A25F0C",
+  "source_artifact_sha256": "2F3B0F33D3F355A4AD7A01777B1A8F814B944A58E80377F7630C9A2F9F8E4B52",
+  "accepted_events": [
+    {
+      "path": "human-qa/final-desktop-skeptical-v1/event.json",
+      "sha256": "9A1A5FAE46A7C0D1FEC22C0E918942059968F596B9075D6782F1E9BF803B5946",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "path": "human-qa/final-mobile-distracted-v1/event.json",
+      "sha256": "CEF7164B1238BCEDCE23F1BD6167326223F2596C057F3D67941F7E2FA9D5240E",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "path": "human-qa/final-join-skeptical-v4/event.json",
+      "sha256": "DB3B72895875B762166CF9C17DE576B22C96A07189646EFD559DDD44EC0FD6F8",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    }
+  ],
+  "alignment": {
+    "value_understood": true,
+    "action_understood": true,
+    "route_matches": true
+  },
+  "status": "pass"
+}

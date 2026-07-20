@@ -1,0 +1,1806 @@
+{
+  "schema": "sitecraft_brief_to_proof.v3",
+  "slug": "vibeus-public-life-conscious-v3",
+  "title": "VibeUs — public AI maker network, conscious redesign",
+  "created_at": "2026-07-20",
+  "stage": "system_build",
+  "product_truth": "VibeUs на собственных публичных поверхностях называет себя социальной платформой для вайбкодеров. Анонимному посетителю доступны каталог проектов, отдельные публичные записи, обсуждения и каталог AI-сервисов. Текущий каталог содержит ранний seed/demo-контент и подтверждает только существование публичных записей, а не масштаб активного сообщества, готовые решения, повторное использование или гарантированный отклик. Новая страница должна объяснять публичную жизнь проекта, показывать реальный продукт до регистрации и вести прямо в семантически проверенные маршруты.",
+  "audience": "Основная аудитория — человек, который собирает проекты с AI и закончил или почти закончил очередную работу, но пока хранит результат в личных ссылках, чатах и файлах. Вторичная — такой же практик, который сначала хочет посмотреть реальные публичные записи, обсуждения и инструменты без регистрации. Оба понимают базовые AI-инструменты, не доверяют громким обещаниям и быстро уходят, если продукт нельзя увидеть.",
+  "primary_task": "За первый экран понять, что VibeUs даёт AI-проекту публичный адрес и соседние маршруты, затем без регистрации открыть текущий каталог или конкретную публичную запись.",
+  "page_kind": "landing",
+  "primary_action_id": "act-catalog-hero",
+  "evidence_items": [
+    {
+      "id": "ev-home",
+      "status": "confirmed",
+      "source_type": "owned_runtime",
+      "source": "VibeUs public home",
+      "locator": "https://vibeus.app/",
+      "scope": "Owned category statement, public navigation and registration surface captured anonymously",
+      "evidence_ceiling": "owned_runtime",
+      "rights_note": "Owned product surface; use current screenshot and product vocabulary only"
+    },
+    {
+      "id": "ev-catalog",
+      "status": "confirmed",
+      "source_type": "owned_runtime",
+      "source": "VibeUs project catalog",
+      "locator": "https://vibeus.app/catalog",
+      "scope": "Anonymous public catalog and project-card destination",
+      "evidence_ceiling": "owned_runtime",
+      "rights_note": "Owned product surface; volatile inventory must not be restated as current without fresh receipt"
+    },
+    {
+      "id": "ev-project",
+      "status": "confirmed",
+      "source_type": "owned_runtime",
+      "source": "Launch Content Kit public record",
+      "locator": "https://vibeus.app/works/launch-content-kit-df8941b5",
+      "scope": "Public demo record with title, summary, description, tags/stack and discussion area",
+      "evidence_ceiling": "owned_runtime",
+      "rights_note": "Owned demo surface; label as a demonstration record and do not imply reusable payload"
+    },
+    {
+      "id": "ev-discussions",
+      "status": "confirmed",
+      "source_type": "owned_runtime",
+      "source": "VibeUs discussions",
+      "locator": "https://vibeus.app/discussions",
+      "scope": "Anonymous public questions and discussion route",
+      "evidence_ceiling": "owned_runtime",
+      "rights_note": "Owned product surface; do not claim activity volume or guaranteed response"
+    },
+    {
+      "id": "ev-tools",
+      "status": "confirmed",
+      "source_type": "owned_runtime",
+      "source": "VibeUs AI services catalog",
+      "locator": "https://vibeus.app/ai-tools",
+      "scope": "Anonymous public AI-service directory",
+      "evidence_ceiling": "owned_runtime",
+      "rights_note": "Owned product surface; do not freeze counts or endorse effectiveness"
+    },
+    {
+      "id": "ev-baseline",
+      "status": "confirmed",
+      "source_type": "owned_artifact",
+      "source": "Previous VibeUs public-life landing and cold audit",
+      "locator": "../../index.html + proof/project-defense/vibeus-public-life-fullpage.png",
+      "scope": "Previous message stack, product screenshot treatment, long-page rhythm and documented P0 product-proof gap",
+      "evidence_ceiling": "owned_artifact",
+      "rights_note": "Owned prior version; preserve only validated mechanisms, not its section shell or motion signature"
+    }
+  ],
+  "assumptions": [
+    "Cold traffic benefits from a public browse action before authentication.",
+    "The public-project author is the priority emotional entrance; the seeker receives an explicit catalog entrance in the same first screen.",
+    "The product owner accepts the current owned wording “социальная платформа для вайбкодеров” as the category signal."
+  ],
+  "unknowns": [
+    "Whether the current seed/demo records are temporary onboarding fixtures or the intended public launch inventory.",
+    "Which exact contribution fields and publishing controls are available after authentication.",
+    "Traffic source, participant comprehension baseline, activation analytics and production conversion effect.",
+    "Whether VibeUs has an owner-approved beta/early-access label; the landing therefore does not invent one."
+  ],
+  "references": [
+    {
+      "url": "https://vibeus.app/",
+      "role": "category + entrance",
+      "observed": "Owned home calls VibeUs a social platform for vibe coders, exposes Projects and Discussions before account creation, and presents registration on the same public surface.",
+      "inference": "The landing should lead with public project life rather than a ready-solution library or generic AI promise.",
+      "rights_note": "Owned surface; transfer product vocabulary and real destinations, not the existing split-screen layout.",
+      "decision_layers_observed": [
+        "system_job",
+        "audience_entrance",
+        "first_screen_contract",
+        "action_destination"
+      ]
+    },
+    {
+      "url": "https://vibeus.app/catalog",
+      "role": "primary proof + destination",
+      "observed": "Anonymous catalog renders public project records and exact work links; current inventory is small and partly demo/test content.",
+      "inference": "The strongest honest cold action is direct catalog inspection with an adjacent freshness and maturity boundary.",
+      "rights_note": "Owned surface; screenshot is dated and volatile counts are cropped, suppressed or labelled.",
+      "decision_layers_observed": [
+        "proof_object",
+        "risk_trust",
+        "action_destination",
+        "operating_layer"
+      ]
+    },
+    {
+      "url": "https://vibeus.app/works/launch-content-kit-df8941b5",
+      "role": "mechanism + limitation",
+      "observed": "The public demo record exposes a title, short description, project narrative, tags/stack and discussion region but not the promised reusable kit payload.",
+      "inference": "A public-address story is supportable; a reusable-solution story is not.",
+      "rights_note": "Owned demo record; name the demo status and show only fields actually visible.",
+      "decision_layers_observed": [
+        "mechanism",
+        "proof_object",
+        "risk_trust"
+      ]
+    },
+    {
+      "url": "https://vibeus.app/discussions",
+      "role": "adjacent continuation",
+      "observed": "Anonymous visitors can see public question threads and topic navigation.",
+      "inference": "Discussion is a real neighbouring route after the project concept is understood, but not evidence that every project receives feedback.",
+      "rights_note": "Owned surface; no activity or response guarantee.",
+      "decision_layers_observed": [
+        "value_ladder",
+        "action_destination",
+        "risk_trust"
+      ]
+    },
+    {
+      "url": "https://vibeus.app/ai-tools",
+      "role": "adjacent context",
+      "observed": "Anonymous visitors can browse a directory of AI services with names, descriptions and external action affordances.",
+      "inference": "The tools route broadens product context after project and discussion value, without proving that tools are tied to a given project.",
+      "rights_note": "Owned surface; no frozen count or quality endorsement.",
+      "decision_layers_observed": [
+        "value_ladder",
+        "action_destination"
+      ]
+    },
+    {
+      "url": "https://cutthreat.github.io/caster-training-line/variants/vibeus-public-life/",
+      "role": "negative fixture + retained mechanism",
+      "observed": "The prior landing makes category, public-before-auth and a real product screen clear, but repeats its proposition across a long sequence and routes the Hero CTA to another explanatory chapter before the live catalog.",
+      "inference": "Retain the public-before-auth and proof-bearing-object mechanisms; replace the shell with a shorter direct-to-destination narrative.",
+      "rights_note": "Owned previous implementation; do not reuse its section order, sticky four-step scene or hero phenomenon.",
+      "decision_layers_observed": [
+        "first_screen_contract",
+        "value_ladder",
+        "visual_expression_only",
+        "action_destination"
+      ]
+    }
+  ],
+  "constraints": [
+    "No claim of ready solutions, reusable payload, large active community, faster completion, guaranteed feedback, reputation growth or conversion effect.",
+    "Every promoted route must render its expected semantic landmark, not merely HTTP 200.",
+    "No fixed inventory counts or activity numbers in copy; current screenshots receive capture/freshness labels.",
+    "The first screen contains category, benefit, real product object, direct catalog action and browsing condition without microtext dependence.",
+    "Mobile is authored as one vertical decision route with proof directly after the primary action.",
+    "Visual metaphor may connect only real public product surfaces and must remain removable without losing product truth."
+  ],
+  "marketing_design": {
+    "system_job": {
+      "current_state": "An AI-assisted project is finished or nearly finished but remains a loose set of chats, screenshots and links visible mainly to its author.",
+      "target_state": "The maker understands how VibeUs can give that work a public record and a route to related discussions and tools, while a cold visitor can inspect current public content first.",
+      "success_signal": "Without explanation, the visitor calls VibeUs a public/social space for vibe coders, understands that it can hold a project record, and opens the live catalog or a public project before any authentication boundary."
+    },
+    "priority_segment": "AI-assisted maker after a first working result and before public sharing",
+    "decision_context": "The work exists, but the author has no single public place that explains it; alternatively a peer wants to inspect what is already public before joining.",
+    "positioning": "A public place where an AI-made project gains an address, readable context and neighbouring routes to discussion and tools.",
+    "reason_to_believe": "Owned anonymous routes expose a real project catalog, public project records, discussions and AI-service directory before login.",
+    "traffic_intent": "Direct/share/referral traffic from people who already build with AI and need either a public home for a result or a low-risk way to inspect the platform.",
+    "cta_consequence": "“Смотреть проекты” leaves the campaign page and opens the current VibeUs catalog; the visitor can browse without submitting data. “Показать свой” reaches the authentication boundary and stops the anonymous journey.",
+    "measurement_boundary": "This redesign can prove rendered comprehension proxies, destination continuity and runtime quality only; no claim about participant behavior, adoption or conversion lift.",
+    "primary_entrance_id": "entrance-maker",
+    "audience_entrances": [
+      {
+        "id": "entrance-maker",
+        "audience": "AI-assisted maker with a result worth showing",
+        "decision_context": "The project is understandable only inside the author’s private context.",
+        "need": "See a concrete public-record mechanism and a safe path to inspect it before signing in.",
+        "first_chapter_id": "ch-orient",
+        "route": [
+          "ch-orient",
+          "ch-record",
+          "ch-proof",
+          "ch-routes",
+          "ch-join"
+        ]
+      },
+      {
+        "id": "entrance-explorer",
+        "audience": "Peer exploring public AI projects and creator context",
+        "decision_context": "They want to know whether VibeUs contains inspectable public content now.",
+        "need": "Reach the current catalog quickly and understand the honest evidence boundary.",
+        "first_chapter_id": "ch-orient",
+        "route": [
+          "ch-orient",
+          "ch-proof",
+          "ch-record",
+          "ch-routes",
+          "ch-join"
+        ]
+      }
+    ],
+    "first_screen_contract": {
+      "entrance_id": "entrance-maker",
+      "category_signal": "VibeUs — социальная платформа для вайбкодеров.",
+      "audience_signal": "Для людей, которые уже делают проекты с AI и хотят показать результат или посмотреть чужую публичную запись.",
+      "outcome": "Проект получает один публичный адрес с доступным контекстом; посетитель может сначала открыть текущий каталог.",
+      "reason_to_believe": "В первом экране видна крупная реальная публичная запись VibeUs и прямой маршрут в live-каталог.",
+      "conditions_status": "present",
+      "conditions": [
+        "Текущий публичный каталог ранний и содержит demo/test записи.",
+        "Публичная запись не равна готовому или переиспользуемому решению.",
+        "Регистрация начинается только при попытке участия."
+      ],
+      "primary_action_id": "act-catalog-hero"
+    }
+  },
+  "claims": [
+    {
+      "id": "clm-category",
+      "text": "VibeUs — социальная платформа для вайбкодеров с публичными разделами проектов, обсуждений и AI-сервисов.",
+      "evidence_refs": [
+        "ev-home",
+        "ev-catalog",
+        "ev-discussions",
+        "ev-tools"
+      ],
+      "evidence_scope": "Owned anonymous runtime routes and owner-authored category copy; no active-community scale claim.",
+      "claim_ceiling": "owned_runtime",
+      "volatility": "static",
+      "mechanism": "The public home and shared navigation expose projects, discussions and AI services under one VibeUs product identity.",
+      "claim_chapter_id": "ch-orient",
+      "proof_object": {
+        "id": "proof-public-surfaces",
+        "kind": "owned_runtime_routes",
+        "inspectable_target": "https://vibeus.app/ + /catalog + /discussions + /ai-tools",
+        "evidence_ref": "ev-home"
+      },
+      "risk": {
+        "status": "present",
+        "description": "The social-platform label may be read as proof of a large active community.",
+        "trust_object": "Adjacent first-screen condition limits the claim to currently inspectable public surfaces and avoids scale/activity numbers.",
+        "trust_chapter_id": "ch-orient"
+      }
+    },
+    {
+      "id": "clm-public-record",
+      "text": "A VibeUs project can have a public record with a title, summary, description, tags or stack and a discussion area.",
+      "evidence_refs": [
+        "ev-project"
+      ],
+      "evidence_scope": "One owned public demo record; payload reuse, working result and universal field completeness are not claimed.",
+      "claim_ceiling": "owned_runtime",
+      "volatility": "static",
+      "mechanism": "The work detail route renders project context and discussion in a single public URL.",
+      "claim_chapter_id": "ch-record",
+      "proof_object": {
+        "id": "proof-project-record",
+        "kind": "owned_product_surface",
+        "inspectable_target": "https://vibeus.app/works/launch-content-kit-df8941b5",
+        "evidence_ref": "ev-project"
+      },
+      "risk": {
+        "status": "present",
+        "description": "A polished cover can imply that the underlying kit or runnable result is available.",
+        "trust_object": "The proof labels the record as demo/reference-level and explicitly states that no reusable payload is shown.",
+        "trust_chapter_id": "ch-record"
+      }
+    },
+    {
+      "id": "clm-public-catalog",
+      "text": "The current VibeUs project catalog can be opened anonymously before registration.",
+      "evidence_refs": [
+        "ev-catalog"
+      ],
+      "evidence_scope": "Current anonymous owned runtime; inventory and availability may change.",
+      "claim_ceiling": "owned_runtime",
+      "volatility": "volatile",
+      "mechanism": "The primary action opens /catalog, where the “Каталог проектов” landmark and public project links render without account submission.",
+      "claim_chapter_id": "ch-proof",
+      "proof_object": {
+        "id": "proof-catalog-destination",
+        "kind": "owned_runtime_destination",
+        "inspectable_target": "https://vibeus.app/catalog",
+        "evidence_ref": "ev-catalog"
+      },
+      "risk": {
+        "status": "present",
+        "description": "A small seed/demo catalog can be mistaken for a mature library of ready solutions.",
+        "trust_object": "The destination preview is dated, labels the current 4-project and 4-author snapshot, suppresses those counts in degraded states and rejects reusable-solution wording.",
+        "trust_chapter_id": "ch-proof"
+      },
+      "operations": {
+        "source_ref": "ev-catalog",
+        "owner": "VibeUs product owner",
+        "review_trigger": "Before release and whenever the /catalog landmark, anonymous access or screenshot changes.",
+        "expiry_trigger": "Expire the current state when the route cannot render the “Каталог проектов” landmark or the capture is older than the release review.",
+        "locale_policy": "single_locale",
+        "fallback_mode": "unavailable",
+        "states": {
+          "current": {
+            "status": "current",
+            "message": "Каталог проектов доступен без регистрации; снимок содержит 4 проекта и 4 автора.",
+            "source_verified": true,
+            "stale_success_visible": false,
+            "numeric_value": 4,
+            "verified_at": "2026-07-20"
+          },
+          "loading": {
+            "status": "loading",
+            "message": "Проверяем доступность каталога.",
+            "source_verified": false,
+            "stale_success_visible": false,
+            "numeric_value": null
+          },
+          "empty": {
+            "status": "empty",
+            "message": "Публичные проекты сейчас не показаны. Можно вернуться позже.",
+            "source_verified": false,
+            "stale_success_visible": false,
+            "numeric_value": null
+          },
+          "error": {
+            "status": "error",
+            "message": "Не удалось подтвердить текущий каталог. Перейдите на VibeUs напрямую.",
+            "source_verified": false,
+            "stale_success_visible": false,
+            "numeric_value": null
+          },
+          "expired": {
+            "status": "expired",
+            "message": "Снимок каталога устарел. Откройте текущую версию на VibeUs.",
+            "source_verified": false,
+            "stale_success_visible": false,
+            "numeric_value": null
+          }
+        }
+      }
+    },
+    {
+      "id": "clm-adjacent-routes",
+      "text": "VibeUs exposes separate public routes for discussions and an AI-service directory alongside project records.",
+      "evidence_refs": [
+        "ev-discussions",
+        "ev-tools"
+      ],
+      "evidence_scope": "Owned anonymous runtime routes; no claim that each project automatically links to a discussion or tool.",
+      "claim_ceiling": "owned_runtime",
+      "volatility": "static",
+      "mechanism": "Shared public navigation leads to /discussions and /ai-tools; each renders its own semantic landmark.",
+      "claim_chapter_id": "ch-routes",
+      "proof_object": {
+        "id": "proof-adjacent-destinations",
+        "kind": "owned_runtime_routes",
+        "inspectable_target": "https://vibeus.app/discussions + https://vibeus.app/ai-tools",
+        "evidence_ref": "ev-discussions"
+      },
+      "risk": {
+        "status": "present",
+        "description": "Neighbouring routes may be interpreted as a guaranteed workflow or active response loop.",
+        "trust_object": "The chapter calls them separate continuation choices and makes no feedback, integration or activity promise.",
+        "trust_chapter_id": "ch-routes"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "act-catalog-hero",
+      "label": "Смотреть проекты",
+      "consequence": "Open the current public project catalog without submitting data.",
+      "destination": "https://vibeus.app/catalog",
+      "chapter_id": "ch-orient",
+      "earned_by_delta_id": "delta-orient-action",
+      "destination_receipt": {
+        "expected_landmark": "Каталог проектов",
+        "recovery": "Browser back returns to the VibeUs landing",
+        "owner": "VibeUs product owner"
+      }
+    },
+    {
+      "id": "act-auth-hero",
+      "label": "Показать свой",
+      "consequence": "Reach the VibeUs authentication boundary; no credentials are entered during QA.",
+      "destination": "https://vibeus.app/auth",
+      "chapter_id": "ch-orient",
+      "earned_by_delta_id": "delta-orient-contribution",
+      "destination_receipt": {
+        "expected_landmark": "Войти or account creation surface",
+        "recovery": "Browser back returns to the VibeUs landing",
+        "owner": "VibeUs product owner"
+      }
+    },
+    {
+      "id": "act-open-record",
+      "label": "Открыть пример записи",
+      "consequence": "Open the public Launch Content Kit demo record.",
+      "destination": "https://vibeus.app/works/launch-content-kit-df8941b5",
+      "chapter_id": "ch-record",
+      "earned_by_delta_id": "delta-record-proof",
+      "destination_receipt": {
+        "expected_landmark": "Launch Content Kit",
+        "recovery": "К каталогу or browser back",
+        "owner": "VibeUs product owner"
+      }
+    },
+    {
+      "id": "act-catalog-proof",
+      "label": "Открыть текущий каталог",
+      "consequence": "Leave the proof preview for the live project catalog.",
+      "destination": "https://vibeus.app/catalog",
+      "chapter_id": "ch-proof",
+      "earned_by_delta_id": "delta-proof-current",
+      "destination_receipt": {
+        "expected_landmark": "Каталог проектов",
+        "recovery": "Browser back returns to the proof chapter",
+        "owner": "VibeUs product owner"
+      }
+    },
+    {
+      "id": "act-discussions",
+      "label": "Открыть обсуждения",
+      "consequence": "Open public VibeUs discussions.",
+      "destination": "https://vibeus.app/discussions",
+      "chapter_id": "ch-routes",
+      "earned_by_delta_id": "delta-routes-discuss",
+      "destination_receipt": {
+        "expected_landmark": "Обсуждения",
+        "recovery": "Browser back returns to the routes chapter",
+        "owner": "VibeUs product owner"
+      }
+    },
+    {
+      "id": "act-tools",
+      "label": "Найти AI-инструмент",
+      "consequence": "Open the public VibeUs AI-service directory.",
+      "destination": "https://vibeus.app/ai-tools",
+      "chapter_id": "ch-routes",
+      "earned_by_delta_id": "delta-routes-tools",
+      "destination_receipt": {
+        "expected_landmark": "Каталог AI сервисов",
+        "recovery": "Browser back returns to the routes chapter",
+        "owner": "VibeUs product owner"
+      }
+    },
+    {
+      "id": "act-auth-final",
+      "label": "Дать проекту адрес",
+      "consequence": "Reach authentication after the public product and limits have been shown.",
+      "destination": "https://vibeus.app/auth",
+      "chapter_id": "ch-join",
+      "earned_by_delta_id": "delta-join-earned",
+      "destination_receipt": {
+        "expected_landmark": "Войти or account creation surface",
+        "recovery": "Browser back returns to the final chapter",
+        "owner": "VibeUs product owner"
+      }
+    }
+  ],
+  "decision_spine": {
+    "chapters": [
+      {
+        "id": "ch-orient",
+        "entry_question": "Что это и почему мне не стоит закрывать страницу?",
+        "role": "first_screen_contract",
+        "decision_deltas": [
+          {
+            "id": "delta-orient-category",
+            "kind": "orientation",
+            "statement": "VibeUs is a social/public space for people who make projects with AI."
+          },
+          {
+            "id": "delta-orient-action",
+            "kind": "action",
+            "statement": "A cold visitor can inspect the current project catalog immediately and without form submission."
+          },
+          {
+            "id": "delta-orient-contribution",
+            "kind": "condition",
+            "statement": "Publishing is a separate contribution route that begins only after authentication."
+          }
+        ],
+        "claim_ids": [
+          "clm-category"
+        ],
+        "action_ids": [
+          "act-catalog-hero",
+          "act-auth-hero"
+        ],
+        "exit_understanding": "I can give an AI-made project a public place or first inspect what VibeUs currently exposes.",
+        "why_continue": "I still need to see what a public record actually contains and whether the claim is real."
+      },
+      {
+        "id": "ch-record",
+        "entry_question": "What becomes public besides a cover image?",
+        "role": "mechanism",
+        "decision_deltas": [
+          {
+            "id": "delta-record-mechanism",
+            "kind": "mechanism",
+            "statement": "One public URL can keep the visible project title, summary, narrative, stack and discussion region together."
+          },
+          {
+            "id": "delta-record-proof",
+            "kind": "proof",
+            "statement": "A labelled demo record can be opened and inspected at exactly the evidence level the landing claims."
+          }
+        ],
+        "claim_ids": [
+          "clm-public-record"
+        ],
+        "action_ids": [
+          "act-open-record"
+        ],
+        "exit_understanding": "The mechanism is a public project record, not a downloadable ready solution.",
+        "why_continue": "I want to verify that such records exist in the current catalog and understand its maturity."
+      },
+      {
+        "id": "ch-proof",
+        "entry_question": "Can I inspect the current product before joining?",
+        "role": "proof_object",
+        "decision_deltas": [
+          {
+            "id": "delta-proof-current",
+            "kind": "proof",
+            "statement": "The live anonymous catalog is the strongest current product proof and is reached directly."
+          },
+          {
+            "id": "delta-proof-boundary",
+            "kind": "risk_reduction",
+            "statement": "The current catalog is presented as changing early inventory rather than a mature library of reusable solutions."
+          }
+        ],
+        "claim_ids": [
+          "clm-public-catalog"
+        ],
+        "action_ids": [
+          "act-catalog-proof"
+        ],
+        "exit_understanding": "The catalog is real and publicly inspectable, but its current records have a limited evidence level.",
+        "why_continue": "I can now decide whether adjacent discussions or tools add value to my situation."
+      },
+      {
+        "id": "ch-routes",
+        "entry_question": "What can I do around a project besides view it?",
+        "role": "value_ladder",
+        "decision_deltas": [
+          {
+            "id": "delta-routes-discuss",
+            "kind": "value",
+            "statement": "Public discussions provide a separate place to read questions and experience without promising a response to every project."
+          },
+          {
+            "id": "delta-routes-tools",
+            "kind": "value",
+            "statement": "The AI-service directory provides a separate route to discover tools without implying project-level integration."
+          }
+        ],
+        "claim_ids": [
+          "clm-adjacent-routes"
+        ],
+        "action_ids": [
+          "act-discussions",
+          "act-tools"
+        ],
+        "exit_understanding": "VibeUs is more than one catalog, but each adjacent route has an honest independent job.",
+        "why_continue": "The public product is now visible, so I can make an informed contribution decision."
+      },
+      {
+        "id": "ch-join",
+        "entry_question": "Why should I create an account now?",
+        "role": "action_destination",
+        "decision_deltas": [
+          {
+            "id": "delta-join-earned",
+            "kind": "risk_reduction",
+            "statement": "Authentication is asked only after the visitor has seen the public product, its routes and its limits."
+          }
+        ],
+        "claim_ids": [],
+        "action_ids": [
+          "act-auth-final"
+        ],
+        "exit_understanding": "I know what is public now and what the account boundary is for.",
+        "why_continue": "The page ends at the real authentication handoff; no further persuasion is needed."
+      }
+    ],
+    "desktop_sequence": [
+      "ch-orient",
+      "ch-record",
+      "ch-proof",
+      "ch-routes",
+      "ch-join"
+    ],
+    "mobile_sequence": [
+      "ch-orient",
+      "ch-record",
+      "ch-proof",
+      "ch-routes",
+      "ch-join"
+    ],
+    "mobile_reauthoring_reason": "Mobile preserves the decision order but places the primary action before the proof preview, turns side-by-side anatomy into a single reading column, and reflows the route continuum vertically so no screenshot or CTA becomes a compressed desktop residue."
+  },
+  "hypothesis": {
+    "visitor_change": "For an AI-assisted maker with a finished or nearly finished project, the page will replace the vague idea of “community” with the concrete understanding that VibeUs can give the work one public address and can be inspected before login.",
+    "visual_law": "A private fragment becomes a stable public address: every chapter may add only one inspectable layer of context, and every connecting line must terminate in a real VibeUs surface or action.",
+    "dramaturgy": "Scattered private output enters the first screen, resolves into one readable public record, is verified against the live catalog, branches into two honest adjacent routes, and ends at an earned authentication boundary.",
+    "identity_deltas": [
+      "Replace code rain and cosmic phenomena with a project-specific transformation from loose work fragments into one readable public address.",
+      "Use an editorial evidence rail instead of the previous alternating campaign sections and four-step sticky carousel.",
+      "Represent project, discussion and tool routes as one source-linked continuum whose motion follows destination meaning rather than decorative spectacle.",
+      "Author mobile as an evidence-first vertical sequence with the real record immediately after the primary action."
+    ]
+  },
+  "visual_foundations": {
+    "reading_order": "Upper-left category and human consequence → four-line desktop H1 → direct public action → large readable product record → adjacent evidence condition. Later chapters alternate statement mass with one inspectable object, never two competing dominants.",
+    "axes": "Twelve-column desktop shell with a persistent public-address rail; text aligns to columns 1–6 and proof may occupy 6–12. Mobile uses one content axis with route markers on the left edge.",
+    "grid": "Desktop 12 columns, 24px gutters, 40–56px outer margin; tablet 8 columns; mobile 4 columns with 18–20px margin. No detached microcopy outside these anchors.",
+    "spacing_roles": "24px local grouping, 48–64px component separation, 112–160px chapter change. Quiet space must separate message from proof or mark a route transition, never create an empty screen.",
+    "type_geometry": "Onest with compact 800-weight display, 600-weight labels and 400-weight body. The accepted H1 composes as four short desktop lines and a bounded mobile stack; body measure is 52–68 characters; operational conditions never fall below 14px on desktop or mobile.",
+    "mass_map": "Hero 47/53 message-to-proof; record chapter 40/60; proof chapter is product-dominant; routes use three full-width editorial rows; final chapter returns to one dominant sentence and one action group.",
+    "media_direction": "Only fresh owned VibeUs runtime screenshots and literal UI fragments. Every screenshot receives route, capture date and evidence-level label; no generated metaphor or fictional interface.",
+    "mobile_transform": "Hero copy and primary action precede a 72–80vw readable record crop; anatomy fields become one sequence; route rows stack with direct labels; decorative rail becomes a static border; no horizontal sticky scene."
+  },
+  "composition": {
+    "chapters": [
+      {
+        "id": "ch-orient",
+        "dominant_mass": "Accepted four-line desktop outcome H1",
+        "support_mass": "Real public project record at readable scale",
+        "quiet_mass": "One short product condition beside the proof",
+        "entry_transition": "Loose fragments align into the public-address rail",
+        "exit_transition": "The record expands to reveal actual fields",
+        "mobile_transform": "Copy → primary CTA → browse condition → record crop; secondary auth follows proof",
+        "failure_condition": "The screenshot looks like decoration, the category is unclear, or auth outranks public inspection.",
+        "mass": "Dominant: Accepted four-line desktop outcome H1 Support: Real public project record at readable scale Quiet: One short product condition beside the proof",
+        "transition": "Entry: Loose fragments align into the public-address rail Exit: The record expands to reveal actual fields"
+      },
+      {
+        "id": "ch-record",
+        "dominant_mass": "Public-record anatomy expressed as one structured editorial ledger",
+        "support_mass": "One fresh project screenshot",
+        "quiet_mass": "Adjacent evidence-level boundary",
+        "entry_transition": "Hero record loses perspective and becomes a flat inspectable object",
+        "exit_transition": "The object resolves into the current catalog route",
+        "mobile_transform": "Fields and screenshot alternate in one column with the boundary immediately after the cover",
+        "failure_condition": "The composition implies reusable content or makes the fields too small to inspect.",
+        "mass": "Dominant: Public-record anatomy expressed as one structured editorial ledger Support: One fresh project screenshot Quiet: Adjacent evidence-level boundary",
+        "transition": "Entry: Hero record loses perspective and becomes a flat inspectable object Exit: The object resolves into the current catalog route"
+      },
+      {
+        "id": "ch-proof",
+        "dominant_mass": "Large current catalog surface and direct action",
+        "support_mass": "Short maturity/freshness statement",
+        "quiet_mass": "Capture date and demo/reference label",
+        "entry_transition": "One record is located inside the broader live catalog",
+        "exit_transition": "Catalog navigation becomes the route continuum",
+        "mobile_transform": "Headline and condition precede a vertically cropped but labelled catalog view and direct button",
+        "failure_condition": "Counts look current without a receipt, or the action still routes to an explanatory anchor.",
+        "mass": "Dominant: Large current catalog surface and direct action Support: Short maturity/freshness statement Quiet: Capture date and demo/reference label",
+        "transition": "Entry: One record is located inside the broader live catalog Exit: Catalog navigation becomes the route continuum"
+      },
+      {
+        "id": "ch-routes",
+        "dominant_mass": "Three destination rows: project, discussion, tool",
+        "support_mass": "Literal route preview for the active row",
+        "quiet_mass": "One-line boundary for each route",
+        "entry_transition": "The public-address rail branches only at verified destinations",
+        "exit_transition": "Branches return to one contribution choice",
+        "mobile_transform": "Rows stack as an ordered list and previews appear directly under their labels",
+        "failure_condition": "The routes compete like generic feature cards or imply an automatic feedback loop.",
+        "mass": "Dominant: Three destination rows: project, discussion, tool Support: Literal route preview for the active row Quiet: One-line boundary for each route",
+        "transition": "Entry: The public-address rail branches only at verified destinations Exit: Branches return to one contribution choice"
+      },
+      {
+        "id": "ch-join",
+        "dominant_mass": "Earned final statement and contribution action",
+        "support_mass": "Low-commitment catalog alternative",
+        "quiet_mass": "Authentication consequence and legal links",
+        "entry_transition": "The separate routes converge at the account boundary",
+        "exit_transition": "Normal product handoff with no cinematic promise",
+        "mobile_transform": "One sentence, one primary contribution button, one catalog text link, then legal/footer",
+        "failure_condition": "The final CTA pressures registration or repeats the Hero without a new reason.",
+        "mass": "Dominant: Earned final statement and contribution action Support: Low-commitment catalog alternative Quiet: Authentication consequence and legal links",
+        "transition": "Entry: The separate routes converge at the account boundary Exit: Normal product handoff with no cinematic promise"
+      }
+    ],
+    "responsive_transform": "Desktop uses asymmetry and one source-linked route ledger with three complete destination rows; mobile preserves the same DOM order as a vertical list with proof and actions available without lateral gesture. Motion may clarify source-to-destination relationships, but reduced motion keeps every route visible as a static line.",
+    "proof_cadence": "Hero product record → record anatomy and exact demo route → live catalog and direct route → public discussions/tools destinations → auth handoff. Every persuasive increase is followed by proof or a boundary before the next action."
+  },
+  "operating_layer": {
+    "content_owner": "VibeUs product owner",
+    "measurement_owner": "Unassigned; destination receipts only until owner is named",
+    "supported_locales": [
+      "ru"
+    ],
+    "review_cadence": "Before publication and whenever public route landmarks, screenshots or content model change",
+    "dynamic_missing_policy": "Suppress counts and current-status assertions; show an explicit unavailable/freshness label instead of zero.",
+    "destination_receipt_policy": "Require HTTP success, expected rendered landmark, absence of semantic error and a recovery route for every promoted destination.",
+    "degraded_state_fixture_policy": "Media-off keeps literal route labels, project-field ledger, evidence boundary and real links; unavailable product screenshot may not be replaced by a fictional UI."
+  },
+  "attention": {
+    "semantic": {
+      "audit_path": "ATTENTION-AUDIT.json",
+      "source_artifact_path": "semantic-sketch.html",
+      "source_sha256": "C1889393E9D0F15E495E9368CA4AAF5936C3135BBCB60A7FDD33260AC75D314B",
+      "width": 1440,
+      "height": 900
+    },
+    "human_qa_manifest_path": "HUMAN-QA-MANIFEST.json",
+    "desktop_route": "category → outcome → public catalog action → real demo record → honest catalog proof → separate discussion/tool routes → earned auth",
+    "mobile_route": "category → outcome → primary public action → browse condition → record proof → catalog proof → vertical routes → earned auth",
+    "evidence_ceiling": "expert proxy plus validated blind events; not participant evidence"
+  },
+  "patterns": {
+    "accepted": [
+      "hero-message-stack",
+      "final-cta-handoff",
+      "navigation-orientation",
+      "proof-relay-handoff"
+    ],
+    "rejected": [
+      {
+        "id": "product-demo-evidence",
+        "reason": "The page proves a static public record and route; it has no representative input/output demo contract."
+      },
+      {
+        "id": "horizontal-evidence-sequence",
+        "reason": "The three rows are primary destinations, not ordered evidence; the route ledger must remain complete without lateral mechanics."
+      },
+      {
+        "id": "catalog-card-decision",
+        "reason": "The landing hands off to the live catalog and must not imitate a catalog decision surface."
+      }
+    ],
+    "foundation_gate": [
+      "responsive-content-shell",
+      "semantic-spacing-rhythm",
+      "alignment-anchor-system",
+      "section-mass-composition",
+      "typographic-measure-hierarchy",
+      "responsive-reflow-transform",
+      "media-crop-aspect-control"
+    ],
+    "custom_resolutions": [
+      {
+        "need": "show-transformation",
+        "resolution": "Loose private fragments may align into a public-address rail around current owned screenshots, but no interactive before/after, generated result or product transformation is claimed. Copy, proof object, route labels and links remain complete with motion and media disabled."
+      }
+    ]
+  },
+  "pattern_selection": {
+    "brief_path": "pattern-selection-brief.json",
+    "receipt_path": "pattern-selection-receipt.json"
+  },
+  "golden_slice": {
+    "manifest_path": "GOLDEN-SLICE-MANIFEST.json",
+    "visual_attention": {
+      "audit_path": "ATTENTION-AUDIT-VISUAL.json",
+      "source_artifact_path": "golden-slice.html",
+      "source_sha256": "0D70EC9E6B677160D8B8CEE35CC1CB28B31D37A92F8BF48057F092BE67D34D36",
+      "width": 1440,
+      "height": 1000
+    },
+    "caster_verdict_path": "CASTER-GOLDEN-SLICE-VERDICT.json",
+    "anton_verdict_path": "ANTON-GOLDEN-SLICE-VERDICT.json"
+  },
+  "system_build": {
+    "manifest_path": "SYSTEM-BUILD-MANIFEST.json"
+  },
+  "falsification": {
+    "controls": [
+      {
+        "id": "ctrl-auth-first-community",
+        "kind": "plausible_semantic",
+        "preserves_identity": true,
+        "preserves_visual_quality": true,
+        "preserves_responsive_readability": true,
+        "isolated_decision_defects": [
+          "audience_route_dilution",
+          "unearned_auth_cta",
+          "destination_mismatch"
+        ],
+        "expected_blocking_gates": [
+          "decision_spine",
+          "product_trust",
+          "destination_continuity"
+        ],
+        "blind_plausibility_manifest_path": "HUMAN-QA-PLAUSIBILITY-MANIFEST.json",
+        "source_artifact_sha256": "4A684F708182CAE58E449FC751090A9D740E5705576712165CBD9912E15FFA03"
+      }
+    ],
+    "evidence_ceiling": "The control proves that the workflow rejects a visually polished auth-first decision defect; it does not estimate conversion impact."
+  },
+  "proof_plan": [
+    {
+      "id": "chk-claim-clm-category",
+      "kind": "claim_truth",
+      "target_ref": "clm-category",
+      "method": "Bind clm-category to its declared owned runtime evidence without raising the claim ceiling.",
+      "artifact_expected": "product-proof/2026-07-20/runtime-receipts.json",
+      "evidence_ceiling": "Owned anonymous runtime routes and owner-authored category copy; no active-community scale claim.",
+      "required_observations": [
+        "claim_supported",
+        "canonical evidence_refs"
+      ]
+    },
+    {
+      "id": "chk-claim-clm-public-record",
+      "kind": "claim_truth",
+      "target_ref": "clm-public-record",
+      "method": "Bind clm-public-record to its declared owned runtime evidence without raising the claim ceiling.",
+      "artifact_expected": "product-proof/2026-07-20/runtime-receipts.json",
+      "evidence_ceiling": "One owned public demo record; payload reuse, working result and universal field completeness are not claimed.",
+      "required_observations": [
+        "claim_supported",
+        "canonical evidence_refs"
+      ]
+    },
+    {
+      "id": "chk-claim-clm-public-catalog",
+      "kind": "claim_truth",
+      "target_ref": "clm-public-catalog",
+      "method": "Bind clm-public-catalog to its declared owned runtime evidence without raising the claim ceiling.",
+      "artifact_expected": "product-proof/2026-07-20/runtime-receipts.json",
+      "evidence_ceiling": "Current anonymous owned runtime; inventory and availability may change.",
+      "required_observations": [
+        "claim_supported",
+        "canonical evidence_refs"
+      ]
+    },
+    {
+      "id": "chk-claim-clm-adjacent-routes",
+      "kind": "claim_truth",
+      "target_ref": "clm-adjacent-routes",
+      "method": "Bind clm-adjacent-routes to its declared owned runtime evidence without raising the claim ceiling.",
+      "artifact_expected": "product-proof/2026-07-20/runtime-receipts.json",
+      "evidence_ceiling": "Owned anonymous runtime routes; no claim that each project automatically links to a discussion or tool.",
+      "required_observations": [
+        "claim_supported",
+        "canonical evidence_refs"
+      ]
+    },
+    {
+      "id": "chk-dest-act-catalog-hero",
+      "kind": "destination",
+      "target_ref": "act-catalog-hero",
+      "method": "Click act-catalog-hero from the local landing, verify its live VibeUs landmark and return to the source page.",
+      "artifact_expected": "system-proof/destination-receipts.json",
+      "evidence_ceiling": "Runtime destination continuity on 20.07.2026.",
+      "required_observations": [
+        "HTTP status below 400",
+        "expected live landmark",
+        "browser-back recovery"
+      ]
+    },
+    {
+      "id": "chk-dest-act-auth-hero",
+      "kind": "destination",
+      "target_ref": "act-auth-hero",
+      "method": "Click act-auth-hero from the local landing, verify its live VibeUs landmark and return to the source page.",
+      "artifact_expected": "system-proof/destination-receipts.json",
+      "evidence_ceiling": "Runtime destination continuity on 20.07.2026.",
+      "required_observations": [
+        "HTTP status below 400",
+        "expected live landmark",
+        "browser-back recovery"
+      ]
+    },
+    {
+      "id": "chk-dest-act-open-record",
+      "kind": "destination",
+      "target_ref": "act-open-record",
+      "method": "Click act-open-record from the local landing, verify its live VibeUs landmark and return to the source page.",
+      "artifact_expected": "system-proof/destination-receipts.json",
+      "evidence_ceiling": "Runtime destination continuity on 20.07.2026.",
+      "required_observations": [
+        "HTTP status below 400",
+        "expected live landmark",
+        "browser-back recovery"
+      ]
+    },
+    {
+      "id": "chk-dest-act-catalog-proof",
+      "kind": "destination",
+      "target_ref": "act-catalog-proof",
+      "method": "Click act-catalog-proof from the local landing, verify its live VibeUs landmark and return to the source page.",
+      "artifact_expected": "system-proof/destination-receipts.json",
+      "evidence_ceiling": "Runtime destination continuity on 20.07.2026.",
+      "required_observations": [
+        "HTTP status below 400",
+        "expected live landmark",
+        "browser-back recovery"
+      ]
+    },
+    {
+      "id": "chk-dest-act-discussions",
+      "kind": "destination",
+      "target_ref": "act-discussions",
+      "method": "Click act-discussions from the local landing, verify its live VibeUs landmark and return to the source page.",
+      "artifact_expected": "system-proof/destination-receipts.json",
+      "evidence_ceiling": "Runtime destination continuity on 20.07.2026.",
+      "required_observations": [
+        "HTTP status below 400",
+        "expected live landmark",
+        "browser-back recovery"
+      ]
+    },
+    {
+      "id": "chk-dest-act-tools",
+      "kind": "destination",
+      "target_ref": "act-tools",
+      "method": "Click act-tools from the local landing, verify its live VibeUs landmark and return to the source page.",
+      "artifact_expected": "system-proof/destination-receipts.json",
+      "evidence_ceiling": "Runtime destination continuity on 20.07.2026.",
+      "required_observations": [
+        "HTTP status below 400",
+        "expected live landmark",
+        "browser-back recovery"
+      ]
+    },
+    {
+      "id": "chk-dest-act-auth-final",
+      "kind": "destination",
+      "target_ref": "act-auth-final",
+      "method": "Click act-auth-final from the local landing, verify its live VibeUs landmark and return to the source page.",
+      "artifact_expected": "system-proof/destination-receipts.json",
+      "evidence_ceiling": "Runtime destination continuity on 20.07.2026.",
+      "required_observations": [
+        "HTTP status below 400",
+        "expected live landmark",
+        "browser-back recovery"
+      ]
+    },
+    {
+      "id": "chk-desktop-route",
+      "kind": "desktop_route",
+      "target_ref": "desktop_route",
+      "method": "Render the complete desktop route at 1440px and compare it with the decision spine.",
+      "artifact_expected": "system-proof/runtime-receipt.json",
+      "evidence_ceiling": "Deterministic owned runtime geometry.",
+      "required_observations": [
+        "canonical chapter sequence",
+        "zero horizontal overflow"
+      ]
+    },
+    {
+      "id": "chk-mobile-route",
+      "kind": "mobile_route",
+      "target_ref": "mobile_route",
+      "method": "Render the complete independently authored mobile route at 390px.",
+      "artifact_expected": "system-proof/runtime-receipt.json",
+      "evidence_ceiling": "Deterministic owned runtime geometry.",
+      "required_observations": [
+        "canonical mobile sequence",
+        "zero horizontal overflow"
+      ]
+    },
+    {
+      "id": "chk-exact-320",
+      "kind": "exact_320",
+      "target_ref": "page",
+      "method": "Render the complete page at exactly 320px.",
+      "artifact_expected": "system-proof/runtime-receipt.json",
+      "evidence_ceiling": "Deterministic owned runtime geometry.",
+      "required_observations": [
+        "exact 320px viewport",
+        "zero horizontal overflow"
+      ]
+    },
+    {
+      "id": "chk-content-stress",
+      "kind": "content_stress",
+      "target_ref": "page",
+      "method": "Inject bounded long-copy fixtures at 320px.",
+      "artifact_expected": "system-proof/runtime-receipt.json",
+      "evidence_ceiling": "Synthetic content-stress behavior.",
+      "required_observations": [
+        "long hero",
+        "long route label",
+        "long material condition",
+        "zero overflow"
+      ]
+    },
+    {
+      "id": "chk-accessibility",
+      "kind": "accessibility",
+      "target_ref": "page",
+      "method": "Combine source checks, keyboard route-preview focus and forced-colors runtime.",
+      "artifact_expected": "system-proof/static-verifier-result.json",
+      "evidence_ceiling": "Expert and deterministic accessibility proxy; not full WCAG conformance.",
+      "required_observations": [
+        "headings",
+        "native controls",
+        "focus order",
+        "skip path",
+        "visible focus"
+      ]
+    },
+    {
+      "id": "chk-reduced-motion",
+      "kind": "reduced_motion",
+      "target_ref": "page",
+      "method": "Render full desktop with prefers-reduced-motion: reduce.",
+      "artifact_expected": "system-proof/runtime-receipt.json",
+      "evidence_ceiling": "Deterministic media-query behavior.",
+      "required_observations": [
+        "reduce media active",
+        "decorative animation disabled",
+        "all chapters preserved"
+      ]
+    },
+    {
+      "id": "chk-runtime",
+      "kind": "runtime",
+      "target_ref": "page",
+      "method": "Collect console, page-error and unexpected failed-request events across all system cases, including no-JS and an intentionally failed app.js request.",
+      "artifact_expected": "system-proof/runtime-receipt.json",
+      "evidence_ceiling": "Owned browser runtime for declared fixtures.",
+      "required_observations": [
+        "empty console errors",
+        "empty page errors",
+        "empty unexpected failed requests",
+        "no-JS fail-closed",
+        "script-failure fail-closed"
+      ]
+    },
+    {
+      "id": "chk-volatile-catalog",
+      "kind": "volatile_states",
+      "target_ref": "clm-public-catalog",
+      "method": "Render every required catalog evidence state plus no-JS and failed-script bootstrap fixtures; verify every degraded path fails closed.",
+      "artifact_expected": "system-proof/runtime-receipt.json",
+      "evidence_ceiling": "Deterministic state fixtures backed by a dated owner receipt.",
+      "required_observations": [
+        "current",
+        "loading",
+        "empty",
+        "error",
+        "expired",
+        "no-JS",
+        "script failure",
+        "no degraded numeric value",
+        "no stale success"
+      ],
+      "required_states": [
+        "current",
+        "loading",
+        "empty",
+        "error",
+        "expired"
+      ]
+    },
+    {
+      "id": "chk-falsification-auth-first",
+      "kind": "falsification",
+      "target_ref": "ctrl-auth-first-community",
+      "method": "Compare blind Human-QA behavior on the visually preserved auth-first control against the accepted source.",
+      "artifact_expected": "falsification/control-source-manifest.json",
+      "evidence_ceiling": "Discrimination of declared decision defects; no conversion estimate.",
+      "required_observations": [
+        "visual/runtime plausibility",
+        "at least two decision defects",
+        "blind desktop and mobile response"
+      ]
+    }
+  ],
+  "proof_receipts": [
+    {
+      "id": "rcpt-chk-claim-clm-category",
+      "check_id": "chk-claim-clm-category",
+      "target_ref": "clm-category",
+      "artifact_path": "product-proof/2026-07-20/runtime-receipts.json",
+      "artifact_sha256": "42E6B4C4EA3C2626D734B3A029E6FE7EDFB028BB1B3961AA153C6555FE2A5E40",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-claim-clm-category",
+        "target_ref": "clm-category",
+        "kind": "claim_truth",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Bind clm-category to its declared owned runtime evidence without raising the claim ceiling.",
+        "status": "pass",
+        "observations": {
+          "claim_supported": true,
+          "evidence_refs": [
+            "ev-home",
+            "ev-catalog",
+            "ev-discussions",
+            "ev-tools"
+          ]
+        }
+      },
+      "payload_sha256": "4B85541780597E1AD1C908129D2D3C4698D92A33AC1A74170225FD39EDA186C3",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-claim-clm-category.json",
+        "run_receipt_sha256": "811439F8101ADDF021F4C1BEE0BD5A7C92033BC4B917F310E7E2F0A81DE92168"
+      },
+      "verdict": "pass",
+      "evidence_level": "runtime_verified"
+    },
+    {
+      "id": "rcpt-chk-claim-clm-public-record",
+      "check_id": "chk-claim-clm-public-record",
+      "target_ref": "clm-public-record",
+      "artifact_path": "product-proof/2026-07-20/runtime-receipts.json",
+      "artifact_sha256": "42E6B4C4EA3C2626D734B3A029E6FE7EDFB028BB1B3961AA153C6555FE2A5E40",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-claim-clm-public-record",
+        "target_ref": "clm-public-record",
+        "kind": "claim_truth",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Bind clm-public-record to its declared owned runtime evidence without raising the claim ceiling.",
+        "status": "pass",
+        "observations": {
+          "claim_supported": true,
+          "evidence_refs": [
+            "ev-project"
+          ]
+        }
+      },
+      "payload_sha256": "F099C0EDB47BBB5DC56C90FCC1DA6C790C074AEA95D226F2F610DEB91C45CFB7",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-claim-clm-public-record.json",
+        "run_receipt_sha256": "B5769689113C978C6D4A1CABD14409DB02D87EC2DE6DC9A8305F8C7626540E86"
+      },
+      "verdict": "pass",
+      "evidence_level": "runtime_verified"
+    },
+    {
+      "id": "rcpt-chk-claim-clm-public-catalog",
+      "check_id": "chk-claim-clm-public-catalog",
+      "target_ref": "clm-public-catalog",
+      "artifact_path": "product-proof/2026-07-20/runtime-receipts.json",
+      "artifact_sha256": "42E6B4C4EA3C2626D734B3A029E6FE7EDFB028BB1B3961AA153C6555FE2A5E40",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-claim-clm-public-catalog",
+        "target_ref": "clm-public-catalog",
+        "kind": "claim_truth",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Bind clm-public-catalog to its declared owned runtime evidence without raising the claim ceiling.",
+        "status": "pass",
+        "observations": {
+          "claim_supported": true,
+          "evidence_refs": [
+            "ev-catalog"
+          ]
+        }
+      },
+      "payload_sha256": "24728DE418E776F740BD133E75B81C5ADD2826CC31330449BEBE0C6F1F8444CA",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-claim-clm-public-catalog.json",
+        "run_receipt_sha256": "23B4E49AC3A5D2FB6AF3411E566C658EB36BF6AFCD607BB6539973DBD1E97548"
+      },
+      "verdict": "pass",
+      "evidence_level": "runtime_verified"
+    },
+    {
+      "id": "rcpt-chk-claim-clm-adjacent-routes",
+      "check_id": "chk-claim-clm-adjacent-routes",
+      "target_ref": "clm-adjacent-routes",
+      "artifact_path": "product-proof/2026-07-20/runtime-receipts.json",
+      "artifact_sha256": "42E6B4C4EA3C2626D734B3A029E6FE7EDFB028BB1B3961AA153C6555FE2A5E40",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-claim-clm-adjacent-routes",
+        "target_ref": "clm-adjacent-routes",
+        "kind": "claim_truth",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Bind clm-adjacent-routes to its declared owned runtime evidence without raising the claim ceiling.",
+        "status": "pass",
+        "observations": {
+          "claim_supported": true,
+          "evidence_refs": [
+            "ev-discussions",
+            "ev-tools"
+          ]
+        }
+      },
+      "payload_sha256": "8C1D13104D4ABE61E96C4EF0AD4059E192067FDB82398A6B047C4F76978CB8CD",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-claim-clm-adjacent-routes.json",
+        "run_receipt_sha256": "5C20E3DA2D44429739FA8E5E71FB1CD96D8CA0C8D7DBB0385600C9E68497D1E3"
+      },
+      "verdict": "pass",
+      "evidence_level": "runtime_verified"
+    },
+    {
+      "id": "rcpt-chk-dest-act-catalog-hero",
+      "check_id": "chk-dest-act-catalog-hero",
+      "target_ref": "act-catalog-hero",
+      "artifact_path": "system-proof/destination-receipts.json",
+      "artifact_sha256": "D650EE6CDB9678A94F73323BE765B4EA5B8FF3FD3F566252D43180D51DB0D5FE",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-dest-act-catalog-hero",
+        "target_ref": "act-catalog-hero",
+        "kind": "destination",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Click act-catalog-hero from the local landing, verify its live VibeUs landmark and return to the source page.",
+        "status": "pass",
+        "observations": {
+          "action_id": "act-catalog-hero",
+          "expected_landmark_found": true,
+          "recovery_verified": true,
+          "http_status": 200
+        }
+      },
+      "payload_sha256": "D9615BE8932BF2BE93206CE5E6797EFE97A5C6DD4410E73059C9EAE4BEB2B0B8",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-dest-act-catalog-hero.json",
+        "run_receipt_sha256": "4D3DF05621127A728699E9F6CAF60BEFF4401A5C23028C359AD6335863786A90"
+      },
+      "verdict": "pass",
+      "evidence_level": "runtime_verified"
+    },
+    {
+      "id": "rcpt-chk-dest-act-auth-hero",
+      "check_id": "chk-dest-act-auth-hero",
+      "target_ref": "act-auth-hero",
+      "artifact_path": "system-proof/destination-receipts.json",
+      "artifact_sha256": "D650EE6CDB9678A94F73323BE765B4EA5B8FF3FD3F566252D43180D51DB0D5FE",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-dest-act-auth-hero",
+        "target_ref": "act-auth-hero",
+        "kind": "destination",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Click act-auth-hero from the local landing, verify its live VibeUs landmark and return to the source page.",
+        "status": "pass",
+        "observations": {
+          "action_id": "act-auth-hero",
+          "expected_landmark_found": true,
+          "recovery_verified": true,
+          "http_status": 200
+        }
+      },
+      "payload_sha256": "6C19C3BE372298268CB60D8EF53E719F4A9A733E3FC519A4099E6223F107E2D4",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-dest-act-auth-hero.json",
+        "run_receipt_sha256": "4C5540AF3848D73E27A2EAEE40953A22C2DA744B8295B95DC98041401D3B6267"
+      },
+      "verdict": "pass",
+      "evidence_level": "runtime_verified"
+    },
+    {
+      "id": "rcpt-chk-dest-act-open-record",
+      "check_id": "chk-dest-act-open-record",
+      "target_ref": "act-open-record",
+      "artifact_path": "system-proof/destination-receipts.json",
+      "artifact_sha256": "D650EE6CDB9678A94F73323BE765B4EA5B8FF3FD3F566252D43180D51DB0D5FE",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-dest-act-open-record",
+        "target_ref": "act-open-record",
+        "kind": "destination",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Click act-open-record from the local landing, verify its live VibeUs landmark and return to the source page.",
+        "status": "pass",
+        "observations": {
+          "action_id": "act-open-record",
+          "expected_landmark_found": true,
+          "recovery_verified": true,
+          "http_status": 200
+        }
+      },
+      "payload_sha256": "824D1EE0EC2F62E542EF6E951DBDB0757C8AE6203375839A55D91B41A45EF5E6",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-dest-act-open-record.json",
+        "run_receipt_sha256": "F3B894F27F1DBB999D3653347D84EB61C4F0890B9191D1F673FDF0BB705DFFDC"
+      },
+      "verdict": "pass",
+      "evidence_level": "runtime_verified"
+    },
+    {
+      "id": "rcpt-chk-dest-act-catalog-proof",
+      "check_id": "chk-dest-act-catalog-proof",
+      "target_ref": "act-catalog-proof",
+      "artifact_path": "system-proof/destination-receipts.json",
+      "artifact_sha256": "D650EE6CDB9678A94F73323BE765B4EA5B8FF3FD3F566252D43180D51DB0D5FE",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-dest-act-catalog-proof",
+        "target_ref": "act-catalog-proof",
+        "kind": "destination",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Click act-catalog-proof from the local landing, verify its live VibeUs landmark and return to the source page.",
+        "status": "pass",
+        "observations": {
+          "action_id": "act-catalog-proof",
+          "expected_landmark_found": true,
+          "recovery_verified": true,
+          "http_status": 200
+        }
+      },
+      "payload_sha256": "E3A82302FAD7337E6D42A0E34008F6638C78DA8653F4C7C555A3814B54075401",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-dest-act-catalog-proof.json",
+        "run_receipt_sha256": "F0409A66C57BE5FC2C8E1CA243F1DBDCFB89609DDBA0FDB2CD323932049F461C"
+      },
+      "verdict": "pass",
+      "evidence_level": "runtime_verified"
+    },
+    {
+      "id": "rcpt-chk-dest-act-discussions",
+      "check_id": "chk-dest-act-discussions",
+      "target_ref": "act-discussions",
+      "artifact_path": "system-proof/destination-receipts.json",
+      "artifact_sha256": "D650EE6CDB9678A94F73323BE765B4EA5B8FF3FD3F566252D43180D51DB0D5FE",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-dest-act-discussions",
+        "target_ref": "act-discussions",
+        "kind": "destination",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Click act-discussions from the local landing, verify its live VibeUs landmark and return to the source page.",
+        "status": "pass",
+        "observations": {
+          "action_id": "act-discussions",
+          "expected_landmark_found": true,
+          "recovery_verified": true,
+          "http_status": 200
+        }
+      },
+      "payload_sha256": "B036C4D1DB68B94E9293CA23004E2275A589644E42BC43CEA835C21FAF913B21",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-dest-act-discussions.json",
+        "run_receipt_sha256": "EBB62B9B2B5B52D760CB8423837B970AFB43AA40CF2629CDFE74FB4E384FC81D"
+      },
+      "verdict": "pass",
+      "evidence_level": "runtime_verified"
+    },
+    {
+      "id": "rcpt-chk-dest-act-tools",
+      "check_id": "chk-dest-act-tools",
+      "target_ref": "act-tools",
+      "artifact_path": "system-proof/destination-receipts.json",
+      "artifact_sha256": "D650EE6CDB9678A94F73323BE765B4EA5B8FF3FD3F566252D43180D51DB0D5FE",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-dest-act-tools",
+        "target_ref": "act-tools",
+        "kind": "destination",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Click act-tools from the local landing, verify its live VibeUs landmark and return to the source page.",
+        "status": "pass",
+        "observations": {
+          "action_id": "act-tools",
+          "expected_landmark_found": true,
+          "recovery_verified": true,
+          "http_status": 200
+        }
+      },
+      "payload_sha256": "AF68402527D6D4533D1CD3D4D7B399C6150C34AAAC348527030A5B75561C2F21",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-dest-act-tools.json",
+        "run_receipt_sha256": "C2141854A507983A06C3E2C99073864276C3F98CC41A55272E021EC5775309FE"
+      },
+      "verdict": "pass",
+      "evidence_level": "runtime_verified"
+    },
+    {
+      "id": "rcpt-chk-dest-act-auth-final",
+      "check_id": "chk-dest-act-auth-final",
+      "target_ref": "act-auth-final",
+      "artifact_path": "system-proof/destination-receipts.json",
+      "artifact_sha256": "D650EE6CDB9678A94F73323BE765B4EA5B8FF3FD3F566252D43180D51DB0D5FE",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-dest-act-auth-final",
+        "target_ref": "act-auth-final",
+        "kind": "destination",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Click act-auth-final from the local landing, verify its live VibeUs landmark and return to the source page.",
+        "status": "pass",
+        "observations": {
+          "action_id": "act-auth-final",
+          "expected_landmark_found": true,
+          "recovery_verified": true,
+          "http_status": 200
+        }
+      },
+      "payload_sha256": "009F8E03A2829028D7395EB4D91E3F5D3C3D7FDFFEBCD680436C7339B0BBDBFC",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-dest-act-auth-final.json",
+        "run_receipt_sha256": "D145D77E4E0C6F1C72D206796C09ED1D2744C38DEBAC48C9427F9E6A000CDCBE"
+      },
+      "verdict": "pass",
+      "evidence_level": "runtime_verified"
+    },
+    {
+      "id": "rcpt-chk-desktop-route",
+      "check_id": "chk-desktop-route",
+      "target_ref": "desktop_route",
+      "artifact_path": "system-proof/runtime-receipt.json",
+      "artifact_sha256": "8D02E1612620D624A3A3FC9F0E8DF386FE645B10F261C595F5C2C4A442B8144A",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-desktop-route",
+        "target_ref": "desktop_route",
+        "kind": "desktop_route",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Render the complete desktop route at 1440px and compare it with the decision spine.",
+        "status": "pass",
+        "observations": {
+          "chapter_sequence": [
+            "ch-orient",
+            "ch-record",
+            "ch-proof",
+            "ch-routes",
+            "ch-join"
+          ],
+          "horizontal_overflow_px": 0,
+          "viewport_width": 1440
+        }
+      },
+      "payload_sha256": "41C5B0ADFE8FB3854E836811637366AA798CE619873D9C0F9F8B7F46FA336451",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-desktop-route.json",
+        "run_receipt_sha256": "80E10F3324D58325AD6B82889689B73B82EBCE3BFC38C258184EC319F7456452"
+      },
+      "verdict": "pass",
+      "evidence_level": "machine_verified"
+    },
+    {
+      "id": "rcpt-chk-mobile-route",
+      "check_id": "chk-mobile-route",
+      "target_ref": "mobile_route",
+      "artifact_path": "system-proof/runtime-receipt.json",
+      "artifact_sha256": "8D02E1612620D624A3A3FC9F0E8DF386FE645B10F261C595F5C2C4A442B8144A",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-mobile-route",
+        "target_ref": "mobile_route",
+        "kind": "mobile_route",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Render the complete independently authored mobile route at 390px.",
+        "status": "pass",
+        "observations": {
+          "chapter_sequence": [
+            "ch-orient",
+            "ch-record",
+            "ch-proof",
+            "ch-routes",
+            "ch-join"
+          ],
+          "horizontal_overflow_px": 0,
+          "viewport_width": 390
+        }
+      },
+      "payload_sha256": "F24D9C32A4235E23F6A3E3053FF92B4760A7FCDA835A9B3FB387CBA6A9CB2C60",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-mobile-route.json",
+        "run_receipt_sha256": "87E7E3CE30B5EFEB1FFDFB1F362182A9E4FB2DB0312632C25E81CD7A987DE2FA"
+      },
+      "verdict": "pass",
+      "evidence_level": "machine_verified"
+    },
+    {
+      "id": "rcpt-chk-exact-320",
+      "check_id": "chk-exact-320",
+      "target_ref": "page",
+      "artifact_path": "system-proof/runtime-receipt.json",
+      "artifact_sha256": "8D02E1612620D624A3A3FC9F0E8DF386FE645B10F261C595F5C2C4A442B8144A",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-exact-320",
+        "target_ref": "page",
+        "kind": "exact_320",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Render the complete page at exactly 320px.",
+        "status": "pass",
+        "observations": {
+          "viewport_width": 320,
+          "horizontal_overflow_px": 0
+        }
+      },
+      "payload_sha256": "37878337D52757CA8518C7BA99F46BD2183BD4472773E2503164A4950E4321AF",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-exact-320.json",
+        "run_receipt_sha256": "76C09A79B44F605F2969CF99D215B8BDBA3C9E17ED929DCFB1576B1DEDF86033"
+      },
+      "verdict": "pass",
+      "evidence_level": "machine_verified"
+    },
+    {
+      "id": "rcpt-chk-content-stress",
+      "check_id": "chk-content-stress",
+      "target_ref": "page",
+      "artifact_path": "system-proof/runtime-receipt.json",
+      "artifact_sha256": "8D02E1612620D624A3A3FC9F0E8DF386FE645B10F261C595F5C2C4A442B8144A",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-content-stress",
+        "target_ref": "page",
+        "kind": "content_stress",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Inject bounded long-copy fixtures at 320px.",
+        "status": "pass",
+        "observations": {
+          "fixture_ids": [
+            "long-hero-copy",
+            "long-route-label",
+            "material-condition"
+          ],
+          "status": "pass",
+          "horizontal_overflow_px": 0
+        }
+      },
+      "payload_sha256": "DF452DA179774B28031AF8A828AC0B90B71A600301B3C806BBBCCA34D80FC517",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-content-stress.json",
+        "run_receipt_sha256": "932113A4C48654D3AC0D59A25A744945FABD6C5F8E33122765AC63B3BE3526B5"
+      },
+      "verdict": "pass",
+      "evidence_level": "machine_verified"
+    },
+    {
+      "id": "rcpt-chk-accessibility",
+      "check_id": "chk-accessibility",
+      "target_ref": "page",
+      "artifact_path": "system-proof/static-verifier-result.json",
+      "artifact_sha256": "AEE6A37E6CB5EF79FFA937F3DE986A0C73A8B6FBB9323F6F925CD5A0CBCC07F2",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-accessibility",
+        "target_ref": "page",
+        "kind": "accessibility",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Combine source checks, keyboard route-preview focus and forced-colors runtime.",
+        "status": "pass",
+        "observations": {
+          "checks": {
+            "headings": true,
+            "native_controls": true,
+            "focus_order": true,
+            "skip_path": true,
+            "visible_focus": true
+          }
+        }
+      },
+      "payload_sha256": "76A3B246274AE40170E148B97FC963D24C085CDAB2C033BCDC0FB77917761858",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "expert_proxy",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-accessibility.json",
+        "run_receipt_sha256": "78E098B5EF76E1E573CA61D1EAF738534DB58BC522FF75EA3FE249B94667C58B"
+      },
+      "verdict": "pass",
+      "evidence_level": "expert_proxy"
+    },
+    {
+      "id": "rcpt-chk-reduced-motion",
+      "check_id": "chk-reduced-motion",
+      "target_ref": "page",
+      "artifact_path": "system-proof/runtime-receipt.json",
+      "artifact_sha256": "8D02E1612620D624A3A3FC9F0E8DF386FE645B10F261C595F5C2C4A442B8144A",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-reduced-motion",
+        "target_ref": "page",
+        "kind": "reduced_motion",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Render full desktop with prefers-reduced-motion: reduce.",
+        "status": "pass",
+        "observations": {
+          "reduced_motion_active": true,
+          "essential_content_preserved": true
+        }
+      },
+      "payload_sha256": "A6C508FC70CF48486559B148FDE173424D959892E3B0198B7DD5952D9795DDD0",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-reduced-motion.json",
+        "run_receipt_sha256": "BC5D03D8C881320D36B03B7A6AF7C6DEA15AF14A6F8E84B999D1D4596A538E81"
+      },
+      "verdict": "pass",
+      "evidence_level": "machine_verified"
+    },
+    {
+      "id": "rcpt-chk-runtime",
+      "check_id": "chk-runtime",
+      "target_ref": "page",
+      "artifact_path": "system-proof/runtime-receipt.json",
+      "artifact_sha256": "8D02E1612620D624A3A3FC9F0E8DF386FE645B10F261C595F5C2C4A442B8144A",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-runtime",
+        "target_ref": "page",
+        "kind": "runtime",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Collect console, page-error and unexpected failed-request events across all system cases, including no-JS and an intentionally failed app.js request.",
+        "status": "pass",
+        "observations": {
+          "console_errors": [],
+          "page_errors": [],
+          "failed_requests": [],
+          "bootstrap_fail_closed": {
+            "no_js": true,
+            "script_failure": true
+          }
+        }
+      },
+      "payload_sha256": "CC5AE8725D65C6DBBA72D43522CB1A0827CA41C3DBBB8946B1E9396069D5805E",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-runtime.json",
+        "run_receipt_sha256": "FAAE791EA141D6730485939EA96371282672AAC2BB7F1C25F67658D39046AED0"
+      },
+      "verdict": "pass",
+      "evidence_level": "runtime_verified"
+    },
+    {
+      "id": "rcpt-chk-volatile-catalog",
+      "check_id": "chk-volatile-catalog",
+      "target_ref": "clm-public-catalog",
+      "artifact_path": "system-proof/runtime-receipt.json",
+      "artifact_sha256": "8D02E1612620D624A3A3FC9F0E8DF386FE645B10F261C595F5C2C4A442B8144A",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-volatile-catalog",
+        "target_ref": "clm-public-catalog",
+        "kind": "volatile_states",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Render every required catalog evidence state plus no-JS and failed-script bootstrap fixtures; verify every degraded path fails closed.",
+        "status": "pass",
+        "observations": {
+          "states": {
+            "current": {
+              "numeric_value": 4,
+              "source_verified": true,
+              "stale_success_visible": false
+            },
+            "loading": {
+              "numeric_value": null,
+              "source_verified": false,
+              "stale_success_visible": false
+            },
+            "empty": {
+              "numeric_value": null,
+              "source_verified": false,
+              "stale_success_visible": false
+            },
+            "error": {
+              "numeric_value": null,
+              "source_verified": false,
+              "stale_success_visible": false
+            },
+            "expired": {
+              "numeric_value": null,
+              "source_verified": false,
+              "stale_success_visible": false
+            },
+            "no_js": {
+              "numeric_value": null,
+              "source_verified": false,
+              "stale_success_visible": false
+            },
+            "script_failure": {
+              "numeric_value": null,
+              "source_verified": false,
+              "stale_success_visible": false
+            }
+          }
+        }
+      },
+      "payload_sha256": "8C25319A8DFCD5CDDE366C32F304307377815C6F853ADD618D842D8AD078C687",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "machine",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-volatile-catalog.json",
+        "run_receipt_sha256": "7CB74BB21B7E0E976AA64BE0695A8463AAD5C1F6B01F0436639E70BB4FC1B390"
+      },
+      "verdict": "pass",
+      "evidence_level": "runtime_verified"
+    },
+    {
+      "id": "rcpt-chk-falsification-auth-first",
+      "check_id": "chk-falsification-auth-first",
+      "target_ref": "ctrl-auth-first-community",
+      "artifact_path": "falsification/control-source-manifest.json",
+      "artifact_sha256": "4A684F708182CAE58E449FC751090A9D740E5705576712165CBD9912E15FFA03",
+      "payload": {
+        "schema": "sitecraft_proof_payload.v1",
+        "check_id": "chk-falsification-auth-first",
+        "target_ref": "ctrl-auth-first-community",
+        "kind": "falsification",
+        "observed_at": "2026-07-20T11:16:17.453Z",
+        "scope": "Compare blind Human-QA behavior on the visually preserved auth-first control against the accepted source.",
+        "status": "pass",
+        "observations": {
+          "control_id": "ctrl-auth-first-community",
+          "status": "blocked_as_expected",
+          "visual_runtime_preserved": true,
+          "failed_invariants": [
+            "primary action no longer matches public-before-auth task",
+            "auth is requested before visitor value is proven",
+            "desktop observer bypasses the primary CTA and mobile observer scrolls for proof"
+          ],
+          "blocked_by_gates": [
+            "decision_spine",
+            "product_trust",
+            "destination_continuity"
+          ]
+        }
+      },
+      "payload_sha256": "761A3E5B556EB392437A34FD4FAD8DE6A1683AA5585FD061D814C4A4FEF0D4A2",
+      "verifier": {
+        "name": "sitecraft-brief-to-proof-v3",
+        "kind": "expert_proxy",
+        "source_path": "C:/Users/alexe/.codex/skills/sitecraft-brief-to-proof/scripts/validate_site_packet.py",
+        "source_sha256": "C0BE57A401A3FF4BDBCF65342923EBEA81C548AD3949752B1F422EE3AE47E9F3",
+        "run_receipt_path": "system-proof/verifier-runs/chk-falsification-auth-first.json",
+        "run_receipt_sha256": "4FD146313BA25CB9B141BDEE73C344131FF24DD80A76AE337F5E0058DB0E952C"
+      },
+      "verdict": "pass",
+      "evidence_level": "expert_proxy"
+    }
+  ],
+  "final_verdict_receipts": {
+    "caster": "CASTER-FINAL-VERDICT.json",
+    "anton": "ANTON-FINAL-VERDICT.json",
+    "production": "PRODUCTION-FINAL-VERDICT.json"
+  },
+  "residual_limits": []
+}

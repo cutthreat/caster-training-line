@@ -1,0 +1,488 @@
+{
+  "schema": "human_qa_perception_packet.v1",
+  "source": "screenshot_pixels_only_no_dom",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "limitations": [
+    "OCR may omit or misread text",
+    "non-text imagery is represented only by coarse brightness, contrast, and detail density",
+    "attention_rank is a physical-salience heuristic, not eye-tracking data"
+  ],
+  "visible_text_by_pixel_salience": [
+    {
+      "attention_rank": 1,
+      "text": "Сделали с",
+      "confidence": 96,
+      "position": {
+        "x": 0.043,
+        "y": 0.222,
+        "width": 0.334,
+        "height": 0.087
+      },
+      "relative_size": 0.0867,
+      "pixel_salience": 95.71
+    },
+    {
+      "attention_rank": 2,
+      "text": "публичную",
+      "confidence": 96,
+      "position": {
+        "x": 0.044,
+        "y": 0.508,
+        "width": 0.359,
+        "height": 0.093
+      },
+      "relative_size": 0.0933,
+      "pixel_salience": 93.47
+    },
+    {
+      "attention_rank": 3,
+      "text": "Al? Дайте",
+      "confidence": 93,
+      "position": {
+        "x": 0.04,
+        "y": 0.318,
+        "width": 0.311,
+        "height": 0.088
+      },
+      "relative_size": 0.0878,
+      "pixel_salience": 92.55
+    },
+    {
+      "attention_rank": 4,
+      "text": "1? Дайте",
+      "confidence": 92,
+      "position": {
+        "x": 0.09,
+        "y": 0.318,
+        "width": 0.261,
+        "height": 0.088
+      },
+      "relative_size": 0.0878,
+      "pixel_salience": 92.09
+    },
+    {
+      "attention_rank": 5,
+      "text": "проекту",
+      "confidence": 96,
+      "position": {
+        "x": 0.044,
+        "y": 0.433,
+        "width": 0.251,
+        "height": 0.073
+      },
+      "relative_size": 0.0733,
+      "pixel_salience": 75.41
+    },
+    {
+      "attention_rank": 6,
+      "text": "ЖИЗНЬ.",
+      "confidence": 65,
+      "position": {
+        "x": 0.04,
+        "y": 0.623,
+        "width": 0.226,
+        "height": 0.053
+      },
+      "relative_size": 0.0533,
+      "pixel_salience": 43.49
+    },
+    {
+      "attention_rank": 7,
+      "text": "Launch Content Kit",
+      "confidence": 96,
+      "position": {
+        "x": 0.576,
+        "y": 0.391,
+        "width": 0.191,
+        "height": 0.024
+      },
+      "relative_size": 0.0244,
+      "pixel_salience": 25.51
+    },
+    {
+      "attention_rank": 8,
+      "text": "Покажите работу и её контекст по одному адресу. Или",
+      "confidence": 96,
+      "position": {
+        "x": 0.041,
+        "y": 0.722,
+        "width": 0.392,
+        "height": 0.022
+      },
+      "relative_size": 0.0222,
+      "pixel_salience": 20.54
+    },
+    {
+      "attention_rank": 9,
+      "text": "сначала посмотрите, что уже публикуют.",
+      "confidence": 96,
+      "position": {
+        "x": 0.04,
+        "y": 0.758,
+        "width": 0.291,
+        "height": 0.022
+      },
+      "relative_size": 0.0222,
+      "pixel_salience": 20.25
+    },
+    {
+      "attention_rank": 10,
+      "text": "Покажите работу и её контекст 1G одному адресу. Или",
+      "confidence": 91,
+      "position": {
+        "x": 0.042,
+        "y": 0.722,
+        "width": 0.39,
+        "height": 0.022
+      },
+      "relative_size": 0.0222,
+      "pixel_salience": 20.04
+    },
+    {
+      "attention_rank": 11,
+      "text": "Контент-набор для первого публичного показа проекта.",
+      "confidence": 95,
+      "position": {
+        "x": 0.575,
+        "y": 0.454,
+        "width": 0.322,
+        "height": 0.019
+      },
+      "relative_size": 0.0189,
+      "pixel_salience": 19.19
+    },
+    {
+      "attention_rank": 12,
+      "text": "сначала посмотрите. что уже публи<у-от.",
+      "confidence": 84,
+      "position": {
+        "x": 0.041,
+        "y": 0.758,
+        "width": 0.288,
+        "height": 0.022
+      },
+      "relative_size": 0.0222,
+      "pixel_salience": 19.07
+    },
+    {
+      "attention_rank": 13,
+      "text": "СОЦИАЛЬНАЯ ПЛАТФОРМА ДЛЯ ВАЙБКОДЕРОВ",
+      "confidence": 94,
+      "position": {
+        "x": 0.04,
+        "y": 0.174,
+        "width": 0.285,
+        "height": 0.017
+      },
+      "relative_size": 0.0167,
+      "pixel_salience": 18.51
+    },
+    {
+      "attention_rank": 14,
+      "text": "Проекты — Обсуждения",
+      "confidence": 74,
+      "position": {
+        "x": 0.737,
+        "y": 0.033,
+        "width": 0.112,
+        "height": 0.014
+      },
+      "relative_size": 0.0144,
+      "pixel_salience": 15.13
+    },
+    {
+      "attention_rank": 15,
+      "text": "Публичная запись, не готовое решение. Переиспользуемый payload He",
+      "confidence": 93,
+      "position": {
+        "x": 0.575,
+        "y": 0.694,
+        "width": 0.344,
+        "height": 0.016
+      },
+      "relative_size": 0.0156,
+      "pixel_salience": 14.32
+    },
+    {
+      "attention_rank": 16,
+      "text": "Войти",
+      "confidence": 90,
+      "position": {
+        "x": 0.933,
+        "y": 0.032,
+        "width": 0.026,
+        "height": 0.012
+      },
+      "relative_size": 0.0122,
+      "pixel_salience": 13.92
+    },
+    {
+      "attention_rank": 17,
+      "text": "Каталог открывается без регистрации. Текущий состав меняется",
+      "confidence": 93,
+      "position": {
+        "x": 0.04,
+        "y": 0.901,
+        "width": 0.292,
+        "height": 0.016
+      },
+      "relative_size": 0.0156,
+      "pixel_salience": 13.18
+    },
+    {
+      "attention_rank": 18,
+      "text": "ОПИСАНИЕ / СТЕК / ОБСУЖДЕНИЕ",
+      "confidence": 91,
+      "position": {
+        "x": 0.66,
+        "y": 0.567,
+        "width": 0.174,
+        "height": 0.013
+      },
+      "relative_size": 0.0133,
+      "pixel_salience": 12.75
+    },
+    {
+      "attention_rank": 19,
+      "text": "VIBEUS",
+      "confidence": 91,
+      "position": {
+        "x": 0.04,
+        "y": 0.033,
+        "width": 0.044,
+        "height": 0.011
+      },
+      "relative_size": 0.0111,
+      "pixel_salience": 12.71
+    },
+    {
+      "attention_rank": 20,
+      "text": "ОБСУЖДЕНИЕ",
+      "confidence": 90,
+      "position": {
+        "x": 0.765,
+        "y": 0.567,
+        "width": 0.07,
+        "height": 0.013
+      },
+      "relative_size": 0.0133,
+      "pixel_salience": 12.69
+    },
+    {
+      "attention_rank": 21,
+      "text": "ОПИСАНИЕ i СТЕК { ОБСУЖДЕНИЕ",
+      "confidence": 82,
+      "position": {
+        "x": 0.661,
+        "y": 0.567,
+        "width": 0.174,
+        "height": 0.013
+      },
+      "relative_size": 0.0133,
+      "pixel_salience": 12.18
+    },
+    {
+      "attention_rank": 22,
+      "text": "еисголозуемь й рау 2ас не",
+      "confidence": 61,
+      "position": {
+        "x": 0.791,
+        "y": 0.694,
+        "width": 0.128,
+        "height": 0.016
+      },
+      "relative_size": 0.0156,
+      "pixel_salience": 12.06
+    },
+    {
+      "attention_rank": 23,
+      "text": "РЕАЛЬНАЯ ПУБЛИЧНАЯ ЗАПИСЬ",
+      "confidence": 96,
+      "position": {
+        "x": 0.556,
+        "y": 0.311,
+        "width": 0.192,
+        "height": 0.011
+      },
+      "relative_size": 0.0111,
+      "pixel_salience": 11.91
+    },
+    {
+      "attention_rank": 24,
+      "text": "DEMO",
+      "confidence": 95,
+      "position": {
+        "x": 0.762,
+        "y": 0.311,
+        "width": 0.031,
+        "height": 0.011
+      },
+      "relative_size": 0.0111,
+      "pixel_salience": 11.86
+    },
+    {
+      "attention_rank": 25,
+      "text": "РЕАЛЬНАЯ ПУБЛИЧНАЯ ЗАПИСЬ / DEMO",
+      "confidence": 94,
+      "position": {
+        "x": 0.555,
+        "y": 0.311,
+        "width": 0.239,
+        "height": 0.011
+      },
+      "relative_size": 0.0111,
+      "pixel_salience": 11.8
+    },
+    {
+      "attention_rank": 26,
+      "text": "ция. Текущий сос",
+      "confidence": 70,
+      "position": {
+        "x": 0.196,
+        "y": 0.902,
+        "width": 0.077,
+        "height": 0.014
+      },
+      "relative_size": 0.0144,
+      "pixel_salience": 10.84
+    },
+    {
+      "attention_rank": 27,
+      "text": "НИЕ",
+      "confidence": 58,
+      "position": {
+        "x": 0.834,
+        "y": 0.036,
+        "width": 0.014,
+        "height": 0.009
+      },
+      "relative_size": 0.0089,
+      "pixel_salience": 8.49
+    },
+    {
+      "attention_rank": 28,
+      "text": "показан",
+      "confidence": 94,
+      "position": {
+        "x": 0.575,
+        "y": 0.722,
+        "width": 0.037,
+        "height": 0.009
+      },
+      "relative_size": 0.0089,
+      "pixel_salience": 8.13
+    }
+  ],
+  "coarse_visual_zones": [
+    {
+      "zone": "1:1",
+      "position": "top-left",
+      "brightness": 202,
+      "contrast": 59,
+      "detail_density": 0.193
+    },
+    {
+      "zone": "1:2",
+      "position": "top-center-left",
+      "brightness": 218,
+      "contrast": 40,
+      "detail_density": 0.085
+    },
+    {
+      "zone": "1:3",
+      "position": "top-center-right",
+      "brightness": 227,
+      "contrast": 15,
+      "detail_density": 0.051
+    },
+    {
+      "zone": "1:4",
+      "position": "top-right",
+      "brightness": 227,
+      "contrast": 13,
+      "detail_density": 0.051
+    },
+    {
+      "zone": "2:1",
+      "position": "middle-left",
+      "brightness": 155,
+      "contrast": 80,
+      "detail_density": 0.435
+    },
+    {
+      "zone": "2:2",
+      "position": "middle-center-left",
+      "brightness": 200,
+      "contrast": 60,
+      "detail_density": 0.177
+    },
+    {
+      "zone": "2:3",
+      "position": "middle-center-right",
+      "brightness": 225,
+      "contrast": 25,
+      "detail_density": 0.117
+    },
+    {
+      "zone": "2:4",
+      "position": "middle-right",
+      "brightness": 229,
+      "contrast": 22,
+      "detail_density": 0.055
+    },
+    {
+      "zone": "3:1",
+      "position": "bottom-left",
+      "brightness": 195,
+      "contrast": 59,
+      "detail_density": 0.193
+    },
+    {
+      "zone": "3:2",
+      "position": "bottom-center-left",
+      "brightness": 222,
+      "contrast": 16,
+      "detail_density": 0.055
+    },
+    {
+      "zone": "3:3",
+      "position": "bottom-center-right",
+      "brightness": 231,
+      "contrast": 13,
+      "detail_density": 0.056
+    },
+    {
+      "zone": "3:4",
+      "position": "bottom-right",
+      "brightness": 231,
+      "contrast": 14,
+      "detail_density": 0.048
+    }
+  ],
+  "prominent_visual_regions": [
+    {
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      },
+      "physical_description": "large bright high-contrast detailed region detected directly from pixels",
+      "embedded_text": [
+        "Сделали с",
+        "публичную",
+        "Al? Дайте",
+        "1? Дайте",
+        "проекту",
+        "ЖИЗНЬ.",
+        "Покажите работу и её контекст по одному адресу. Или",
+        "сначала посмотрите, что уже публикуют.",
+        "Покажите работу и её контекст 1G одному адресу. Или",
+        "сначала посмотрите. что уже публи<у-от."
+      ]
+    }
+  ]
+}

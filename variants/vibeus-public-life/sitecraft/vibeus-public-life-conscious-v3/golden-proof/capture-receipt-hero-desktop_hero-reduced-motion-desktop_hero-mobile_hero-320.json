@@ -1,0 +1,172 @@
+{
+  "source": "golden-slice.html",
+  "source_sha256": "4F4B18C22DCAAA055B6ECE21DEF3AAD7C38B383B569CD39770A650523C5DAEBA",
+  "captured_at": "2026-07-20T09:33:09.462Z",
+  "cases": [
+    {
+      "id": "hero-desktop",
+      "route": "golden-slice.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "no-preference",
+      "screenshot": "golden-proof/hero-desktop.png",
+      "screenshot_sha256": "C865261091B2C8B280D23D86103B80B6E7988690243F4379DAF11F91745DFAA1",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "h1": {
+          "top": 277.09375,
+          "bottom": 635.90625,
+          "left": 57.59375,
+          "right": 708
+        },
+        "primary_action": {
+          "top": 753.90625,
+          "bottom": 812.90625,
+          "left": 57.59375,
+          "right": 294.03125
+        },
+        "record": {
+          "top": 213.21875,
+          "bottom": 882.765625,
+          "left": 732,
+          "right": 1382.40625
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": false,
+        "fragment_animation": "align",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "hero-reduced-motion-desktop",
+      "route": "golden-slice.html",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "reduce",
+      "screenshot": "golden-proof/hero-reduced-motion-desktop.png",
+      "screenshot_sha256": "C865261091B2C8B280D23D86103B80B6E7988690243F4379DAF11F91745DFAA1",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "h1": {
+          "top": 277.09375,
+          "bottom": 635.90625,
+          "left": 57.59375,
+          "right": 708
+        },
+        "primary_action": {
+          "top": 753.90625,
+          "bottom": 812.90625,
+          "left": 57.59375,
+          "right": 294.03125
+        },
+        "record": {
+          "top": 213.21875,
+          "bottom": 882.765625,
+          "left": 732,
+          "right": 1382.40625
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "hero-mobile",
+      "route": "golden-slice.html",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reduced_motion": "reduce",
+      "screenshot": "golden-proof/hero-mobile.png",
+      "screenshot_sha256": "144B2205E34BD52F1C8946D8C51A1C61AC8ADBDF2D3D4735926B833D0177485E",
+      "geometry": {
+        "scroll_width": 390,
+        "client_width": 390,
+        "body_scroll_width": 390,
+        "h1": {
+          "top": 147,
+          "bottom": 334.1875,
+          "left": 18,
+          "right": 372
+        },
+        "primary_action": {
+          "top": 446.078125,
+          "bottom": 505.078125,
+          "left": 18,
+          "right": 372
+        },
+        "record": {
+          "top": 593.671875,
+          "bottom": 1213.765625,
+          "left": 18,
+          "right": 372
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    },
+    {
+      "id": "hero-320",
+      "route": "golden-slice.html",
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "reduced_motion": "reduce",
+      "screenshot": "golden-proof/hero-320.png",
+      "screenshot_sha256": "05165ECA7F3EEDF1D5A38FA7C469A554D7A38A381DC8BFCF4EBCFE3B4A0B6F80",
+      "geometry": {
+        "scroll_width": 320,
+        "client_width": 320,
+        "body_scroll_width": 320,
+        "h1": {
+          "top": 160,
+          "bottom": 362.5,
+          "left": 18,
+          "right": 302
+        },
+        "primary_action": {
+          "top": 470.125,
+          "bottom": 525.125,
+          "left": 18,
+          "right": 302
+        },
+        "record": {
+          "top": 634.015625,
+          "bottom": 1194.109375,
+          "left": 18,
+          "right": 302
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    }
+  ],
+  "action_receipts": []
+}

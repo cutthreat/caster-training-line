@@ -1,0 +1,49 @@
+{
+  "source": "golden-slice.html",
+  "source_sha256": "4F4B18C22DCAAA055B6ECE21DEF3AAD7C38B383B569CD39770A650523C5DAEBA",
+  "captured_at": "2026-07-20T09:27:31.952Z",
+  "cases": [
+    {
+      "id": "proof-desktop",
+      "route": "golden-slice.html#proof",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "reduced_motion": "reduce",
+      "screenshot": "golden-proof/proof-desktop.png",
+      "screenshot_sha256": "ECA5E725401EF84D45B6C65C8F4FFE37AEAE0CB1D839193747602D54A4781820",
+      "geometry": {
+        "scroll_width": 1440,
+        "client_width": 1440,
+        "body_scroll_width": 1440,
+        "h1": {
+          "top": -704.90625,
+          "bottom": -346.09375,
+          "left": 57.59375,
+          "right": 708
+        },
+        "primary_action": {
+          "top": -228.09375,
+          "bottom": -169.09375,
+          "left": 57.59375,
+          "right": 294.03125
+        },
+        "record": {
+          "top": -768.78125,
+          "bottom": -99.234375,
+          "left": 732,
+          "right": 1382.40625
+        },
+        "fonts_status": "loaded",
+        "reduced_motion_matches": true,
+        "fragment_animation": "none",
+        "catalog_state": "current"
+      },
+      "overflow": false,
+      "console_errors": [],
+      "request_failures": []
+    }
+  ],
+  "action_receipts": []
+}

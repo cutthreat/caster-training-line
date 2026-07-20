@@ -1,0 +1,240 @@
+{
+  "schema": "attention_architecture_audit.v1",
+  "run_id": "vibeus-public-life-conscious-v3-final-20260720",
+  "surface": {
+    "name": "VibeUs public-life full landing",
+    "stage": "runtime",
+    "width": 1440,
+    "height": 6029
+  },
+  "evidence": {
+    "level": "expert_proxy",
+    "method": "Source-bound review of five authored chapters plus 1440, 390, exact-320, media-off, text-spacing, content-stress, forced-colors and degraded-state runtime captures.",
+    "source": "system-source/source-manifest.json",
+    "limitations": [
+      "Expert proxy and blind Human-QA are not participant research or eye tracking.",
+      "The audit proves the intended decision route and bounded runtime behavior, not conversion lift."
+    ]
+  },
+  "intent": {
+    "user_goal": "Understand what VibeUs is, inspect real public project surfaces before registration and decide whether to continue with a project.",
+    "business_goal": "Move a qualified visitor from public proof to an earned authentication handoff without inventing product maturity.",
+    "decision_moment": "After seeing the public record, current catalog and adjacent routes, the visitor chooses auth or safely returns to the catalog.",
+    "intended_route": [
+      "category and public-life outcome",
+      "public-record mechanism",
+      "current catalog proof",
+      "three direct public routes",
+      "earned auth handoff"
+    ],
+    "desired_action": "Inspect the catalog first; authenticate only after value and limits are understood."
+  },
+  "predicted_route": [
+    {
+      "id": "orient",
+      "label": "Дайте проекту публичную жизнь",
+      "x": 0.22,
+      "y": 0.07,
+      "semantic_job": "Orient category, outcome and safe catalog action.",
+      "channels": [
+        "size",
+        "color",
+        "position",
+        "image"
+      ],
+      "amplitude": "dominant_interruption",
+      "relevance": "high",
+      "attention_receipt": "Hero binds the largest message to a current owned project record and direct public action."
+    },
+    {
+      "id": "record",
+      "label": "Один адрес. Достаточно контекста",
+      "x": 0.28,
+      "y": 0.27,
+      "semantic_job": "Explain the public-record mechanism.",
+      "channels": [
+        "size",
+        "grouping",
+        "image",
+        "direction"
+      ],
+      "amplitude": "emphasis",
+      "relevance": "high",
+      "attention_receipt": "The second chapter replaces abstract community language with record anatomy and a demo destination."
+    },
+    {
+      "id": "proof",
+      "label": "Не макет. Сам продукт.",
+      "x": 0.2,
+      "y": 0.49,
+      "semantic_job": "Verify current anonymous catalog access and bound maturity.",
+      "channels": [
+        "contrast",
+        "image",
+        "type",
+        "grouping"
+      ],
+      "amplitude": "dominant_interruption",
+      "relevance": "high",
+      "attention_receipt": "Dated catalog screenshot, current counts and adjacent evidence boundary form one inspectable proof object."
+    },
+    {
+      "id": "routes",
+      "label": "Три понятных маршрута",
+      "x": 0.25,
+      "y": 0.71,
+      "semantic_job": "Expose concrete public continuation choices.",
+      "channels": [
+        "position",
+        "direction",
+        "shape",
+        "image"
+      ],
+      "amplitude": "emphasis",
+      "relevance": "high",
+      "attention_receipt": "Three full-width rows and one labelled preview preserve direct destination continuity without horizontal gesture."
+    },
+    {
+      "id": "join",
+      "label": "Дайте ему публичный адрес",
+      "x": 0.32,
+      "y": 0.9,
+      "semantic_job": "Offer earned auth with catalog recovery.",
+      "channels": [
+        "color",
+        "size",
+        "isolation",
+        "shape"
+      ],
+      "amplitude": "dominant_interruption",
+      "relevance": "high",
+      "attention_receipt": "The coral finale separates the commitment decision and keeps a safe catalog alternative beside auth."
+    }
+  ],
+  "zones": [
+    {
+      "kind": "dominant",
+      "label": "Hero contract",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 0.17,
+      "role": "Category, result, owned proof and public-before-auth action."
+    },
+    {
+      "kind": "support",
+      "label": "Record mechanism",
+      "x": 0,
+      "y": 0.17,
+      "width": 1,
+      "height": 0.24,
+      "role": "Explains what one public address contains."
+    },
+    {
+      "kind": "support",
+      "label": "Catalog proof",
+      "x": 0,
+      "y": 0.41,
+      "width": 1,
+      "height": 0.19,
+      "role": "Verifies the product and bounds its maturity."
+    },
+    {
+      "kind": "support",
+      "label": "Route ledger",
+      "x": 0,
+      "y": 0.6,
+      "width": 1,
+      "height": 0.21,
+      "role": "Turns product breadth into three inspectable destinations."
+    },
+    {
+      "kind": "dominant",
+      "label": "Earned handoff",
+      "x": 0,
+      "y": 0.81,
+      "width": 1,
+      "height": 0.19,
+      "role": "Closes with auth and a safe recovery route."
+    }
+  ],
+  "spatial_grammar": {
+    "axes_grid": {
+      "status": "pass",
+      "note": "All desktop chapters use the same 12-column anchor system; mobile collapses to one semantic axis."
+    },
+    "alignment": {
+      "status": "pass",
+      "note": "Headings, consequences, proof objects and actions share visible anchors within every chapter."
+    },
+    "spacing": {
+      "status": "pass",
+      "note": "Local 14–38px grouping is distinct from 60–144px chapter transitions and the coral record divider."
+    },
+    "grouping": {
+      "status": "pass",
+      "note": "Every CTA keeps its consequence, risk note or destination label in the same perceptual group."
+    },
+    "typography": {
+      "status": "pass",
+      "note": "One display family and bounded type scale preserve a dominant statement, readable body copy and operational labels."
+    },
+    "affordance": {
+      "status": "pass",
+      "note": "Filled actions, underlined secondary links and full-row destinations remain literal under pointer, keyboard and forced colors."
+    },
+    "fold": {
+      "status": "pass",
+      "note": "Hero contract is complete on desktop; 390 and 320 show the primary action, auth condition and beginning of real product proof."
+    },
+    "density_rhythm": {
+      "status": "pass",
+      "note": "Dense product screenshots alternate with editorial copy fields; no chapter repeats Hero density or generic feature cards."
+    },
+    "whitespace": {
+      "status": "pass",
+      "note": "Open fields isolate one decision per chapter and contain no empty screen without value, proof or action."
+    },
+    "responsive": {
+      "status": "pass",
+      "note": "1440, 390 and 320 captures retain canonical chapter order, zero horizontal overflow and all material text at 14px or larger."
+    }
+  },
+  "accent_budget": {
+    "simultaneous_high_amplitude": 1,
+    "competing_targets": [],
+    "channel_stacking": [
+      "Outcome: scale plus coral",
+      "Proof: owned image plus literal route",
+      "Action: filled contrast plus isolation"
+    ],
+    "business_hijack": false
+  },
+  "findings": [
+    {
+      "code": "AAA-FINAL-01",
+      "severity": "note",
+      "evidence": "Blind desktop and mobile observers identified VibeUs, its audience and the catalog-before-auth route, then selected “Смотреть проекты”.",
+      "user_impact": "The first-screen contract routes cold visitors as intended.",
+      "fix": "Preserve the accepted contract and direct destination.",
+      "acceptance": "Final Human-QA manifest remains bound to the current source snapshot."
+    },
+    {
+      "code": "AAA-FINAL-02",
+      "severity": "note",
+      "evidence": "The plausible auth-first control preserved visual quality but reduced trust and caused desktop to bypass the primary CTA and mobile to scroll for proof.",
+      "user_impact": "The method discriminates a polished but decision-wrong variant.",
+      "fix": "Keep product proof and low-commitment catalog action before auth.",
+      "acceptance": "Falsification remains blocked by decision, trust and destination gates."
+    },
+    {
+      "code": "AAA-FINAL-03",
+      "severity": "note",
+      "evidence": "All degraded catalog fixtures hide current numbers and screenshot while retaining a literal live recovery link.",
+      "user_impact": "Volatile proof cannot degrade into a false zero or stale success.",
+      "fix": "Refresh or expire the owner receipt before each release.",
+      "acceptance": "Current, loading, empty, error and expired observations remain fail-closed."
+    }
+  ],
+  "status": "pass"
+}
