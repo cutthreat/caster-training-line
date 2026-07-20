@@ -4,7 +4,7 @@
   "mode": "alignment",
   "intent_disclosed": false,
   "hidden_intent_sha256": "3122C14215DFD6DD84E72CBDC3A7B3149088A073A99CBD10E6D65D6F77A25F0C",
-  "source_artifact_sha256": "2F3B0F33D3F355A4AD7A01777B1A8F814B944A58E80377F7630C9A2F9F8E4B52",
+  "source_artifact_sha256": "EA369B09F56ACD6005785C1715174D5B4AE596BF89E3FE86ECE49FA5E2D0CA45",
   "accepted_events": [
     {
       "path": "human-qa/final-desktop-skeptical-v1/event.json",

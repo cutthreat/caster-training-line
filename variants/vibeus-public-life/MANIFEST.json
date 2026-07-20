@@ -36,7 +36,7 @@
   "sitecraft_packet": "sitecraft/vibeus-public-life-conscious-v3",
   "system_manifest": {
     "path": "sitecraft/vibeus-public-life-conscious-v3/SYSTEM-BUILD-MANIFEST.json",
-    "sha256": "0F95054925573DAE59B4FCBC5EDBECF1E94C045844A6D18BE730EB45B859F98E"
+    "sha256": "07BE54500A2099D57AD3186BFE844B3A5CFC10790D4F095D72866FFC42F94331"
   },
   "validation": {
     "static": "28/28",

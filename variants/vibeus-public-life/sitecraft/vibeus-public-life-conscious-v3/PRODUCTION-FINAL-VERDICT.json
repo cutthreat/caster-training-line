@@ -5,8 +5,8 @@
   "status": "pass",
   "reviewer": "Independent production and evidence acceptance agent",
   "reviewed_at": "2026-07-20",
-  "scope": "Source bindings, verifier output, runtime states, destination recovery, falsification, proof receipts and pre-publish readiness.",
-  "bound_manifest_sha256": "0F95054925573DAE59B4FCBC5EDBECF1E94C045844A6D18BE730EB45B859F98E",
+  "scope": "Source bindings, verifier output, runtime states, destination recovery, falsification, proof receipts and bounded re-review after the data-URI favicon runtime repair.",
+  "bound_manifest_sha256": "07BE54500A2099D57AD3186BFE844B3A5CFC10790D4F095D72866FFC42F94331",
   "evidence_receipt_ids": [
     "rcpt-chk-claim-clm-category",
     "rcpt-chk-claim-clm-public-record",
@@ -34,7 +34,8 @@
     "Static verifier passes 28 of 28 checks including fail-closed bootstrap and visible-copy jargon exclusion.",
     "All 22 runtime cases pass without overflow, console, page or unexpected request failures.",
     "All seven destinations pass HTTP, expected landmark and recovery checks.",
-    "Final Human-QA and plausible-control events are hash-bound and the system_build gate passes."
+    "Final Human-QA and plausible-control events are hash-bound and the system_build gate passes.",
+    "All 12 source artifacts are rebound; the favicon removes the only missing-resource request while no-JS and script-failure remain fail-closed."
   ],
   "conditions": [],
   "residuals": [

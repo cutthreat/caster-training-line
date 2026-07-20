@@ -5,8 +5,8 @@
   "status": "pass",
   "reviewer": "Anton independent product and trust acceptance agent",
   "reviewed_at": "2026-07-20",
-  "scope": "Cold-visitor comprehension, value ladder, truth, risk, CTA earning, destination continuity and final handoff.",
-  "bound_manifest_sha256": "0F95054925573DAE59B4FCBC5EDBECF1E94C045844A6D18BE730EB45B859F98E",
+  "scope": "Cold-visitor comprehension, value ladder, truth, risk, CTA earning, destination continuity, final handoff and bounded re-review after the data-URI favicon runtime repair.",
+  "bound_manifest_sha256": "07BE54500A2099D57AD3186BFE844B3A5CFC10790D4F095D72866FFC42F94331",
   "evidence_receipt_ids": [
     "rcpt-chk-claim-clm-category",
     "rcpt-chk-claim-clm-public-record",
@@ -34,7 +34,8 @@
     "Every chapter contributes a new decision value and every repeated destination is re-earned.",
     "Current scale is bounded as a dated 4-project and 4-author snapshot rather than community maturity or a solution library.",
     "All degraded states hide stale proof and preserve a literal recovery route.",
-    "The final chapter states public access in human language and leaves catalog beside the optional auth handoff."
+    "The final chapter states public access in human language and leaves catalog beside the optional auth handoff.",
+    "The favicon repair is non-visible, preserves the accepted decision spine and rebinds Human-QA to the current source snapshot."
   ],
   "conditions": [],
   "residuals": [

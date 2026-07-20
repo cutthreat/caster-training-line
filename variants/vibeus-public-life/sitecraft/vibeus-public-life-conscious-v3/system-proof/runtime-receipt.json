@@ -1,10 +1,10 @@
 {
   "schema": "vibeus_public_life_system_capture.v1",
-  "captured_at": "2026-07-20T11:14:24.218Z",
+  "captured_at": "2026-07-20T11:52:20.556Z",
   "source_artifacts": [
     {
       "path": "../../index.html",
-      "sha256": "FDCCC1277AE761213CEBECA6993E026BE407E2EF92E3177998732DADA8F2FAE7"
+      "sha256": "BF00E82E966B7A1B1A6A4C94495FEE0DD81092B7132747B735EEC6DBD66CABDA"
     },
     {
       "path": "../../styles.css",
@@ -1747,7 +1747,7 @@
       "semantic_error": false,
       "title": "Каталог проектов - Vibeus",
       "screenshot": "system-proof/catalog-action-destination.png",
-      "screenshot_sha256": "E8167A856A6C3337D96EAA1B86E6D5DB4437B84A7364991BAA0900AD5503D68D"
+      "screenshot_sha256": "45B916A8ACBC3DEDBAD58E8AAF2108A1A86DAA18E8B12E27659B10C33082AE62"
     }
   ],
   "validation": {

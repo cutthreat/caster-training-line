@@ -4,7 +4,7 @@
   "mode": "plausibility",
   "intent_disclosed": false,
   "hidden_intent_sha256": "3122C14215DFD6DD84E72CBDC3A7B3149088A073A99CBD10E6D65D6F77A25F0C",
-  "source_artifact_sha256": "4A684F708182CAE58E449FC751090A9D740E5705576712165CBD9912E15FFA03",
+  "source_artifact_sha256": "D30B88F68FF18D9F81FFBF5983F80FB86E6EF466D2E4DFADA174D2EAD8C1321F",
   "accepted_events": [
     {
       "path": "human-qa/plausible-control-desktop-v1/event.json",
